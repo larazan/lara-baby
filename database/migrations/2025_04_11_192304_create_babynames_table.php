@@ -16,7 +16,7 @@ return new class extends Migration
             $table->uuid('uuid')->index();
             $table->string('name');
             $table->string('pronounce')->nullable();
-            $table->string('foreign')->nullable();
+            $table->string('native_name')->nullable();
             $table->text('meaning')->nullable();
             $table->integer('gender_id')->nullable();
             $table->integer('country_id')->nullable();

@@ -40,7 +40,7 @@ class Babyname extends Model
         'uuid',
         'name',
         'pronounce',
-        'foreign',
+        'native_name',
         'meaning',
         'gender_id',
         'country_id',
@@ -130,9 +130,9 @@ class Babyname extends Model
         return $this->meaning;
     }
 
-    public function foreign(): string
+    public function native(): string
     {
-        return $this->foreign;
+        return $this->native_name;
     }
 
 

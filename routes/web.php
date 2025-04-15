@@ -15,11 +15,13 @@ use App\Http\Controllers\SitemapController;
 // Livewire
 use App\Livewire\Admin\AdvertisingIndex;
 use App\Livewire\Admin\AdvSegmentIndex;
+use App\Livewire\Admin\BabynameIndex;
 use App\Livewire\Admin\CategoryArticleIndex;
 use App\Livewire\Admin\CategoryIndex;
 use App\Livewire\Admin\ContactIndex;
 use App\Livewire\Admin\Dashboard;
 use App\Livewire\Admin\FaqIndex;
+use App\Livewire\Admin\NamelistIndex;
 use App\Livewire\Admin\PermissionIndex;
 use App\Livewire\Admin\RoleIndex;
 use App\Livewire\Admin\SettingIndex;

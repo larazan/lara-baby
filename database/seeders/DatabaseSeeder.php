@@ -22,7 +22,7 @@ class DatabaseSeeder extends Seeder
             FaqSeeder::class,
             SegmentSeeder::class,
             CategoryArticleSeeder::class,
-            languageSeeder::class,
+            LanguageSeeder::class,
             NewsletterSeeder::class,
             ContactSeeder::class,
             CountrySeeder::class,
