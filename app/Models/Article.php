@@ -30,6 +30,7 @@ class Article extends Model
         'author_id',
         'title',
         'body',
+        'locale',
         'slug',
         'rand_id',
         'hero_image',

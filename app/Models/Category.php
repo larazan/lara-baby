@@ -9,6 +9,10 @@ class Category extends Model
 {
     use HasFactory;
 
+    const TABLE = 'categories';
+
+    protected $table = self::TABLE;
+
     protected $fillable = [
         'name',
         'slug',
@@ -20,5 +24,8 @@ class Category extends Model
         return $this->belongsTo(Category::class, 'parent_id');
     }
 
-    
+    public function activities()
+    {
+        return $this->belongsToMany(Activity::class, 'categories');
+    }
 }

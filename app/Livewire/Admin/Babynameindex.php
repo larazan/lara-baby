@@ -18,6 +18,7 @@ class BabynameIndex extends Component
     public $showBabynameModal = false;
     public $name;
     public $pronounce;
+    public $variations;
     public $nativeName;
     public $meaning;
     public $genderId;
@@ -89,6 +90,7 @@ class BabynameIndex extends Component
           'pronounce' => strtolower($this->pronounce),
           'native_name' => $this->nativeName,
           'meaning' => $this->meaning,
+          'variations' => $this->variations,
           'gender_id' => $this->genderId,
           'country_id' => $this->countryId,
           'religion_id' => $this->religionId,
@@ -112,6 +114,7 @@ class BabynameIndex extends Component
         $this->pronounce = $babyname->pronounce;
         $this->nativeName = $babyname->native_name;
         $this->meaning = $babyname->meaning;
+        $this->variations = $babyname->variations;
         $this->genderId = $babyname->gender_id;
         $this->countryId = $babyname->country_id;
         $this->religionId = $babyname->religion_id;
@@ -130,6 +133,7 @@ class BabynameIndex extends Component
           'pronounce' => strtolower($this->pronounce),
           'native_name' => $this->nativeName,
           'meaning' => $this->meaning,
+          'variations' => $this->variations,
           'gender_id' => $this->genderId,
           'country_id' => $this->countryId,
           'religion_id' => $this->religionId,

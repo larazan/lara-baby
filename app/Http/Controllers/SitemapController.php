@@ -5,7 +5,10 @@ namespace App\Http\Controllers;
 use App\Models\Article;
 use Spatie\Sitemap\Sitemap;
 use Spatie\Sitemap\Tags\Url;
+use Spatie\Sitemap\SitemapIndexGenerator;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\URL as UR;
 
 class SitemapController extends Controller
 {
@@ -113,4 +116,38 @@ class SitemapController extends Controller
 
         return 'Sitemap fact Created Succesfully';
     }
+
+    public function generateMultipleSitemaps()
+{
+    $baseUrl = UR::to('/');
+    $baseSitemapPath = public_path('sitemaps');
+    if (!is_dir($baseSitemapPath)) {
+        mkdir($baseSitemapPath, 0755, true);
+    }
+
+    $chunkSize = 50000; // Maximum URLs per sitemap file
+    $sitemapCounter = 1;
+
+    DB::table('your_massive_table')->orderBy('id')->chunk($chunkSize, function ($records) use ($baseUrl, $baseSitemapPath, &$sitemapCounter) {
+        $sitemapPath = $baseSitemapPath . '/sitemap_' . $sitemapCounter . '.xml';
+        $sitemap = SitemapGenerator::create($sitemapPath);
+
+        foreach ($records as $record) {
+            $url = $baseUrl . '/' . $record->slug;
+            $sitemap->add(SitemapUrl::create($url));
+        }
+
+        $sitemap->writeToFile($sitemapPath);
+        $sitemapCounter++;
+    });
+
+    // Generate the sitemap index file
+    $sitemapIndex = SitemapIndexGenerator::create($baseUrl . '/sitemaps/sitemap_index.xml');
+    for ($i = 1; $i < $sitemapCounter; $i++) {
+        $sitemapIndex->add($baseUrl . '/sitemaps/sitemap_' . $i . '.xml');
+    }
+    $sitemapIndex->writeToFile(public_path('sitemaps/sitemap_index.xml'));
+
+    return 'Multiple sitemaps and index generated successfully!';
+}
 }

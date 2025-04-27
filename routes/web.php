@@ -9,6 +9,7 @@ use App\Http\Controllers\Frontend\HomeController;
 use App\Http\Controllers\Frontend\PageController;
 use App\Http\Controllers\Frontend\SearchController;
 use App\Http\Controllers\Frontend\NewsletterController;
+use App\Http\Controllers\Frontend\GenerateArticleController;
 
 use App\Http\Controllers\SitemapController;
 
@@ -50,7 +51,7 @@ Route::middleware(['auth:sanctum', 'verified'])->group(function () {
 });
 
 // Generate
-Route::get('generate-article/{parent_id?}', [GenerateArticleController::class, 'index']);
+Route::get('generate-article', [GenerateArticleController::class, 'index']);
 
 Route::get('search/{keyword}', [SearchController::class, 'search']);
 Route::post('/fact/search', [SearchController::class, 'index'])->name('fact.search');
@@ -88,6 +89,8 @@ Route::middleware(['auth:sanctum', 'verified'])->prefix('admin')->name('admin')-
     Route::get('adv-segments', AdvSegmentIndex::class)->name('adv-segments.index');
     Route::get('advertisings', AdvertisingIndex::class)->name('advertisings.index');
 
+    Route::get('babynames', BabynameIndex::class)->name('babynames.index');
+    Route::get('namelist', NamelistIndex::class)->name('namelist.index');
     Route::get('category-article', CategoryArticleIndex::class)->name('category-article.index');
     Route::get('contacts', ContactIndex::class)->name('contacts.index');
     Route::get('categories', CategoryIndex::class)->name('categories.index');
@@ -116,19 +119,9 @@ Route::get('unsubscribe/{email?}/{hash?}', [NewsletterController::class, 'unsubs
 Route::get('newsletter/submit', [NewsletterController::class, 'blogPostNewsletter'])->name('newsletter.submit');
 
 // view email
-Route::get('/mailable', function () {
-    $news = App\Models\Newsletter::get();
+// Route::get('/mailable', function () {
+//     $news = App\Models\Newsletter::get();
  
-    return new App\Mail\Newsletter($news);
-});
+//     return new App\Mail\Newsletter($news);
+// });
 
-
-Route::middleware([
-    'auth:sanctum',
-    config('jetstream.auth_session'),
-    'verified',
-])->group(function () {
-    Route::get('/dashboard', function () {
-        return view('dashboard');
-    })->name('dashboard');
-});

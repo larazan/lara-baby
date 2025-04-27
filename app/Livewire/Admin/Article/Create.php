@@ -5,6 +5,7 @@ namespace App\Livewire\Admin\Article;
 use App\Models\Article;
 use App\Models\User;
 use App\Models\CategoryArticle;
+use App\Models\Language;
 use Illuminate\Support\Str;
 use Illuminate\Support\Facades\Auth;
 // use Intervention\Image\Laravel\Facades\Image;
@@ -23,6 +24,7 @@ class Create extends Component
     public $showMessage = false;
     public $title;
     public $body;
+    public $locale;
     public $status;
     public $articleId;
     public $articleTags;
@@ -75,6 +77,7 @@ class Create extends Component
         $article->slug = Str::slug($this->title);
         $article->rand_id = Str::random(10);
         $article->body = $this->body;
+        $article->locale = $this->locale;
         $article->article_tags = implode(',', $this->tags);
         $article->author_id = $this->author;
         $article->original_url = $this->url;

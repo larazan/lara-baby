@@ -5,6 +5,7 @@ namespace App\Livewire\Admin\Article;
 use App\Models\Article;
 use App\Models\User;
 use App\Models\CategoryArticle;
+use App\Models\Language;
 use Illuminate\Support\Str;
 use Illuminate\Support\Facades\Auth;
 use Intervention\Image\ImageManager;
@@ -23,6 +24,7 @@ class Edit extends Component
     public $article;
     public $title;
     public $body;
+    public $locale;
     public $status;
     public $articleId;
     public $articleTags;
@@ -62,6 +64,7 @@ class Edit extends Component
         $this->categoryId = $article->category_id;
         $this->title = $article->title;
         $this->body = $article->body;
+        $this->locale = $fact->locale;
         $this->articleTags = $article->article_tags;
         $this->tags = isset($this->articleTags) ? explode(',', $this->articleTags) : [];
         $this->author = $article->author_id;
@@ -116,6 +119,7 @@ class Edit extends Component
                 $article->slug = Str::slug($this->title);
                 $article->rand_id = Str::random(10);
                 $article->body = $this->body;
+                $article->locale = $this->locale;
                 $article->article_tags = implode(',', $this->tags);
                 $article->original_url = $this->url;
                 // $article->embed_url = $this->embedUrl;

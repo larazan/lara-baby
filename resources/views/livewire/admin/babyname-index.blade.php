@@ -268,15 +268,25 @@
                                                 @enderror
                                             </div>
                                         </div>
-
-                                        <div class="col-start-1 sm:col-span-3">
-                                            <label for="native_name" class="block text-sm font-medium text-gray-700">
-                                                Native name
+                                        <div class="flex space-x-22 justify-between">
+                                            <div class="col-start-1 sm:col-span-3">
+                                                <label for="native_name" class="block text-sm font-medium text-gray-700">
+                                                    Native name
+                                                </label>
+                                                <input wire:model="nativeName" type="text" autocomplete="given-name" class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
+                                                @error('nativeName')
+                                                    <div class="go re yl">{{ $message }}</div>
+                                                @enderror
+                                            </div>
+                                            <div class="col-start-1 sm:col-span-3">
+                                            <label for="variations" class="block text-sm font-medium text-gray-700">
+                                                Variations name
                                             </label>
-                                            <input wire:model="nativeName" type="text" autocomplete="given-name" class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
-                                            @error('nativeName')
+                                            <input wire:model="variations" type="text" autocomplete="given-name" class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
+                                            @error('variations')
                                                 <div class="go re yl">{{ $message }}</div>
                                             @enderror
+                                        </div>
                                         </div>
 
                                         <div class="col-start-1 sm:col-span-3">

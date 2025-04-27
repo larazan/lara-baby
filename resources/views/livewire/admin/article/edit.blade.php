@@ -23,13 +23,13 @@
                                                 <div class="flex flex-col space-y-3" x-data="{openInput : false}">
                                                     <div class="w-full flex flex-row justify-between">
                                                         <div class="w-1/2 flex flex-col col-span-6 sm:col-span-3">
-                                                            <label for="first-name" class="flex flex-row items-center space-x-2 text-sm font-medium text-gray-700">
+                                                            <label for="first-name" class="flex flex-row pb-1 items-center space-x-2 text-sm font-medium text-gray-700">
                                                                 Category
                                                                 @if ($showMessage)
                                                                 <span class="ml-2 text-xs text-green-700 italic">category added!</span>
                                                                 @endif
                                                             </label>
-                                                            <select wire:model="categoryId" class="h-full2 w-full capitalize rounded-r border-t border-r border-b block appearance-none bg-white border-gray-300 text-gray-700 py-2 px-4 pr-8 leading-tight focus:placeholder-gray-600 focus:text-gray-700 focus:outline-none">
+                                                            <select wire:model="categoryId" class="h-10 border block appearance-none w-full bg-white border-gray-600 text-gray-700 py-2 px-4 pr-0 leading-tight focus:placeholder-gray-600 focus:text-gray-700 focus:outline-none">
                                                                 <option value="">Select Category</option>
                                                                 @foreach($categories as $cat)
                                                                 <option value="{{ $cat->id }}">{{ $cat->name }}</option>
@@ -130,7 +130,7 @@
                                                     </div>
                                                 </div>
 
-                                                <div class="flex flex-row justify-between">
+                                                <div class="flex flex-row space-x-1 justify-between">
                                                     <div class="col-start-1 sm:col-span-3">
                                                         <label for="title" class="block text-sm font-medium text-gray-700">
                                                             Published At
@@ -138,11 +138,11 @@
 
                                                         <x-flatpicker wire:model="publishedAt"></x-flatpicker>
                                                     </div>
-                                                    <div class="col-span-6 sm:col-span-3">
+                                                    <div class="col-span-6 sm:col-span-3 w-full">
                                                         <label for="title" class="block text-sm font-medium text-gray-700">
                                                             Author
                                                         </label>
-                                                        <select wire:model="author" class="h-full2 rounded-r border-t border-r border-b block appearance-none w-full bg-white border-gray-300 text-gray-700 py-2 px-4 pr-8 leading-tight focus:placeholder-gray-600 focus:text-gray-700 focus:outline-none">
+                                                        <select wire:model="author" class="h-10 border block appearance-none w-full bg-white border-gray-600 text-gray-700 py-2 px-4 pr-0 leading-tight focus:placeholder-gray-600 focus:text-gray-700 focus:outline-none">
                                                             <option value="">Select Option</option>
                                                             @foreach($authors as $a)
                                                             <option value="{{ $a->id }}">{{ $a->first_name }} {{ $a->last_name }}</option>
@@ -151,14 +151,25 @@
                                                     </div>
                                                 </div>
 
-                                                <div class="col-span-6 sm:col-span-3">
-                                                    <label for="first-name" class="block text-sm font-medium text-gray-700">Status</label>
-                                                    <select wire:model="articleStatus" class="h-full rounded-r border-t border-r border-b block appearance-none w-full bg-white border-gray-300 text-gray-700 py-2 px-4 pr-8 leading-tight focus:placeholder-gray-600 focus:text-gray-700 focus:outline-none">
-                                                        <option value="">Select Option</option>
-                                                        @foreach($statuses as $status)
-                                                        <option value="{{ $status }}">{{ $status }}</option>
-                                                        @endforeach
-                                                    </select>
+                                                <div class="flex space-x-2 justify-between">
+                                                    <div class="col-span-6 sm:col-span-3 w-full">
+                                                        <label for="locale" class="block text-sm font-medium text-gray-700 pb-1">Language</label>
+                                                        <select wire:model="locale" class="h-10 border block appearance-none w-full bg-white border-gray-600 text-gray-700 py-2 px-4 pr-0 leading-tight focus:placeholder-gray-600 focus:text-gray-700 focus:outline-none">
+                                                            <option value="">Select Option</option>
+                                                            @foreach($languages as $l)
+                                                            <option value="{{ $l->code }}">{{ $l->name }}</option>
+                                                            @endforeach
+                                                        </select>
+                                                    </div>
+                                                    <div class="col-span-6 sm:col-span-3 w-full">
+                                                        <label for="first-name" class="block text-sm font-medium text-gray-700">Status</label>
+                                                        <select wire:model="articleStatus" class="h-10 border block appearance-none w-full bg-white border-gray-600 text-gray-700 py-2 px-4 pr-0 leading-tight focus:placeholder-gray-600 focus:text-gray-700 focus:outline-none">
+                                                            <option value="">Select Option</option>
+                                                            @foreach($statuses as $status)
+                                                            <option value="{{ $status }}">{{ $status }}</option>
+                                                            @endforeach
+                                                        </select>
+                                                    </div>
                                                 </div>
 
                                                 <div class="col-span-6 sm:col-span-3">

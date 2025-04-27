@@ -42,6 +42,7 @@ class Babyname extends Model
         'pronounce',
         'native_name',
         'meaning',
+        'variations',
         'gender_id',
         'country_id',
         'religion_id',
