@@ -27,8 +27,8 @@ class DatabaseSeeder extends Seeder
             ContactSeeder::class,
             CountrySeeder::class,
             ReligionSeeder::class,
-            BabynameSeeder::class,
-            NamelistSeeder::class,
+            // BabynameSeeder::class,
+            // NamelistSeeder::class,
         ]);
     }
 }

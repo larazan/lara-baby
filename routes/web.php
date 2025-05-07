@@ -22,6 +22,7 @@ use App\Livewire\Admin\CategoryIndex;
 use App\Livewire\Admin\ContactIndex;
 use App\Livewire\Admin\Dashboard;
 use App\Livewire\Admin\FaqIndex;
+use App\Livewire\Admin\ImportName;
 use App\Livewire\Admin\NamelistIndex;
 use App\Livewire\Admin\PermissionIndex;
 use App\Livewire\Admin\RoleIndex;
@@ -39,8 +40,12 @@ Route::group(
         'prefix' => LaravelLocalization::setLocale(),
         'middleware' => [ 'localeSessionRedirect', 'localizationRedirect', 'localeViewPath' ]
     ], function () {
-    Route::get('/', [HomeController::class, 'index'])->name('home');
+    // Route::get('/', [HomeController::class, 'index'])->name('home');
 
+});
+
+Route::get('/', function () {
+    return view('welcome');
 });
 
 // SITEMAP
@@ -90,6 +95,7 @@ Route::middleware(['auth:sanctum', 'verified'])->prefix('admin')->name('admin')-
     Route::get('advertisings', AdvertisingIndex::class)->name('advertisings.index');
 
     Route::get('babynames', BabynameIndex::class)->name('babynames.index');
+    Route::get('import', ImportName::class)->name('import');
     Route::get('namelist', NamelistIndex::class)->name('namelist.index');
     Route::get('category-article', CategoryArticleIndex::class)->name('category-article.index');
     Route::get('contacts', ContactIndex::class)->name('contacts.index');

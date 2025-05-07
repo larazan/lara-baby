@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('steps', function (Blueprint $table) {
             $table->id();
             $table->unsignedBigInteger('activity_id');
-            $table->int('order_number');
+            $table->integer('order_number');
             $table->string('title');
             $table->text('description');
             $table->string('image_path')->nullable();

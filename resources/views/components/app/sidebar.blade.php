@@ -83,7 +83,7 @@
                                         <path class="du @if(in_array(Request::segment(2), ['categories', 'babynames', 'namelist'])){{ 'text-indigo-300' }}@else{{ 'gq' }}@endif" d="M17 23a1 1 0 01-1-1 4 4 0 00-4-4 1 1 0 010-2 4 4 0 004-4 1 1 0 012 0 4 4 0 004 4 1 1 0 010 2 4 4 0 00-4 4 1 1 0 01-1 1zM7 13a1 1 0 01-1-1 4 4 0 00-4-4 1 1 0 110-2 4 4 0 004-4 1 1 0 112 0 4 4 0 004 4 1 1 0 010 2 4 4 0 00-4 4 1 1 0 01-1 1z"></path>
                                     </svg>
 
-                                    <span class="text-sm gp ml-3 ttw tnn 2xl:opacity--100 wr">Facts</span>
+                                    <span class="text-sm gp ml-3 ttw tnn 2xl:opacity--100 wr">Baby Name</span>
                                 </div>
                                 <!-- Icon -->
                                 <div class="flex shrink-0 ml-2 lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">

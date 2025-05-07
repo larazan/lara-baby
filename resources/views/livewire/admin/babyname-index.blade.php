@@ -14,17 +14,14 @@
         <!-- Right: Actions -->
         <div class="sn am jo az jp ft">
 
-            <!-- Search form -->
-            <form class="y">
-                <label for="action-search" class="d">Search</label>
-                <input wire:model="search" id="action-search" class="s me xq" type="search" placeholder="Search by name">
-                <button class="g w j kk" type="submit" aria-label="Search">
-                    <svg class="oo sl ub du gq kj ml-3 mr-2" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M7 14c-3.86 0-7-3.14-7-7s3.14-7 7-7 7 3.14 7 7-3.14 7-7 7zM7 2C4.243 2 2 4.243 2 7s2.243 5 5 5 5-2.243 5-5-2.243-5-5-5z"></path>
-                        <path d="M15.707 14.293L13.314 11.9a8.019 8.019 0 01-1.414 1.414l2.393 2.393a.997.997 0 001.414 0 .999.999 0 000-1.414z"></path>
-                    </svg>
-                </button>
-            </form>
+            
+
+            <a href="{{ url('admin/import') }}" class="btn ho xi ye">
+                <svg class="oo sl du bf ub" viewBox="0 0 16 16">
+                    <path d="M15 7H9V1c0-.6-.4-1-1-1S7 .4 7 1v6H1c-.6 0-1 .4-1 1s.4 1 1 1h6v6c0 .6.4 1 1 1s1-.4 1-1V9h6c.6 0 1-.4 1-1s-.4-1-1-1z"></path>
+                </svg>
+                <span class="hidden trm nq">Import csv</span>
+            </a>
 
             <!-- Create babyname button -->
             <button class="btn ho xi ye" wire:click="showCreateModal">
@@ -42,6 +39,18 @@
 
         <!-- Left side -->
         <div class="ri _y">
+
+            <!-- Search form -->
+            <form class="y">
+                <label for="action-search" class="d">Search</label>
+                <input wire:model="search" id="action-search" class="s me xq" type="search" placeholder="Search by name">
+                <button class="g w j kk" type="submit" aria-label="Search">
+                    <svg class="oo sl ub du gq kj ml-3 mr-2" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7 14c-3.86 0-7-3.14-7-7s3.14-7 7-7 7 3.14 7 7-3.14 7-7 7zM7 2C4.243 2 2 4.243 2 7s2.243 5 5 5 5-2.243 5-5-2.243-5-5-5z"></path>
+                        <path d="M15.707 14.293L13.314 11.9a8.019 8.019 0 01-1.414 1.414l2.393 2.393a.997.997 0 001.414 0 .999.999 0 000-1.414z"></path>
+                    </svg>
+                </button>
+            </form>
 
         </div>
 
@@ -248,8 +257,8 @@
                             <div class="">
                                 <div class="">
                                     <div class="flex flex-col space-y-3">
-                                        <div class="flex flex-row justify-between">
-                                            <div class="col-start-1 sm:col-span-3">
+                                        <div class="flex flex-row justify-between space-x-2">
+                                            <div class="col-start-1 sm:col-span-3 w-full">
                                                 <label for="title" class="block text-sm font-medium text-gray-700">
                                                     Name
                                                 </label>
@@ -258,7 +267,7 @@
                                                     <div class="go re yl">{{ $message }}</div>
                                                 @enderror
                                             </div>
-                                            <div class="col-start-1 sm:col-span-3">
+                                            <div class="col-start-1 sm:col-span-3 w-full">
                                                 <label for="pronounce" class="block text-sm font-medium text-gray-700">
                                                     Pronounce
                                                 </label>
@@ -268,8 +277,8 @@
                                                 @enderror
                                             </div>
                                         </div>
-                                        <div class="flex space-x-22 justify-between">
-                                            <div class="col-start-1 sm:col-span-3">
+                                        <div class="flex space-x-22 justify-between space-x-2">
+                                            <div class="col-start-1 sm:col-span-3 w-full">
                                                 <label for="native_name" class="block text-sm font-medium text-gray-700">
                                                     Native name
                                                 </label>
@@ -278,18 +287,10 @@
                                                     <div class="go re yl">{{ $message }}</div>
                                                 @enderror
                                             </div>
-                                            <div class="col-start-1 sm:col-span-3">
-                                            <label for="variations" class="block text-sm font-medium text-gray-700">
-                                                Variations name
-                                            </label>
-                                            <input wire:model="variations" type="text" autocomplete="given-name" class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
-                                            @error('variations')
-                                                <div class="go re yl">{{ $message }}</div>
-                                            @enderror
-                                        </div>
+                                            
                                         </div>
 
-                                        <div class="col-start-1 sm:col-span-3">
+                                        <div class="col-start-1 sm:col-span-3 w-full">
                                             <label for="meaning" class="block text-sm font-medium text-gray-700">
                                                 Meaning
                                             </label>
@@ -300,12 +301,12 @@
                                             @enderror
                                         </div>
 
-                                        <div class="flex space-x-22 justify-between">
+                                        <div class="flex space-x-22 justify-between space-x-2">
                                             <div class="col-span-6 sm:col-span-3 w-full">
-                                                <label for="genderId" class="block text-sm font-medium text-gray-700 pb-1">Language</label>
+                                                <label for="genderId" class="block text-sm font-medium text-gray-700 pb-1">Gender</label>
                                                 <select wire:model="genderId" class="h-10 border block appearance-none w-full bg-white border-gray-600 text-gray-700 py-2 px-4 pr-0 leading-tight focus:placeholder-gray-600 focus:text-gray-700 focus:outline-none">
                                                     <option value="">Select Option</option>
-                                                    @foreach($genders as $key => value)
+                                                    @foreach($genders as $key => $value)
                                                     <option value="{{ $key }}">{{ $value }}</option>
                                                     @endforeach
                                                 </select>
@@ -322,7 +323,7 @@
                                             </div>
                                         </div>
 
-                                        <div class="flex space-x-22 justify-between">
+                                        <div class="flex space-x-22 justify-between space-x-2">
                                             <div class="col-span-6 sm:col-span-3 w-full">
                                                 <label for="religionId" class="block text-sm font-medium text-gray-700 pb-1">Language</label>
                                                 <select wire:model="religionId" class="h-10 border block appearance-none w-full bg-white border-gray-600 text-gray-700 py-2 px-4 pr-0 leading-tight focus:placeholder-gray-600 focus:text-gray-700 focus:outline-none">
@@ -345,8 +346,8 @@
                                         </div>
 
                                         <div class="col-span-6 sm:col-span-3">
-                                            <label for="status" class="block text-sm font-medium text-gray-700">Status</label>
-                                            <select wire:model="catStatus" class="h-full rounded-r border-t border-r border-b block appearance-none w-full bg-white border-gray-300 text-gray-700 py-2 px-4 pr-8 leading-tight focus:placeholder-gray-600 focus:text-gray-700 focus:outline-none">
+                                            <label for="status" class="block text-sm font-medium text-gray-700 pb-1">Status</label>
+                                            <select wire:model="catStatus" class="h-10 border block appearance-none w-full bg-white border-gray-600 text-gray-700 py-2 px-4 pr-0 leading-tight focus:placeholder-gray-600 focus:text-gray-700 focus:outline-none">
                                                 <option value="" >Select Option</option>
                                                 @foreach($statuses as $status)
                                                 <option value="{{ $status }}">{{ $status }}</option>

@@ -7,6 +7,7 @@ use App\Concerns\HasLikes;
 use App\Concerns\HasSlug;
 use App\Concerns\HasTags;
 use App\Concerns\HasTimestamps;
+use App\Concerns\SlugTrait;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Concerns\HasUuids;
@@ -23,8 +24,9 @@ class Babyname extends Model
     use HasTimestamps;
     use HasTags;
     // use HasUuids;
+    use SlugTrait;
 
-    const TABLE = 'babyname';
+    const TABLE = 'babynames';
 
     protected $table = self::TABLE;
 
@@ -39,10 +41,11 @@ class Babyname extends Model
     protected $fillable = [
         'uuid',
         'name',
+        'slug',
         'pronounce',
         'native_name',
         'meaning',
-        'variations',
+        // 'variations',
         'gender_id',
         'country_id',
         'religion_id',

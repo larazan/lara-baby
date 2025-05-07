@@ -3,7 +3,7 @@
 namespace App\Livewire\Admin;
 
 use App\Models\Article;
-use App\Models\Fact;
+use App\Models\Babyname;
 use App\Models\Contact;
 use App\Models\Newsletter;
 use Livewire\Component;
@@ -18,7 +18,7 @@ class Dashboard extends Component
 
     public function mount() {
         $this->articleCount = Article::count();
-        $this->factCount = Fact::count();
+        $this->factCount = Babyname::count();
         $this->subscribeCount = Newsletter::count();
         $this->contacts = Contact::select(['id', 'name', 'email', 'subject', 'message'])
         ->take(9)
