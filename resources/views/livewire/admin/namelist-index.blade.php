@@ -14,7 +14,12 @@
         <!-- Right: Actions -->
         <div class="sn am jo az jp ft">
 
-            
+            <a href="{{ url('admin/import-full') }}" class="btn ho xi ye">
+                <svg class="oo sl du bf ub" viewBox="0 0 16 16">
+                    <path d="M15 7H9V1c0-.6-.4-1-1-1S7 .4 7 1v6H1c-.6 0-1 .4-1 1s.4 1 1 1h6v6c0 .6.4 1 1 1s1-.4 1-1V9h6c.6 0 1-.4 1-1s-.4-1-1-1z"></path>
+                </svg>
+                <span class="hidden trm nq">Import csv</span>
+            </a>
 
             <!-- Create namelist button -->
             <button class="btn ho xi ye" wire:click="showCreateModal">
@@ -292,7 +297,7 @@
                                             </div>
 
                                             <div class="col-span-6 sm:col-span-3 w-full">
-                                                <label for="countryId" class="block text-sm font-medium text-gray-700 pb-1">Language</label>
+                                                <label for="countryId" class="block text-sm font-medium text-gray-700 pb-1">Country Origin</label>
                                                 <select wire:model="countryId" class="h-10 border block appearance-none w-full bg-white border-gray-600 text-gray-700 py-2 px-4 pr-0 leading-tight focus:placeholder-gray-600 focus:text-gray-700 focus:outline-none">
                                                     <option value="">Select Option</option>
                                                     @foreach($countries as $c)

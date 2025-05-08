@@ -146,6 +146,19 @@ class Babyname extends Model
     }
 
     
+    public function religion()
+    {
+        return $this->belongsToMany(Religion::class, 'religion_id',);
+    }
 
+    public function country($countryId)
+	{
+		$country = Country::where('id', $countryId)->first();
+		return $country->name;
+	}
     
+    public function countries()
+    {
+        return $this->belongsToMany(Country::class);
+    }
 }

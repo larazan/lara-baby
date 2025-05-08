@@ -12,4 +12,10 @@ class Country extends Model
     protected $table = 'countries';
 
     protected $fillable = ['name', 'code'];
+
+    public function babynames()
+    {
+        return $this->belongsToMany(Babyname::class, 'country_id');
+    }
+
 }

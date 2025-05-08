@@ -23,6 +23,7 @@ use App\Livewire\Admin\ContactIndex;
 use App\Livewire\Admin\Dashboard;
 use App\Livewire\Admin\FaqIndex;
 use App\Livewire\Admin\ImportName;
+use App\Livewire\Admin\ImportFullname;
 use App\Livewire\Admin\NamelistIndex;
 use App\Livewire\Admin\PermissionIndex;
 use App\Livewire\Admin\RoleIndex;
@@ -91,11 +92,18 @@ Route::middleware(['auth:sanctum', 'verified'])->prefix('admin')->name('admin')-
         Route::get('{articleId}/update', \App\Livewire\Admin\Article\Edit::class)->name('edit');
     });
 
+    Route::prefix('activity')->name('activities.')->group(function () {
+        Route::get('create', \App\Livewire\Admin\Activity\Create::class)->name('create');
+        Route::get('all', \App\Livewire\Admin\Activity\Index::class)->name('all');
+        Route::get('{activityId}/update', \App\Livewire\Admin\Activity\Edit::class)->name('edit');
+    });
+
     Route::get('adv-segments', AdvSegmentIndex::class)->name('adv-segments.index');
     Route::get('advertisings', AdvertisingIndex::class)->name('advertisings.index');
 
     Route::get('babynames', BabynameIndex::class)->name('babynames.index');
     Route::get('import', ImportName::class)->name('import');
+    Route::get('import-full', ImportFullname::class)->name('import-full');
     Route::get('namelist', NamelistIndex::class)->name('namelist.index');
     Route::get('category-article', CategoryArticleIndex::class)->name('category-article.index');
     Route::get('contacts', ContactIndex::class)->name('contacts.index');
@@ -109,15 +117,15 @@ Route::middleware(['auth:sanctum', 'verified'])->prefix('admin')->name('admin')-
     Route::get('roles', RoleIndex::class)->name('roles.index');
 });
 
-Route::middleware([
-    'auth:sanctum',
-    config('jetstream.auth_session'),
-    'verified',
-])->group(function () {
-    Route::get('/dashboard', function () {
-        return view('dashboard');
-    })->name('dashboard');
-});
+// Route::middleware([
+//     'auth:sanctum',
+//     config('jetstream.auth_session'),
+//     'verified',
+// ])->group(function () {
+//     Route::get('/dashboard', function () {
+//         return view('dashboard');
+//     })->name('dashboard');
+// });
 
 
 // unsubscribe

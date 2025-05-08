@@ -10,15 +10,13 @@ use Illuminate\Support\Str;
 use Livewire\Component;
 use Livewire\WithFileUploads;
 
-class ImportName extends Component
+class ImportFullname extends Component
 {
     use WithFileUploads;
 
     public $batchId;
     
     public $name;
-    public $pronounce;
-    public $variations;
     public $nativeName;
     public $meaning;
     public $genderId;
@@ -29,7 +27,6 @@ class ImportName extends Component
     ];
     public $countryId;
     public $religionId;
-    public $locale;
 
     public $catStatus = 'inactive';
     public $statuses = [
@@ -43,7 +40,6 @@ class ImportName extends Component
     {
         $this->validate([
             // 'religionId' => 'required',
-            'locale' => 'required',
             'file' => 'required|mimes:csv',
         ]);
 
@@ -78,17 +74,12 @@ class ImportName extends Component
         
                     //create series
                     Babyname::create([
-                        'uuid' => Str::uuid(),
-                        'name' => strtolower($name),
-                        'slug' => Babyname::uniqueSlug($name),
-                        // 'pronounce' => strtolower($this->pronounce),
+                        'full_name' => strtolower($name),
                         // 'native_name' => $this->nativeName,
                         'meaning' => $meaning,
-                        // 'variations' => $this->variations,
                         'gender_id' => $gender,
                         // 'country_id' => $this->countryId,
                         // 'religion_id' => $this->religionId,
-                        'locale' => $this->locale,
                         'status' => 'active'
                     ]);
                 }
@@ -99,7 +90,7 @@ class ImportName extends Component
             $this->dispatch(
                 'banner-message', 
                 style: 'success',
-                message: 'Baby name created successfully!',
+                message: 'Import name successfully!',
             );
            
                 // $this->dispatch(
@@ -113,7 +104,7 @@ class ImportName extends Component
 
     public function render()
     {
-        return view('livewire.admin.import-name')->with([
+        return view('livewire.admin.import-fullname')->with([
             'countries' => Country::OrderBy('id', $this->sort)->get(),
             'languages' => Language::OrderBy('id', $this->sort)->get(),
             'religions' => Religion::OrderBy('id', $this->sort)->get()

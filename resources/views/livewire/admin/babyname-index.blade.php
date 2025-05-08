@@ -185,10 +185,20 @@
                                 <div class="gp ">{{ $babyname->native_name }}</div>
                             </td>
                             <td class="vi wy w_ vo lm">
-                                <div class="gp ">{{ $babyname->gender_id }}</div>
+                                @if ($babyname->gender_id === 1)
+                                    male
+                                @endif 
+
+                                @if ($babyname->gender_id === 2)
+                                    female
+                                @endif
+                                
+                                @if ($babyname->gender_id === 3)
+                                    uni
+                                @endif
                             </td>
                             <td class="vi wy w_ vo lm">
-                                <div class="gp ">{{ $babyname->country_id }}</div>
+                                <div class="gp ">{{ $babyname->country($babyname->country_id) }}</div>
                             </td>
                             <td class="vi wy w_ vo lm">
                                 @if ($babyname->status === 'inactive')
@@ -280,7 +290,7 @@
                                         <div class="flex space-x-22 justify-between space-x-2">
                                             <div class="col-start-1 sm:col-span-3 w-full">
                                                 <label for="native_name" class="block text-sm font-medium text-gray-700">
-                                                    Native name
+                                                    Native writing
                                                 </label>
                                                 <input wire:model="nativeName" type="text" autocomplete="given-name" class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
                                                 @error('nativeName')
@@ -313,7 +323,7 @@
                                             </div>
 
                                             <div class="col-span-6 sm:col-span-3 w-full">
-                                                <label for="countryId" class="block text-sm font-medium text-gray-700 pb-1">Language</label>
+                                                <label for="countryId" class="block text-sm font-medium text-gray-700 pb-1">Country Origin</label>
                                                 <select wire:model="countryId" class="h-10 border block appearance-none w-full bg-white border-gray-600 text-gray-700 py-2 px-4 pr-0 leading-tight focus:placeholder-gray-600 focus:text-gray-700 focus:outline-none">
                                                     <option value="">Select Option</option>
                                                     @foreach($countries as $c)
@@ -325,7 +335,7 @@
 
                                         <div class="flex space-x-22 justify-between space-x-2">
                                             <div class="col-span-6 sm:col-span-3 w-full">
-                                                <label for="religionId" class="block text-sm font-medium text-gray-700 pb-1">Language</label>
+                                                <label for="religionId" class="block text-sm font-medium text-gray-700 pb-1">Religion</label>
                                                 <select wire:model="religionId" class="h-10 border block appearance-none w-full bg-white border-gray-600 text-gray-700 py-2 px-4 pr-0 leading-tight focus:placeholder-gray-600 focus:text-gray-700 focus:outline-none">
                                                     <option value="">Select Option</option>
                                                     @foreach($religions as $r)
