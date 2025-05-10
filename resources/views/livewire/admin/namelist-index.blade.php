@@ -181,10 +181,20 @@
                                 <div class="gp ">{{ $namelist->native_name }}</div>
                             </td>
                             <td class="vi wy w_ vo lm">
-                                <div class="gp ">{{ $namelist->gender_id }}</div>
+                                @if ($namelist->gender_id === 1)
+                                    male
+                                @endif 
+
+                                @if ($namelist->gender_id === 2)
+                                    female
+                                @endif
+                                
+                                @if ($namelist->gender_id === 3)
+                                    uni
+                                @endif
                             </td>
                             <td class="vi wy w_ vo lm">
-                                <div class="gp ">{{ $namelist->country_id }}</div>
+                                <div class="gp ">{{ $namelist->country($namelist->country_id) }}</div>
                             </td>
                             <td class="vi wy w_ vo lm">
                                 @if ($namelist->status === 'inactive')

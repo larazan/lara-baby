@@ -79,10 +79,16 @@ class Activity extends Model
         return $this->belongsTo(User::class, 'author_id');
     }
 
-    public function category()
-    {
-        return $this->belongsToMany(Category::class, 'categories',);
-    }
+    public function category($categoryId)
+	{
+		$category = Category::where('id', $categoryId)->first();
+		return $category->name;
+	}
+
+    // public function category()
+    // {
+    //     return $this->belongsToMany(Category::class, 'categories',);
+    // }
 
     public function steps()
     {

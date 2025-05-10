@@ -72,7 +72,7 @@
                                     
                                     <div class="flex justify-start pt-4 text-right">
                                         <div class="inline-flex items-end space-x-2">
-                                            <a href="{{ url('admin/babynames') }}" class="btn border-slate-200 hover--border-slate-300 text-indigo-500">Back</a>
+                                            <a href="{{ url('admin/namelist') }}" class="btn border-slate-200 hover--border-slate-300 text-indigo-500">Back</a>
                                             <button type="button" wire:click="import" class="btn ho xi ye">Save</button>
                                         </div>
                                     </div>

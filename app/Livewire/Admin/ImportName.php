@@ -17,11 +17,12 @@ class ImportName extends Component
     public $batchId;
     
     public $name;
+    public $file;
     public $pronounce;
     public $variations;
     public $nativeName;
     public $meaning;
-    public $genderId;
+    public $genderId = 1;
     public $genders = [
         1 => 'male',
         2 => 'female',
@@ -29,7 +30,7 @@ class ImportName extends Component
     ];
     public $countryId;
     public $religionId;
-    public $locale;
+    public $locale = 'en';
 
     public $catStatus = 'inactive';
     public $statuses = [

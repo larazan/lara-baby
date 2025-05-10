@@ -179,26 +179,28 @@
                                 <div class="gp text-slate-800">{{ $babyname->name }}</div>
                             </td>
                             <td class="vi wy w_ vo lm">
-                                <div class="gp ">{{ $babyname->meaning }}</div>
+                                <div class="gp ">{!! nl2br(App\Helpers\General::smart_wordwrap($babyname->meaning, 40)) !!}</div>
                             </td>
                             <td class="vi wy w_ vo lm">
                                 <div class="gp ">{{ $babyname->native_name }}</div>
                             </td>
                             <td class="vi wy w_ vo lm">
                                 @if ($babyname->gender_id === 1)
-                                    male
+                                    <div class="px-2 py-1 rounded-full bg-blue-600 text-white font-semibold flex w-fit justify-center items-center ">M</div>
                                 @endif 
 
                                 @if ($babyname->gender_id === 2)
-                                    female
+                                    <div class="px-2 py-1 rounded-full bg-pink-600 text-white font-semibold flex w-fit justify-center items-center ">F</div>
                                 @endif
                                 
                                 @if ($babyname->gender_id === 3)
-                                    uni
+                                <div class="px-2 py-1 rounded-full bg-green-600 text-white font-semibold flex w-fit justify-center items-center ">U</div>
                                 @endif
                             </td>
                             <td class="vi wy w_ vo lm">
+                                @if($babyname->country_id)
                                 <div class="gp ">{{ $babyname->country($babyname->country_id) }}</div>
+                                @endif
                             </td>
                             <td class="vi wy w_ vo lm">
                                 @if ($babyname->status === 'inactive')

@@ -1,0 +1,16 @@
+<div id="body-inner">
+
+	<div class="browsename">
+	  	<span class="listname">
+	    	<a href="/name/aimi" class="nll">Aimi</a>
+		</span> 
+		<span class="listgender">
+		  <span class="fem" title="feminine">f</span>
+		</span> 
+		<span class="listusage">
+		  <a href="/names/usage/japanese" class="usg">Japanese</a>
+		</span>
+	<br>From Japanese <i><span class="trn">愛</span> (<a href="/element/ai-1" class="ngl">ai</a>)</i> meaning "love, affection" and <i><span class="trn">美</span> (<a href="/element/mi-1" class="ngl">mi</a>)</i> meaning "beautiful". Other combinations of kanji characters are possible.
+	</div>
+
+</div>

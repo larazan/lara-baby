@@ -136,7 +136,7 @@
                                 </div>
                             </td>
                             <td class="vi wy w_ vo lm">
-                                <div class="gp text-slate-800">{!! nl2br(General::smart_wordwrap($article->title, 40)) !!}</div>
+                                <div class="gp text-slate-800">{!! nl2br(App\Helpers\General::smart_wordwrap($article->title, 40)) !!}</div>
                             </td>
                             <td class="vi wy w_ vo lm">
                                 @if($article->original)

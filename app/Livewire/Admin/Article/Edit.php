@@ -310,7 +310,8 @@ class Edit extends Component
     {
         return view('livewire.admin.article.edit')->with([
             'categories' => CategoryArticle::OrderBy('name', $this->sort)->get(),
-            'authors' => User::OrderBy('id', $this->sort)->get()
+            'authors' => User::OrderBy('id', $this->sort)->get(),
+            'languages' => Language::OrderBy('id', $this->sort)->get(),
         ]);
     }
 }

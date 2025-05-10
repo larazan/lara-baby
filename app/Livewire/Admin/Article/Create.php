@@ -243,7 +243,8 @@ class Create extends Component
     {
         return view('livewire.admin.article.create')->with([
             'categories' => CategoryArticle::OrderBy('name', $this->sort)->get(),
-            'authors' => User::OrderBy('id', $this->sort)->get()
+            'authors' => User::OrderBy('id', $this->sort)->get(),
+            'languages' => Language::OrderBy('id', $this->sort)->get(),
         ]);
     }
 }

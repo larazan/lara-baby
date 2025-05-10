@@ -53,4 +53,10 @@ class Namelist extends Model
     {
         return $this->native_name;
     }
+
+    public function country($countryId)
+	{
+		$country = Country::where('id', $countryId)->first();
+		return $country->name;
+	}
 }
