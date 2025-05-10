@@ -27,9 +27,11 @@ use App\Livewire\Admin\ImportFullname;
 use App\Livewire\Admin\NamelistIndex;
 use App\Livewire\Admin\PermissionIndex;
 use App\Livewire\Admin\RoleIndex;
+use App\Livewire\Admin\ReligionIndex;
 use App\Livewire\Admin\SettingIndex;
 use App\Livewire\Admin\UserIndex;
 use App\Livewire\Admin\NewsletterIndex;
+use App\Models\Religion;
 
 // Route::get('/', function () {
 //     return view('welcome');
@@ -109,6 +111,7 @@ Route::middleware(['auth:sanctum', 'verified'])->prefix('admin')->name('admin')-
     Route::get('contacts', ContactIndex::class)->name('contacts.index');
     Route::get('categories', CategoryIndex::class)->name('categories.index');
     Route::get('faqs', FaqIndex::class)->name('faqs.index');
+    Route::get('religions', ReligionIndex::class)->name('religions.index');
     Route::get('settings', SettingIndex::class)->name('settings.index');
     Route::get('newsletters', NewsletterIndex::class)->name('newsletters.index');
     Route::get('users', UserIndex::class)->name('users.index');

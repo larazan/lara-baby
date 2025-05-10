@@ -22,7 +22,7 @@ class ImportName extends Component
     public $variations;
     public $nativeName;
     public $meaning;
-    public $genderId = 1;
+    public $genderId = 2;
     public $genders = [
         1 => 'male',
         2 => 'female',
@@ -96,11 +96,12 @@ class ImportName extends Component
             }
             fclose($handle);
 
-                
+            $this->reset('file');
+
             $this->dispatch(
                 'banner-message', 
                 style: 'success',
-                message: 'Baby name created successfully!',
+                message: 'Baby name import successfully!',
             );
            
                 // $this->dispatch(

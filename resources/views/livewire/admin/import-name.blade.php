@@ -74,6 +74,10 @@
                                         <div class="inline-flex items-end space-x-2">
                                             <a href="{{ url('admin/babynames') }}" class="btn border-slate-200 hover--border-slate-300 text-indigo-500">Back</a>
                                             <button type="button" wire:click="import" class="btn ho xi ye">Save</button>
+                                            <!-- <button type="submit" wire:loading.attr="disabled" class="btn ho xi ye">
+                                                <span wire:loading.remove wire.target="import">Submit</span>
+                                                <span wire:loading wire.target="import">Submiting..</span>
+                                            </button> -->
                                         </div>
                                     </div>
 
