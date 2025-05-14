@@ -60,10 +60,21 @@ class Index extends Component
 
     public function render()
     {
+        if (!$this->search) {
+            $articles = Article::orderBy('id', $this->sort)->paginate($this->perPage);
+        } elseif($this->search > 3) {
+            $articles = Article::where('title', 'like', '%'.$this->search.'%')->orderBy('id', $this->sort)->paginate($this->perPage);
+        }
+
         return view('livewire.admin.article.index')->with([
-            'articles' => Article::liveSearch('title', $this->search)->orderBy('id', $this->sort)->paginate($this->perPage),
+            'articles' => $articles,
             'categories' => CategoryArticle::liveSearch('name', $this->search)->orderBy('name', $this->sort)->paginate($this->perPage),
         ]);
+    }
+
+    public function updateSearch()
+    {
+        $this->resetPage();
     }
 
     public function gotoEdit($articleId)

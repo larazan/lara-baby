@@ -162,10 +162,21 @@ class NamelistIndex extends Component
 
     public function render()
     {
+        if (!$this->search) {
+            $namelists = Namelist::orderBy('id', $this->sort)->paginate($this->perPage);
+        } elseif($this->search > 3) {
+            $namelists = Namelist::where('full_name', 'like', '%'.$this->search.'%')->orderBy('id', $this->sort)->paginate($this->perPage);
+        }
+
         return view('livewire.admin.namelist-index')->with([
-            'namelists' => Namelist::liveSearch('full_name', $this->search)->orderBy('id', $this->sort)->paginate($this->perPage),
+            'namelists' => $namelists,
             'countries' => Country::OrderBy('id', $this->sort)->get(),
             'religions' => Religion::OrderBy('id', $this->sort)->get()
         ]);
+    }
+
+    public function updateSearch()
+    {
+        $this->resetPage();
     }
 }

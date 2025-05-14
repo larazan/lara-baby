@@ -40,7 +40,7 @@
             <!-- Search form -->
             <form class="y">
                 <label for="action-search" class="d">Search</label>
-                <input wire:model="search" id="action-search" class="s me xq" type="search" placeholder="Search by name">
+                <input wire:model.live="search" id="action-search" class="s me xq" type="search" placeholder="Search by name">
                 <button class="g w j kk" type="submit" aria-label="Search">
                     <svg class="oo sl ub du gq kj ml-3 mr-2" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                         <path d="M7 14c-3.86 0-7-3.14-7-7s3.14-7 7-7 7 3.14 7 7-3.14 7-7 7zM7 2C4.243 2 2 4.243 2 7s2.243 5 5 5 5-2.243 5-5-2.243-5-5-5z"></path>
@@ -95,12 +95,12 @@
             </div> -->
 
             <!-- Filter button -->
-            <select wire:model="sort" id="sort" class="a">
+            <select wire:model.live="sort" id="sort" class="a">
                 <option value="asc">Asc</option>
                 <option value="desc">Desc</option>
             </select>
 
-            <select wire:model="perPage" id="filter" class="a">
+            <select wire:model.live="perPage" id="filter" class="a">
                 <option value="5">5 Per Page</option>
                 <option value="10">10 Per Page</option>
                 <option value="15">15 Per Page</option>
@@ -176,7 +176,7 @@
                             </td>
                             <td class="vi wy w_ vo lm">
                                 <div class="gp text-slate-800">
-                                    {{ ($namelists ->currentpage()-1) * $namelists ->perpage() + $loop->index + 1 }}
+                                    {{ ($namelists->currentpage()-1) * $namelists->perpage() + $loop->index + 1 }}
                                 </div>
                             </td>
                             <td class="vi wy w_ vo lm">

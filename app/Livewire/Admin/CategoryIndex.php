@@ -139,8 +139,19 @@ class CategoryIndex extends Component
 
     public function render()
     {
+        if (!$this->search) {
+            $categories = Category::orderBy('id', $this->sort)->paginate($this->perPage);
+        } elseif($this->search > 3) {
+            $categories = Category::where('name', 'like', '%'.$this->search.'%')->orderBy('id', $this->sort)->paginate($this->perPage);
+        }
+
         return view('livewire.admin.category-index')->with([
-            'categories' => Category::liveSearch('name', $this->search)->orderBy('name', $this->sort)->paginate($this->perPage),
+            'categories' => $categories,
         ]);
+    }
+
+    public function updateSearch()
+    {
+        $this->resetPage();
     }
 }

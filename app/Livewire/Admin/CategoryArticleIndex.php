@@ -140,8 +140,19 @@ class CategoryArticleIndex extends Component
 
     public function render()
     {
+        if (!$this->search) {
+            $categories = CategoryArticle::orderBy('id', $this->sort)->paginate($this->perPage);
+        } elseif($this->search > 3) {
+            $categories = CategoryArticle::where('name', 'like', '%'.$this->search.'%')->orderBy('id', $this->sort)->paginate($this->perPage);
+        }
+
         return view('livewire.admin.category-article-index')->with([
-            'categories' => CategoryArticle::liveSearch('name', $this->search)->orderBy('name', $this->sort)->paginate($this->perPage),
+            'categories' => $categories,
         ]);
+    }
+
+    public function updateSearch()
+    {
+        $this->resetPage();
     }
 }

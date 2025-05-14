@@ -93,7 +93,9 @@
                                     </label>
                                 </div>
                             </th>
-                           
+                            <th class="vi wy w_ vo lm">
+                                <div class="gh gt">No</div>
+                            </th>
                             <th class="vi wy w_ vo lm">
                                 <div class="gh gt">Question</div>
                             </th>
@@ -127,7 +129,11 @@
                                     </label>
                                 </div>
                             </td>
-                           
+                            <td class="vi wy w_ vo lm">
+                                <div class="gp text-slate-800">
+                                    {{ ($faqs->currentpage()-1) * $faqs->perpage() + $loop->index + 1 }}
+                                </div>
+                            </td>
                             <td class="vi wy w_ vo lm">
                                 <div class="gp text-slate-800">{!! nl2br(General::smart_wordwrap($faq->question, 80)) !!}</div>
                             </td>

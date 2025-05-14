@@ -79,7 +79,9 @@
                                     </label>
                                 </div>
                             </th>
-                           
+                            <th class="vi wy w_ vo lm">
+                                <div class="gh gt">No</div>
+                            </th>
                             <th class="vi wy w_ vo lm">
                                 <div class="gh gt">Email</div>
                             </th>
@@ -111,7 +113,11 @@
                                     </label>
                                 </div>
                             </td>
-                           
+                            <td class="vi wy w_ vo lm">
+                                <div class="gp text-slate-800">
+                                    {{ ($subscribers->currentpage()-1) * $subscribers->perpage() + $loop->index + 1 }}
+                                </div>
+                            </td>
                             <td class="vi wy w_ vo lm">
                                 <div class="gp text-slate-800">{{ $s->email }}</div>
                             </td>

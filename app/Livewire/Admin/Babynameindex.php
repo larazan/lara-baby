@@ -176,11 +176,22 @@ class BabynameIndex extends Component
 
     public function render()
     {
+        if (!$this->search) {
+            $babynames = Babyname::orderBy('id', $this->sort)->paginate($this->perPage);
+        } elseif($this->search > 3) {
+            $babynames = Babyname::where('name', 'like', '%'.$this->search.'%')->orderBy('id', $this->sort)->paginate($this->perPage);
+        }
+        
         return view('livewire.admin.babyname-index')->with([
-            'babynames' => Babyname::liveSearch('name', $this->search)->orderBy('id', $this->sort)->paginate($this->perPage),
+            'babynames' => $babynames,
             'countries' => Country::OrderBy('id', $this->sort)->get(),
             'languages' => Language::OrderBy('id', $this->sort)->get(),
             'religions' => Religion::OrderBy('id', $this->sort)->get()
         ]);
+    }
+
+    public function updateSearch()
+    {
+        $this->resetPage();
     }
 }

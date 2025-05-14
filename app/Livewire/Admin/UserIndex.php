@@ -206,5 +206,8 @@ class UserIndex extends Component
         ]);
     }
 
-    
+    public function updateSearch()
+    {
+        $this->resetPage();
+    }
 }

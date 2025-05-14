@@ -94,6 +94,9 @@
                                 </div>
                             </th>
                             <th class="vi wy w_ vo lm">
+                                <div class="gh gt">No</div>
+                            </th>
+                            <th class="vi wy w_ vo lm">
                                 <div class="gh gt">Title</div>
                             </th>
                             <th class="vi wy w_ vo lm">
@@ -133,6 +136,11 @@
                                         <span class="d">Select</span>
                                         <input class="table-item i" type="checkbox" @click="uncheckParent">
                                     </label>
+                                </div>
+                            </td>
+                            <td class="vi wy w_ vo lm">
+                                <div class="gp text-slate-800">
+                                    {{ ($activities->currentpage()-1) * $activities->perpage() + $loop->index + 1 }}
                                 </div>
                             </td>
                             <td class="vi wy w_ vo lm">
