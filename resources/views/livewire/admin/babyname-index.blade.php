@@ -135,6 +135,9 @@
                                 </div>
                             </th>
                             <th class="vi wy w_ vo lm">
+                                <div class="gh gt">No</div>
+                            </th>
+                            <th class="vi wy w_ vo lm">
                                 <div class="gh gt">Name</div>
                             </th>
                             <th class="vi wy w_ vo lm">
@@ -165,6 +168,7 @@
                     <tbody class="text-sm le lr">
                         <!-- Row -->
                         @if ($babynames->count() > 0)
+                        
                         @foreach ($babynames as $babyname)
                         <tr>
                             <td class="vi wy w_ vo lm of">
@@ -173,6 +177,11 @@
                                         <span class="d">Select</span>
                                         <input class="table-item i" type="checkbox" @click="uncheckParent">
                                     </label>
+                                </div>
+                            </td>
+                            <td class="vi wy w_ vo lm">
+                                <div class="gp text-slate-800">
+                                    {{ ($babynames ->currentpage()-1) * $babynames ->perpage() + $loop->index + 1 }}
                                 </div>
                             </td>
                             <td class="vi wy w_ vo lm">
@@ -213,7 +222,9 @@
                             </td>
 
                             <td class="vi wy w_ vo lm">
+                                @if($babyname->created_at)
                                 <div>{{ $babyname->created_at->format('d-m-Y') }}</div>
+                                @endif
                             </td>
 
                             <td class="vi wy w_ vo lm of">

@@ -6,9 +6,11 @@ use App\Models\Babyname;
 use App\Models\Language;
 use App\Models\Country;
 use App\Models\Religion;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Str;
 use Livewire\Component;
 use Livewire\WithFileUploads;
+use Carbon\Carbon;
 
 class ImportName extends Component
 {
@@ -22,7 +24,7 @@ class ImportName extends Component
     public $variations;
     public $nativeName;
     public $meaning;
-    public $genderId = 2;
+    public $genderId = 1;
     public $genders = [
         1 => 'male',
         2 => 'female',
@@ -48,6 +50,8 @@ class ImportName extends Component
             'file' => 'required|mimes:csv',
         ]);
 
+        ini_set('max_execution_time', 14400);
+
         if ($this->file) {
             
             // import/upload csv
@@ -57,7 +61,7 @@ class ImportName extends Component
             //skip the header row
             fgetcsv($handle);
 
-            $chunksize = 25;
+            $chunksize = 1000;
             while(!feof($handle))
             {
                 $chunkdata = [];
@@ -71,14 +75,30 @@ class ImportName extends Component
                     }
                     $chunkdata[] = $data; 
                 }
+                //
+                DB::statement('SET FOREIGN_KEY_CHECKS=0');
+                DB::statement('ALTER TABLE babynames DISABLE KEYS');
 
                 foreach($chunkdata as $column){
                     $name = $column[0];
                     $meaning = $column[1];
                     $gender = $column[2];
+                    $religion = $column[3];
+
+                    if ($religion == 'Christian') {
+                        $religionId = 1;
+                    }
+
+                    if ($religion == 'Muslim') {
+                        $religionId = 2;
+                    }
+
+                    if ($religion == 'Hindu') {
+                        $religionId = 3;
+                    }
         
                     //create series
-                    Babyname::create([
+                    Babyname::Insert([
                         'uuid' => Str::uuid(),
                         'name' => strtolower($name),
                         'slug' => Babyname::uniqueSlug($name),
@@ -86,15 +106,52 @@ class ImportName extends Component
                         // 'native_name' => $this->nativeName,
                         'meaning' => $meaning,
                         // 'variations' => $this->variations,
-                        'gender_id' => $gender,
+                        'gender_id' => $this->genderId,
                         // 'country_id' => $this->countryId,
-                        // 'religion_id' => $this->religionId,
+                        'religion_id' => $religionId,
                         'locale' => $this->locale,
-                        'status' => 'active'
+                        'status' => 'active',
+                        'created_at' => Carbon::now(),
                     ]);
                 }
+
+                DB::statement('ALTER TABLE babynames ENABLE KEYS');
+                DB::statement('SET FOREIGN_KEY_CHECKS=1');
+
             }
             fclose($handle);
+
+            // New approch
+            // $data = [];
+            // while(($row = fgetcsv($handle)) ==! false)
+            // {
+            //     $data[] = [
+            //             'uuid' => Str::uuid(),
+            //             'name' => strtolower($row[0]),
+            //             'slug' => Babyname::uniqueSlug($row[0]),
+            //             // 'pronounce' => strtolower($this->pronounce),
+            //             // 'native_name' => $this->nativeName,
+            //             'meaning' => $row[1],
+            //             // 'variations' => $this->variations,
+            //             // 'gender_id' => $row[2],
+            //             // 'country_id' => $this->countryId,
+            //             'religion_id' => $row[3],
+            //             'locale' => $this->locale,
+            //             'status' => 'active'
+            //         ];
+            // }
+
+            // DB::statement('SET FOREIGN_KEY_CHECKS=0');
+            // DB::statement('ALTER TABLE babynames DISABLE KEYS');
+
+            // foreach(array_chunk($data, 1000) as $chunk) {
+            //     Babyname::Insert($chunk);
+            // }
+
+            // DB::statement('ALTER TABLE babynames ENABLE KEYS');
+            // DB::statement('SET FOREIGN_KEY_CHECKS=1');
+
+            // fclose($handle);
 
             $this->reset('file');
 

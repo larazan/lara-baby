@@ -21,7 +21,7 @@ class ReligionSeeder extends Seeder
                 'created_at' => Carbon::now(),
             ],
             [
-                'name' => 'Islam',
+                'name' => 'Muslim',
                 'created_at' => Carbon::now(),
             ],
             [
