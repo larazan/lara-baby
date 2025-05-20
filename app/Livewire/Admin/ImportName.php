@@ -24,7 +24,7 @@ class ImportName extends Component
     public $variations;
     public $nativeName;
     public $meaning;
-    public $genderId = 1;
+    public $genderId = 2;
     public $genders = [
         1 => 'male',
         2 => 'female',
@@ -84,18 +84,6 @@ class ImportName extends Component
                     $meaning = $column[1];
                     $gender = $column[2];
                     $religion = $column[3];
-
-                    if ($religion == 'Christian') {
-                        $religionId = 1;
-                    }
-
-                    if ($religion == 'Muslim') {
-                        $religionId = 2;
-                    }
-
-                    if ($religion == 'Hindu') {
-                        $religionId = 3;
-                    }
         
                     //create series
                     Babyname::Insert([
@@ -108,7 +96,7 @@ class ImportName extends Component
                         // 'variations' => $this->variations,
                         'gender_id' => $this->genderId,
                         // 'country_id' => $this->countryId,
-                        'religion_id' => $religionId,
+                        'religion_id' => $religion,
                         'locale' => $this->locale,
                         'status' => 'active',
                         'created_at' => Carbon::now(),

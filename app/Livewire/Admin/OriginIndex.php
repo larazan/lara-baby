@@ -2,19 +2,18 @@
 
 namespace App\Livewire\Admin;
 
-use App\Models\Category;
+use App\Models\Origin;
 use Illuminate\Support\Str;
 use Livewire\WithPagination;
 use Livewire\Component;
 
-class CategoryIndex extends Component
+class OriginIndex extends Component
 {
     use WithPagination;
     
-    public $showCategoryModal = false;
+    public $showOriginModal = false;
     public $name;
-    public $categoryId;
-    public $parentId;
+    public $originId;
 
     public $catStatus = 'inactive';
     public $statuses = [
@@ -39,7 +38,7 @@ class CategoryIndex extends Component
     public function showCreateModal()
     {
         $this->reset();
-        $this->showCategoryModal = true;
+        $this->showOriginModal = true;
     }
 
     public function closeConfirmModal()
@@ -55,80 +54,75 @@ class CategoryIndex extends Component
 
     public function delete()
     {
-        Category::find($this->deleteId)->delete();
+        Origin::find($this->deleteId)->delete();
         $this->showConfirmModal = false;
         $this->reset();
         $this->dispatch(
             'banner-message', 
             style: 'danger',
-            message: 'Category deleted successfully!',
+            message: 'Origin deleted successfully!',
         );
     }
 
-    public function createCategory()
+    public function createOrigin()
     {
         $this->validate();
         
-        Category::create([
+        Origin::create([
           'name' => $this->name,
-          'slug' => Str::slug($this->name),
-          'parent_id' => $this->parentId,
           'status' => $this->catStatus
       ]);
         $this->reset();
         $this->dispatch(
             'banner-message', 
             style: 'success',
-            message: 'Category created successfully!',
+            message: 'Origin created successfully!',
         );
     }
 
-    public function showEditModal($categoryId)
+    public function showEditModal($originId)
     {
         $this->reset(['name']);
-        $this->categoryId = $categoryId;
-        $category = Category::find($categoryId);
-        $this->name = $category->name;
-        $this->parentId = $category->parent_id;
-        $this->catStatus = $category->status;
-        $this->showCategoryModal = true;
+        $this->originId = $originId;
+        $origin = Origin::find($originId);
+        $this->name = $origin->name;
+        $this->catStatus = $origin->status;
+        $this->showOriginModal = true;
     }
     
-    public function updateCategory()
+    public function updateOrigin()
     {
         $this->validate();
 
-        $category = Category::findOrFail($this->categoryId);
-        $category->update([
+        $origin = Origin::findOrFail($this->originId);
+        $origin->update([
             'name' => $this->name,
-            'slug'     => Str::slug($this->name),
-            'parent_id' => $this->parentId,
             'status' => $this->catStatus
         ]);
         $this->reset();
-        $this->showCategoryModal = false;
+        $this->showOriginModal = false;
         $this->dispatch(
             'banner-message', 
             style: 'success',
-            message: 'Category updated successfully!',
+            message: 'Origin updated successfully!',
         );
     }
 
-    public function deleteCategory($categoryId)
+    public function deleteOrigin($originId)
     {
-        $category = Category::findOrFail($categoryId);
-        $category->delete();
+        $origin = Origin::findOrFail($originId);
+        $origin->delete();
         $this->reset();
         $this->dispatch(
             'banner-message', 
             style: 'danger',
-            message: 'Category deleted successfully!',
+            message: 'Origin deleted successfully!',
         );
     }
 
-    public function closeCategoryModal()
+    public function closeOriginModal()
     {
-        $this->showCategoryModal = false;
+        $this->showOriginModal = false;
         $this->reset();
     }
 
@@ -140,13 +134,13 @@ class CategoryIndex extends Component
     public function render()
     {
         if (!$this->search) {
-            $categories = Category::orderBy('id', $this->sort)->paginate($this->perPage);
+            $origins = Origin::orderBy('id', $this->sort)->paginate($this->perPage);
         } elseif($this->search > 3) {
-            $categories = Category::where('name', 'like', '%'.$this->search.'%')->orderBy('id', $this->sort)->paginate($this->perPage);
+            $origins = Origin::where('name', 'like', '%'.$this->search.'%')->orderBy('id', $this->sort)->paginate($this->perPage);
         }
 
-        return view('livewire.admin.category-index')->with([
-            'categories' => $categories,
+        return view('livewire.admin.origin-index')->with([
+            'origins' => $origins,
         ]);
     }
 

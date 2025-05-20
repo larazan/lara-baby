@@ -70,7 +70,7 @@
 </svg>
 
                 </div>
-                <div class="go gh gq gv rt">Total fact</div>
+                <div class="go gh gq gv rt">Total name</div>
                 <div class="flex aj">
                     <div class="text-xl font-bold text-slate-800">{{ $factCount }}</div>
                 </div>

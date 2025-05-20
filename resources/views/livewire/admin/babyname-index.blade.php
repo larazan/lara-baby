@@ -141,6 +141,9 @@
                                 <div class="gh gt">Name</div>
                             </th>
                             <th class="vi wy w_ vo lm">
+                                <div class="gh gt">Slug</div>
+                            </th>
+                            <th class="vi wy w_ vo lm">
                                 <div class="gh gt">Meaning</div>
                             </th>
                             <th class="vi wy w_ vo lm">
@@ -151,6 +154,9 @@
                             </th>
                             <th class="vi wy w_ vo lm">
                                 <div class="gh gt">Origin</div>
+                            </th>
+                            <th class="vi wy w_ vo lm">
+                                <div class="gh gt">Religion</div>
                             </th>
                             <th class="vi wy w_ vo lm">
                                 <div class="gh gt">Status</div>
@@ -188,6 +194,9 @@
                                 <div class="gp text-slate-800">{{ $babyname->name }}</div>
                             </td>
                             <td class="vi wy w_ vo lm">
+                                <div class="gp text-slate-800">{{ $babyname->slug }}</div>
+                            </td>
+                            <td class="vi wy w_ vo lm">
                                 <div class="gp ">{!! nl2br(App\Helpers\General::smart_wordwrap($babyname->meaning, 40)) !!}</div>
                             </td>
                             <td class="vi wy w_ vo lm">
@@ -209,6 +218,11 @@
                             <td class="vi wy w_ vo lm">
                                 @if($babyname->country_id)
                                 <div class="gp ">{{ $babyname->country($babyname->country_id) }}</div>
+                                @endif
+                            </td>
+                            <td class="vi wy w_ vo lm">
+                                @if($babyname->religion_id)
+                                <div class="gp text-sm">{{ $babyname->religion($babyname->religion_id) }}</div>
                                 @endif
                             </td>
                             <td class="vi wy w_ vo lm">

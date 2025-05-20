@@ -25,6 +25,7 @@ use App\Livewire\Admin\FaqIndex;
 use App\Livewire\Admin\ImportName;
 use App\Livewire\Admin\ImportFullname;
 use App\Livewire\Admin\NamelistIndex;
+use App\Livewire\Admin\OriginIndex;
 use App\Livewire\Admin\PermissionIndex;
 use App\Livewire\Admin\RoleIndex;
 use App\Livewire\Admin\ReligionIndex;
@@ -114,6 +115,7 @@ Route::middleware(['auth:sanctum', 'verified'])->prefix('admin')->name('admin')-
     Route::get('religions', ReligionIndex::class)->name('religions.index');
     Route::get('settings', SettingIndex::class)->name('settings.index');
     Route::get('newsletters', NewsletterIndex::class)->name('newsletters.index');
+    Route::get('origins', OriginIndex::class)->name('origins.index');
     Route::get('users', UserIndex::class)->name('users.index');
 
     Route::get('permissions', PermissionIndex::class)->name('permissions.index');

@@ -23,6 +23,7 @@ return new class extends Migration
             $table->integer('gender_id')->nullable();
             $table->integer('country_id')->nullable();
             $table->integer('religion_id')->nullable();
+            $table->integer('origin_id')->nullable();
             $table->string('locale')->default('en');
             $table->string('status', 10)->default('active');
             $table->softDeletes();
