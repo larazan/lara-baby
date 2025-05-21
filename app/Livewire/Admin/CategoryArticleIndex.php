@@ -151,7 +151,7 @@ class CategoryArticleIndex extends Component
         ]);
     }
 
-    public function updateSearch()
+    public function updatedSearch()
     {
         $this->resetPage();
     }

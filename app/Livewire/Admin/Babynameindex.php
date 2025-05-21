@@ -5,6 +5,7 @@ namespace App\Livewire\Admin;
 use App\Models\Babyname;
 use App\Models\Country;
 use App\Models\Language;
+use App\Models\Origin;
 use App\Models\Religion;
 use Illuminate\Support\Str;
 use Livewire\WithPagination;
@@ -29,6 +30,7 @@ class BabynameIndex extends Component
     ];
     public $countryId;
     public $religionId;
+    public $originId;
     public $locale;
 
     public $catStatus = 'inactive';
@@ -86,18 +88,18 @@ class BabynameIndex extends Component
         
         Babyname::create([
             'uuid' => Str::uuid(),
-          'name' => strtolower($this->name),
-          'slug' => Babyname::uniqueSlug($this->name),
-          'pronounce' => strtolower($this->pronounce),
-          'native_name' => $this->nativeName,
-          'meaning' => $this->meaning,
+            'name' => strtolower($this->name),
+            'slug' => Babyname::uniqueSlug($this->name),
+            'pronounce' => strtolower($this->pronounce),
+            'native_name' => $this->nativeName,
+            'meaning' => $this->meaning,
         //   'variations' => $this->variations,
-          'gender_id' => $this->genderId,
-          'country_id' => $this->countryId,
-          'religion_id' => $this->religionId,
-          'locale' => $this->locale,
-          'status' => $this->catStatus
-      ]);
+            'gender_id' => $this->genderId,
+            'country_id' => $this->countryId,
+            'religion_id' => $this->religionId,
+            'locale' => $this->locale,
+            'status' => $this->catStatus
+        ]);
         $this->reset();
         $this->dispatch(
             'banner-message', 
@@ -190,8 +192,11 @@ class BabynameIndex extends Component
         ]);
     }
 
-    public function updateSearch()
+    public function updatedSearch()
     {
         $this->resetPage();
     }
 }
+
+
+// php artisan seed:generate --table-mode --tables=babynames

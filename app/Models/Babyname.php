@@ -49,6 +49,7 @@ class Babyname extends Model
         'gender_id',
         'country_id',
         'religion_id',
+        'origin_id',
         'locale',
         'status',
 	];

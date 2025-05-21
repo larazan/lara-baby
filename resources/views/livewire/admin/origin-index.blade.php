@@ -168,12 +168,12 @@
                                 <div class="gp text-slate-800">{{ $origin->name }}</div>
                             </td>
                             <td class="vi wy w_ vo lm">
-                                @if ($babyname->status === 'inactive')
-                                    <div class="inline-flex gp hf yl rounded-full gn vp vd">{{ $babyname->status }}</div>
+                                @if ($origin->status === 'inactive')
+                                    <div class="inline-flex gp hf yl rounded-full gn vp vd">{{ $origin->status }}</div>
                                 @endif 
 
-                                @if ($babyname->status === 'active')
-                                    <div class="inline-flex gp hc ys rounded-full gn vp vd">{{ $babyname->status }}</div>
+                                @if ($origin->status === 'active')
+                                    <div class="inline-flex gp hc ys rounded-full gn vp vd">{{ $origin->status }}</div>
                                 @endif 
                             </td>
 

@@ -27,8 +27,10 @@ class DatabaseSeeder extends Seeder
             ContactSeeder::class,
             CountrySeeder::class,
             ReligionSeeder::class,
-            // BabynameSeeder::class,
-            // NamelistSeeder::class,
+            OriginSeeder::class,
+            // EmmasdiarySeeder::class,
+            // HamariSeeder::class,
         ]);
+        // $this->call(\Database\Seeders\Tables\BabynamesSeeder::class);
     }
 }

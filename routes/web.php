@@ -24,6 +24,7 @@ use App\Livewire\Admin\Dashboard;
 use App\Livewire\Admin\FaqIndex;
 use App\Livewire\Admin\ImportName;
 use App\Livewire\Admin\ImportFullname;
+use App\Livewire\Admin\LocaleIndex;
 use App\Livewire\Admin\NamelistIndex;
 use App\Livewire\Admin\OriginIndex;
 use App\Livewire\Admin\PermissionIndex;
@@ -107,6 +108,7 @@ Route::middleware(['auth:sanctum', 'verified'])->prefix('admin')->name('admin')-
     Route::get('babynames', BabynameIndex::class)->name('babynames.index');
     Route::get('import', ImportName::class)->name('import');
     Route::get('import-full', ImportFullname::class)->name('import-full');
+    Route::get('locales', LocaleIndex::class)->name('locales.index');
     Route::get('namelist', NamelistIndex::class)->name('namelist.index');
     Route::get('category-article', CategoryArticleIndex::class)->name('category-article.index');
     Route::get('contacts', ContactIndex::class)->name('contacts.index');
