@@ -12,7 +12,7 @@ $pinterest = $p->value;
 
 @endphp
 
-<footer class="w-full max-w-[85rem] py-10 px-4 sm:px-6 lg:px-8 mx-auto bg-slate-50">
+<footer class="w-full max-w-[85rem] py-10 px-4 sm:px-6 lg:px-8 mx-auto bg-[#f2f2f2] border-t-2 border-blue-800">
     <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6 mb-10">
         <div class="col-span-full hidden lg:col-span-1 lg:block">
             <a class="bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 via-teal-5002 via-emerald-500 to-pink-500 inline-flex items-center gap-x-2 text-xl font-extrabold dark:text-white" href="/">
@@ -25,7 +25,6 @@ $pinterest = $p->value;
             <div class="mt-3 grid space-y-3 text-sm">
                 <p><a class="inline-flex gap-x-2 text-gray-600 hover:text-[#20bd70] dark:text-gray-400 dark:hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="/">Browse Facts</a></p>
                 <p><a class="inline-flex gap-x-2 text-gray-600 hover:text-[#20bd70] dark:text-gray-400 dark:hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="/articles">Articles</a></p>
-                <p><a class="inline-flex gap-x-2 text-gray-600 hover:text-[#20bd70] dark:text-gray-400 dark:hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="/topics">Topics</a></p>
             </div>
         </div>
         <div>

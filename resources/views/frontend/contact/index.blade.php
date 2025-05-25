@@ -10,33 +10,25 @@
             <div class="flex flex-col md:flex-row w-full space-y-3 md:divide-x-2 px-10 md:space-y-0 max-w-full">
 
                 <div class="flex justify-center flex-col md:flex-row">
-                    <div class="md:pr-[72px] md:max-w-[50%] md:w-[50%] pb-[48px] md:pb-0 ">
-                        <div class="flex flex-col space-y-3">
-                            <h3 class="text-3xl md:text-5xl font-bold leading-8 text-black">
-                                have a question?
+                    <div class="flex flex-col md:pr-[72px] md:max-w-[50%] md:w-[50%] pb-[48px] md:pb-0 ">
+                        <div class="flex flex-col space-y-3 border-b pb-6">
+                            <h3 class="text-5xl md:text-5xl font-bold leading-12 text-black">
+                                We can't wait to hear from you.
                             </h3>
                             <div>
                                 
-                                <p class="text-gray-900  py-2 text-sm leading-tight">
-                                    We're here to help! Fill out the form or reach us via email or phone. Our Customer Care Team is available to help you get the best experience out of Million Fact whether you have an issue or looking for helpful tips.
+                                <p class="text-gray-900 py-2 text-2xl leading-tight">
+                                Let us know what you’re looking to achieve using the form, and one of our team will be in touch shortly.
                                 </p>
 
-                                <p class="text-gray-900  py-2 text-sm leading-tight">
-                                    Everyone gets a personalized response, so please allow 24 hours during business hours for a reply. Our business hours are M-F from 9am to 5pm PT.
+                                <p class="text-gray-900  py-2 text-2xl leading-tight">
+                                Otherwise please feel free to call us during UK business office hours, or schedule a call.
                                 </p>
-
-                                <h2 class="text-lg md:text-2xl font-semibold text-gray-900">
-                                    Partnerships
-                                </h2>
-                                <p class="text-gray-900  py-2 text-sm leading-tight">
-                                    If your brand or organization is interested in teaming up
-                                    with us for a potential partnership or collaboration,
-                                    contact us at {{ env('TES_MAIL') }}
-                                </p>
-                                <p class="text-gray-900  py-2 text-sm leading-tight"></p>
-                                <p class="text-gray-900  py-2 text-sm leading-tight"></p>
                                 
                             </div>
+                        </div>
+                        <div>
+
                         </div>
                     </div>
 
@@ -105,7 +97,7 @@
                     </div>
                     @endif
 
-                        <div class="flex flex-col justify-start space-y-4 md:space-y-5">
+                        <div class="flex flex-col justify-start mx-auto max-w-md space-y-4 md:space-y-5 px-4 py-6 bg-[#fff4ee] border-2 border-orange-300">
                             <div class="flex flex-col space-y-1 md:space-y-2">
                                 <h2 class="text-2xl md:text-3xl tracking font-semibold text-black">
                                     Talk with Us
@@ -113,7 +105,7 @@
                             </div>
                             <form method="POST" action="{{ route('contact.submit') }}">
                             @csrf
-                            <div class="flex flex-col max-w-md space-y-4 md:space-y-5">
+                            <div class="flex flex-col max-w-md space-y-4 md:space-y-5 ">
                                 <div class="relative w-full">
                                     <p class="text-black text-[11px] font-semibold uppercase tracking">
                                         NAME
@@ -141,7 +133,7 @@
                                     <textarea rows="4" cols="50" id="message" name="message" required class="flex w-full px-2 py-2 md:px-2 md:py-2 border bg-white border-gray-700 rounded-sm font-medium placeholder:font-normal"></textarea>
                                 </div>
 
-                                <button type="submit" class="text-md font-bold rounded-sm transition-all duration-300 ease-out cursor-pointer bg-[#8253dd] text-white border-2 border-[#8253dd] hover:bg-white hover:text-[#8253dd] hover:border-solid py-3 px-7 w-full">
+                                <button type="submit" class="text-md font-bold rounded-sm transition-all duration-300 ease-out cursor-pointer bg-[#fd5f54] text-white border-2 border-[#fd5f54] hover:bg-white hover:text-[#fd5f54] hover:border-solid py-3 px-7 w-full">
                                     Submit
                                 </button>
                             </div>

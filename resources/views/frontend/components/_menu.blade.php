@@ -1,0 +1,189 @@
+<div>
+    <ul
+        id="menubar" x-cloak
+        x-show="menuOpen"
+        :class="menuOpen ? 'opacity-100' : 'top-full'"
+        class="z-30 fixed flex max-w-full top-[56px] md:top-[60px] inset-x-0 bottom-0 w-screen  flex-col gap-2 overflow-y-auto bg-white px-0 pt-0 pb-[24px]"
+        x-transition:enter="transition ease-gentle duration-300"
+        x-transition:enter-start="-translate-y-full"
+        x-transition:enter-end="translate-y-0"
+        x-transition:leave="transition ease-gentle duration-300"
+        x-transition:leave-start="translate-y-0"
+        x-transition:leave-end="-translate-y-full">
+        <li class="text-large2" data-open="true">
+            <div class="w-full px-0 border-t-1 border-t-gray-300">
+                <!-- submenu -->
+                <div class="w-full " x-data="{ subOpen:false }">
+                    <button :class="subOpen ? 'text-[#02979a]' : 'text-[#475569] hover:text-orange-500'" @click="subOpen = !subOpen" type="button" aria-expanded="true" class="w-full flex justify-between items-center gap-2 px-6 py-3 md:py-4 text-md md:text-[18px] font-bold">
+                        <span>Profil</span>
+                        <span>
+                            <svg :class="subOpen ? 'rotate-180 transition duration-300' : 'transition duration-300'" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon" class="w-6 h-6 md:w-8 md:h-8 transition-all">
+                                <path fill-rule="evenodd" d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd"></path>
+                            </svg>
+                        </span>
+                    </button>
+                    <div
+                        x-show="subOpen"
+                        class="px-2 pb-4 md:pb-8 border-b border-[#a6b8cf] "
+                        x-transition:enter="transition ease-out duration-300"
+                        x-transition:enter-start="opacity-0 transform -translate-y-6"
+                        x-transition:enter-end="opacity-100 transform translate-y-0"
+                        x-transition:leave="transition ease-in duration-300"
+                        x-transition:leave-start="opacity-100 transform translate-y-0"
+                        x-transition:leave-end="opacity-0 transform -translate-y-6">
+                        <div class="grid grid-cols-1">
+
+                            <div class="py-0 lg:py-6 px-10 xl:py-8 xl:px-6 order-1 lg:order-2">
+                                <ul class="text-sm leading-[22px] font-medium text-[#475569] mt-[14px] xl:mt-4 flex flex-col gap-[14px]">
+                                    <li>
+                                        <a href="/profil" class="flex gap-3 hover:text-blue-primary hover:underline" aria-label="Selengkapnya">
+                                            <p>Tentang BMKG</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/profil/organisasi" class="flex gap-3 hover:text-blue-primary hover:underline" aria-label="Selengkapnya">
+                                            <p>Struktur Organisasi</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/profil/pejabat" class="flex gap-3 hover:text-blue-primary hover:underline" aria-label="Selengkapnya">
+                                            <p>Pejabat Eselon</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/profil/balai-upt" class="flex gap-3 hover:text-blue-primary hover:underline" aria-label="Selengkapnya">
+                                            <p>Balai Besar dan UPT</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+
+                <!-- submenu -->
+                <div class="w-full " x-data="{ subOpen:false }">
+                    <button :class="subOpen ? 'text-indigo-600' : 'text-[#475569]'" @click="subOpen = !subOpen" type="button" aria-expanded="true" class="w-full flex justify-between items-center gap-2 px-6 py-3 md:py-4 text-md md:text-[18px] font-bold">
+                        <span>Profil</span>
+                        <span>
+                            <svg :class="subOpen ? 'rotate-180 transition duration-300' : 'transition duration-300'" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon" class="w-6 h-6 md:w-8 md:h-8 transition-all">
+                                <path fill-rule="evenodd" d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd"></path>
+                            </svg>
+                        </span>
+                    </button>
+                    <div
+                        x-show="subOpen"
+                        class="px-2 pb-4 md:pb-8 border-b border-[#a6b8cf] "
+                        x-transition:enter="transition ease-out duration-300"
+                        x-transition:enter-start="opacity-0 transform -translate-y-6"
+                        x-transition:enter-end="opacity-100 transform translate-y-0"
+                        x-transition:leave="transition ease-in duration-300"
+                        x-transition:leave-start="opacity-100 transform translate-y-0"
+                        x-transition:leave-end="opacity-0 transform -translate-y-6">
+                        <div class="grid grid-cols-1">
+
+                            <div class="py-0 lg:py-6 px-10 xl:py-8 xl:px-6 order-1 lg:order-2">
+                                <ul class="text-sm leading-[22px] font-medium text-[#475569] mt-[14px] xl:mt-4 flex flex-col gap-[14px]">
+                                    <li>
+                                        <a href="/profil" class="flex gap-3 hover:text-blue-primary hover:underline" aria-label="Selengkapnya">
+                                            <p>Tentang BMKG</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/profil/organisasi" class="flex gap-3 hover:text-blue-primary hover:underline" aria-label="Selengkapnya">
+                                            <p>Struktur Organisasi</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/profil/pejabat" class="flex gap-3 hover:text-blue-primary hover:underline" aria-label="Selengkapnya">
+                                            <p>Pejabat Eselon</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/profil/balai-upt" class="flex gap-3 hover:text-blue-primary hover:underline" aria-label="Selengkapnya">
+                                            <p>Balai Besar dan UPT</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+                <!-- submenu -->
+                <div class="w-full " x-data="{ subOpen:false }">
+                    <button :class="subOpen ? 'text-indigo-600' : 'text-[#475569]'" @click="subOpen = !subOpen" type="button" aria-expanded="true" class="w-full flex justify-between items-center gap-2 px-6 py-3 md:py-4 text-md md:text-[18px] font-bold">
+                        <span>Profil</span>
+                        <span>
+                            <svg :class="subOpen ? 'rotate-180 transition duration-300' : 'transition duration-300'" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon" class="w-6 h-6 md:w-8 md:h-8 transition-all">
+                                <path fill-rule="evenodd" d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd"></path>
+                            </svg>
+                        </span>
+                    </button>
+                    <div
+                        x-show="subOpen"
+                        class="px-2 pb-4 md:pb-8 border-b border-[#a6b8cf] "
+                        x-transition:enter="transition ease-out duration-300"
+                        x-transition:enter-start="opacity-0 transform -translate-y-6"
+                        x-transition:enter-end="opacity-100 transform translate-y-0"
+                        x-transition:leave="transition ease-in duration-300"
+                        x-transition:leave-start="opacity-100 transform translate-y-0"
+                        x-transition:leave-end="opacity-0 transform -translate-y-6">
+                        <div class="grid grid-cols-1">
+
+                            <div class="py-0 lg:py-6 px-10 xl:py-8 xl:px-6 order-1 lg:order-2">
+                                <ul class="text-sm leading-[22px] font-medium text-[#475569] mt-[14px] xl:mt-4 flex flex-col gap-[14px]">
+                                    <li>
+                                        <a href="/profil" class="flex gap-3 hover:text-blue-primary hover:underline" aria-label="Selengkapnya">
+                                            <p>Tentang BMKG</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/profil/organisasi" class="flex gap-3 hover:text-blue-primary hover:underline" aria-label="Selengkapnya">
+                                            <p>Struktur Organisasi</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/profil/pejabat" class="flex gap-3 hover:text-blue-primary hover:underline" aria-label="Selengkapnya">
+                                            <p>Pejabat Eselon</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/profil/balai-upt" class="flex gap-3 hover:text-blue-primary hover:underline" aria-label="Selengkapnya">
+                                            <p>Balai Besar dan UPT</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+            </div>
+            <div class="flex flex-col md:flex-row gap-[24px] px-[24px] pt-[40px] md:justify-center desktop:p-0">
+                <a
+                    class="z-0 group relative inline-flex items-center justify-center box-border appearance-none select-none whitespace-nowrap font-normal subpixel-antialiased overflow-hidden tap-highlight-transparent data-[pressed=true]:scale-[0.97] outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 px-4 text-small rounded-medium [&amp;>svg]:max-w-[theme(spacing.8)] transition-transform-colors-opacity motion-reduce:transition-none text-default-foreground data-[hover=true]:opacity-hover min-w-[110px] p-primaryButton h-[53px] gap-[12px] bg-transparent border border-indigo-600 disabled:border-gray-400 disabled:text-gray-400 focus:bg-indigo-100 focus:border-[2px] hover:bg-indigo-100 active:bg-indigo-100 active:border-[2px] data-[hover=true]:opacity-1"
+                    role="button"
+                    tabindex="0"
+                    type="button"
+                    id="menu-login-button"
+                    href="https://app.elasticemail.com/login">
+                    <p dir="ltr" class="text-[18px]2 leading-[29px]2 font-normal  pointer-events-none !text-[16px] !leading-[22px] text-indigo-600">Log in</p>
+                </a>
+                <a
+                    class="z-0 group relative inline-flex items-center justify-center box-border appearance-none select-none whitespace-nowrap font-normal subpixel-antialiased overflow-hidden tap-highlight-transparent data-[pressed=true]:scale-[0.97] outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 px-4 text-small rounded-medium [&amp;>svg]:max-w-[theme(spacing.8)] transition-transform-colors-opacity motion-reduce:transition-none text-default-foreground data-[hover=true]:opacity-hover min-w-[110px] p-primaryButton h-[53px] border border-basic-transparent gap-[12px] bg-indigo-600 disabled:bg-[#C0C1EB] active:bg-indigo-700 active:border-1 active:border-snow-900 focus:border-1 focus:border-snow-900 focus:bg-indigo-700 hover:bg-indigo-700 data-[hover=true]:opacity-1"
+                    role="button"
+                    tabindex="0"
+                    type="button"
+                    id="menu-tryforfree-button"
+                    href="/select-product">
+                    <p dir="ltr" class="text-[18px]2 leading-[29px]2 font-normal  text-gray-100 pointer-events-none !text-[16px] !leading-[22px]">Try for Free</p>
+                </a>
+            </div>
+        </li>
+    </ul>
+</div>

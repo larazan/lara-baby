@@ -42,9 +42,7 @@ $browse = Cache::remember('browse', now()->addHour(), function () {
       
       @include('frontend.components._language')
       @include('frontend.components._browse')
-      <a href="{{ route('topics') }}" class="hidden md:block hover:text-[#20bd70] @if(in_array(Request::segment(1), ['topics'])){{ 'text-[#20bd70]' }}@else{ 'text-gray-900' }@endif">
-        Topics
-      </a>
+      
       <a href="{{ route('articles') }}" class="hidden md:block hover:text-[#20bd70] @if(in_array(Request::segment(1), ['articles'])){{ 'text-[#20bd70]' }}@else{ 'text-gray-900' }@endif">
         Articles
       </a>
@@ -105,11 +103,7 @@ $browse = Cache::remember('browse', now()->addHour(), function () {
                     Browse all
                   </a>
                 </li>
-                <li class="flex w-full text-lg md:text-2xl">
-                  <a class="px-6 py-2 w-full hover:underline underline-offset-2 pally-medium tracking-wide" href="{{ route('topics') }}">
-                    Topics
-                  </a>
-                </li>
+                
                 <li class="flex w-full text-lg md:text-2xl">
                   <a class="px-6 py-2 w-full hover:underline underline-offset-2 pally-medium tracking-wide" href="{{ route('articles') }}">
                     Articles

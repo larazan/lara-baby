@@ -11,9 +11,9 @@
   <title>
     {{ isset($title) ? $title.' | ' : '' }}
     {{ config('app.name') }}
-    {{ General::is_active('home') ? '- The most interesting & random facts' : '' }}
+    {{ App\Helpers\General::is_active('home') ? '- The most interesting & random facts' : '' }}
   </title>
-  @if(General::is_active('home'))
+  @if(App\Helpers\General::is_active('home'))
   <meta name="description" content="The Laravel portal for problem solving, knowledge sharing and community building." />
   @endif
   <link rel="icon" href="/frontend/img/favicons/favicon.ico">
@@ -153,17 +153,19 @@
   </style>
 </head>
 
-<body x-data="{ filterOpen: false, openSearch: false, customizeOpen: false, showModalInfo: false }">
+<body x-data="{ filterOpen: false, openSearch: false, customizeOpen: false, showModalInfo: false, menuOpen: false }">
 
 <!-- <div id="background-bar"></div> -->
 
-  @include('frontend.layouts._header')
+  @include('frontend.components._header')
+  @include('frontend.components._menu')
+  
   @include('frontend.components._gotop')
 
   @yield('content')
 
-  <livewire:frontend.newsletter-form />
-  @include('frontend.layouts._footer')
+ 
+  @include('frontend.components._footer')
 
   @stack('modals')
 
