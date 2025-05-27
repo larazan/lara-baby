@@ -9,6 +9,8 @@ use App\Http\Controllers\Frontend\HomeController;
 use App\Http\Controllers\Frontend\PageController;
 use App\Http\Controllers\Frontend\SearchController;
 use App\Http\Controllers\Frontend\NewsletterController;
+use App\Http\Controllers\Frontend\BabynameController;
+use App\Http\Controllers\Frontend\ActivityController;
 use App\Http\Controllers\Frontend\GenerateArticleController;
 
 use App\Http\Controllers\SitemapController;
@@ -59,6 +61,13 @@ Route::middleware(['auth:sanctum', 'verified'])->group(function () {
     Route::get('/sitemap-article', [SitemapController::class, 'article']);
     Route::get('/sitemap-generate', [SitemapController::class, 'createSitemap']);
 });
+
+// babyname
+Route::get('/baby-name', [BabynameController::class, 'index']);
+Route::get('/baby-name/origin/{origin}', [BabynameController::class, 'origin']);
+Route::get('/baby-name/religion/{religion}', [BabynameController::class, 'religion']);
+Route::get('/baby-name/{gender}/{letter?}', [BabynameController::class, 'gender']);
+Route::get('/baby-name/{letter}', [BabynameController::class, 'letter']);
 
 // Generate
 Route::get('generate-article', [GenerateArticleController::class, 'index']);

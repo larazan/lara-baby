@@ -66,68 +66,83 @@
         </div>
 
     </header>
-<!-- toc -->
-    <div class="flex max-w-2xl w-full px-6 md:px-0">
+
+    <!-- test -->
+    <div x-data="{ isOffScreen: false }" @scroll.window="checkIfOffScreen()">
+        <div id="target-element" style="height: 500px; background-color: lightblue;">
+            This is the target element
+        </div>
+        <div :class="isOffScreen ? 'fixed top-[45px] z-30' : ''" x-show="isOffScreen">
+            The element is off-screen!
+        </div>
+    </div>
+
+    <!-- toc -->
+    <div class="hidden2 flex flex-col w-full">
 
         <div id="sticky-anchor"></div>
-        <div class="toc-js down-arrow bg-pale-blue border border-primary my-4 mobile" id="toc-js-node-2529916" data-selectors="h2.toc-heading" data-selectors-minimum="3" data-container=".articles_body, .node" data-prefix="" data-list-type="ul" data-back-to-top="0" data-back-to-top-label="Back to top" data-smooth-scrolling="1" data-scroll-to-offset="100" data-highlight-on-scroll="1" data-highlight-offset="0" data-sticky="0" data-sticky-offset="0" data-sticky-stop="" data-sticky-stop-padding="0" data-component-id="fentheme_radix:toc" style="display: none;">
-            <div class="toc-title h4 fw-bold">Table of contents
-                <svg class="svg-inline--fa fa-caret-down ms-2" aria-hidden="true" focusable="false" data-prefix="fass" data-icon="caret-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg="">
-                    <path fill="currentColor" d="M320 240L160 384 0 240l0-48 320 0 0 48z"></path>
-                </svg>
+        <div x-data="{ open:false }" class="fixed top-[44px] z-20 flex flex-col w-full px-5 py-3 bg-[#dbebfa] border-y border-blue-800 my-4 shadow-md">
+            <div class="flex w-full max-w-2xl mx-auto justify-center items-center space-x-1 cursor-pointer" @click="open = !open">
+                <span class="font-bold text-lg text-gray-800">Table of contents</span>
+                <span class="text-primary font-normal text-2xl">
+                    <!-- <svg :class="open ? 'rotate-180 transition duration-300' : 'transition duration-300'" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon" class="w-6 h-6 md:w-8 md:h-8 transition-all">
+                        <path fill-rule="evenodd" d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd"></path>
+                    </svg> -->
+                    <svg :class="open ? 'rotate-180 transition duration-300' : 'transition duration-300'" xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="currentColor"  class="icon icon-tabler icons-tabler-filled icon-tabler-caret-down"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M18 9c.852 0 1.297 .986 .783 1.623l-.076 .084l-6 6a1 1 0 0 1 -1.32 .083l-.094 -.083l-6 -6l-.083 -.094l-.054 -.077l-.054 -.096l-.017 -.036l-.027 -.067l-.032 -.108l-.01 -.053l-.01 -.06l-.004 -.057v-.118l.005 -.058l.009 -.06l.01 -.052l.032 -.108l.027 -.067l.07 -.132l.065 -.09l.073 -.081l.094 -.083l.077 -.054l.096 -.054l.036 -.017l.067 -.027l.108 -.032l.053 -.01l.06 -.01l.057 -.004l12.059 -.002z" /></svg>
+                </span>
             </div>
-            <nav aria-label="Table of contents">
+            <nav x-show="open" aria-label="Table of contents"
+                x-transition:enter="transition ease-out duration-300"
+                x-transition:enter-start="opacity-0 transform -translate-y-6"
+                x-transition:enter-end="opacity-100 transform translate-y-0"
+                x-transition:leave="transition ease-in duration-300"
+                x-transition:leave-start="opacity-100 transform translate-y-0"
+                x-transition:leave-end="opacity-0 transform -translate-y-6"
+                class="py-2"
+            >
                 <ul class="list-unstyled">
-                    <li class="py-1 md:py-1.5 toc-active">
-                        <a href="#baby-girl-names-inspired-by-the-beatles-" class="link-faded-black">Baby Girl Names Inspired by The Beatles &nbsp;</a>
-                        <svg class="svg-inline--fa fa-caret-right" aria-hidden="true" focusable="false" data-prefix="fass" data-icon="caret-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" data-fa-i2svg="">
-                            <path fill="currentColor" d="M112 96L256 256 112 416l-48 0L64 96l48 0z"></path>
-                        </svg>
+                    <li class="py-1 md:py-1.5 toc-active ">
+                        <a href="#baby-girl-names-inspired-by-the-beatles-" class="text-base md:text-md text-gray-900 hover:text-orange-500 font-semibold">Baby Girl Names Inspired by The Beatles &nbsp;</a>
                     </li>
                     <li class="py-1 md:py-1.5">
-                        <a href="#the-beatles-names-for-boys" class="link-faded-black">The Beatles Names for Boys</a>
-                        <svg class="svg-inline--fa fa-caret-right" aria-hidden="true" focusable="false" data-prefix="fass" data-icon="caret-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" data-fa-i2svg="">
-                            <path fill="currentColor" d="M112 96L256 256 112 416l-48 0L64 96l48 0z"></path>
-                        </svg>
+                        <a href="#the-beatles-names-for-boys" class="text-base md:text-md text-gray-900 hover:text-orange-500 font-semibold">The Beatles Names for Boys</a>
+
                     </li>
                     <li class="py-1 md:py-1.5">
-                        <a href="#unisex-baby-names-inspired-by-the-beatles" class="link-faded-black">Unisex Baby Names Inspired by The Beatles</a>
-                        <svg class="svg-inline--fa fa-caret-right" aria-hidden="true" focusable="false" data-prefix="fass" data-icon="caret-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" data-fa-i2svg="">
-                            <path fill="currentColor" d="M112 96L256 256 112 416l-48 0L64 96l48 0z"></path>
-                        </svg>
+                        <a href="#unisex-baby-names-inspired-by-the-beatles" class="text-base md:text-md text-gray-900 hover:text-orange-500 font-semibold">Unisex Baby Names Inspired by The Beatles</a>
+
                     </li>
                     <li class="py-1 md:py-1.5">
-                        <a href="#finding-inspiration-that-lasts-" class="link-faded-black">Finding Inspiration That Lasts &nbsp;</a>
-                        <svg class="svg-inline--fa fa-caret-right" aria-hidden="true" focusable="false" data-prefix="fass" data-icon="caret-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" data-fa-i2svg="">
-                            <path fill="currentColor" d="M112 96L256 256 112 416l-48 0L64 96l48 0z"></path>
-                        </svg>
+                        <a href="#finding-inspiration-that-lasts-" class="text-base md:text-md text-gray-900 hover:text-orange-500 font-semibold">Finding Inspiration That Lasts &nbsp;</a>
+
                     </li>
                 </ul>
             </nav>
         </div>
 
-        <div class="flex w-full max-w-full px-5 py-6 bg-[#dbebfa] border border-blue-700 my-4"  style="display: block;">
-            <div class="text-lg md:text-2xl font-bold text-black">Table of contents</div>
-            <nav aria-label="Table of contents">
-                <ul class="">
-                    <li class="py-1 md:py-1.5">
-                        <a href="#baby-girl-names-inspired-by-the-beatles-" class="text-base md:text-lg text-gray-900 hover:text-orange-500 font-semibold">Baby Girl Names Inspired by The Beatles &nbsp;</a>
-                    </li>
-                    <li class="py-1 md:py-1.5">
-                        <a href="#the-beatles-names-for-boys" class="text-base md:text-lg text-gray-900 hover:text-orange-500 font-semibold">The Beatles Names for Boys</a>
-                    </li>
-                    <li class="py-1 md:py-1.5">
-                        <a href="#unisex-baby-names-inspired-by-the-beatles" class="text-base md:text-lg text-gray-900 hover:text-orange-500 font-semibold">Unisex Baby Names Inspired by The Beatles</a>
-                    </li>
-                    <li class="py-1 md:py-1.5">
-                        <a href="#finding-inspiration-that-lasts-" class="text-base md:text-lg text-gray-900 hover:text-orange-500 font-semibold">Finding Inspiration That Lasts &nbsp;</a>
-                    </li>
-                </ul>
-            </nav>
+        <div class=" w-full max-w-2xl mx-auto">
+            <div class="flex flex-col w-full px-5 py-6 bg-[#dbebfa] border border-blue-700 my-4">
+                <div class="text-lg md:text-2xl font-bold text-black">Table of contents</div>
+                <nav aria-label="Table of contents">
+                    <ul class="">
+                        <li class="py-1 md:py-1.5">
+                            <a href="#baby-girl-names-inspired-by-the-beatles-" class="text-base md:text-lg text-gray-900 hover:text-orange-500 font-semibold">Baby Girl Names Inspired by The Beatles &nbsp;</a>
+                        </li>
+                        <li class="py-1 md:py-1.5">
+                            <a href="#the-beatles-names-for-boys" class="text-base md:text-lg text-gray-900 hover:text-orange-500 font-semibold">The Beatles Names for Boys</a>
+                        </li>
+                        <li class="py-1 md:py-1.5">
+                            <a href="#unisex-baby-names-inspired-by-the-beatles" class="text-base md:text-lg text-gray-900 hover:text-orange-500 font-semibold">Unisex Baby Names Inspired by The Beatles</a>
+                        </li>
+                        <li class="py-1 md:py-1.5">
+                            <a href="#finding-inspiration-that-lasts-" class="text-base md:text-lg text-gray-900 hover:text-orange-500 font-semibold">Finding Inspiration That Lasts &nbsp;</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </div>
-
     </div>
-<!--  -->
+    <!--  -->
     <article class="prose max-w-full sm:max-w-[740px] px-6 text-gray-800 markdown-blog pb-12">
         {!! $contents['html'] !!}
         {{-- {!! $article->body !!} --}}
@@ -176,7 +191,7 @@
         }
 
         div#social-links ul li a {
-            border-radius: 100%;
+            border-radius: 10%;
             padding: 7px 10px;
             /* border: 1px solid #ccc; */
             margin: 1px;
@@ -307,4 +322,17 @@
             padding-right: 10px;
         }
     </style>
+    @endpush
+
+    @push('js')
+    <script>
+        function checkIfOffScreen() {
+            isOffScreen: false,
+            checkIfOffScreen() {
+                const element = document.getElementById('target-element');
+                const rect = element.getBoundingClientRect();
+                this.isOffScreen = rect.bottom <= 0 || rect.top >= window.innerHeight;
+            },
+        }
+    </script>
     @endpush

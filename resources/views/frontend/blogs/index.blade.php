@@ -12,7 +12,7 @@
   <div class="relative">
     <div class="relative">
       <div class="w-full h-full absolute bg-[rgb(237,246,251)]/75"></div>
-      <div class="pb-[72px] pt-10 md:py-20 relative">
+      <div class="pb-12 md:pb-[72px] pt-10 md:py-20 relative">
         <div class="mx-auto max-w-6xl px-6 lg:px-10 xl:px-0">
           <div class="flex flex-col items-center justify-center gap-4">
 
@@ -24,7 +24,7 @@
               <button type="button" class="bg-[#0133CC1A] border-blue-primary hover:bg-[#0133CC1A] text-blue-primary inline-flex items-center justify-center text-xs md:text-sm rounded-full px-5 py-[6px] md:py-[9px] leading-[22px] font-bold md:font-medium border">All</button>
               @foreach($categories as $cat)
                 <a href="{{ url('articles/'.$cat->slug) }}">
-                  <button type="button" class="bg-[#0133CC1A] border-blue-primary hover:bg-[#0133CC1A] text-blue-primary inline-flex items-center justify-center text-xs md:text-sm rounded-full px-5 py-[6px] md:py-[9px] leading-[22px] font-bold md:font-medium border !bg-white !border-[#CBD5E1] hover:!bg-[#0133CC1A] !text-gray-primary">Berita Kegiatan</button>
+                  <button type="button" class="bg-[#0133CC1A] border-blue-primary hover:bg-[#0133CC1A] text-blue-primary inline-flex items-center justify-center text-xs md:text-sm rounded-full px-5 py-[6px] md:py-[9px] leading-[22px] font-bold md:font-medium border !bg-white !border-[#CBD5E1] hover:!bg-[#0133CC1A] !text-gray-primary">{{ $cat->name }}</button>
                 </a>
               @endforeach
                   
