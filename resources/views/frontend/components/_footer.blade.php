@@ -44,7 +44,7 @@
                         <ul role="list" class="mt-5 space-y-3">
                             <li><a href="https://cuaca.bmkg.go.id" class="flex gap-2 items-center text-sm leading-[22px] md:text-base md:leading-[25px] font-medium text-white hover:text-indigo-600">Starting a Family<span></span></a></li>
                             <li><a href="https://maritim.bmkg.go.id" class="flex gap-2 items-center text-sm leading-[22px] md:text-base md:leading-[25px] font-medium text-white hover:text-indigo-600">Pregnancy<span></span></a></li>
-                            <li><a href="https://aviation.bmkg.go.id" class="flex gap-2 items-center text-sm leading-[22px] md:text-base md:leading-[25px] font-medium text-white hover:text-indigo-600">Baby Names<span></span></a></li>
+                            <li><a href="{{ url('baby-name') }}" class="flex gap-2 items-center text-sm leading-[22px] md:text-base md:leading-[25px] font-medium text-white hover:text-indigo-600">Baby Names<span></span></a></li>
                             <li><a href="https://iklim.bmkg.go.id" class="flex gap-2 items-center text-sm leading-[22px] md:text-base md:leading-[25px] font-medium text-white hover:text-indigo-600">Parenting<span></span></a></li>
                             <li><a href="https://inatews.bmkg.go.id" class="flex gap-2 items-center text-sm leading-[22px] md:text-base md:leading-[25px] font-medium text-white hover:text-indigo-600">Life With Kids<span></span></a></li>
                             <li><a href="https://inatews.bmkg.go.id" class="flex gap-2 items-center text-sm leading-[22px] md:text-base md:leading-[25px] font-medium text-white hover:text-indigo-600">News<span></span></a></li>
@@ -52,11 +52,11 @@
                     </div>
                     <div class="xl:pr-4">
                         <ul role="list" class="mt-5 space-y-3">
-                            <li><a href="https://dataonline.bmkg.go.id" class="flex gap-2 items-center text-sm leading-[22px] md:text-base md:leading-[25px] font-medium text-white hover:text-indigo-600">About Us<span></span></a></li>
-                            <li><a href="https://pusdiklat.bmkg.go.id" class="flex gap-2 items-center text-sm leading-[22px] md:text-base md:leading-[25px] font-medium text-white hover:text-indigo-600">Privacy Policy<span></span></a></li>
-                            <li><a href="https://stmkg.ac.id" class="flex gap-2 items-center text-sm leading-[22px] md:text-base md:leading-[25px] font-medium text-white hover:text-indigo-600">Contact<span></span></a></li>
-                            <li><a href="https://perpustakaan.bmkg.go.id" class="flex gap-2 items-center text-sm leading-[22px] md:text-base md:leading-[25px] font-medium text-white hover:text-indigo-600">Terms of Service<span></span></a></li>
-                            <li><a href="https://portal.bmkg.go.id" class="flex gap-2 items-center text-sm leading-[22px] md:text-base md:leading-[25px] font-medium text-white hover:text-indigo-600">Advertise<span></span></a></li>
+                            <li><a href="{{ url('about') }}" class="flex gap-2 items-center text-sm leading-[22px] md:text-base md:leading-[25px] font-medium text-white hover:text-indigo-600">About Us<span></span></a></li>
+                            <li><a href="{{ url('faqs') }}" class="flex gap-2 items-center text-sm leading-[22px] md:text-base md:leading-[25px] font-medium text-white hover:text-indigo-600">Faqs<span></span></a></li>
+                            <li><a href="{{ url('contact') }}" class="flex gap-2 items-center text-sm leading-[22px] md:text-base md:leading-[25px] font-medium text-white hover:text-indigo-600">Contact<span></span></a></li>
+                            <li><a href="{{ url('terms') }}" class="flex gap-2 items-center text-sm leading-[22px] md:text-base md:leading-[25px] font-medium text-white hover:text-indigo-600">Terms of Service<span></span></a></li>
+                            <li><a href="{{ url('advertise') }}" class="flex gap-2 items-center text-sm leading-[22px] md:text-base md:leading-[25px] font-medium text-white hover:text-indigo-600">Advertise<span></span></a></li>
                         </ul>
                     </div>
                     <div class="">

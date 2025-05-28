@@ -64,10 +64,11 @@ Route::middleware(['auth:sanctum', 'verified'])->group(function () {
 
 // babyname
 Route::get('/baby-name', [BabynameController::class, 'index']);
+Route::get('/baby-name/{slug}', [BabynameController::class, 'show']);
 Route::get('/baby-name/origin/{origin}', [BabynameController::class, 'origin']);
 Route::get('/baby-name/religion/{religion}', [BabynameController::class, 'religion']);
-Route::get('/baby-name/{gender}/{letter?}', [BabynameController::class, 'gender']);
-Route::get('/baby-name/{letter}', [BabynameController::class, 'letter']);
+Route::get('/baby-name/letter/{letter}', [BabynameController::class, 'letter']);
+Route::get('/baby-name/gender/{gender}', [BabynameController::class, 'gender']);
 
 // Generate
 Route::get('generate-article', [GenerateArticleController::class, 'index']);

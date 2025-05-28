@@ -172,15 +172,15 @@
                                                                 <button type="submit" class="bg-sky-500 text-white rounded-r px-2 md:px-3 py-0 md:py-1">Search</button>
                                                             </div>
                                                             <div class="relative">
-                    <div class="absolute inset-0 flex items-center">
-                        <div class="w-full border-t border-gray-300"></div>
-                    </div>
-                    <div class="relative flex justify-center text-sm">
-                        <span class="px-2 bg-[#fffdf0] text-gray-700 font-medium">
-                            Or
-                        </span>
-                    </div>
-                </div>
+                                                                <div class="absolute inset-0 flex items-center">
+                                                                    <div class="w-full border-t border-gray-300"></div>
+                                                                </div>
+                                                                <div class="relative flex justify-center text-sm">
+                                                                    <span class="px-2 bg-[#fffdf0] text-gray-700 font-medium">
+                                                                        Or
+                                                                    </span>
+                                                                </div>
+                                                            </div>
                                                             <div>
                                                                 <div class="flex flex-wrap items-center gap-1 md:gap-2 justify-center md:justify-center mx-auto w-11/12 md:w-10/12 ">
                                                                     @foreach($letters as $l)
