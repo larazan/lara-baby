@@ -7,6 +7,7 @@ use App\Http\Controllers\Frontend\ContactController;
 use App\Http\Controllers\Frontend\FaqController;
 use App\Http\Controllers\Frontend\HomeController;
 use App\Http\Controllers\Frontend\PageController;
+use App\Http\Controllers\Frontend\PregnancyController;
 use App\Http\Controllers\Frontend\SearchController;
 use App\Http\Controllers\Frontend\NewsletterController;
 use App\Http\Controllers\Frontend\BabynameController;
@@ -47,13 +48,14 @@ Route::group(
         'prefix' => LaravelLocalization::setLocale(),
         'middleware' => [ 'localeSessionRedirect', 'localizationRedirect', 'localeViewPath' ]
     ], function () {
-    // Route::get('/', [HomeController::class, 'index'])->name('home');
+    Route::get('/', [HomeController::class, 'index'])->name('home');
 
 });
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
 // SITEMAP
 Route::middleware(['auth:sanctum', 'verified'])->group(function () {
@@ -61,6 +63,15 @@ Route::middleware(['auth:sanctum', 'verified'])->group(function () {
     Route::get('/sitemap-article', [SitemapController::class, 'article']);
     Route::get('/sitemap-generate', [SitemapController::class, 'createSitemap']);
 });
+
+// activity
+Route::get('/activities', [ActivityController::class, 'index']);
+Route::get('/activity/{slug}', [ActivityController::class, 'show']);
+
+// pregnancy
+Route::get('/pregnancy', [PregnancyController::class, 'index']);
+Route::get('/tracker/{trimester}/', [PregnancyController::class, 'tracker']);
+Route::get('/tracker/{trimester}/{week}', [PregnancyController::class, 'show']);
 
 // babyname
 Route::get('/baby-name', [BabynameController::class, 'index']);

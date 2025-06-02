@@ -46,3 +46,5 @@ class ContactController extends Controller
         return redirect('/contact')->with('success', 'Thank you for your message!');
     }
 }
+
+// php artisan make:mail ContactMail --markdown=emails.contact-mail

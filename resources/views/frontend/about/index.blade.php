@@ -6,6 +6,7 @@
 
 <main class="flex bg-white min-h-screen pt-0 md:pt-[0px] max-w-[85rem] px-4 md:py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
     <div class="container mx-auto px-5 my-8">
+    
         <div class="max-w-[85rem] px-4 sm:px-6 lg:px-8 mx-auto" x-data="{open:false}">
             <button
                 class="py-2 px-4 rounded-md border text-gray-600 border-gray-600 mb-3 shadow-sm"
@@ -285,6 +286,7 @@
                 </div>
             </div>
         </div>
+        @include('frontend.components._swiper')
     </div>
 </main>
 

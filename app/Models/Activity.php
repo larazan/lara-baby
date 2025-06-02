@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Support\Str;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
@@ -9,6 +10,7 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 class Activity extends Model
 {
     use SoftDeletes;
+    use HasFactory;
 
     //
     protected $fillable = [
@@ -95,4 +97,8 @@ class Activity extends Model
         return $this->hasMany(Step::class)->orderBy('order_number');
     }
 
+    public function materials()
+    {
+        return $this->hasMany(Material::class);
+    }
 }
