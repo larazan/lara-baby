@@ -43,11 +43,11 @@
                     <div class="xl:pr-4">
                         <ul role="list" class="mt-5 space-y-3">
                             <li><a href="https://cuaca.bmkg.go.id" class="flex gap-2 items-center text-sm leading-[22px] md:text-base md:leading-[25px] font-medium text-white hover:text-indigo-600">Starting a Family<span></span></a></li>
-                            <li><a href="https://maritim.bmkg.go.id" class="flex gap-2 items-center text-sm leading-[22px] md:text-base md:leading-[25px] font-medium text-white hover:text-indigo-600">Pregnancy<span></span></a></li>
+                            <li><a href="{{ url('pregnancy') }}" class="flex gap-2 items-center text-sm leading-[22px] md:text-base md:leading-[25px] font-medium text-white hover:text-indigo-600">Pregnancy<span></span></a></li>
                             <li><a href="{{ url('baby-name') }}" class="flex gap-2 items-center text-sm leading-[22px] md:text-base md:leading-[25px] font-medium text-white hover:text-indigo-600">Baby Names<span></span></a></li>
                             <li><a href="https://iklim.bmkg.go.id" class="flex gap-2 items-center text-sm leading-[22px] md:text-base md:leading-[25px] font-medium text-white hover:text-indigo-600">Parenting<span></span></a></li>
-                            <li><a href="https://inatews.bmkg.go.id" class="flex gap-2 items-center text-sm leading-[22px] md:text-base md:leading-[25px] font-medium text-white hover:text-indigo-600">Life With Kids<span></span></a></li>
-                            <li><a href="https://inatews.bmkg.go.id" class="flex gap-2 items-center text-sm leading-[22px] md:text-base md:leading-[25px] font-medium text-white hover:text-indigo-600">News<span></span></a></li>
+                            <li><a href="{{ url('activities') }}" class="flex gap-2 items-center text-sm leading-[22px] md:text-base md:leading-[25px] font-medium text-white hover:text-indigo-600">Activities<span></span></a></li>
+                            <li><a href="{{ url('articles') }}" class="flex gap-2 items-center text-sm leading-[22px] md:text-base md:leading-[25px] font-medium text-white hover:text-indigo-600">News<span></span></a></li>
                         </ul>
                     </div>
                     <div class="xl:pr-4">

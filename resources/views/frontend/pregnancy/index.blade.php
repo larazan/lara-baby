@@ -2,6 +2,7 @@
 
 @section('content')
 
+@dump($articles)
 <main class="overflow-hidden pt-[20px]"><!--[-->
     <div class="relative">
         <div class="relative">

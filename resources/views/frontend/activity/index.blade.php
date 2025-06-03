@@ -30,10 +30,10 @@
                             </ol>
                         </nav>
                         <div class="flex items-center gap-2.5 text-center max-w-[700px]"><!---->
-                            <h1 class="text-2xl leading-[33px] md:text-[32px] md:leading-[48px] xl:text-[40px] xl:leading-[54px] font-bold text-gray-900">Activity</h1>
+                            <h1 class="text-2xl leading-[33px] md:text-[32px] md:leading-[48px] xl:text-[40px] xl:leading-[54px] font-bold text-gray-900">Activities</h1>
                         </div>
                         <div>
-                            <p class="text-sm md:text-base md:leading-[25px] text-gray-primary text-center max-w-[905px]">Kabar dan berita kegiatan utama yang dilakukan oleh BMKG</p>
+                            <p class="text-sm md:text-base md:leading-[25px] text-gray-primary text-center max-w-[905px]">Keeping toddlers, preschoolers, kindergarteners, and kids entertained and learning can be a fun challenge. Our blog section is chock-full of activities and crafts that are perfect for sparking creativity and curiosity in children of all ages.</p>
                         </div>
                     </div>
                 </div>

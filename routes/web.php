@@ -70,8 +70,8 @@ Route::get('/activity/{slug}', [ActivityController::class, 'show']);
 
 // pregnancy
 Route::get('/pregnancy', [PregnancyController::class, 'index']);
-Route::get('/tracker/{trimester}/', [PregnancyController::class, 'tracker']);
-Route::get('/tracker/{trimester}/{week}', [PregnancyController::class, 'show']);
+Route::get('/pregnancy/tracker/{trimester}/', [PregnancyController::class, 'tracker']);
+Route::get('/pregnancy/tracker/{trimester}/{week}', [PregnancyController::class, 'show']);
 
 // babyname
 Route::get('/baby-name', [BabynameController::class, 'index']);

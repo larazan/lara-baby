@@ -136,7 +136,9 @@
                             <th class="vi wy w_ vo lm">
                                 <div class="gh gt">Parent</div>
                             </th>
-
+                            <th class="vi wy w_ vo lm">
+                                <div class="gh gt">Slug</div>
+                            </th>
                             <th class="vi wy w_ vo lm">
                                 <div class="gh gt">Date</div>
                             </th>
@@ -170,7 +172,9 @@
                             <td class="vi wy w_ vo lm">
                                 <div class="gp ">{{ $category->parent ? $category->parent->name : '' }}</div>
                             </td>
-
+                            <td class="vi wy w_ vo lm">
+                                <div class="gp text-slate-800">{{ $category->slug }}</div>
+                            </td>
                             <td class="vi wy w_ vo lm">
                                 <div>{{ $category->created_at->format('d-m-Y') }}</div>
                             </td>

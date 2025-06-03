@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Models\Article;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
@@ -12,6 +13,6 @@ class PregnancySeeder extends Seeder
      */
     public function run(): void
     {
-        //
+        Article::factory(40)->create();
     }
 }
