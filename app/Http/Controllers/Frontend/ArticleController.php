@@ -19,8 +19,8 @@ class ArticleController extends Controller
         } else {
             $cat_id = null; 
         }
-
-		$query = Article::select(['title', 'category_id', 'slug', 'title', 'body', 'author_id', 'original', 'status', 'created_at'])->where('status','active')->orderBy('created_at', 'DESC');
+		$array = [2, 4, 5, 6];
+		$query = Article::select(['title', 'category_id', 'slug', 'title', 'body', 'author_id', 'original', 'status', 'created_at'])->whereNotIn('category_id', $array)->active()->orderBy('created_at', 'DESC');
 
 		$query->when($cat_id > 0, function ($q) use ($cat_id) {
             return $q->where('category_id', '=', $cat_id);
@@ -71,7 +71,8 @@ class ArticleController extends Controller
 		$article = $article;
 
 		$limit = 5;
-        $articles = Article::select(['title', 'slug', 'title', 'category_id', 'body', 'author_id', 'status', 'created_at'])->active()->where('slug', '!=', $slug)->orderBy('id', 'DESC')->latest()->take($limit)->get();
+		$array = [2, 4, 5, 6];
+        $articles = Article::select(['title', 'slug', 'title', 'category_id', 'body', 'author_id', 'status', 'created_at'])->whereNotIn('category_id', $array)->active()->where('slug', '!=', $slug)->orderBy('id', 'DESC')->latest()->take($limit)->get();
 
 		// build breadcrumb data array
 		$breadcrumbs_data['current_page_title'] = $article->title;

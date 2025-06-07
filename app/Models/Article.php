@@ -89,10 +89,10 @@ class Article extends Model
 		return self::STATUSES;
 	}
 
-    public function id(): int
-    {
-        return $this->id;
-    }
+    // public function id(): int
+    // {
+    //     return $this->id;
+    // }
 
     public function title(): string
     {
@@ -256,8 +256,14 @@ class Article extends Model
 		return $category->name;
 	}
 
+    public function categorySlug($categoryId)
+	{
+		$category = CategoryArticle::where('id', $categoryId)->first();
+		return $category->slug;
+	}
+
     public function categoryArticle()
     {
-        return $this->belongsToMany(CategoryArticle::class, 'category_articles',);
+        return $this->belongsTo(CategoryArticle::class);
     }
 }

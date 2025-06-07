@@ -69,7 +69,20 @@
                                                         x-data 
                                                         x-ref="quillEditor" 
                                                         x-init="
-                                                            quill = new Quill($refs.quillEditor, {theme: 'snow'});
+                                                            quill = new Quill($refs.quillEditor, {
+                                                                theme: 'snow',
+                                                                modules: {
+                                                                    toolbar: [
+                                                                        [{ 'header': [1, 2, 3, 4, 5, 6, false] }],
+                                                                        ['bold', 'italic', 'underline'],
+                                                                        ['blockquote', 'code-block'],
+                                                                        ['image', 'code-block'],
+                                                                        [{ 'list': 'ordered'}, { 'list': 'bullet' }],
+                                                                        [{ 'color': [] }, { 'background': [] }],          
+                                                                        [{ 'align': [] }],
+                                                                    ]
+                                                                },
+                                                            });
                                                             quill.root.innerHTML = $body;
                                                             quill.on('text-change', function () {
                                                                 $dispatch('quill-input', quill.root.innerHTML);

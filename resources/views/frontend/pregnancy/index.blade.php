@@ -13,17 +13,17 @@
                         <nav class="flex" aria-label="Breadcrumb">
                             <ol role="list" class="flex items-center">
                                 <li>
-                                    <div class="flex items-center"><a href="/" class="text-sm md:text-base md:leading-[25px] font-medium text-black-primary">Beranda</a></div>
+                                    <div class="flex items-center"><a href="/" class="text-[15px]  md:text-md md:text-base md:leading-[25px] font-medium text-black-primary">Beranda</a></div>
                                 </li>
                                 <li class="flex items-center"><!--[-->
                                     <div class="flex items-center w-[100px] sm:w-full"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon" class="h-4 w-4 stoke-2 flex-shrink-0 text-[#64748B] mx-2">
                                             <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5"></path>
-                                        </svg><a href="/berita" class="text-black-primary text-sm md:text-base md:leading-[25px] font-medium truncate" aria-current="page">
+                                        </svg><a href="/berita" class="text-black-primary text-[15px]  md:text-md md:text-base md:leading-[25px] font-medium truncate" aria-current="page">
                                             <p class="break-keep whitespace-nowrap truncate">Berita</p>
                                         </a></div>
                                     <div class="flex items-center w-[100px] sm:w-full"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon" class="h-4 w-4 stoke-2 flex-shrink-0 text-[#64748B] mx-2">
                                             <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5"></path>
-                                        </svg><a href="/berita/utama" class="text-gray-primary text-sm md:text-base md:leading-[25px] font-medium truncate" aria-current="page">
+                                        </svg><a href="/berita/utama" class="text-gray-primary text-[15px]  md:text-md md:text-base md:leading-[25px] font-medium truncate" aria-current="page">
                                             <p class="break-keep whitespace-nowrap truncate">Berita Utama</p>
                                         </a></div><!--]-->
                                 </li>
@@ -33,7 +33,7 @@
                             <h1 class="text-2xl leading-[33px] md:text-[32px] md:leading-[48px] xl:text-[40px] xl:leading-[54px] font-bold text-gray-900">Third Trimester</h1>
                         </div>
                         <div>
-                            <p class="text-md md:text-md md:leading-[25px] text-gray-800 text-center max-w-[905px]">In your third trimester of pregnancy? As you approach 40 weeks, get tips on your health, weight gain, fatigue, baby size, labor and delivery, and preparing for baby.</p>
+                            <p class=" md: md:leading-[25px] text-gray-800 text-center max-w-[905px]">In your third trimester of pregnancy? As you approach 40 weeks, get tips on your health, weight gain, fatigue, baby size, labor and delivery, and preparing for baby.</p>
                         </div>
 
                     </div>
@@ -42,7 +42,7 @@
         </div>
         <div class="relative mx-auto max-w-6xl w-full px-6 lg:px-10 xl:px-0 pb-10 md:pb-20">
 
-            <!-- generator  -->
+            <!-- tracker calendar -->
             <div class="w-full">
                 <div class=" w-full max-w-2xl mx-auto">
                     <div class="relative flex flex-col w-full px-8 py-6 bg-white">
@@ -81,7 +81,7 @@
                                             <div class="grid grid-cols-3 gap-4">
                                                 @foreach($first as $f)
                                                 <div class="relative flex flex-col rounded-md bg-blue-200 border px-4 py-4 shadow">
-                                                    <a href="/siaran-pers/bmkg-apresiasi-inisiatif-ugm-dan-telkom-untuk-perkuat-sistem-peringatan-dini-tsunami-nasional" class="absolute top-0 left-0 w-full h-full z-[5] rounded-2xl" aria-label="Baca selengkapnya"></a>
+                                                    <a href="{{ url('pregnancy/tracker/first-trimester/week-'.$f) }}" class="absolute top-0 left-0 w-full h-full z-[5] rounded-2xl" aria-label="Baca selengkapnya"></a>
                                                     <div class="flex justify-between items-center">
                                                         <span class="text-blue-600 text-2xl font-bold ">{{ $f }}</span>
                                                         <span class="text-black">
@@ -110,7 +110,7 @@
                                             <div class="grid grid-cols-3 gap-4">
                                                 @foreach($second as $f)
                                                 <div class="relative flex flex-col rounded-md bg-blue-200 border px-4 py-4 shadow">
-                                                    <a href="/siaran-pers/bmkg-apresiasi-inisiatif-ugm-dan-telkom-untuk-perkuat-sistem-peringatan-dini-tsunami-nasional" class="absolute top-0 left-0 w-full h-full z-[5] rounded-2xl" aria-label="Baca selengkapnya"></a>
+                                                    <a href="{{ url('pregnancy/tracker/second-trimester/week-'.$f) }}" class="absolute top-0 left-0 w-full h-full z-[5] rounded-2xl" aria-label="Baca selengkapnya"></a>
                                                     <div class="flex justify-between items-center">
                                                         <span class="text-blue-600 text-2xl font-bold ">{{ $f }}</span>
                                                         <span class="text-black">
@@ -139,7 +139,7 @@
                                             <div class="grid grid-cols-3 gap-4">
                                                 @foreach($third as $f)
                                                 <div class="relative flex flex-col rounded-md bg-blue-200 border px-4 py-4 shadow">
-                                                    <a href="/siaran-pers/bmkg-apresiasi-inisiatif-ugm-dan-telkom-untuk-perkuat-sistem-peringatan-dini-tsunami-nasional" class="absolute top-0 left-0 w-full h-full z-[5] rounded-2xl" aria-label="Baca selengkapnya"></a>
+                                                    <a href="{{ url('pregnancy/tracker/third-trimester/week-'.$f) }}" class="absolute top-0 left-0 w-full h-full z-[5] rounded-2xl" aria-label="Baca selengkapnya"></a>
                                                     <div class="flex justify-between items-center">
                                                         <span class="text-blue-600 text-2xl font-bold ">{{ $f }}</span>
                                                         <span class="text-black">
@@ -165,6 +165,29 @@
                 </div>
             </div>
             <!--  -->
+
+            <div class="flex mx-auto max-w-lg  w-full mb-8">
+                <ul class="divide-y dark:divide-white/10 w-full">
+                    @foreach($articles as $article)
+                    <li class="item flex items-start gap-x-3 py-4 relative w-full" >
+                        <a href="{{ url('pregnancy/tracker/'.$article->categorySlug($article->category_id).'/'.$article->slug) }}" class="item-img shrink-0 overflow-hidden rounded aspect-square w-[100px] relative" aria-label="{{ $article->title }}" >
+                            <img src="https://cdns.klimg.com/mav-prod-resized/1200x630/webp/newsCover/2025/5/30/1748597285535-46bst.jpeg" class="w-full h-full object-cover" width="100" height="100" >
+                        </a>
+                        <div class="item-detail flex flex-col items-start">
+                            <a href="{{ url('pregnancy/tracker/'.$article->categorySlug($article->category_id)) }}" class="item-tag uppercase text-[14px] font-semibold  text-gray-600">
+                            {{ $article->category($article->category_id) }} 
+                            </a>
+                            <h1 class="item-title font-bold text-[15px]  md:text-md line-clamp-3 text-gray-800">
+                                <a href="{{ url('pregnancy/tracker/'.$article->categorySlug($article->category_id).'/'.$article->slug) }}" >{{ $article->title }}</a>
+                            </h1>
+                            <p class="item-description hidden">{{ $article->title }}</p>
+                            <time datetime="2025-05-30 16:29:00" class="item-date text-xs text-zinc-500">30 Mei 2025 16:29</time>
+                        </div>
+                    </li>
+                    @endforeach
+                    
+                </ul>
+            </div>
 
         </div>
     </div><!--]-->

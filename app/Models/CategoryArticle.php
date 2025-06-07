@@ -12,9 +12,15 @@ class CategoryArticle extends Model
     protected $fillable = [
         'name',
         'slug',
+        'description',
         'parent_id',
         'status',
     ];
+
+    public function slug(): string
+    {
+        return $this->slug;
+    }
 
     public function parent() {
         return $this->belongsTo(CategoryArticle::class, 'parent_id');
@@ -22,6 +28,6 @@ class CategoryArticle extends Model
 
     public function articles()
     {
-        return $this->belongsToMany(Article::class, 'article_categories');
+        return $this->hasMany(Article::class);
     }
 }

@@ -90,12 +90,12 @@
             </div> -->
 
             <!-- Filter button -->
-            <select wire:model="sort" id="sort" class="a">
+            <select wire:model.live="sort" id="sort" class="a">
                 <option value="asc">Asc</option>
                 <option value="desc">Desc</option>
             </select>
 
-            <select wire:model="perPage" id="filter" class="a">
+            <select wire:model.live="perPage" id="filter" class="a">
                 <option value="5">5 Per Page</option>
                 <option value="10">10 Per Page</option>
                 <option value="15">15 Per Page</option>

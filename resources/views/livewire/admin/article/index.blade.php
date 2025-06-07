@@ -58,12 +58,12 @@
             </div>
 
             <!-- Filter button -->
-            <select wire:model="sort" id="sort" class="a">
+            <select wire:model.live="sort" id="sort" class="a">
                 <option value="asc">Asc</option>
                 <option value="desc">Desc</option>
             </select>
 
-            <select wire:model="perPage" id="filter" class="a">
+            <select wire:model.live="perPage" id="filter" class="a">
                 <option value="5">5 Per Page</option>
                 <option value="10">10 Per Page</option>
                 <option value="15">15 Per Page</option>
@@ -98,6 +98,9 @@
                             </th>
                             <th class="vi wy w_ vo lm">
                                 <div class="gh gt">Title</div>
+                            </th>
+                            <th class="vi wy w_ vo lm">
+                                <div class="gh gt">Slug</div>
                             </th>
                             <th class="vi wy w_ vo lm">
                                 <div class="gh gt">Image</div>
@@ -145,6 +148,9 @@
                             </td>
                             <td class="vi wy w_ vo lm">
                                 <div class="gp text-slate-800">{!! nl2br(App\Helpers\General::smart_wordwrap($article->title, 40)) !!}</div>
+                            </td>
+                            <td class="vi wy w_ vo lm">
+                                <div class="gp text-slate-800">{{ $article->slug }}</div>
                             </td>
                             <td class="vi wy w_ vo lm">
                                 @if($article->original)
