@@ -20,7 +20,7 @@ class ArticleController extends Controller
             $cat_id = null; 
         }
 		$array = [2, 4, 5, 6];
-		$query = Article::select(['title', 'category_id', 'slug', 'title', 'body', 'author_id', 'original', 'status', 'created_at'])->whereNotIn('category_id', $array)->active()->orderBy('created_at', 'DESC');
+		$query = Article::select(['category_id', 'slug', 'title', 'body', 'author_id', 'original', 'status', 'created_at'])->whereNotIn('category_id', $array)->active()->orderBy('created_at', 'DESC');
 
 		$query->when($cat_id > 0, function ($q) use ($cat_id) {
             return $q->where('category_id', '=', $cat_id);

@@ -2,7 +2,6 @@
 
 @section('content')
 
-
 <main class="overflow-hidden pt-[10px]"><!--[-->
     <div class="relative">
         <div class="relative">
@@ -41,77 +40,306 @@
         </div>
         <div class="relative mx-auto max-w-6xl w-full px-6 lg:px-10 xl:px-0 pb-10 md:pb-20">
 
-            <!--  -->
-            <div class="py-3 md:py-1 md:pb-5 col-span-full col-start-1 flex flex-col gap-4 mx-auto max-w-6xl md:px-6 lg:px-10 xl:px-0 md:flex-nowrap xl:col-start-4 xl:col-end-12">
-                    <div class="py-2 md:py-1 pt-2 md:pb-5 col-span-full w-full col-start-1 flex flex-row items-center justify-between gap-2 md:col-start-52 md:flex-nowrap xl:col-start-4 xl:col-end-12">
-                        <div class="flex w-full gap-2 ">
 
-                            <div class="mx-auto grid max-w-7xl grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
-                                <!-- activities -->
-                                <div class="w-full flex flex-col ">
-                                    <label for="activities" class="hidden md:block text-sm md:text-md font-semibold text-gray-700 pb-1 tracking-wide">Activity</label>
-                                    <select wire:model="activities" class="h-10 rounded border block appearance-none w-full bg-white border-gray-600 text-[11px] md:text-[13px] font-bold uppercase pl-2 tracking-wide text-gray-500 py-2 px-4 pr-0 leading-tight focus:placeholder-gray-600 focus:text-gray-700 focus:outline-none">
-                                        <option value="">Select Activity</option>
-                                        @foreach($activityOption as $a)
-                                        <option value="{{ $a->id }}">{{ $a->name }}</option>
-                                        @endforeach
-                                    </select>
-                                </div>
-                                <!-- activities -->
-                                <div class="w-full flex flex-col ">
-                                    <label for="ages" class="hidden md:block text-sm md:text-md font-semibold text-gray-700 pb-1 tracking-wide">Age</label>
-                                    <select wire:model="ages" class="h-10 rounded border block appearance-none w-full bg-white border-gray-600 text-[11px] md:text-[13px] font-bold uppercase pl-2 tracking-wide text-gray-500 py-2 px-4 pr-0 leading-tight focus:placeholder-gray-600 focus:text-gray-700 focus:outline-none">
-                                        <option value="">Select Age</option>
-                                        @foreach($ages as $a)
-                                        <option value="{{ $a->id }}">{{ $a->name }}</option>
-                                        @endforeach
-                                    </select>
-                                </div>
-                                <!-- crafts -->
-                                <div class="w-full flex flex-col ">
-                                    <label for="ages" class="hidden md:block text-sm md:text-md font-semibold text-gray-700 pb-1 tracking-wide">Crafts</label>
-                                    <select wire:model="ages" class="h-10 rounded border block appearance-none w-full bg-white border-gray-600 text-[11px] md:text-[13px] font-bold uppercase pl-2 tracking-wide text-gray-500 py-2 px-4 pr-0 leading-tight focus:placeholder-gray-600 focus:text-gray-700 focus:outline-none">
-                                        <option value="">Select Crafts</option>
-                                        @foreach($crafts as $a)
-                                        <option value="{{ $a->id }}">{{ $a->name }}</option>
-                                        @endforeach
-                                    </select>
-                                </div>
-                                <!-- learnings -->
-                                <div class="w-full flex flex-col ">
-                                    <label for="learnings" class="hidden md:block text-sm md:text-md font-semibold text-gray-700 pb-1 tracking-wide">Learnings</label>
-                                    <select wire:model="learnings" class="h-10 rounded border block appearance-none w-full bg-white border-gray-600 text-[11px] md:text-[13px] font-bold uppercase pl-2 tracking-wide text-gray-500 py-2 px-4 pr-0 leading-tight focus:placeholder-gray-600 focus:text-gray-700 focus:outline-none">
-                                        <option value="">Select Learnings</option>
-                                        @foreach($learnings as $a)
-                                        <option value="{{ $a->id }}">{{ $a->name }}</option>
-                                        @endforeach
-                                    </select>
-                                </div>
-                                <!-- painting -->
-                                <div class="w-full flex flex-col ">
-                                    <label for="painting" class="hidden md:block text-sm md:text-md font-semibold text-gray-700 pb-1 tracking-wide">Painting</label>
-                                    <select wire:model="painting" class="h-10 rounded border block appearance-none w-full bg-white border-gray-600 text-[11px] md:text-[13px] font-bold uppercase pl-2 tracking-wide text-gray-500 py-2 px-4 pr-0 leading-tight focus:placeholder-gray-600 focus:text-gray-700 focus:outline-none">
-                                        <option value="">Select Painting</option>
-                                        @foreach($painting as $a)
-                                        <option value="{{ $a->id }}">{{ $a->name }}</option>
-                                        @endforeach
-                                    </select>
-                                </div>
-                                <!-- sensory -->
-                                <div class="w-full flex flex-col ">
-                                    <label for="sensory" class="hidden md:block text-sm md:text-md font-semibold text-gray-700 pb-1 tracking-wide">Sensory</label>
-                                    <select wire:model="sensory" class="h-10 rounded border block appearance-none w-full bg-white border-gray-600 text-[11px] md:text-[13px] font-bold uppercase pl-2 tracking-wide text-gray-500 py-2 px-4 pr-0 leading-tight focus:placeholder-gray-600 focus:text-gray-700 focus:outline-none">
-                                        <option value="">Select Sensory</option>
-                                        @foreach($sensory as $a)
-                                        <option value="{{ $a->id }}">{{ $a->name }}</option>
-                                        @endforeach
-                                    </select>
+            <!--  -->
+
+            <div class="py-3 md:py-1 md:pb-5 col-span-full col-start-1 flex flex-col gap-4 mx-auto max-w-6xl md:px-6 lg:px-10 xl:px-0 md:flex-nowrap xl:col-start-4 xl:col-end-12">
+                <div class="py-2 md:py-1 pt-2 md:pb-5 col-span-full w-full col-start-1 flex flex-row items-center justify-between gap-2 md:col-start-52 md:flex-nowrap xl:col-start-4 xl:col-end-12">
+                    <div class="flex w-full gap-2 ">
+
+                        <div class="mx-auto grid max-w-7xl grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
+                            <!-- activities -->
+                            <div class="w-full flex flex-col ">
+                                <div
+                                    x-data="{ open: false }"
+                                    @click.away="open = false"
+                                    @keydown.escape="open = false"
+                                    class="relative">
+                                    <span class="inline-block w-full rounded-md shadow-sm">
+                                        <button
+                                            x-ref="button"
+                                            @click="open = !open"
+                                            :aria-expanded="open"
+                                            aria-haspopup="listbox"
+                                            class="relative z-0 w-full py-2 pl-3 pr-10 text-left transition duration-150 ease-in-out bg-white border border-gray-500 rounded-md cursor-default focus:outline-none focus:shadow-outline-blue focus:border-blue-600 sm:text-sm sm:leading-5">
+                                            <span class="truncate text-xs font-semibold uppercase text-gray-500">Select Activity</span>
+                                            <span class="absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none">
+                                                <svg class="w-5 h-5 " :class="open ? 'text-blue-600': 'text-gray-400'" viewBox="0 0 20 20" fill="none" stroke="currentColor">
+                                                    <path d="M7 7l3-3 3 3m0 6l-3 3-3-3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                                    </path>
+                                                </svg>
+                                            </span>
+                                        </button>
+                                    </span>
+                                    <div
+                                        x-show="open"
+                                        x-transition:leave="transition ease-in duration-100"
+                                        x-transition:leave-start="opacity-100"
+                                        x-transition:leave-end="opacity-0"
+                                        x-cloak
+                                        class="absolute z-10 w-full mt-1 bg-white rounded-md shadow-lg">
+                                        <ul
+                                            role="listbox"
+                                            tabindex="-1"
+                                            class="py-1 overflow-auto text-base leading-6 rounded shadow-sm border max-h-60 focus:outline-none sm:text-sm sm:leading-5">
+                                            @foreach($activityOption as $a)
+                                            <li
+                                                role="option"
+                                                class="relative w-full text-gray-600 font-semibold select-none hover:text-white hover:bg-indigo-600">
+                                                <a href="{{ url('activities/'.$a->slug) }}" class="w-full ">
+                                                    <span class="block truncate py-1.5 pl-3 text-xs capitalize">{{ $a->name }}</span>
+                                                </a>
+                                            </li>
+                                            @endforeach
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
-
+                            <!-- ages -->
+                            <div class="w-full flex flex-col ">
+                            <div
+                                    x-data="{ open: false }"
+                                    @click.away="open = false"
+                                    @keydown.escape="open = false"
+                                    class="relative">
+                                    <span class="inline-block w-full rounded-md shadow-sm">
+                                        <button
+                                            x-ref="button"
+                                            @click="open = !open"
+                                            :aria-expanded="open"
+                                            aria-haspopup="listbox"
+                                            class="relative z-0 w-full py-2 pl-3 pr-10 text-left transition duration-150 ease-in-out bg-white border border-gray-500 rounded-md cursor-default focus:outline-none focus:shadow-outline-blue focus:border-blue-600 sm:text-sm sm:leading-5">
+                                            <span class="truncate text-xs font-semibold uppercase text-gray-500">Select Age</span>
+                                            <span class="absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none">
+                                                <svg class="w-5 h-5 " :class="open ? 'text-blue-600': 'text-gray-400'" viewBox="0 0 20 20" fill="none" stroke="currentColor">
+                                                    <path d="M7 7l3-3 3 3m0 6l-3 3-3-3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                                    </path>
+                                                </svg>
+                                            </span>
+                                        </button>
+                                    </span>
+                                    <div
+                                        x-show="open"
+                                        x-transition:leave="transition ease-in duration-100"
+                                        x-transition:leave-start="opacity-100"
+                                        x-transition:leave-end="opacity-0"
+                                        x-cloak
+                                        class="absolute z-10 w-full mt-1 bg-white rounded-md shadow-lg">
+                                        <ul
+                                            role="listbox"
+                                            tabindex="-1"
+                                            class="py-1 overflow-auto text-base leading-6 rounded shadow-sm border max-h-60 focus:outline-none sm:text-sm sm:leading-5">
+                                            @foreach($ages as $a)
+                                            <li
+                                                role="option"
+                                                class="relative w-full text-gray-600 font-semibold select-none hover:text-white hover:bg-indigo-600">
+                                                <a href="{{ url('activities/'.$a->slug) }}" class="w-full ">
+                                                    <span class="block truncate py-1.5 pl-3 text-xs capitalize">{{ $a->name }}</span>
+                                                </a>
+                                            </li>
+                                            @endforeach
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- crafts -->
+                            <div class="w-full flex flex-col ">
+                            <div
+                                    x-data="{ open: false }"
+                                    @click.away="open = false"
+                                    @keydown.escape="open = false"
+                                    class="relative">
+                                    <span class="inline-block w-full rounded-md shadow-sm">
+                                        <button
+                                            x-ref="button"
+                                            @click="open = !open"
+                                            :aria-expanded="open"
+                                            aria-haspopup="listbox"
+                                            class="relative z-0 w-full py-2 pl-3 pr-10 text-left transition duration-150 ease-in-out bg-white border border-gray-500 rounded-md cursor-default focus:outline-none focus:shadow-outline-blue focus:border-blue-600 sm:text-sm sm:leading-5">
+                                            <span class="truncate text-xs font-semibold uppercase text-gray-500">Select Craft</span>
+                                            <span class="absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none">
+                                                <svg class="w-5 h-5 " :class="open ? 'text-blue-600': 'text-gray-400'" viewBox="0 0 20 20" fill="none" stroke="currentColor">
+                                                    <path d="M7 7l3-3 3 3m0 6l-3 3-3-3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                                    </path>
+                                                </svg>
+                                            </span>
+                                        </button>
+                                    </span>
+                                    <div
+                                        x-show="open"
+                                        x-transition:leave="transition ease-in duration-100"
+                                        x-transition:leave-start="opacity-100"
+                                        x-transition:leave-end="opacity-0"
+                                        x-cloak
+                                        class="absolute z-10 w-full mt-1 bg-white rounded-md shadow-lg">
+                                        <ul
+                                            role="listbox"
+                                            tabindex="-1"
+                                            class="py-1 overflow-auto text-base leading-6 rounded shadow-sm border max-h-60 focus:outline-none sm:text-sm sm:leading-5">
+                                            @foreach($crafts as $a)
+                                            <li
+                                                role="option"
+                                                class="relative w-full text-gray-600 font-semibold select-none hover:text-white hover:bg-indigo-600">
+                                                <a href="{{ url('activities/'.$a->slug) }}" class="w-full ">
+                                                    <span class="block truncate py-1.5 pl-3 text-xs capitalize">{{ $a->name }}</span>
+                                                </a>
+                                            </li>
+                                            @endforeach
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- learnings -->
+                            <div class="w-full flex flex-col ">
+                            <div
+                                    x-data="{ open: false }"
+                                    @click.away="open = false"
+                                    @keydown.escape="open = false"
+                                    class="relative">
+                                    <span class="inline-block w-full rounded-md shadow-sm">
+                                        <button
+                                            x-ref="button"
+                                            @click="open = !open"
+                                            :aria-expanded="open"
+                                            aria-haspopup="listbox"
+                                            class="relative z-0 w-full py-2 pl-3 pr-10 text-left transition duration-150 ease-in-out bg-white border border-gray-500 rounded-md cursor-default focus:outline-none focus:shadow-outline-blue focus:border-blue-600 sm:text-sm sm:leading-5">
+                                            <span class="truncate text-xs font-semibold uppercase text-gray-500">Select Learning</span>
+                                            <span class="absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none">
+                                                <svg class="w-5 h-5 " :class="open ? 'text-blue-600': 'text-gray-400'" viewBox="0 0 20 20" fill="none" stroke="currentColor">
+                                                    <path d="M7 7l3-3 3 3m0 6l-3 3-3-3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                                    </path>
+                                                </svg>
+                                            </span>
+                                        </button>
+                                    </span>
+                                    <div
+                                        x-show="open"
+                                        x-transition:leave="transition ease-in duration-100"
+                                        x-transition:leave-start="opacity-100"
+                                        x-transition:leave-end="opacity-0"
+                                        x-cloak
+                                        class="absolute z-10 w-full mt-1 bg-white rounded-md shadow-lg">
+                                        <ul
+                                            role="listbox"
+                                            tabindex="-1"
+                                            class="py-1 overflow-auto text-base leading-6 rounded shadow-sm border max-h-60 focus:outline-none sm:text-sm sm:leading-5">
+                                            @foreach($learnings as $a)
+                                            <li
+                                                role="option"
+                                                class="relative w-full text-gray-600 font-semibold select-none hover:text-white hover:bg-indigo-600">
+                                                <a href="{{ url('activities/'.$a->slug) }}" class="w-full ">
+                                                    <span class="block truncate py-1.5 pl-3 text-xs capitalize">{{ $a->name }}</span>
+                                                </a>
+                                            </li>
+                                            @endforeach
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- painting -->
+                            <div class="w-full flex flex-col ">
+                            <div
+                                    x-data="{ open: false }"
+                                    @click.away="open = false"
+                                    @keydown.escape="open = false"
+                                    class="relative">
+                                    <span class="inline-block w-full rounded-md shadow-sm">
+                                        <button
+                                            x-ref="button"
+                                            @click="open = !open"
+                                            :aria-expanded="open"
+                                            aria-haspopup="listbox"
+                                            class="relative z-0 w-full py-2 pl-3 pr-10 text-left transition duration-150 ease-in-out bg-white border border-gray-500 rounded-md cursor-default focus:outline-none focus:shadow-outline-blue focus:border-blue-600 sm:text-sm sm:leading-5">
+                                            <span class="truncate text-xs font-semibold uppercase text-gray-500">Select Painting</span>
+                                            <span class="absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none">
+                                                <svg class="w-5 h-5 " :class="open ? 'text-blue-600': 'text-gray-400'" viewBox="0 0 20 20" fill="none" stroke="currentColor">
+                                                    <path d="M7 7l3-3 3 3m0 6l-3 3-3-3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                                    </path>
+                                                </svg>
+                                            </span>
+                                        </button>
+                                    </span>
+                                    <div
+                                        x-show="open"
+                                        x-transition:leave="transition ease-in duration-100"
+                                        x-transition:leave-start="opacity-100"
+                                        x-transition:leave-end="opacity-0"
+                                        x-cloak
+                                        class="absolute z-10 w-full mt-1 bg-white rounded-md shadow-lg">
+                                        <ul
+                                            role="listbox"
+                                            tabindex="-1"
+                                            class="py-1 overflow-auto text-base leading-6 rounded shadow-sm border max-h-60 focus:outline-none sm:text-sm sm:leading-5">
+                                            @foreach($painting as $a)
+                                            <li
+                                                role="option"
+                                                class="relative w-full text-gray-600 font-semibold select-none hover:text-white hover:bg-indigo-600">
+                                                <a href="{{ url('activities/'.$a->slug) }}" class="w-full ">
+                                                    <span class="block truncate py-1.5 pl-3 text-xs capitalize">{{ $a->name }}</span>
+                                                </a>
+                                            </li>
+                                            @endforeach
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- sensory -->
+                            <div class="w-full flex flex-col ">
+                            <div
+                                    x-data="{ open: false }"
+                                    @click.away="open = false"
+                                    @keydown.escape="open = false"
+                                    class="relative">
+                                    <span class="inline-block w-full rounded-md shadow-sm">
+                                        <button
+                                            x-ref="button"
+                                            @click="open = !open"
+                                            :aria-expanded="open"
+                                            aria-haspopup="listbox"
+                                            class="relative z-0 w-full py-2 pl-3 pr-10 text-left transition duration-150 ease-in-out bg-white border border-gray-500 rounded-md cursor-default focus:outline-none focus:shadow-outline-blue focus:border-blue-600 sm:text-sm sm:leading-5">
+                                            <span class="truncate text-xs font-semibold uppercase text-gray-500">Select Sensory</span>
+                                            <span class="absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none">
+                                                <svg class="w-5 h-5 " :class="open ? 'text-blue-600': 'text-gray-400'" viewBox="0 0 20 20" fill="none" stroke="currentColor">
+                                                    <path d="M7 7l3-3 3 3m0 6l-3 3-3-3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                                    </path>
+                                                </svg>
+                                            </span>
+                                        </button>
+                                    </span>
+                                    <div
+                                        x-show="open"
+                                        x-transition:leave="transition ease-in duration-100"
+                                        x-transition:leave-start="opacity-100"
+                                        x-transition:leave-end="opacity-0"
+                                        x-cloak
+                                        class="absolute z-10 w-full mt-1 bg-white rounded-md shadow-lg">
+                                        <ul
+                                            role="listbox"
+                                            tabindex="-1"
+                                            class="py-1 overflow-auto text-base leading-6 rounded shadow-sm border max-h-60 focus:outline-none sm:text-sm sm:leading-5">
+                                            @foreach($sensory as $a)
+                                            <li
+                                                role="option"
+                                                class="relative w-full text-gray-600 font-semibold select-none hover:text-white hover:bg-indigo-600">
+                                                <a href="{{ url('activities/'.$a->slug) }}" class="w-full ">
+                                                    <span class="block truncate py-1.5 pl-3 text-xs capitalize">{{ $a->name }}</span>
+                                                </a>
+                                            </li>
+                                            @endforeach
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
+
                     </div>
                 </div>
+
+            </div>
+
+            <div>
+                <span class="flex px-3 py-1 bg-gray-700 text-white text-sm rounded-full w-fit font-medium">{{ $title }}</span>
+            </div>
             <!--  -->
 
             <div class="mt-6 md:mt-12 mx-auto grid max-w-7xl grid-cols-2 gap-4 md:gap-6 lg:gap-8 md:grid-cols-3 lg:grid-cols-4"><!--[-->
@@ -126,7 +354,7 @@
                             <h2 class="mt-2 text-base leading-[25px] md:text-lg md:leading-[27px] xl:text-2xl font-bold text-black-primary">{{ $act->title }}</h2>
                         </div>
                         <div class="mt-4">
-                            <a href="#" class="text-sm lg:text-base font-bold leading-6 text-blue-primary flex gap-2 items-center !text-base !leading-[25px]">Baca selengkapnya 
+                            <a href="#" class="text-sm lg:text-base font-bold leading-6 text-blue-primary flex gap-2 items-center !text-base !leading-[25px]">Baca selengkapnya
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon" class="w-5 h-5 stroke-2">
                                     <path fill-rule="evenodd" d="M3 10a.75.75 0 0 1 .75-.75h10.638L10.23 5.29a.75.75 0 1 1 1.04-1.08l5.5 5.25a.75.75 0 0 1 0 1.08l-5.5 5.25a.75.75 0 1 1-1.04-1.08l4.158-3.96H3.75A.75.75 0 0 1 3 10Z" clip-rule="evenodd"></path>
                                 </svg>
@@ -135,7 +363,7 @@
                     </div>
                 </article>
                 @endforeach
-                
+
             </div>
             <div class="bg-white mt-0 md:mt-1">
                 <!-- paginate -->
@@ -145,5 +373,4 @@
     </div><!--]-->
 </main>
 
-
-    @endsection
+@endsection

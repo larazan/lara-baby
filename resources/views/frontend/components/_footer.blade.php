@@ -1,4 +1,4 @@
-<footer class="w-full bg-[#0F172A]">
+<footer class="relative w-full bg-[#0F172A] ">
     <h2 id="footer-heading" class="sr-only">Footer</h2>
     <div class="mx-auto max-w-6xl px-6 lg:px-10 xl:px-0 pb-10 pt-10 md:pt-16">
         <div class="xl:grid xl:grid-cols-4 xl:gap-8">

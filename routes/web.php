@@ -65,8 +65,9 @@ Route::middleware(['auth:sanctum', 'verified'])->group(function () {
 });
 
 // activity
-Route::get('/activities', [ActivityController::class, 'index']);
+Route::get('/activities/{slug?}', [ActivityController::class, 'index'])->name('activities');
 Route::get('/activity/{slug}', [ActivityController::class, 'show']);
+// Route::post('/activities', [ActivityController::class, 'index'])->name('activity.submit');
 
 // pregnancy
 Route::get('/pregnancy', [PregnancyController::class, 'index']);
@@ -84,8 +85,8 @@ Route::get('/baby-name/gender/{gender}', [BabynameController::class, 'gender']);
 // Generate
 Route::get('generate-article', [GenerateArticleController::class, 'index']);
 
-Route::get('search/{keyword}', [SearchController::class, 'search']);
-Route::post('/fact/search', [SearchController::class, 'index'])->name('fact.search');
+Route::get('search', [SearchController::class, 'search'])->name('search');
+// Route::post('/fact/search', [SearchController::class, 'index'])->name('fact.search');
 
 Route::get('/articles/{category?}', [ArticleController::class, 'index'])->name('articles');
 Route::get('/article/{slug}', [ArticleController::class, 'show']);

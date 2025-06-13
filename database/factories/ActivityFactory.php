@@ -20,8 +20,8 @@ class ActivityFactory extends Factory
     public function definition(): array
     {
         return [
-            'category_id' => $this->faker->numberBetween(7,3),
-            'author_id' => User::factory(),
+            'category_id' => $this->faker->numberBetween(8,34),
+            'author_id' => 1,
             'title' => $this->faker->sentence(),
             'body' => $this->faker->paragraphs(3, true),
             'locale' => 'en',

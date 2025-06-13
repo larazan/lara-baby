@@ -10,13 +10,13 @@
                             <!-- <p class="text-gray-500 mb-6">Form is mobile responsive. Give it a try.</p> -->
 
                             <div class="bg-white rounded2 shadow-lg2 p-4 px-4 md:p-8 mb-6">
-                                <div class="flex w-full text-sm grid-cols-1 space-x-3">
-                                    <div class="w-1/4 text-gray-600">
+                                <div class="flex w-full text-sm grid-cols-1 md:space-x-3">
+                                    <div class="hidden md:block md:w-1/4 text-gray-600">
                                         <p class="font-medium text-lg">Article Details</p>
                                         <p>Please fill out all the fields.</p>
                                     </div>
 
-                                    <div class="w-3/4 lg:col-span-2">
+                                    <div class="w-full md:w-3/4 lg:col-span-2">
                                         <form>
                                             <div class="flex flex-col space-y-4">
 
@@ -43,7 +43,7 @@
                                                     </div>
                                                     <div wire:ignore class="w-full flex flex-row pb-4 space-x-2 border-b items-center" x-show="openInput" x-transition:enter="transition ease-out duration-300" x-transition:enter-start="opacity-0 scale-90" x-transition:enter-end="opacity-100 scale-100" x-transition:leave="transition ease-in duration-300" x-transition:leave-start="opacity-100 scale-100" x-transition:leave-end="opacity-0 scale-90">
                                                         <div class="w-1/2">
-                                                            <input wire:model="categoryItem" class="w-full s me2 xq2" type="text">
+                                                            <input wire:model="categoryItem" class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" type="text">
                                                         </div>
                                                         <div class="flex items-end">
                                                             <div class="btn  cursor-pointer border-slate-200 hover--border-slate-300 ho xi ye" wire:click.prevent="categoryAdd" @click="openInput = ! openInput">Save</div>
@@ -158,7 +158,7 @@
                                                         <select wire:model="author" class="h-10 border block appearance-none w-full bg-white border-gray-600 text-gray-700 py-2 px-4 pr-0 leading-tight focus:placeholder-gray-600 focus:text-gray-700 focus:outline-none">
                                                             <option value="">Select Option</option>
                                                             @foreach($authors as $a)
-                                                            <option value="{{ $a->id }}">{{ $a->first_name }} {{ $a->last_name }}</option>
+                                                            <option value="{{ $a->id }}">{{ $a->name }}</option>
                                                             @endforeach
                                                         </select>
                                                     </div>

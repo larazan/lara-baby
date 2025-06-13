@@ -2,12 +2,11 @@
 
 @section('content')
 
-@dump($articles)
 <main class="overflow-hidden pt-[20px]"><!--[-->
     <div class="relative">
         <div class="relative">
-            <div class="w-full h-full absolute bg-white"></div>
-            <div class="pb-[2px] pt-10 md:py-20 relative">
+            <div class="w-full h-full absolute bg-[#fff0d9]"></div>
+            <div class="py-12 md:py-20 relative">
                 <div class="mx-auto max-w-lg px-6 lg:px-10 xl:px-0">
                     <div class="flex flex-col items-center justify-center gap-4">
                         <nav class="flex" aria-label="Breadcrumb">
@@ -30,10 +29,10 @@
                             </ol>
                         </nav>
                         <div class="flex items-center gap-2.5 text-center max-w-[700px]"><!---->
-                            <h1 class="text-2xl leading-[33px] md:text-[32px] md:leading-[48px] xl:text-[40px] xl:leading-[54px] font-bold text-gray-900">Third Trimester</h1>
+                            <h1 class="text-2xl leading-[33px] md:text-[32px] md:leading-[48px] xl:text-[40px] xl:leading-[54px] font-bold text-gray-900">Pregnancy Tracker: Day by Day</h1>
                         </div>
                         <div>
-                            <p class=" md: md:leading-[25px] text-gray-800 text-center max-w-[905px]">In your third trimester of pregnancy? As you approach 40 weeks, get tips on your health, weight gain, fatigue, baby size, labor and delivery, and preparing for baby.</p>
+                            <p class=" md: md:leading-[25px] text-gray-800 text-center max-w-[905px]">Get a daily look at how your baby is growing and find timely guidance for every week and trimester of your pregnancy.</p>
                         </div>
 
                     </div>
@@ -45,7 +44,7 @@
             <!-- tracker calendar -->
             <div class="w-full">
                 <div class=" w-full max-w-2xl mx-auto">
-                    <div class="relative flex flex-col w-full px-8 py-6 bg-white">
+                    <div class="relative flex flex-col w-full md:px-8 py-6 bg-white">
 
                         <div class="container mx-auto py-4" x-data="{ tab: 'tab1' }">
                             <ul class="flex justify-between w-full border-b-2 mt-0">
@@ -70,7 +69,7 @@
                                         @click.prevent="tab = 'tab3'">3rd trimester</a>
                                 </li>
                             </ul>
-                            <div class="content  px-4 py-4  pt-4">
+                            <div class="content md:px-4 py-4 pt-4">
                                 <div x-show="tab == 'tab1'">
                                     <div class="w-full mt-4 lg:col-span-2 px-4">
                                         <div class="flex flex-col space-y-2 gap-3">
@@ -78,9 +77,9 @@
                                                 <h3 class="text-gray-800 font-semibold text-lg">First trimester weeks</h3>
                                                 <span class="text-gray-700 font-light">Congrats! During the first trimester, you’re getting used to the idea of being pregnant.</span>
                                             </div>
-                                            <div class="grid grid-cols-3 gap-4">
+                                            <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
                                                 @foreach($first as $f)
-                                                <div class="relative flex flex-col rounded-md bg-blue-200 border px-4 py-4 shadow">
+                                                <div class="relative flex flex-col rounded-md bg-blue-200 border px-4 py-4 shadow transition hover:scale-105">
                                                     <a href="{{ url('pregnancy/tracker/first-trimester/week-'.$f) }}" class="absolute top-0 left-0 w-full h-full z-[5] rounded-2xl" aria-label="Baca selengkapnya"></a>
                                                     <div class="flex justify-between items-center">
                                                         <span class="text-blue-600 text-2xl font-bold ">{{ $f }}</span>
@@ -107,9 +106,9 @@
                                                 <h3 class="text-gray-800 font-semibold text-lg">Second trimester weeks</h3>
                                                 <span class="text-gray-700 font-light">As you enter this second trimester, your body will settle down to pregnancy.</span>
                                             </div>
-                                            <div class="grid grid-cols-3 gap-4">
+                                            <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
                                                 @foreach($second as $f)
-                                                <div class="relative flex flex-col rounded-md bg-blue-200 border px-4 py-4 shadow">
+                                                <div class="relative flex flex-col rounded-md bg-blue-200 border px-4 py-4 shadow transition hover:scale-105">
                                                     <a href="{{ url('pregnancy/tracker/second-trimester/week-'.$f) }}" class="absolute top-0 left-0 w-full h-full z-[5] rounded-2xl" aria-label="Baca selengkapnya"></a>
                                                     <div class="flex justify-between items-center">
                                                         <span class="text-blue-600 text-2xl font-bold ">{{ $f }}</span>
@@ -136,9 +135,9 @@
                                                 <h3 class="text-gray-800 font-semibold text-lg">Third trimester weeks</h3>
                                                 <span class="text-gray-700 font-light">You've reached the third and final trimester and will be heavily pregnant by now.</span>
                                             </div>
-                                            <div class="grid grid-cols-3 gap-4">
+                                            <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
                                                 @foreach($third as $f)
-                                                <div class="relative flex flex-col rounded-md bg-blue-200 border px-4 py-4 shadow">
+                                                <div class="relative flex flex-col rounded-md bg-blue-200 border px-4 py-4 shadow transition hover:scale-105">
                                                     <a href="{{ url('pregnancy/tracker/third-trimester/week-'.$f) }}" class="absolute top-0 left-0 w-full h-full z-[5] rounded-2xl" aria-label="Baca selengkapnya"></a>
                                                     <div class="flex justify-between items-center">
                                                         <span class="text-blue-600 text-2xl font-bold ">{{ $f }}</span>

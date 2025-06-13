@@ -134,6 +134,9 @@
                                 <div class="gh gt">Name</div>
                             </th>
                             <th class="vi wy w_ vo lm">
+                                <div class="gh gt">Slug</div>
+                            </th>
+                            <th class="vi wy w_ vo lm">
                                 <div class="gh gt">Parent</div>
                             </th>
                            
@@ -166,6 +169,9 @@
                             </td>
                             <td class="vi wy w_ vo lm">
                                 <div class="gp text-slate-800">{{ $category->name }}</div>
+                            </td>
+                            <td class="vi wy w_ vo lm">
+                                <div class="gp text-slate-800">{{ $category->slug }}</div>
                             </td>
                             <td class="vi wy w_ vo lm">
                                 <div class="gp ">{{ $category->parent ? $category->parent->name : '' }}</div>

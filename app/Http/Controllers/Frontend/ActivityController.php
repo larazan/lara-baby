@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Cache;
 class ActivityController extends Controller
 {
     //
-    public function index()
+    public function index(Request $request, $slug = '')
     {
         $parent_cat = Category::selectRaw('id, name, slug, parent_id, status')
                         ->whereNull('parent_id')
@@ -39,9 +39,9 @@ class ActivityController extends Controller
         // Activities
         $activityOption = Category::select(['id', 'name', 'slug', 'parent_id'])->where('parent_id', 1)->get();
         // Age
-        $ages = Category::select(['id', 'name', 'slug', 'parent_id'])->where('parent_id', 2)->get();
+        $ages = Category::select(['id', 'name', 'slug', 'parent_id'])->where('parent_id', 3)->get();
         // Crafts
-        $crafts = Category::select(['id', 'name', 'slug', 'parent_id'])->where('parent_id', 3)->get();
+        $crafts = Category::select(['id', 'name', 'slug', 'parent_id'])->where('parent_id', 2)->get();
         // Learning
         $learnings = Category::select(['id', 'name', 'slug', 'parent_id'])->where('parent_id', 4)->get();
         // Painting
@@ -49,24 +49,34 @@ class ActivityController extends Controller
         // Sensory
         $sensory = Category::select(['id', 'name', 'slug', 'parent_id'])->where('parent_id', 6)->get();
 
-        $title = 'Activity';
-        $activities = Activity::select([
-            'id', 
+        $query = Activity::select([
             'category_id',
             'author_id',
             'title',
             'body',
             'locale',
             'slug',
-            'rand_id',
             'status',
-            'meta_description',
             'original',
-            'created_at', 
-            'updated_at'
-            ])->active()->paginate(20);
+            ])->active();
 
-        return $this->loadTheme('activity.index', compact('title', 'parent_cat', 'categories', 'activities', 'activityOption', 'ages', 'crafts', 'learnings', 'painting', 'sensory'));
+        if ($slug) {
+            $category = Category::where('slug', $slug)->first();
+            $cat_id = $category->id;
+            $title = Str::ucfirst($category->name) . " Activity"; 
+        } else {
+            $category = null; 
+            $cat_id = null; 
+            $title = "Activity"; 
+        }
+
+        $query->when($cat_id > 0, function ($q) use ($cat_id) {
+            return $q->where('category_id', $cat_id);
+        });
+
+        $activities = $query->paginate(12)->withQueryString();
+
+        return $this->loadTheme('activity.index', compact('title', 'parent_cat', 'category', 'categories', 'activities', 'activityOption', 'ages', 'crafts', 'learnings', 'painting', 'sensory'));
     }
 
     public function show($slug)

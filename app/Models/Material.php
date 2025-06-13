@@ -9,7 +9,7 @@ class Material extends Model
 {
     use HasFactory;
     //
-    protected $fillable = ['name', 'qty'];
+    protected $fillable = ['activity_id', 'name', 'qty'];
 
     public function activity()
     {

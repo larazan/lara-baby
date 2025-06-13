@@ -75,4 +75,9 @@ class Index extends Component
     {
         $this->resetPage();
     }
+
+    public function gotoEdit($activityId)
+    {
+        return redirect('/admin/activity/'.$activityId.'/update');
+    }
 }

@@ -42,6 +42,7 @@ class PregnancyController extends Controller
 
     public function tracker($trimester)
     {
+        // tracker/second-trimester
         $first = range(1, 12);
         $second = range(13, 25);
         $third = range(26, 40);
@@ -53,6 +54,7 @@ class PregnancyController extends Controller
             $cat_id = $category->id;
             $title = $category->name . "of Pregnancy";
             $cat_desc = $category->description; 
+            $cat_title = $category->name; 
         } else {
             $cat_id = null; 
             $title = "Pregnancy"; 
@@ -65,7 +67,7 @@ class PregnancyController extends Controller
 
         $articles = $query->paginate(12)->withQueryString();
 
-        return $this->loadTheme('pregnancy.tracker', compact('title', 'first', 'second', 'third', 'cat_desc', 'articles'));
+        return $this->loadTheme('pregnancy.tracker', compact('title', 'trimester', 'first', 'second', 'third', 'cat_title', 'cat_desc', 'articles'));
     }
 
     public function show($trimester, $slug)

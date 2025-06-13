@@ -64,7 +64,7 @@ class Edit extends Component
         $this->categoryId = $article->category_id;
         $this->title = $article->title;
         $this->body = $article->body;
-        $this->locale = $fact->locale;
+        $this->locale = $article->locale;
         $this->articleTags = $article->article_tags;
         $this->tags = isset($this->articleTags) ? explode(',', $this->articleTags) : [];
         $this->author = $article->author_id;
