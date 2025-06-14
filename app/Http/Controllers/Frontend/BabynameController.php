@@ -43,7 +43,17 @@ class BabynameController extends Controller
         $countries = Cache::remember('countries', now()->addHour(), function () {
             return Country::select(['id', 'name'])->orderBy('name', 'asc')->get();
         });
-        $query = DB::table('babynames')->select(['slug', 'name', 'gender_id', 'locale', 'status'])->where('status', 'active');
+
+        $query = DB::table('babynames')->select([
+            'slug', 
+            'name', 
+            'gender_id', 
+            'country_id',
+            'religion_id',
+            'origin_id', 
+            'locale', 
+            'status'
+            ])->where('status', 'active');
 
         if ($request->search) {
             $keyword = $request->search;
@@ -53,8 +63,56 @@ class BabynameController extends Controller
             $title = "Baby names";
         }
 
+        // religion
+        if ($request->religion) {
+            $religion = $request->religion;
+        } else {
+            $religion = null;
+        }
+        
+        // gender
+        if ($request->gender) {
+            $gender = $request->gender;
+        } else {
+            $gender = null;
+        }
+
+        // country
+        if ($request->country) {
+            $country = $request->country;
+        } else {
+            $country = null;
+        }
+
+        // origin
+        if ($request->origin) {
+            $origin = $request->origin;
+        } else {
+            $origin = null;
+        }
+
         $query->when($request->search, function ($q) use ($keyword) {
             return $q->where('name', 'like', "%{$keyword}%");
+        });
+
+        // religion
+        $query->when($request->religion, function ($q) use ($religion) {
+            return $q->where('religion_id', $religion);
+        });
+
+        // gender
+        $query->when($request->gender, function ($q) use ($gender) {
+            return $q->where('gender_id', $gender);
+        });
+
+        // country
+        $query->when($request->country, function ($q) use ($country) {
+            return $q->where('country_id', $country);
+        });
+
+        // origin
+        $query->when($request->origin, function ($q) use ($origin) {
+            return $q->where('origin_id', $origin);
         });
 
         $countNames = count($query->get());

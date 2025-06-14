@@ -75,7 +75,7 @@ Route::get('/pregnancy/tracker/{trimester}', [PregnancyController::class, 'track
 Route::get('/pregnancy/tracker/{trimester}/{slug}', [PregnancyController::class, 'show']);
 
 // babyname
-Route::get('/baby-name', [BabynameController::class, 'index']);
+Route::get('/baby-name', [BabynameController::class, 'index'])->name('baby-name');
 Route::get('/baby-name/{slug}', [BabynameController::class, 'show']);
 Route::get('/baby-name/origin/{origin}', [BabynameController::class, 'origin']);
 Route::get('/baby-name/religion/{religion}', [BabynameController::class, 'religion']);
@@ -86,7 +86,7 @@ Route::get('/baby-name/gender/{gender}', [BabynameController::class, 'gender']);
 Route::get('generate-article', [GenerateArticleController::class, 'index']);
 
 Route::get('search', [SearchController::class, 'search'])->name('search');
-// Route::post('/fact/search', [SearchController::class, 'index'])->name('fact.search');
+Route::post('/babyname/search', [SearchController::class, 'index'])->name('babyname.search');
 
 Route::get('/articles/{category?}', [ArticleController::class, 'index'])->name('articles');
 Route::get('/article/{slug}', [ArticleController::class, 'show']);

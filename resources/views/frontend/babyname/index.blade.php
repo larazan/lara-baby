@@ -2,7 +2,7 @@
 
 @section('content')
 
-<main class="overflow-hidden pt-[30px]">
+<main class="overflow-hidden pt-[6px]">
     <div class="relative">
         <div class="relative">
             <div class="w-full h-full absolute bg-[rgb(237,246,251)]/75"></div>
@@ -54,7 +54,9 @@
         </div>
         <div class="relative mx-auto max-w-6xl w-full px-6 lg:px-10 xl:px-0 -mt-7 pb-10">
             <div class="w-full mx-auto md:max-w-[618px] xl:max-w-[790px] relative md:!max-w-[585px]">
-                <div class="relative">
+                <x-search-dropdown />
+                {{-- 
+                <div class="hidden relative">
                     <div>
                         <div class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-4">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon" class="h-6 w-6 text-gray-400">
@@ -64,17 +66,19 @@
                         <input class="block w-full rounded-lg border border-[#CBD5E1] py-3 md:py-4 pl-14 pr-12 truncate text-gray-primary text-base leading-[25px] focus:ring-0 focus:border-[#CBD5E1] shadow-[0px_8px_32px_0px_rgba(100,_116,_139,_0.12)]" placeholder="Cari nama..." value="">
                     </div>
                 </div>
+                --}}
             </div>
             <div class="mt-6 md:mt-6 mx-auto grid2 max-w-7xl grid-cols-12 gap-62 lg:gap-82 md:grid-cols-22 lg:grid-cols-32">
 
                 <div class="py-3 md:py-1 md:pb-5 col-span-full col-start-1 flex flex-col gap-4 mx-auto max-w-6xl md:px-6 lg:px-10 xl:px-0 md:flex-nowrap xl:col-start-4 xl:col-end-12">
+                    <form action="{{ url('baby-name') }}" method="GET">
                     <div class="py-2 md:py-1 pt-2 md:pb-5 col-span-full w-full col-start-1 flex flex-row items-center justify-between gap-2 md:col-start-52 md:flex-nowrap xl:col-start-4 xl:col-end-12">
                         <div class="flex w-full gap-2 ">
 
                             <div class="flex flex-col w-1/2 md:flex-row space-y-4 md:space-y-0 md:space-x-2 md:justify-between">
                                 <div class="w-full md:w-1/2  flex flex-col col-span-6 sm:col-span-3">
-                                    <label for="locale" class="hidden md:block text-sm md:text-md font-semibold text-gray-700 pb-1 tracking-wide">Religion</label>
-                                    <select wire:model="religionId" class="h-10 rounded border block appearance-none w-full bg-white border-gray-600 text-[11px] md:text-[13px] font-bold uppercase pl-2 tracking-wide text-gray-500 py-2 px-4 pr-0 leading-tight focus:placeholder-gray-600 focus:text-gray-700 focus:outline-none">
+                                    <label for="religion" class="hidden md:block text-sm md:text-md font-semibold text-gray-700 pb-1 tracking-wide">Religion</label>
+                                    <select name="religion" class="h-10 rounded border block appearance-none w-full bg-white border-gray-600 text-[11px] md:text-[13px] font-bold uppercase pl-2 tracking-wide text-gray-500 py-2 px-4 pr-0 leading-tight focus:placeholder-gray-600 focus:text-gray-700 focus:outline-none">
                                         <option value="">Select Religion</option>
                                         @foreach($religions as $r)
                                         <option value="{{ $r->id }}">{{ $r->name }}</option>
@@ -82,8 +86,8 @@
                                     </select>
                                 </div>
                                 <div class="col-span-6 sm:col-span-3 w-full md:w-1/2 ">
-                                    <label for="locale" class="hidden md:block text-sm md:text-md font-semibold text-gray-700 pb-1 tracking-wide">Origin</label>
-                                    <select wire:model="locale" class="h-10 rounded border block appearance-none w-full bg-white border-gray-600 text-[11px] md:text-[13px] font-bold uppercase pl-2 tracking-wide text-gray-500 py-2 px-4 pr-0 leading-tight focus:placeholder-gray-600 focus:text-gray-700 focus:outline-none">
+                                    <label for="origin" class="hidden md:block text-sm md:text-md font-semibold text-gray-700 pb-1 tracking-wide">Origin</label>
+                                    <select name="origin" class="h-10 rounded border block appearance-none w-full bg-white border-gray-600 text-[11px] md:text-[13px] font-bold uppercase pl-2 tracking-wide text-gray-500 py-2 px-4 pr-0 leading-tight focus:placeholder-gray-600 focus:text-gray-700 focus:outline-none">
                                         <option value="">Select Origin</option>
                                         @foreach($origins as $o)
                                         <option value="{{ $o->id }}">{{ $o->name }}</option>
@@ -94,8 +98,8 @@
 
                             <div class="flex flex-col w-1/2 md:flex-row space-y-4 md:space-y-0 md:space-x-2 md:justify-between">
                                 <div class="w-full md:w-1/2  flex flex-col col-span-6 sm:col-span-3">
-                                    <label for="locale" class="hidden md:block text-sm md:text-md font-semibold text-gray-700 pb-1 tracking-wide">Country</label>
-                                    <select wire:model="countryId" class="h-10 rounded border block appearance-none w-full bg-white border-gray-600 text-[11px] md:text-[13px] font-bold uppercase pl-2 tracking-wide text-gray-500 py-2 px-4 pr-0 leading-tight focus:placeholder-gray-600 focus:text-gray-700 focus:outline-none">
+                                    <label for="country" class="hidden md:block text-sm md:text-md font-semibold text-gray-700 pb-1 tracking-wide">Country</label>
+                                    <select name="country" class="h-10 rounded border block appearance-none w-full bg-white border-gray-600 text-[11px] md:text-[13px] font-bold uppercase pl-2 tracking-wide text-gray-500 py-2 px-4 pr-0 leading-tight focus:placeholder-gray-600 focus:text-gray-700 focus:outline-none">
                                         <option value="">Select Country</option>
                                         @foreach($countries as $c)
                                         <option value="{{ $c->id }}">{{ $c->name }}</option>
@@ -103,8 +107,8 @@
                                     </select>
                                 </div>
                                 <div class="col-span-6 sm:col-span-3 w-full md:w-1/2 ">
-                                    <label for="locale" class="hidden md:block text-sm md:text-md font-semibold text-gray-700 pb-1 tracking-wide">Gender</label>
-                                    <select wire:model="genderId" class="h-10 rounded border block appearance-none w-full bg-white border-gray-600 text-[11px] md:text-[13px] font-bold uppercase pl-2 tracking-wide text-gray-500 py-2 px-4 pr-0 leading-tight focus:placeholder-gray-600 focus:text-gray-700 focus:outline-none">
+                                    <label for="gender" class="hidden md:block text-sm md:text-md font-semibold text-gray-700 pb-1 tracking-wide">Gender</label>
+                                    <select name="gender" class="h-10 rounded border block appearance-none w-full bg-white border-gray-600 text-[11px] md:text-[13px] font-bold uppercase pl-2 tracking-wide text-gray-500 py-2 px-4 pr-0 leading-tight focus:placeholder-gray-600 focus:text-gray-700 focus:outline-none">
                                         <option value="">Select Gender</option>
                                         @foreach($genders as $key => $value)
                                         <option value="{{ $key }}">{{ $value }}</option>
@@ -115,7 +119,15 @@
 
                         </div>
                     </div>
+                    <div class="flex mx-auto w-full max-w-2xl px-0 py-3 ">
+                        <button type="submit" class="flex w-full mx-auto py-2 md:py-3 rounded-full border border-blue-800 items-center justify-center bg-blue-700 hover:bg-blue-800 font-semibold text-white">
+                            Browse
+                        </button>
+                    </div>
+                    </form>
                 </div>
+
+                
 
                 <!--  -->
                 <div class="bg-white pb-0 md:pb-10">
