@@ -85,8 +85,13 @@ Route::get('/baby-name/gender/{gender}', [BabynameController::class, 'gender']);
 // Generate
 Route::get('generate-article', [GenerateArticleController::class, 'index']);
 
-Route::get('search', [SearchController::class, 'search'])->name('search');
+Route::get('search', SearchController::class)->name('search');
+// Route::get('search', [SearchController::class, 'search'])->name('search');
 Route::post('/babyname/search', [SearchController::class, 'index'])->name('babyname.search');
+Route::get('/api/search', [SearchController::class, 'searchTwo'])->name('api.search');
+// Route::get('/search-dropdown', function () {
+//     return view('search-dropdown');
+// });
 
 Route::get('/articles/{category?}', [ArticleController::class, 'index'])->name('articles');
 Route::get('/article/{slug}', [ArticleController::class, 'show']);

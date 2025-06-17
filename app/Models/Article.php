@@ -14,6 +14,7 @@ use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
 use Illuminate\Database\Eloquent\SoftDeletes;
+use Laravel\Scout\Searchable;
 
 class Article extends Model
 {
@@ -24,6 +25,7 @@ class Article extends Model
     use HasTimestamps;
     use HasTags;
     use SoftDeletes;
+    use Searchable;
 
     protected $fillable = [
         'category_id',
@@ -94,19 +96,19 @@ class Article extends Model
     //     return $this->id;
     // }
 
-    public function title(): string
-    {
-        return $this->title;
-    }
+    // public function title(): string
+    // {
+    //     return $this->title;
+    // }
 
-    public function body(): string
-    {
-        return $this->body;
-    }
+    // public function body(): string
+    // {
+    //     return $this->body;
+    // }
 
     public function excerpt(int $limit = 200): string
     {
-        return Str::limit(strip_tags($this->body()), $limit);
+        return Str::limit(strip_tags($this->body), $limit);
     }
 
     public function published()
@@ -163,7 +165,7 @@ class Article extends Model
 
     public function readTime()
     {
-        $minutes = round(str_word_count($this->body()) / 200);
+        $minutes = round(str_word_count($this->body) / 200);
 
         return $minutes == 0 ? 1 : $minutes;
     }
@@ -216,10 +218,10 @@ class Article extends Model
     public function toSearchableArray(): array
     {
         return [
-            'id' => $this->id(),
-            'title' => $this->title(),
-            'body' => $this->body(),
-            'slug' => $this->slug(),
+            'id' => $this->id,
+            'title' => $this->title,
+            'body' => $this->body,
+            // 'slug' => $this->slug,
         ];
     }
 

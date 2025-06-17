@@ -23,6 +23,9 @@
                 </a>
             </div>
            
+            <div>
+                <x-search />
+            </div>
             
             <ul
                 class="flex gap-4 h-full flex-row flex-nowrap items-center data-[justify=start]:justify-start data-[justify=start]:flex-grow data-[justify=start]:basis-0 data-[justify=center]:justify-center data-[justify=end]:justify-end data-[justify=end]:flex-grow data-[justify=end]:basis-0 desktop:hidden"

@@ -54,19 +54,8 @@
         </div>
         <div class="relative mx-auto max-w-6xl w-full px-6 lg:px-10 xl:px-0 -mt-7 pb-10">
             <div class="w-full mx-auto md:max-w-[618px] xl:max-w-[790px] relative md:!max-w-[585px]">
-                <x-search-dropdown />
-                {{-- 
-                <div class="hidden relative">
-                    <div>
-                        <div class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon" class="h-6 w-6 text-gray-400">
-                                <path fill-rule="evenodd" d="M9 3.5a5.5 5.5 0 1 0 0 11 5.5 5.5 0 0 0 0-11ZM2 9a7 7 0 1 1 12.452 4.391l3.328 3.329a.75.75 0 1 1-1.06 1.06l-3.329-3.328A7 7 0 0 1 2 9Z" clip-rule="evenodd"></path>
-                            </svg>
-                        </div>
-                        <input class="block w-full rounded-lg border border-[#CBD5E1] py-3 md:py-4 pl-14 pr-12 truncate text-gray-primary text-base leading-[25px] focus:ring-0 focus:border-[#CBD5E1] shadow-[0px_8px_32px_0px_rgba(100,_116,_139,_0.12)]" placeholder="Cari nama..." value="">
-                    </div>
-                </div>
-                --}}
+                <x-dropdown-search />
+                
             </div>
             <div class="mt-6 md:mt-6 mx-auto grid2 max-w-7xl grid-cols-12 gap-62 lg:gap-82 md:grid-cols-22 lg:grid-cols-32">
 

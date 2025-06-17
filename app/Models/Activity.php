@@ -6,11 +6,13 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Support\Str;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
+use Laravel\Scout\Searchable;
 
 class Activity extends Model
 {
     use SoftDeletes;
     use HasFactory;
+    use Searchable;
 
     //
     protected $fillable = [
@@ -44,24 +46,24 @@ class Activity extends Model
 		return self::STATUSES;
 	}
 
-    public function id(): int
-    {
-        return $this->id;
-    }
+    // public function id(): int
+    // {
+    //     return $this->id;
+    // }
 
-    public function title(): string
-    {
-        return $this->title;
-    }
+    // public function title(): string
+    // {
+    //     return $this->title;
+    // }
 
-    public function body(): string
-    {
-        return $this->body;
-    }
+    // public function body(): string
+    // {
+    //     return $this->body;
+    // }
 
     public function excerpt(int $limit = 200): string
     {
-        return Str::limit(strip_tags($this->body()), $limit);
+        return Str::limit(strip_tags($this->body), $limit);
     }
 
     public function scopeActive($query)
@@ -71,7 +73,7 @@ class Activity extends Model
 
     public function readTime()
     {
-        $minutes = round(str_word_count($this->body()) / 200);
+        $minutes = round(str_word_count($this->body) / 200);
 
         return $minutes == 0 ? 1 : $minutes;
     }
@@ -100,5 +102,15 @@ class Activity extends Model
     public function materials()
     {
         return $this->hasMany(Material::class);
+    }
+
+    public function toSearchableArray(): array
+    {
+        return [
+            // 'id' => $this->id,
+            'title' => $this->title,
+            // 'slug' => $this->slug,
+            'body' => $this->body,
+        ];
     }
 }

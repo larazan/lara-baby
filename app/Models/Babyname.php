@@ -13,18 +13,22 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Concerns\HasUuids;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Support\Str;
+use Laravel\Scout\Searchable;
+use Laravel\Scout\Attributes\SearchUsingFullText;
+use Laravel\Scout\Attributes\SearchUsingPrefix;
 
 class Babyname extends Model
 {
     use HasFactory;
     use SoftDeletes;
-    use HasAuthor;
-    use HasSlug;
+    // use HasAuthor;
+    // use HasSlug;
     // use HasLikes;
     use HasTimestamps;
-    use HasTags;
+    // use HasTags;
     // use HasUuids;
     use SlugTrait;
+    use Searchable;
 
     const TABLE = 'babynames';
 
@@ -110,15 +114,20 @@ class Babyname extends Model
         $query->where('name', 'like', "%{$value}%");
     }
 
-    public function id(): int
-    {
-        return $this->id;
-    }
+    // public function id(): int
+    // {
+    //     return $this->id;
+    // }
     
-    public function name(): string
-    {
-        return $this->name;
-    }
+    // public function name(): string
+    // {
+    //     return $this->name;
+    // }
+
+    // public function slug(): string
+    // {
+    //     return $this->slug;
+    // }
 
     public function slugysh(): string
     {
@@ -163,4 +172,15 @@ class Babyname extends Model
     {
         return $this->belongsToMany(Country::class);
     }
+
+    public function toSearchableArray(): array
+    {
+        return [
+            'name' => $this->name,
+        ];
+    }
 }
+
+// php artisan scout:import "App\Models\Activity"
+// php artisan scout:import "App\Models\Article"
+// php artisan scout:import "App\Models\Babyname"
