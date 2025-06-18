@@ -643,6 +643,12 @@
         <!--  -->
 
         <!--  -->
+        <section class="section flex px-4">
+        @include('frontend.components._swiper')
+        </section>
+        <!--  -->
+
+        <!--  -->
         <section class="section section--category px-4 md:px-10 my-10">
             <style>
                 .box-category ul .item:first-child {

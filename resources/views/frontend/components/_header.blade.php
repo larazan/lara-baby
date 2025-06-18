@@ -23,7 +23,7 @@
                 </a>
             </div>
            
-            <div>
+            <div class="hidden md:block">
                 <x-search />
             </div>
             

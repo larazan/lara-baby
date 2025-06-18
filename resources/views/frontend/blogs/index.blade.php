@@ -21,10 +21,12 @@
             </div>
 
             <div class="flex flex-wrap items-center gap-2 md:gap-3 mt-2 md:mt-2">
-              <button type="button" class="bg-[#0133CC1A] border-blue-primary hover:bg-[#0133CC1A] text-blue-primary inline-flex items-center justify-center text-xs md:text-sm rounded-full px-5 py-[6px] md:py-[9px] leading-[22px] font-bold md:font-medium border">All</button>
+              <a href="{{ url('articles/') }}" type="button" class="@if($cat_id == null){{ 'bg-[#0133CC1A]'}}@else{{ 'bg-white !border-[#CBD5E1]' }}@endif border-blue-primary hover:bg-[#0133CC1A] text-blue-primary inline-flex items-center justify-center text-xs md:text-sm rounded-full px-5 py-[6px] md:py-[9px] leading-[22px] font-bold md:font-medium border">
+                All
+              </a>
               @foreach($categories as $cat)
                 <a href="{{ url('articles/'.$cat->slug) }}">
-                  <button type="button" class="bg-[#0133CC1A] border-blue-primary hover:bg-[#0133CC1A] text-blue-primary inline-flex items-center justify-center text-xs md:text-sm rounded-full px-5 py-[6px] md:py-[9px] leading-[22px] font-bold md:font-medium border !bg-white !border-[#CBD5E1] hover:!bg-[#0133CC1A] !text-gray-primary">{{ $cat->name }}</button>
+                  <button type="button" class="@if($cat->id == $cat_id){{ 'bg-[#0133CC1A]'}}@else{{ 'bg-white !border-[#CBD5E1]' }}@endif border-blue-primary hover:bg-[#0133CC1A] text-blue-primary inline-flex items-center justify-center text-xs md:text-sm rounded-full px-5 py-[6px] md:py-[9px] leading-[22px] font-bold md:font-medium border   hover:!bg-[#0133CC1A] !text-gray-primary">{{ $cat->name }}</button>
                 </a>
               @endforeach
                   

@@ -1,15 +1,15 @@
 <div class="relative z-20">
         <div x-data="{
             query: '',
-            results: { babynames: [] },
+            results: { keyword:'', queryBabyname:'', babynames: [] },
             isLoading: false,
             resetSearch() {
                 this.query = '';
-                this.results = { babynames: [] };
+                this.results = { keyword:'', queryBabyname:'', babynames: [] };
             },
             async search() {
                 if (this.query.length < 2) {
-                    this.results = { babynames: [] };
+                    this.results = { keyword, queryBabyname, babynames: [] };
                     return;
                 }
                 
@@ -53,7 +53,7 @@
 
             <div x-show="query.length >= 2"
                 x-transition
-                class="absolute z-50 mt-1 w-full rounded border bg-white text-sm shadow-lg">
+                class="absolute z-50 mt-1 w-full max-h-96 rounded border bg-white text-sm shadow-lg overflow-y-auto">
 
                 <template x-if="results.babynames?.length">
                     <div class="p-2">
@@ -73,6 +73,13 @@
                                 <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-gender-trasvesti"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M15 20a5 5 0 1 1 0 -10a5 5 0 0 1 0 10z" /><path d="M6 6l5.4 5.4" /><path d="M4 8l4 -4" /></svg>
                                 </span>
                             </a>
+                        </template>
+                        <template x-if="results.queryBabyname > 10">
+                            <div class="p-2 w-full flex justify-center text-center hover:bg-gray-100">
+                                <a :href="`/baby-name?search=${results.keyword}`" class="w-full ">
+                                    <span class="font-semibold text-gray-800 capitalize">see all <span x-text="results.queryBabyname"></span></span>
+                                </a>
+                            </div>
                         </template>
                     </div>
                 </template>

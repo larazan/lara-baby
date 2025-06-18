@@ -70,10 +70,22 @@ class ActivityController extends Controller
             $title = "Activity"; 
         }
 
+        if ($request->search) {
+            $keyword = $request->search;
+            $title = Str::ucfirst($keyword) . " Activity";
+        } else {
+            $keyword = null;
+            $title = "Activity";
+        }
+
         $query->when($cat_id > 0, function ($q) use ($cat_id) {
             return $q->where('category_id', $cat_id);
         });
 
+        $query->when($request->search, function ($q) use ($keyword) {
+            return $q->where('title', 'like', "%{$keyword}%");
+        });
+        
         $activities = $query->paginate(12)->withQueryString();
 
         return $this->loadTheme('activity.index', compact('title', 'parent_cat', 'category', 'categories', 'activities', 'activityOption', 'ages', 'crafts', 'learnings', 'painting', 'sensory'));

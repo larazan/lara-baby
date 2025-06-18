@@ -70,7 +70,12 @@
                                     <select name="religion" class="h-10 rounded border block appearance-none w-full bg-white border-gray-600 text-[11px] md:text-[13px] font-bold uppercase pl-2 tracking-wide text-gray-500 py-2 px-4 pr-0 leading-tight focus:placeholder-gray-600 focus:text-gray-700 focus:outline-none">
                                         <option value="">Select Religion</option>
                                         @foreach($religions as $r)
-                                        <option value="{{ $r->id }}">{{ $r->name }}</option>
+                                        <option 
+                                            value="{{ $r->id }}"
+                                            @if(Request::get('religion') == $r->id) 
+                                                selected
+                                            @endif
+                                        >{{ $r->name }}</option>
                                         @endforeach
                                     </select>
                                 </div>
@@ -79,7 +84,12 @@
                                     <select name="origin" class="h-10 rounded border block appearance-none w-full bg-white border-gray-600 text-[11px] md:text-[13px] font-bold uppercase pl-2 tracking-wide text-gray-500 py-2 px-4 pr-0 leading-tight focus:placeholder-gray-600 focus:text-gray-700 focus:outline-none">
                                         <option value="">Select Origin</option>
                                         @foreach($origins as $o)
-                                        <option value="{{ $o->id }}">{{ $o->name }}</option>
+                                        <option 
+                                            value="{{ $o->id }}"
+                                            @if(Request::get('origin') == $o->id) 
+                                                selected
+                                            @endif
+                                        >{{ $o->name }}</option>
                                         @endforeach
                                     </select>
                                 </div>
@@ -91,7 +101,12 @@
                                     <select name="country" class="h-10 rounded border block appearance-none w-full bg-white border-gray-600 text-[11px] md:text-[13px] font-bold uppercase pl-2 tracking-wide text-gray-500 py-2 px-4 pr-0 leading-tight focus:placeholder-gray-600 focus:text-gray-700 focus:outline-none">
                                         <option value="">Select Country</option>
                                         @foreach($countries as $c)
-                                        <option value="{{ $c->id }}">{{ $c->name }}</option>
+                                        <option 
+                                            value="{{ $c->id }}"
+                                            @if(Request::get('country') == $c->id) 
+                                                selected
+                                            @endif
+                                        >{{ $c->name }}</option>
                                         @endforeach
                                     </select>
                                 </div>
@@ -100,7 +115,12 @@
                                     <select name="gender" class="h-10 rounded border block appearance-none w-full bg-white border-gray-600 text-[11px] md:text-[13px] font-bold uppercase pl-2 tracking-wide text-gray-500 py-2 px-4 pr-0 leading-tight focus:placeholder-gray-600 focus:text-gray-700 focus:outline-none">
                                         <option value="">Select Gender</option>
                                         @foreach($genders as $key => $value)
-                                        <option value="{{ $key }}">{{ $value }}</option>
+                                        <option 
+                                            value="{{ $key }}" 
+                                            @if(Request::get('gender') == $key) 
+                                                selected
+                                            @endif
+                                        >{{ $value }}</option>
                                         @endforeach
                                     </select>
                                 </div>

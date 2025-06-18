@@ -15,6 +15,10 @@ $categories = \App\Models\Category::select(['name', 'slug', 'parent_id'])->where
         x-transition:leave-start="translate-y-0"
         x-transition:leave-end="-translate-y-full">
         <li class="block md:hidden">
+            <div class="px-4">
+                <x-search />
+            </div>
+            {{-- 
             <form action="{{ route('search') }}" method="GET" class="mt-3 mx-auto max-w-md md:max-w-xl w-full py-1 px-6 rounded-full bg-gray-50 border flex focus-within:border-gray-300">
                 @csrf
                 <input type="text" placeholder="Search anything" class="bg-transparent w-full focus:outline-none pr-4 font-semibold border-0 focus:ring-0 px-0 py-0" name="keyword">
@@ -22,6 +26,7 @@ $categories = \App\Models\Category::select(['name', 'slug', 'parent_id'])->where
                     Search
                 </button>
             </form>
+            --}}
         </li>
         <li class="text-large2 overflow-auto" data-open="true">
             <div class="w-full px-0 border-t-1 border-t-gray-300">

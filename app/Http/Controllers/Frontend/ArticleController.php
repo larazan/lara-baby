@@ -7,36 +7,50 @@ use App\Models\CategoryArticle;
 use Illuminate\Support\Facades\Cache;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use Illuminate\Support\Str;
 
 class ArticleController extends Controller
 {
     //
-    public function index($category = '')
+    public function index(Request $request, $category = '')
 	{
 		if ($category) {
             $cat = CategoryArticle::where('slug', $category)->first();
             $cat_id = $cat->id;
+			$title = Str::ucfirst($cat->name) . " Article";
         } else {
             $cat_id = null; 
+			$title = "Article";
         }
-		$array = [2, 4, 5, 6];
+
+		if ($request->search) {
+            $keyword = $request->search;
+            $title = Str::ucfirst($keyword) . " Article";
+        } else {
+            $keyword = null;
+            $title = "Article";
+        }
+
+		$array = [2, 4, 5, 6, 7];
 		$query = Article::select(['category_id', 'slug', 'title', 'body', 'author_id', 'original', 'status', 'created_at'])->whereNotIn('category_id', $array)->active()->orderBy('created_at', 'DESC');
 
 		$query->when($cat_id > 0, function ($q) use ($cat_id) {
             return $q->where('category_id', '=', $cat_id);
         });
 
-		$articles = $query->paginate(8);
+		$query->when($request->search, function ($q) use ($keyword) {
+            return $q->where('title', 'like', "%{$keyword}%");
+        });
+
+		$articles = $query->paginate(8)->withQueryString();
 
 		// $articles = Cache::remember('articles-page-' . request('page', default:1), now()->addHour(), function () {
 		// 	return Article::select(['title', 'slug', 'title', 'body', 'author_id', 'status', 'created_at'])->where('status','active')->orderBy('created_at', 'DESC')->paginate(8);
 		// });
 
-		$categories = CategoryArticle::select(['name', 'slug'])->get();
-		
-		$title = "Article";
+		$categories = CategoryArticle::select(['id', 'name', 'slug'])->whereNotIn('id', $array)->get();
 
-		return $this->loadTheme('blogs.index', compact('title', 'articles', 'categories'));
+		return $this->loadTheme('blogs.index', compact('title', 'articles', 'categories', 'cat_id'));
     }
     
     public function show($slug)
