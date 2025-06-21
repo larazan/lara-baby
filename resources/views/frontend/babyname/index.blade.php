@@ -2,40 +2,15 @@
 
 @section('content')
 
-<main class="overflow-hidden pt-[6px]">
+<main class="overflow-hidden pt-0">
     <div class="relative">
         <div class="relative">
-            <div class="w-full h-full absolute bg-[rgb(237,246,251)]/75"></div>
+            <div class="w-full h-full absolute bg-indigo-400"></div>
             <div class="pb-[72px] pt-10 md:py-20 relative">
                 <div class="mx-auto max-w-6xl px-6 lg:px-10 xl:px-0">
                     <div class="flex flex-col items-center justify-center gap-4">
-                        <nav class="flex" aria-label="Breadcrumb">
-                            <ol role="list" class="flex items-center">
-                                <li>
-                                    <div class="flex items-center"><a href="/" class="text-sm md:text-base md:leading-[25px] font-medium text-black-primary">Beranda</a></div>
-                                </li>
-                                <li class="flex items-center"><!--[-->
-                                    <div class="flex items-center w-[100px] sm:w-full">
-                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon" class="h-4 w-4 stoke-2 flex-shrink-0 text-[#64748B] mx-2">
-                                            <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5"></path>
-                                        </svg>
-                                        <a href="/berita" class="text-black-primary text-sm md:text-base md:leading-[25px] font-medium truncate" aria-current="page">
-                                            <p class="break-keep whitespace-nowrap truncate">Berita</p>
-                                        </a>
-                                    </div>
-                                    <div class="flex items-center w-[100px] sm:w-full">
-                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon" class="h-4 w-4 stoke-2 flex-shrink-0 text-[#64748B] mx-2">
-                                            <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5"></path>
-                                        </svg>
-                                        <a href="/berita/utama" class="text-gray-primary text-sm md:text-base md:leading-[25px] font-medium truncate" aria-current="page">
-                                            <p class="break-keep whitespace-nowrap truncate">Baby Name</p>
-                                        </a>
-                                    </div>
-                                </li>
-                            </ol>
-                        </nav>
                         <div class="flex items-center gap-2.5 text-center max-w-[700px]"><!---->
-                            <h1 class="text-2xl leading-[33px] md:text-[32px] md:leading-[48px] xl:text-[40px] xl:leading-[54px] font-bold text-gray-900">Baby Name</h1>
+                            <h1 class="text-2xl leading-[33px] md:text-[32px] md:leading-[48px] xl:text-[40px] xl:leading-[54px] font-bold text-white">Baby Name</h1>
                         </div>
                         <div>
                             <div class="flex flex-wrap items-center gap-1 md:gap-2 justify-center md:justify-center mx-auto w-11/12 md:w-10/12 ">
@@ -142,7 +117,12 @@
                 <div class="bg-white pb-0 md:pb-10">
                     <div class="mx-auto max-w-6xl md:px-6 lg:px-10 xl:px-0">
                         <div class="flex justify-between">
-                            <h2 class="text-xl md:text-[24px] md:leading-[33px] lg:text-[32px] lg:leading-[48px] font-bold text-gray-900">Results {{ $countNames }} Names Found</h2>
+                            <h2 class="text-xl md:text-[24px] md:leading-[33px] lg:text-[32px] lg:leading-[48px] font-bold text-gray-900">
+                                Found {{ $countNames }} Names
+                                @if(Request::get('search'))
+                                <span> for "{{ Request::get('search') }}" </span>
+                                @endif
+                            </h2>
                         </div>
                         <div class="mt-6 md:mt-12 grid gap-4 lg:gap-8 grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"><!--[-->
                             @foreach($babynames as $baby)

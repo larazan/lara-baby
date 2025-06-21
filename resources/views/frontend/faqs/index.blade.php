@@ -3,12 +3,12 @@
 @section('content')
 
 
-<main class="flex bg-white min-h-screen pt-20 pb-24 md:pt-[70px] max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+<main class="flex bg-white min-h-screen pt-10 pb-24 md:pt-[70px] max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
     <div class="flex flex-row w-full">
         <div class="flex flex-1 flex-col items-center justify-center relative">
             <div class="flex flex-1 flex-col w-full pb-18 max-w-2xl md:max-w-2xl ">
-                <section class="w-full mx-auto mt-0 py-12 px-5 bg-[#f4f4f4] rounded-md">
-                    <h5 class="font-semibold2 md:font-bold text-3xl font-bold text-black md:text-3xl pally-bold text-center ">FAQs</h5>
+                <section class="w-full mx-auto mt-0 py-6 md:py-12 md:px-5 bg-[#f4f4f4] rounded-md">
+                    <h5 class="font-semibold2 md:font-bold text-2xl font-bold text-black md:text-3xl pally-bold text-center ">FAQs</h5>
                     <dl class="w-full mt-6 space-y-4 ">
                         @foreach($faqs as $faq)
                         <div class="w-full py-3 md:py-5 px-4 rounded-xl"  x-data="{ open:false }">

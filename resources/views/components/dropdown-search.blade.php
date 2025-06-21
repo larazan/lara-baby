@@ -29,7 +29,7 @@
         }"
             @click.away="resetSearch()"
             @keydown.escape.window="resetSearch()"
-            class="relative w-full "
+            class="relative w-full overflow"
         >
             <div class="relative flex w-full items-center">
                 <div class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-4">
@@ -53,10 +53,11 @@
 
             <div x-show="query.length >= 2"
                 x-transition
-                class="absolute z-50 mt-1 w-full max-h-96 rounded border bg-white text-sm shadow-lg overflow-y-auto">
+                class="absolute z-50 mt-1 w-full max-h-80 overflow-y-scroll rounded border bg-white text-sm shadow-lg overflow overflow-y-auto2">
 
                 <template x-if="results.babynames?.length">
                     <div class="p-2">
+                        <h3 class="mb-2 font-bold text-gray-800"><span x-text="results.queryBabyname"></span> Names found</h3>
                         <template x-for="babyname in results.babynames" :key="babyname.uuid">
                             <a :href="`/baby-name/${babyname.slug}`"
                                 class="flex justify-between border-b p-2 last:border-b-0 hover:bg-gray-100"
@@ -77,7 +78,7 @@
                         <template x-if="results.queryBabyname > 10">
                             <div class="p-2 w-full flex justify-center text-center hover:bg-gray-100">
                                 <a :href="`/baby-name?search=${results.keyword}`" class="w-full ">
-                                    <span class="font-semibold text-gray-800 capitalize">see all <span x-text="results.queryBabyname"></span></span>
+                                    <span class="font-semibold text-gray-800 capitalize">see all</span>
                                 </a>
                             </div>
                         </template>

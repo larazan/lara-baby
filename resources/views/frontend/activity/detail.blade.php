@@ -5,7 +5,7 @@
 @dump($activities)
 
 
-<main class="overflow-hidden pt-[120px]"><!--[--><!--[-->
+<main class="overflow-hidden pt-0"><!--[--><!--[-->
     <div class="bg-white py-10 md:py-20">
         <div class="mx-auto max-w-[994px] px-6 lg:px-10 xl:px-0">
             <div>

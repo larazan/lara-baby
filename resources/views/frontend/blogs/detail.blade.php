@@ -10,7 +10,7 @@
 
 <!-- @dump($contents) -->
 
-@include('frontend.components._toc')
+<!-- @include('frontend.components._toc') -->
 
 <div x-data="scrollProgress()" x-init="init()" x-cloak class="fixed inset-x-0 top-0 z-50">
     <div class="h-1 bg-blue-500" :style="`width: ${percent}%`"></div>
@@ -19,7 +19,7 @@
 <div class="flex flex-col justify-center w-full items-center gap-82 bg-white min-h-screen pt-0 md:pt-[60px]">
 
     <header class="max-w-[800px] flex flex-col gap-4 p-6 relative z-10 pt-24 md:pt-16">
-        <div class="absolute top-16 md:top-2 left-2 flex  px-2 py-1 rounded-full border border-gray-900 text-gray-900 hover:text-white hover:bg-gray-800 items-center justify-between">
+        <div class="absolute top-16 md:top-2 left-6 flex  px-2 py-1 rounded-full border border-gray-900 text-gray-900 hover:text-white hover:bg-gray-800 items-center justify-between">
             <a href="{{ url('articles') }}" class="items-center text-xs md:text-sm flex">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="size-4">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
@@ -41,11 +41,11 @@
                             <p class="capitalize">{{ $article->user->name }}</p>
                         </span>
                         <span class="text-muted">|</span>
-                        <span class="text-gray-600 text-sm">
+                        <span class="flex text-gray-600 text-sm">
                             @if( $article->updated_at == null )
-                            Published on {{ $article->created_at->format('d M Y') }}
+                            <span class="hidden md:block">Published on</span> {{ $article->created_at->format('d M Y') }}
                             @else
-                            Updated on {{ $article->updated_at->format('d M Y') }}
+                            <span class="hidden md:block">Updated on</span> {{ $article->updated_at->format('d M Y') }}
                             @endif
                         </span>
                     </span>
@@ -53,35 +53,25 @@
                 </div>
             </div>
             <div class="mt-3">
-                <img onerror="this.setAttribute('data-error', 1)" width="994" height="480" alt="BMKG Gelar Rapat Rekonsiliasi Aloptama, Perkuat Keandalan Peralatan Operasional di Seluruh Indonesia" loading="lazy" data-nuxt-img="" class="w-full h-[240px] md:h-[360px] lg:h-[480px] object-cover" src="https://i0.wp.com/content.bmkg.go.id/wp-content/uploads/IMG_9456.jpg?fit=1280%2C853&amp;ssl=1" srcset="https://i0.wp.com/content.bmkg.go.id/wp-content/uploads/IMG_9456.jpg?fit=1280%2C853&amp;ssl=1 1x, https://i0.wp.com/content.bmkg.go.id/wp-content/uploads/IMG_9456.jpg?fit=1280%2C853&amp;ssl=1 2x">
+                <img onerror="this.setAttribute('data-error', 1)" width="994" height="480" alt="BMKG Gelar Rapat Rekonsiliasi Aloptama, Perkuat Keandalan Peralatan Operasional di Seluruh Indonesia" loading="lazy" class="w-full h-[240px] md:h-[360px] lg:h-[480px] object-cover" src="https://i0.wp.com/content.bmkg.go.id/wp-content/uploads/IMG_9456.jpg?fit=1280%2C853&amp;ssl=1" srcset="https://i0.wp.com/content.bmkg.go.id/wp-content/uploads/IMG_9456.jpg?fit=1280%2C853&amp;ssl=1 1x, https://i0.wp.com/content.bmkg.go.id/wp-content/uploads/IMG_9456.jpg?fit=1280%2C853&amp;ssl=1 2x">
             </div>
         </div>
-        <div class="flex justify-around md:justify-between  w-full mx-auto mt-3">
+        <div class="flex justify-between items-center w-full mx-auto mt-0">
             <div class="shadow-sm rounded-2xl">
                 <a class="w-full justify-center inline-flex items-center px-4 py-1 border border-transparent text-sm font-medium rounded-2xl shadow-sm text-white transition duration-150 bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cool-indigo-500" href="">{{ $article->category($article->category_id) }}</a>
             </div>
-            <div class="flex justify-center items-center">
+            <div class="flex justify-end items-end">
                 {!! $shareComponent !!}
             </div>
         </div>
 
     </header>
 
-    <!-- test -->
-    <div x-data="{ isOffScreen: false }" @scroll.window="checkIfOffScreen()">
-        <div id="target-element" style="height: 500px; background-color: lightblue;">
-            This is the target element
-        </div>
-        <div :class="isOffScreen ? 'fixed top-[45px] z-30' : ''" x-show="isOffScreen">
-            The element is off-screen!
-        </div>
-    </div>
-
     <!-- toc -->
     <div class="hidden2 flex flex-col w-full">
 
         <div id="sticky-anchor"></div>
-        <div x-data="{ open:false }" class="fixed top-[44px] z-20 flex flex-col w-full px-5 py-3 bg-[#dbebfa] border-y border-blue-800 my-4 shadow-md">
+        <div x-data="{ open:false }" class="fixed top-[40px] z-20 flex flex-col w-full px-5 py-3 bg-[#dbebfa] border-y border-blue-800 my-4 shadow-md">
             <div class="flex w-full max-w-2xl mx-auto justify-center items-center space-x-1 cursor-pointer" @click="open = !open">
                 <span class="font-bold text-lg text-gray-800">Table of contents</span>
                 <span class="text-primary font-normal text-2xl">
@@ -120,7 +110,7 @@
             </nav>
         </div>
 
-        <div class=" w-full max-w-2xl mx-auto">
+        <div class=" w-full max-w-2xl mx-auto px-6">
             <div class="flex flex-col w-full px-5 py-6 bg-[#dbebfa] border border-blue-700 my-4">
                 <div class="text-lg md:text-2xl font-bold text-black">Table of contents</div>
                 <nav aria-label="Table of contents">
@@ -182,17 +172,17 @@
             /* background-color: #ccc; */
             display: flex;
             /* margin: 0 auto; */
-            min-width: 280px;
+            min-width: 230px;
         }
 
         div#social-links ul li {
             display: inline-block;
-            margin: 2px;
+            margin: 1.5px;
         }
 
         div#social-links ul li a {
             border-radius: 10%;
-            padding: 7px 10px;
+            padding: 6px 7px;
             /* border: 1px solid #ccc; */
             margin: 1px;
             font-size: 20px;

@@ -149,12 +149,15 @@ class Babyname extends Model
         return $this->native_name;
     }
 
-
     public function scopeActive($query)
     {
         return $query->where('status', self::ACTIVE);
     }
 
+    public function count(): string
+    {
+        return strlen($this->name);
+    }
     
     public function religion($religionId)
     {
@@ -167,6 +170,12 @@ class Babyname extends Model
 		$country = Country::where('id', $countryId)->first();
 		return $country->name;
 	}
+
+    public function origin($originId)
+    {
+        $origin = Origin::where('id', $originId)->first();
+		return $origin->name;
+    }
     
     public function countries()
     {

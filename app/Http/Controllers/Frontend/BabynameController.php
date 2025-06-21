@@ -123,9 +123,38 @@ class BabynameController extends Controller
 
     public function show($slug)
     {
+        $letters = range('A', 'Z');
+        $genders = [ 1 => 'boy', 2 => 'girl', 3 => 'unisex'];
+        $origins = Cache::remember('origins', now()->addHour(), function () {
+            return Origin::select(['id', 'name'])->orderBy('name', 'asc')->get();
+        });
+        $religions = Cache::remember('religions', now()->addHour(), function () {
+            return Religion::select(['id', 'name'])->orderBy('name', 'asc')->get();
+        });
+        $countries = Cache::remember('countries', now()->addHour(), function () {
+            return Country::select(['id', 'name'])->orderBy('name', 'asc')->get();
+        });
+
+        $babyname = Babyname::select(['name', 'meaning', 'slug', 'origin_id', 'gender_id', 'country_id', 'religion_id', 'status'])
+                    ->active()->where('slug', $slug)->first();
+        
+        if (!$babyname) {
+            return redirect('baby-name');
+        }
+
+        // $searchTerm = $babyname->name;
+        // $maxDistance = 2;
+
+        // $results = DB::table('babynames')
+        //       ->select('name')
+        //       ->selectRaw("LEVENSHTEIN(name, ?) AS distance", [$searchTerm])
+        //       ->whereRaw("LEVENSHTEIN(name, ?) <= ?", [$searchTerm, $maxDistance])
+        //       ->orderBy('distance')
+        //       ->get();
+
         $shareComponent = \Share::page(
             'https://www.positronx.io/create-autocomplete-search-in-laravel-with-typeahead-js/',
-            'Your share text comes here',
+            $babyname->name,
         )
         ->facebook()
         ->twitter()
@@ -134,17 +163,9 @@ class BabynameController extends Controller
         ->whatsapp()        
         ->reddit();
 
-        $babyname = Babyname::select(['name', 'meaning', 'slug', 'origin_id', 'gender_id', 'country_id', 'status'])
-                    ->active()->where('slug', $slug)->first();
+        $title = "Arti kata nama: " . $babyname->name;
         
-        if (!$babyname) {
-            return redirect('baby-name');
-        }
-
-        $title = $babyname->name;
-        
-
-        return $this->loadTheme('babyname.detail', compact('title', 'babyname', 'shareComponent'));
+        return $this->loadTheme('babyname.detail', compact('letters', 'genders', 'origins', 'religions', 'countries', 'title', 'babyname', 'shareComponent',));
     }
 
     public function letter($letter)

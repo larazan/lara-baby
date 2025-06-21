@@ -2,7 +2,7 @@
 
 @section('content')
 
-<main class="overflow-hidden pt-[20px]"><!--[-->
+<main class="overflow-hidden pt-0"><!--[-->
     <div class="relative">
         <div class="relative">
             <div class="w-full h-full absolute bg-[#fff0d9]"></div>
