@@ -49,7 +49,9 @@ Route::group(
         'middleware' => [ 'localeSessionRedirect', 'localizationRedirect', 'localeViewPath' ]
     ], function () {
     Route::get('/', [HomeController::class, 'index'])->name('home');
-
+    Route::get('/welcome', function() {
+        return view('welcome');
+    })->name('welcome');
 });
 
 

@@ -14,17 +14,7 @@
         <!-- Right: Actions -->
         <div class="sn am jo az jp ft">
 
-            <!-- Search form -->
-            <form class="y">
-                <label for="action-search" class="d">Search</label>
-                <input wire:model="search" id="action-search" class="s me xq" type="search" placeholder="Search by name">
-                <button class="g w j kk" type="submit" aria-label="Search">
-                    <svg class="oo sl ub du gq kj ml-3 mr-2" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M7 14c-3.86 0-7-3.14-7-7s3.14-7 7-7 7 3.14 7 7-3.14 7-7 7zM7 2C4.243 2 2 4.243 2 7s2.243 5 5 5 5-2.243 5-5-2.243-5-5-5z"></path>
-                        <path d="M15.707 14.293L13.314 11.9a8.019 8.019 0 01-1.414 1.414l2.393 2.393a.997.997 0 001.414 0 .999.999 0 000-1.414z"></path>
-                    </svg>
-                </button>
-            </form>
+
 
             <!-- Create advertising button -->
             <button class="btn ho xi ye" wire:click="showCreateModal">
@@ -42,7 +32,17 @@
 
         <!-- Left side -->
         <div class="ri _y">
-
+            <!-- Search form -->
+            <form class="y">
+                <label for="action-search" class="d">Search</label>
+                <input wire:model="search" id="action-search" class="s me xq" type="search" placeholder="Search by title">
+                <button class="g w j kk" type="submit" aria-label="Search">
+                    <svg class="oo sl ub du gq kj ml-3 mr-2" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7 14c-3.86 0-7-3.14-7-7s3.14-7 7-7 7 3.14 7 7-3.14 7-7 7zM7 2C4.243 2 2 4.243 2 7s2.243 5 5 5 5-2.243 5-5-2.243-5-5-5z"></path>
+                        <path d="M15.707 14.293L13.314 11.9a8.019 8.019 0 01-1.414 1.414l2.393 2.393a.997.997 0 001.414 0 .999.999 0 000-1.414z"></path>
+                    </svg>
+                </button>
+            </form>
         </div>
 
         <!-- Right side -->
@@ -126,16 +126,25 @@
                                 </div>
                             </th>
                             <th class="vi wy w_ vo lm">
+                                <div class="gh gt">No</div>
+                            </th>
+                            <th class="vi wy w_ vo lm">
                                 <div class="gh gt">Title</div>
                             </th>
                             <th class="vi wy w_ vo lm">
                                 <div class="gh gt">Image</div>
                             </th>
                             <th class="vi wy w_ vo lm">
+                                <div class="gh gt">Segment</div>
+                            </th>
+                            <th class="vi wy w_ vo lm">
                                 <div class="gh gt">Start</div>
                             </th>
                             <th class="vi wy w_ vo lm">
                                 <div class="gh gt">End</div>
+                            </th>
+                            <th class="vi wy w_ vo lm">
+                                <div class="gh gt">Views</div>
                             </th>
                             <th class="vi wy w_ vo lm">
                                 <div class="gh gt">Url</div>
@@ -166,6 +175,11 @@
                                 </div>
                             </td>
                             <td class="vi wy w_ vo lm">
+                                <div class="gp text-slate-800">
+                                    {{ ($advertisings->currentpage()-1) * $advertisings->perpage() + $loop->index + 1 }}
+                                </div>
+                            </td>
+                            <td class="vi wy w_ vo lm">
                                 <div class="gp text-slate-800">{{ $advertising->title }}</div>
                             </td>
                             <td class="vi wy w_ vo lm">
@@ -175,12 +189,17 @@
                                     @endif
                                 </div>
                             </td>
-
+                            <td class="vi wy w_ vo lm">
+                                <div class="gp text-slate-800">{{ $advertising->segment($advertising->segment_id) }}</div>
+                            </td>
                             <td class="vi wy w_ vo lm">
                                 <div>{{ $advertising->start }}</div>
                             </td>
                             <td class="vi wy w_ vo lm">
                                 <div>{{ $advertising->end }}</div>
+                            </td>
+                            <td class="vi wy w_ vo lm">
+                                <div>{{ $advertising->views }} / {{ $advertising->clicks }}</div>
                             </td>
                             <td class="vi wy w_ vo lm">
                                 <div>{{ $advertising->url }}</div>
@@ -251,20 +270,32 @@
                             <div class="">
                                 <div class="">
                                     <div class="flex flex-col space-y-3">
-                                    <div class="col-span-6 sm:col-span-3">
-                                            <label for="first-name" class="block text-sm font-medium text-gray-700">Advertising Segment</label>
-                                            <select wire:model="segmentId" class="h-full rounded-r border-t border-r border-b block appearance-none w-full bg-white border-gray-300 text-gray-700 py-2 px-4 pr-8 leading-tight focus:placeholder-gray-600 focus:text-gray-700 focus:outline-none">
-                                                <option value="">Select Option</option>
-                                                @foreach($segments as $segment)
-                                                <option value="{{ $segment->id }}">{{ $segment->title }}</option>
-                                                @endforeach
-                                            </select>
+                                        <div class="flex flex-row justify-between space-x-1">
+                                            <div class="col-span-6 sm:col-span-3 w-full">
+                                                <label for="first-name" class="block text-sm font-medium text-gray-700 pb-1">Advertising Segment</label>
+                                                <select wire:model="segmentId" class="h-10 border block appearance-none w-full bg-white border-gray-600 text-gray-700 py-2 px-4 pr-0 leading-tight focus:placeholder-gray-600 focus:text-gray-700 focus:outline-none">
+                                                    <option value="">Select Option</option>
+                                                    @foreach($segments as $segment)
+                                                    <option value="{{ $segment->id }}">{{ $segment->title }}</option>
+                                                    @endforeach
+                                                </select>
+                                            </div>
+                                            <div class="col-start-1 sm:col-span-3 w-full">
+                                                <label for="title" class="block text-sm font-medium text-gray-700">
+                                                    Title
+                                                </label>
+                                                <input wire:model="title" type="text" autocomplete="given-name" class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
+                                            </div>
                                         </div>
-                                        <div class="col-start-1 sm:col-span-3">
-                                            <label for="title" class="block text-sm font-medium text-gray-700">
-                                                Title
+                                        <div class="col-start-1 sm:col-span-3 w-full">
+                                            <label for="description" class="block text-sm font-medium text-gray-700">
+                                                Description
                                             </label>
-                                            <input wire:model="title" type="text" autocomplete="given-name" class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
+                                            <textarea wire:model="description" type="text" autocomplete="given-name" class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"></textarea>
+
+                                            @error('description')
+                                            <div class="go re yl">{{ $message }}</div>
+                                            @enderror
                                         </div>
                                         <div class="col-start-1 sm:col-span-3">
                                             <label for="title" class="block text-sm font-medium text-gray-700">
@@ -272,8 +303,8 @@
                                             </label>
                                             <input wire:model="url" type="text" autocomplete="given-name" class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
                                         </div>
-                                       
-                                        <div class="flex justify-between">
+
+                                        <div class="flex flex-row justify-between">
                                             <div class="col-start-1 sm:col-span-3">
                                                 <label for="title" class="block text-sm font-medium text-gray-700">
                                                     Start
@@ -287,30 +318,30 @@
                                                 <x-flatpicker wire:model="end"></x-flatpicker>
                                             </div>
                                         </div>
-
-                                        <div class="col-span-6 sm:col-span-3">
-                                            <label for="photo" class="block text-sm font-medium text-gray-700">Image
-                                            </label>
-                                            <input wire:model="file" type="file" autocomplete="given-name" class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
-                                            @if ($oldImage)
-                                            Photo Preview:
-                                            <img src="{{ asset('storage/'.$oldImage) }}">
-                                            @endif
-                                            @if ($file)
-                                            Photo Preview:
-                                            <img src="{{ $file->temporaryUrl() }}">
-                                            @endif
+                                        <div class="flex flex-row justify-between space-x-1">
+                                            <div class="col-span-6 sm:col-span-3 w-full">
+                                                <label for="photo" class="block text-sm font-medium text-gray-700">Image
+                                                </label>
+                                                <input wire:model="file" type="file" autocomplete="given-name" class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
+                                                @if ($oldImage)
+                                                Photo Preview:
+                                                <img src="{{ asset('storage/'.$oldImage) }}">
+                                                @endif
+                                                @if ($file)
+                                                Photo Preview:
+                                                <img src="{{ $file->temporaryUrl() }}">
+                                                @endif
+                                            </div>
+                                            <div class="col-span-6 sm:col-span-3 w-full">
+                                                <label for="first-name" class="block text-sm font-medium text-gray-700 pb-1">Status</label>
+                                                <select wire:model="advertisingStatus" class="h-10 border block appearance-none w-full bg-white border-gray-600 text-gray-700 py-2 px-4 pr-0 leading-tight focus:placeholder-gray-600 focus:text-gray-700 focus:outline-none">
+                                                    <option value="">Select Option</option>
+                                                    @foreach($statuses as $status)
+                                                    <option value="{{ $status }}">{{ $status }}</option>
+                                                    @endforeach
+                                                </select>
+                                            </div>
                                         </div>
-                                        <div class="col-span-6 sm:col-span-3">
-                                            <label for="first-name" class="block text-sm font-medium text-gray-700">Status</label>
-                                            <select wire:model="advertisingStatus" class="h-full rounded-r border-t border-r border-b block appearance-none w-full bg-white border-gray-300 text-gray-700 py-2 px-4 pr-8 leading-tight focus:placeholder-gray-600 focus:text-gray-700 focus:outline-none">
-                                                <option value="">Select Option</option>
-                                                @foreach($statuses as $status)
-                                                <option value="{{ $status }}">{{ $status }}</option>
-                                                @endforeach
-                                            </select>
-                                        </div>
-
                                     </div>
                                 </div>
                             </div>

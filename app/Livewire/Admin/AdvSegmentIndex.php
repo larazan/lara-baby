@@ -102,7 +102,7 @@ class AdvSegmentIndex extends Component
 
     public function showEditModal($segmentId)
     {
-        $this->reset(['name']);
+        $this->reset(['title']);
         $this->segmentId = $segmentId;
         $segment = AdvertisingSegment::find($segmentId);
         $this->title = $segment->title;
@@ -252,8 +252,14 @@ class AdvSegmentIndex extends Component
 
     public function render()
     {
+        if (!$this->search) {
+            $segments = AdvertisingSegment::orderBy('id', $this->sort)->paginate($this->perPage);
+        } elseif($this->search > 3) {
+            $segments = AdvertisingSegment::where('title', 'like', '%'.$this->search.'%')->orderBy('id', $this->sort)->paginate($this->perPage);
+        }
+
         return view('livewire.admin.adv-segment-index', [
-            'segments' => AdvertisingSegment::liveSearch('title', $this->search)->orderBy('title', $this->sort)->paginate($this->perPage),
+            'segments' => $segments,
         ]);
     }
 }

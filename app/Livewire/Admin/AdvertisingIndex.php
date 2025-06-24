@@ -22,6 +22,7 @@ class AdvertisingIndex extends Component
     public $showAdvertisingDetailModal = false;
     
     public $title;
+    public $description;
     public $start;
     public $end;
     public $url;
@@ -37,7 +38,7 @@ class AdvertisingIndex extends Component
     ];
 
     public $search = '';
-    public $sort = 'asc';
+    public $sort = 'desc';
     public $perPage = 10;
 
     public $showConfirmModal = false;
@@ -98,6 +99,7 @@ class AdvertisingIndex extends Component
         $advertising = new Advertising();
         $advertising->segment_id = $this->segmentId;
         $advertising->title = $this->title;
+        $advertising->description = $this->description;
         $advertising->start = $this->start;
         $advertising->end = $this->end;
         $advertising->url = $this->url;
@@ -154,11 +156,12 @@ class AdvertisingIndex extends Component
 
     public function showEditModal($advertisingId)
     {
-        $this->reset(['name']);
+        $this->reset(['title']);
         $this->advertisingId = $advertisingId;
         $advertising = Advertising::find($advertisingId);
         $this->segmentId = $advertising->segment_id;
         $this->title = $advertising->title;
+        $this->description = $advertising->description;
         $this->start = $advertising->start;
         $this->end = $advertising->end;
         $this->url = $advertising->url;
@@ -180,6 +183,7 @@ class AdvertisingIndex extends Component
                 // $advertising = Advertising::where('id', $this->advertisingId)->first();
                 $advertising->segment_id = $this->segmentId;
                 $advertising->title = $this->title;
+                $advertising->description = $this->description;
                 $advertising->start = $this->start;
                 $advertising->end = $this->end;
                 $advertising->url = $this->url;
@@ -259,6 +263,7 @@ class AdvertisingIndex extends Component
                 'advertisingId',
                 'segmentId',
                 'title',
+                'description',
                 'start',
                 'end',
                 'url',
@@ -348,8 +353,14 @@ class AdvertisingIndex extends Component
 
     public function render()
     {
+        if (!$this->search) {
+            $advertisings = Advertising::orderBy('id', $this->sort)->paginate($this->perPage);
+        } elseif($this->search > 3) {
+            $advertisings = Advertising::where('title', 'like', '%'.$this->search.'%')->orderBy('id', $this->sort)->paginate($this->perPage);
+        }
+
         return view('livewire.admin.advertising-index',  [
-            'advertisings' => Advertising::liveSearch('title', $this->search)->orderBy('title', $this->sort)->paginate($this->perPage),
+            'advertisings' => $advertisings,
             'segments' => AdvertisingSegment::orderBy('title', $this->sort)->get(),
         ]);
     }

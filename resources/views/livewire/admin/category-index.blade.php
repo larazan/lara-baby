@@ -8,7 +8,7 @@
 
         <!-- Left: Title -->
         <div class="ri _y">
-            <h1 class="gu teu text-slate-800 font-bold">Category</h1>
+            <h1 class="gu teu text-slate-800 font-bold">Category Activity</h1>
         </div>
 
         <!-- Right: Actions -->
