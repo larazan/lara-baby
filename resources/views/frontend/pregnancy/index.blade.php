@@ -6,30 +6,12 @@
     <div class="relative">
         <div class="relative">
             <div class="w-full h-full absolute bg-[#fff0d9]"></div>
-            <div class="py-12 md:py-20 relative">
+            <div class="py-6 md:py-20 relative">
                 <div class="mx-auto max-w-lg px-6 lg:px-10 xl:px-0">
                     <div class="flex flex-col items-center justify-center gap-4">
-                        <nav class="flex" aria-label="Breadcrumb">
-                            <ol role="list" class="flex items-center">
-                                <li>
-                                    <div class="flex items-center"><a href="/" class="text-[15px]  md:text-md md:text-base md:leading-[25px] font-medium text-black-primary">Beranda</a></div>
-                                </li>
-                                <li class="flex items-center"><!--[-->
-                                    <div class="flex items-center w-[100px] sm:w-full"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon" class="h-4 w-4 stoke-2 flex-shrink-0 text-[#64748B] mx-2">
-                                            <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5"></path>
-                                        </svg><a href="/berita" class="text-black-primary text-[15px]  md:text-md md:text-base md:leading-[25px] font-medium truncate" aria-current="page">
-                                            <p class="break-keep whitespace-nowrap truncate">Berita</p>
-                                        </a></div>
-                                    <div class="flex items-center w-[100px] sm:w-full"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon" class="h-4 w-4 stoke-2 flex-shrink-0 text-[#64748B] mx-2">
-                                            <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5"></path>
-                                        </svg><a href="/berita/utama" class="text-gray-primary text-[15px]  md:text-md md:text-base md:leading-[25px] font-medium truncate" aria-current="page">
-                                            <p class="break-keep whitespace-nowrap truncate">Berita Utama</p>
-                                        </a></div><!--]-->
-                                </li>
-                            </ol>
-                        </nav>
+                        
                         <div class="flex items-center gap-2.5 text-center max-w-[700px]"><!---->
-                            <h1 class="text-2xl leading-[33px] md:text-[32px] md:leading-[48px] xl:text-[40px] xl:leading-[54px] font-bold text-gray-900">Pregnancy Tracker: Day by Day</h1>
+                            <h1 class="text-lg leading-[33px] md:text-[32px] md:leading-[48px] xl:text-[40px] xl:leading-[54px] font-bold text-gray-900">Pregnancy Tracker: Day by Day</h1>
                         </div>
                         <div>
                             <p class=" md: md:leading-[25px] text-gray-800 text-center max-w-[905px]">Get a daily look at how your baby is growing and find timely guidance for every week and trimester of your pregnancy.</p>
@@ -50,23 +32,23 @@
                             <ul class="flex justify-between w-full border-b-2 mt-0">
                                 <li class="flex justify-center w-1/2 text-center  ">
                                     <a
-                                        class="flex w-full justify-center items-center text-lg text-blue-700 font-semibold hover:text-blue-800 hover:border-b-2 hover:border-blue-700" href="#"
+                                        class="flex w-full justify-center items-center md:text-lg text-blue-700 font-semibold hover:text-blue-800 hover:border-b-2 hover:border-blue-700" href="#"
                                         :class="{ 'text-blue-700 border-b-2 border-blue-700': tab == 'tab1'}"
-                                        @click.prevent="tab = 'tab1'">1st trimester</a>
+                                        @click.prevent="tab = 'tab1'">1st Trimester</a>
                                 </li>
                                 <li class="flex justify-center w-1/2 text-center ">
                                     <a
-                                        class="flex w-full justify-center items-center text-lg text-blue-700 font-semibold hover:text-blue-800 hover:border-b-2 hover:border-blue-700"
+                                        class="flex w-full justify-center items-center md:text-lg text-blue-700 font-semibold hover:text-blue-800 hover:border-b-2 hover:border-blue-700"
                                         href="#"
                                         :class="{ 'text-blue-700 border-b-2 border-blue-700': tab == 'tab2'}"
-                                        @click.prevent="tab = 'tab2'">2nd trimester</a>
+                                        @click.prevent="tab = 'tab2'">2nd Trimester</a>
                                 </li>
                                 <li class="flex justify-center w-1/2 text-center ">
                                     <a
-                                        class="flex w-full justify-center items-center text-lg text-blue-700 font-semibold hover:text-blue-800 hover:border-b-2 hover:border-blue-700"
+                                        class="flex w-full justify-center items-center md:text-lg text-blue-700 font-semibold hover:text-blue-800 hover:border-b-2 hover:border-blue-700"
                                         href="#"
                                         :class="{ 'text-blue-700 border-b-2 border-blue-700': tab == 'tab3'}"
-                                        @click.prevent="tab = 'tab3'">3rd trimester</a>
+                                        @click.prevent="tab = 'tab3'">3rd Trimester</a>
                                 </li>
                             </ul>
                             <div class="content md:px-4 py-4 pt-4">
@@ -79,7 +61,7 @@
                                             </div>
                                             <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
                                                 @foreach($first as $f)
-                                                <div class="relative flex flex-col rounded-md bg-blue-200 border px-4 py-4 shadow transition hover:scale-105">
+                                                <div class="relative flex flex-col rounded-md bg-blue-200 border-2 border-gray-600 px-4 py-2 shadow-menu transition hover:scale-105">
                                                     <a href="{{ url('pregnancy/tracker/first-trimester/week-'.$f) }}" class="absolute top-0 left-0 w-full h-full z-[5] rounded-2xl" aria-label="Baca selengkapnya"></a>
                                                     <div class="flex justify-between items-center">
                                                         <span class="text-blue-600 text-2xl font-bold ">{{ $f }}</span>
@@ -89,8 +71,8 @@
                                                             </svg>
                                                         </span>
                                                     </div>
-                                                    <div>
-                                                        <span class="text-lg text-black font-bold leading-3">weeks pregnants</span>
+                                                    <div class="leading-tight">
+                                                        <span class="md:text-lg text-black font-semibold md:font-bold ">weeks <br/>pregnant</span>
                                                     </div>
                                                 </div>
                                                 @endforeach
@@ -108,7 +90,7 @@
                                             </div>
                                             <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
                                                 @foreach($second as $f)
-                                                <div class="relative flex flex-col rounded-md bg-blue-200 border px-4 py-4 shadow transition hover:scale-105">
+                                                <div class="relative flex flex-col rounded-md bg-blue-200 border-2 border-gray-600 px-4 py-4 shadow-menu transition hover:scale-105">
                                                     <a href="{{ url('pregnancy/tracker/second-trimester/week-'.$f) }}" class="absolute top-0 left-0 w-full h-full z-[5] rounded-2xl" aria-label="Baca selengkapnya"></a>
                                                     <div class="flex justify-between items-center">
                                                         <span class="text-blue-600 text-2xl font-bold ">{{ $f }}</span>
@@ -119,7 +101,7 @@
                                                         </span>
                                                     </div>
                                                     <div>
-                                                        <span class="text-lg text-black font-bold leading-3">weeks pregnants</span>
+                                                        <span class="text-lg text-black font-bold leading-3">weeks <br/>pregnant</span>
                                                     </div>
                                                 </div>
                                                 @endforeach
@@ -137,7 +119,7 @@
                                             </div>
                                             <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
                                                 @foreach($third as $f)
-                                                <div class="relative flex flex-col rounded-md bg-blue-200 border px-4 py-4 shadow transition hover:scale-105">
+                                                <div class="relative flex flex-col rounded-md bg-blue-200 border-2 border-gray-600 px-4 py-4 shadow-menu transition hover:scale-105">
                                                     <a href="{{ url('pregnancy/tracker/third-trimester/week-'.$f) }}" class="absolute top-0 left-0 w-full h-full z-[5] rounded-2xl" aria-label="Baca selengkapnya"></a>
                                                     <div class="flex justify-between items-center">
                                                         <span class="text-blue-600 text-2xl font-bold ">{{ $f }}</span>
@@ -148,7 +130,7 @@
                                                         </span>
                                                     </div>
                                                     <div>
-                                                        <span class="text-lg text-black font-bold leading-3">weeks pregnants</span>
+                                                        <span class="text-lg text-black font-bold leading-3">weeks <br/>pregnant</span>
                                                     </div>
                                                 </div>
                                                 @endforeach
@@ -173,8 +155,8 @@
                             <img src="https://cdns.klimg.com/mav-prod-resized/1200x630/webp/newsCover/2025/5/30/1748597285535-46bst.jpeg" class="w-full h-full object-cover" width="100" height="100" >
                         </a>
                         <div class="item-detail flex flex-col items-start">
-                            <a href="{{ url('pregnancy/tracker/'.$article->categorySlug($article->category_id)) }}" class="item-tag uppercase text-[14px] font-semibold  text-gray-600">
-                            {{ $article->category($article->category_id) }} 
+                            <a href="{{ url('pregnancy/tracker/'.$article->categorySlug($article->category_id)) }}" class="flex px-3 py-1 bg-sky-600 text-white text-xs rounded-full w-fit font-medium">
+                            <span class="">{{ $article->category($article->category_id) }}</span> 
                             </a>
                             <h1 class="item-title font-bold text-[15px]  md:text-md line-clamp-3 text-gray-800">
                                 <a href="{{ url('pregnancy/tracker/'.$article->categorySlug($article->category_id).'/'.$article->slug) }}" >{{ $article->title }}</a>

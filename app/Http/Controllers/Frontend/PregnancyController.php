@@ -90,8 +90,16 @@ class PregnancyController extends Controller
         ->reddit();
         
         $limit = 5;
-		$array = [2, 4, 5, 6];
-        $articles = Article::select(['title', 'slug', 'title', 'category_id', 'body', 'author_id', 'status', 'created_at'])->whereIn('category_id', $array)->where('category_id', $article->category_id)->active()->where('slug', '!=', $slug)->orderBy('id', 'DESC')->latest()->take($limit)->get();
+		$array = [4, 5, 6, 7];
+        $articles = Article::select(['title', 'slug', 'title', 'category_id', 'body', 'author_id', 'status', 'created_at'])
+                        ->whereIn('category_id', $array)
+                        ->where('category_id', $article->category_id)
+                        ->active()
+                        ->where('slug', '!=', $slug)
+                        ->orderBy('id', 'DESC')
+                        ->latest()
+                        ->take($limit)
+                        ->get();
 
         // Query for records before the specified ID
         $recordsBeforeQuery = Article::select(['id', 'title', 'slug', 'category_id'])
@@ -130,6 +138,13 @@ class PregnancyController extends Controller
 		$contents = $this->generateIndex($article->body);
 
         $title = $title. ' Pregnancy';
+
+        $arrData = [];
+        foreach ($allRecords as $r) {
+            array_push($arrData, $r);
+        }
+
+        $arrNumb = $this->generateNumb($article->id, $arrData);
 
         return $this->loadTheme('pregnancy.detail', compact('title', 'article', 'articles', 'breadcrumbs_data', 'contents', 'allRecords', 'countBefore', 'countAfter'));
     }
@@ -174,4 +189,40 @@ class PregnancyController extends Controller
 
 	    return ["html" => $html, "index" => $index];
 	}
+
+    function generateNumb($n, $arrData)
+    {
+        $before = $this->getFiveNumbersBefore($n);
+        $after = $this->getFiveNumbersAfter($n);
+
+        // merge
+        $mergeArr = array_merge($before, $after); 
+
+        // compare
+        $diff_key = array_diff_key($arrData, $mergeArr);
+
+        return $diff_key;
+    }
+
+    function getFiveNumbersBefore(int $certainNumber): array
+    {
+        $result = [];
+        for ($i = 1; $i <= 5; $i++) {
+            $result[] = $certainNumber - $i;
+        }
+        // Reverse the array if you want them in ascending order (e.g., 95, 96, 97, 98, 99)
+        // If you want 99, 98, 97, 96, 95 leave it as is.
+        return $result;
+    }
+
+    function getFiveNumbersAfter(int $certainNumber): array
+    {
+        $result = [];
+        for ($i = 1; $i >= 5; $i++) {
+            $result[] = $certainNumber - $i;
+        }
+        // Reverse the array if you want them in ascending order (e.g., 95, 96, 97, 98, 99)
+        // If you want 99, 98, 97, 96, 95 leave it as is.
+        return $result;
+    }
 }

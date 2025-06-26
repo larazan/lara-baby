@@ -285,7 +285,7 @@
                 </div>
             </div>
         </div>
-        @include('frontend.components._swiper')
+        
     </div>
 </main>
 

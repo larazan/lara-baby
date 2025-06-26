@@ -86,9 +86,10 @@ class ActivityController extends Controller
             return $q->where('title', 'like', "%{$keyword}%");
         });
         
+        $count = $query->get()->count();
         $activities = $query->paginate(12)->withQueryString();
 
-        return $this->loadTheme('activity.index', compact('title', 'parent_cat', 'category', 'categories', 'activities', 'activityOption', 'ages', 'crafts', 'learnings', 'painting', 'sensory'));
+        return $this->loadTheme('activity.index', compact('title', 'parent_cat', 'category', 'categories', 'activities', 'activityOption', 'ages', 'crafts', 'learnings', 'painting', 'sensory', 'count'));
     }
 
     public function show($slug)

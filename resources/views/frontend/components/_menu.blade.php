@@ -253,24 +253,22 @@ $categories = \App\Models\Category::select(['name', 'slug', 'parent_id'])->where
                 </div>
                 <!--  -->
             </div>
-            <div class="flex flex-col md:flex-row gap-[20px] px-[24px] pt-[40px] md:justify-center desktop:p-0">
+            <div class="flex flex-col md:flex-row gap-[20px] px-[24px] py-10 md:justify-center">
                 <a
-                    class="z-0 group relative inline-flex items-center justify-center rounded-full box-border appearance-none select-none whitespace-nowrap font-normal subpixel-antialiased overflow-hidden tap-highlight-transparent data-[pressed=true]:scale-[0.97] outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 px-4 text-small rounded-medium [&amp;>svg]:max-w-[theme(spacing.8)] transition-transform-colors-opacity motion-reduce:transition-none text-default-foreground data-[hover=true]:opacity-hover min-w-[110px] p-primaryButton h-[53px] gap-[12px] bg-transparent border border-indigo-600 disabled:border-gray-400 disabled:text-gray-400 focus:bg-indigo-100 focus:border-[2px] hover:bg-indigo-100 active:bg-indigo-100 active:border-[2px] data-[hover=true]:opacity-1"
+                    class="z-0 group relative inline-flex items-center justify-center rounded-full box-border appearance-none select-none whitespace-nowrap font-normal subpixel-antialiased overflow-hidden tap-highlight-transparent data-[pressed=true]:scale-[0.97] outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 px-4 text-small rounded-medium [&amp;>svg]:max-w-[theme(spacing.8)] transition-transform-colors-opacity motion-reduce:transition-none text-default-foreground data-[hover=true]:opacity-hover min-w-[110px] h-[53px] gap-[12px] bg-transparent  disabled:border-gray-400 disabled:text-gray-400 focus:bg-indigo-100 focus:border-[2px] hover:bg-indigo-100 active:bg-indigo-100 active:border-[2px] data-[hover=true]:opacity-1 shadow-menu border-2 border-gray-600"
                     role="button"
                     tabindex="0"
                     type="button"
-                    id="menu-login-button"
                     href="{{ url('login') }}">
-                    <p dir="ltr" class="text-[18px]2 leading-[29px]2 font-normal  pointer-events-none !text-[16px] !leading-[22px] text-indigo-600">Log in</p>
+                    <p dir="ltr" class="text-[18px]2 leading-[29px]2 font-semibold  pointer-events-none !text-[16px] !leading-[22px] text-indigo-600">Log in</p>
                 </a>
                 <a
-                    class="z-0 group relative inline-flex items-center justify-center rounded-full box-border appearance-none select-none whitespace-nowrap font-normal subpixel-antialiased overflow-hidden tap-highlight-transparent data-[pressed=true]:scale-[0.97] outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 px-4 text-small rounded-medium [&amp;>svg]:max-w-[theme(spacing.8)] transition-transform-colors-opacity motion-reduce:transition-none text-default-foreground data-[hover=true]:opacity-hover min-w-[110px] p-primaryButton h-[53px] border border-basic-transparent gap-[12px] bg-indigo-600 disabled:bg-[#C0C1EB] active:bg-indigo-700 active:border-1 active:border-snow-900 focus:border-1 focus:border-snow-900 focus:bg-indigo-700 hover:bg-indigo-700 data-[hover=true]:opacity-1"
+                    class="z-0 group relative inline-flex items-center justify-center rounded-full box-border appearance-none select-none whitespace-nowrap font-normal subpixel-antialiased overflow-hidden tap-highlight-transparent data-[pressed=true]:scale-[0.97] outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 px-4 text-small rounded-medium [&amp;>svg]:max-w-[theme(spacing.8)] transition-transform-colors-opacity motion-reduce:transition-none text-default-foreground data-[hover=true]:opacity-hover min-w-[110px]  h-[53px] gap-[12px] bg-indigo-600  active:bg-indigo-700  focus:bg-indigo-700 hover:bg-indigo-700 data-[hover=true]:opacity-1 shadow-menu border-2 border-gray-600"
                     role="button"
                     tabindex="0"
                     type="button"
-                    id="menu-tryforfree-button"
                     href="{{ url('register') }}">
-                    <p dir="ltr" class="text-[18px]2 leading-[29px]2 font-normal  text-gray-100 pointer-events-none !text-[16px] !leading-[22px]">Register</p>
+                    <p dir="ltr" class="text-[18px]2 leading-[29px]2 font-semibold  text-gray-100 pointer-events-none !text-[16px] !leading-[22px]">Register</p>
                 </a>
             </div>
         </li>

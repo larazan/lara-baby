@@ -13,4 +13,6 @@
     <li>{{ $r->id }}</li>
     @endforeach
 </ul>
+
+
 @endsection

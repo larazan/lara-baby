@@ -6,14 +6,14 @@
     <div class="relative">
         <div class="relative">
             <div class="w-full h-full absolute bg-indigo-400"></div>
-            <div class="pb-[72px] pt-10 md:py-20 relative">
+            <div class="pb-[62px] pt-4 md:py-20 relative">
                 <div class="mx-auto max-w-6xl px-6 lg:px-10 xl:px-0">
                     <div class="flex flex-col items-center justify-center gap-4">
                         <div class="flex items-center gap-2.5 text-center max-w-[700px]"><!---->
-                            <h1 class="text-2xl leading-[33px] md:text-[32px] md:leading-[48px] xl:text-[40px] xl:leading-[54px] font-bold text-white">Baby Name</h1>
+                            <h1 class="text-lg leading-[33px] md:text-[32px] md:leading-[48px] xl:text-[40px] xl:leading-[54px] font-bold text-white">Baby Name</h1>
                         </div>
                         <div>
-                            <div class="flex flex-wrap items-center gap-1 md:gap-2 justify-center md:justify-center mx-auto w-11/12 md:w-10/12 ">
+                            <div class="flex flex-wrap items-center gap-1 md:gap-2 justify-center md:justify-center mx-auto w-12/12 md:w-10/12 ">
                                 @foreach($letters as $l)
                                 <a
                                     href="{{ url('baby-name/letter/'.$l) }}"
@@ -32,7 +32,7 @@
                 <x-dropdown-search />
                 
             </div>
-            <div class="mt-6 md:mt-6 mx-auto grid2 max-w-7xl grid-cols-12 gap-62 lg:gap-82 md:grid-cols-22 lg:grid-cols-32">
+            <div class="mt-0 md:mt-6 mx-auto grid2 max-w-7xl grid-cols-12 gap-62 lg:gap-82 md:grid-cols-22 lg:grid-cols-32">
 
                 <div class="py-3 md:py-1 md:pb-5 col-span-full col-start-1 flex flex-col gap-4 mx-auto max-w-6xl md:px-6 lg:px-10 xl:px-0 md:flex-nowrap xl:col-start-4 xl:col-end-12">
                     <form action="{{ url('baby-name') }}" method="GET">
@@ -117,7 +117,7 @@
                 <div class="bg-white pb-0 md:pb-10">
                     <div class="mx-auto max-w-6xl md:px-6 lg:px-10 xl:px-0">
                         <div class="flex justify-between">
-                            <h2 class="text-xl md:text-[24px] md:leading-[33px] lg:text-[32px] lg:leading-[48px] font-bold text-gray-900">
+                            <h2 class="text-md md:text-[24px] md:leading-[33px] lg:text-[32px] lg:leading-[48px] font-bold text-gray-900">
                                 Found {{ $countNames }} Names
                                 @if(Request::get('search'))
                                 <span> for "{{ Request::get('search') }}" </span>

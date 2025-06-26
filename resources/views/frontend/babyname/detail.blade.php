@@ -7,14 +7,14 @@
     <div class="relative">
         <div class="relative">
             <div class="w-full h-full absolute  @if($babyname->gender_id == 1){{ 'bg-[#dbebfa]' }}@elseif($babyname->gender_id == 2){{ 'bg-orange-200' }}@else{{ 'bg-green-200' }}@endif"></div>
-            <div class="pb-[72px] pt-10 md:py-20 relative">
+            <div class="pb-[62px] pt-4 md:py-20 relative">
                 <div class="mx-auto max-w-6xl px-6 lg:px-10 xl:px-0">
                     <div class="flex flex-col items-center justify-center gap-4">
                         <div class="flex items-center gap-2.5 text-center max-w-[700px]"><!---->
-                            <h1 class="text-2xl leading-[33px] md:text-[32px] md:leading-[48px] xl:text-[40px] xl:leading-[54px] font-bold text-gray-900">Arti Nama <span class="underline underline-offset-2 capitalize">{{ $babyname->name }}</span></h1>
+                            <h1 class="text-lg leading-[33px] md:text-[32px] md:leading-[48px] xl:text-[40px] xl:leading-[54px] font-bold text-gray-900">Arti Nama <span class="underline underline-offset-2 capitalize">{{ $babyname->name }}</span></h1>
                         </div>
                         <div>
-                            <div class="flex flex-wrap items-center gap-1 md:gap-2 justify-center md:justify-center mx-auto w-11/12 md:w-10/12 ">
+                            <div class="flex flex-wrap items-center gap-1 md:gap-2 justify-center md:justify-center mx-auto w-12/12 md:w-10/12 ">
                                 @foreach($letters as $l)
                                 <a
                                     href="{{ url('baby-name/letter/'.$l) }}"
