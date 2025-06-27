@@ -14,6 +14,9 @@ class HomeController extends Controller
     public function index()
     {
         $title = 'Home';
+        $first = range(1, 12);
+        $second = range(13, 25);
+        $third = range(26, 40);
         // article
         $array = [2, 4, 5, 6];
 		$articles = Article::select([ 

@@ -5,16 +5,16 @@
 <main class="overflow-hidden pt-0"><!--[-->
     <div class="relative">
         <div class="relative">
-            <div class="w-full h-full absolute bg-[#fff0d9]"></div>
+            <div class="w-full h-full absolute bg-[#f7836a] "></div>
             <div class="py-6 md:py-20 relative">
                 <div class="mx-auto max-w-lg px-6 lg:px-10 xl:px-0">
                     <div class="flex flex-col items-center justify-center gap-4">
                         
                         <div class="flex items-center gap-2.5 text-center max-w-[700px]"><!---->
-                            <h1 class="text-lg leading-[33px] md:text-[32px] md:leading-[48px] xl:text-[40px] xl:leading-[54px] font-bold text-gray-900">Pregnancy Tracker: Day by Day</h1>
+                            <h1 class="text-lg leading-[33px] md:text-[32px] md:leading-[48px] xl:text-[40px] xl:leading-[54px] font-bold text-white">Pregnancy Tracker: Day by Day</h1>
                         </div>
                         <div>
-                            <p class=" md: md:leading-[25px] text-gray-800 text-center max-w-[905px]">Get a daily look at how your baby is growing and find timely guidance for every week and trimester of your pregnancy.</p>
+                            <p class=" md: md:leading-[25px] text-white text-center max-w-[905px]">Get a daily look at how your baby is growing and find timely guidance for every week and trimester of your pregnancy.</p>
                         </div>
 
                     </div>
@@ -61,7 +61,7 @@
                                             </div>
                                             <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
                                                 @foreach($first as $f)
-                                                <div class="relative flex flex-col rounded-md bg-blue-200 border-2 border-gray-600 px-4 py-2 shadow-menu transition hover:scale-105">
+                                                <div class="relative flex flex-col rounded-md bg-blue-200 border-2 border-gray-800 px-4 py-2 shadow-menu transition hover:scale-105">
                                                     <a href="{{ url('pregnancy/tracker/first-trimester/week-'.$f) }}" class="absolute top-0 left-0 w-full h-full z-[5] rounded-2xl" aria-label="Baca selengkapnya"></a>
                                                     <div class="flex justify-between items-center">
                                                         <span class="text-blue-600 text-2xl font-bold ">{{ $f }}</span>
@@ -90,7 +90,7 @@
                                             </div>
                                             <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
                                                 @foreach($second as $f)
-                                                <div class="relative flex flex-col rounded-md bg-blue-200 border-2 border-gray-600 px-4 py-4 shadow-menu transition hover:scale-105">
+                                                <div class="relative flex flex-col rounded-md bg-blue-200 border-2 border-gray-800 px-4 py-2 shadow-menu transition hover:scale-105">
                                                     <a href="{{ url('pregnancy/tracker/second-trimester/week-'.$f) }}" class="absolute top-0 left-0 w-full h-full z-[5] rounded-2xl" aria-label="Baca selengkapnya"></a>
                                                     <div class="flex justify-between items-center">
                                                         <span class="text-blue-600 text-2xl font-bold ">{{ $f }}</span>
@@ -100,8 +100,8 @@
                                                             </svg>
                                                         </span>
                                                     </div>
-                                                    <div>
-                                                        <span class="text-lg text-black font-bold leading-3">weeks <br/>pregnant</span>
+                                                    <div class="leading-tight">
+                                                        <span class="md:text-lg text-black font-semibold md:font-bold ">weeks <br/>pregnant</span>
                                                     </div>
                                                 </div>
                                                 @endforeach
@@ -119,7 +119,7 @@
                                             </div>
                                             <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
                                                 @foreach($third as $f)
-                                                <div class="relative flex flex-col rounded-md bg-blue-200 border-2 border-gray-600 px-4 py-4 shadow-menu transition hover:scale-105">
+                                                <div class="relative flex flex-col rounded-md bg-blue-200 border-2 border-gray-800 px-4 py-2 shadow-menu transition hover:scale-105">
                                                     <a href="{{ url('pregnancy/tracker/third-trimester/week-'.$f) }}" class="absolute top-0 left-0 w-full h-full z-[5] rounded-2xl" aria-label="Baca selengkapnya"></a>
                                                     <div class="flex justify-between items-center">
                                                         <span class="text-blue-600 text-2xl font-bold ">{{ $f }}</span>
@@ -129,8 +129,8 @@
                                                             </svg>
                                                         </span>
                                                     </div>
-                                                    <div>
-                                                        <span class="text-lg text-black font-bold leading-3">weeks <br/>pregnant</span>
+                                                    <div class="leading-tight">
+                                                        <span class="md:text-lg text-black font-semibold md:font-bold ">weeks <br/>pregnant</span>
                                                     </div>
                                                 </div>
                                                 @endforeach

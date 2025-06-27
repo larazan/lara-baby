@@ -129,12 +129,12 @@
 
                         <div class="w-full my-6 flex justify-center border border-gray-800 rounded shadow-stack-sm  bg-white">
                             <div class="flex flex-col w-full text-gray-900">
-                                <div class="border-b border-gray-800 py-3 px-3 leading-tight">
-                                    <span class="text-sm font-mabrybold text-gray-900">{{ trim($babyname->name) }}</span>
+                                <div class="border-b border-gray-800 py-3 px-3 leading-tight justify-center text-center w-full">
+                                    <span class="text-md font-bold text-gray-900 uppercase ">{{ trim($babyname->name) }}</span>
                                 </div>
                                 <div class="flex w-full justify-between items-center border-b border-gray-800 py-3 px-3">
                                     <div class="w-1/2 text-sm font-mabrybold">Meaning</div>
-                                    <div class="w-1/2 text-sm font-mabry">{{ $babyname->meaning }}</div>
+                                    <div class="w-1/2 text-sm font-mabry justify-end text-right">{{ $babyname->meaning }}</div>
                                 </div>
                                 <div class="flex justify-between items-center border-b border-gray-800 py-3 px-3">
                                     <div class="text-sm font-mabrybold">Gender</div>

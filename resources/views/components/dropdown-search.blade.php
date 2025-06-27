@@ -53,7 +53,7 @@
 
             <div x-show="query.length >= 2"
                 x-transition
-                class="absolute z-50 mt-1 w-full max-h-80 overflow-y-scroll rounded border bg-white text-sm shadow-lg overflow overflow-y-auto2">
+                class="absolute z-50 mt-1 w-full max-h-80 overflow-y-scroll rounded border-2 border-blue-500 bg-white text-sm shadow-lg overflow overflow-y-auto2">
 
                 <template x-if="results.babynames?.length">
                     <div class="p-2">

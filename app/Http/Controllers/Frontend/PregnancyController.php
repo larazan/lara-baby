@@ -126,9 +126,6 @@ class PregnancyController extends Controller
             ->orderBy('id', 'asc') // Order the final combined result by ID ascending
             ->get();
 
-        $countAfter = $recordsAfterQuery->get();
-        $countBefore = $recordsBeforeQuery->get();
-
 		// build breadcrumb data array
 		$breadcrumbs_data['current_page_title'] = $article->title;
 		$breadcrumbs_data['breadcrumbs_array'] = $this->_generate_breadcrumbs_array($article->id);
@@ -141,12 +138,20 @@ class PregnancyController extends Controller
 
         $arrData = [];
         foreach ($allRecords as $r) {
-            array_push($arrData, $r);
+            array_push($arrData, $r->id);
         }
 
-        $arrNumb = $this->generateNumb($article->id, $arrData);
+        // dd($arrData);
 
-        return $this->loadTheme('pregnancy.detail', compact('title', 'article', 'articles', 'breadcrumbs_data', 'contents', 'allRecords', 'countBefore', 'countAfter'));
+        $before = $this->getFiveNumbersBefore($article->id);
+        $after = $this->getFiveNumbersAfter($article->id);
+
+        // dd($before);
+
+        $countBefore = $this->compareNumb($before, $arrData);
+        $countAfter = $this->compareNumb($after, $arrData);
+
+        return $this->loadTheme('pregnancy.detail', compact('title', 'article', 'articles', 'breadcrumbs_data', 'contents', 'allRecords', 'countBefore', 'countAfter', 'before', 'after'));
     }
 
     public function _generate_breadcrumbs_array($id) {
@@ -190,16 +195,10 @@ class PregnancyController extends Controller
 	    return ["html" => $html, "index" => $index];
 	}
 
-    function generateNumb($n, $arrData)
+    function compareNumb($arrayN, $arrData)
     {
-        $before = $this->getFiveNumbersBefore($n);
-        $after = $this->getFiveNumbersAfter($n);
-
-        // merge
-        $mergeArr = array_merge($before, $after); 
-
         // compare
-        $diff_key = array_diff_key($arrData, $mergeArr);
+        $diff_key = array_diff($arrayN, $arrData);
 
         return $diff_key;
     }
@@ -218,8 +217,8 @@ class PregnancyController extends Controller
     function getFiveNumbersAfter(int $certainNumber): array
     {
         $result = [];
-        for ($i = 1; $i >= 5; $i++) {
-            $result[] = $certainNumber - $i;
+        for ($i = 1; $i <= 5; $i++) {
+            $result[] = $certainNumber + $i;
         }
         // Reverse the array if you want them in ascending order (e.g., 95, 96, 97, 98, 99)
         // If you want 99, 98, 97, 96, 95 leave it as is.

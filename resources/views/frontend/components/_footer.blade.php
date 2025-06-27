@@ -7,7 +7,7 @@
                     <div class="pr-3 xl:pr-0">
                     <img src="/frontend/img/logo.svg" width="100" height="100" class="" alt="logo" />
                     <div class="hidden xl:mt-8">
-                        <h3 class="text-sm leading-[22px] md:text-base md:leading-[25px] font-bold text-indigo-600 uppercase"> Kontak Kami </h3>
+                        <h3 class="text-sm leading-[22px] md:text-base md:leading-[25px] font-bold text-orange-500 uppercase"> Kontak Kami </h3>
                         <ul role="list" class="mt-5 space-y-3">
                             <li class="flex gap-4">
                                 <div>
@@ -32,7 +32,7 @@
                                             <path d="M22.5 6.908V6.75a3 3 0 0 0-3-3h-15a3 3 0 0 0-3 3v.158l9.714 5.978a1.5 1.5 0 0 0 1.572 0L22.5 6.908Z"></path>
                                         </svg></div>
                                 </div>
-                                <p class="text-sm leading-[22px] md:text-base md:leading-[25px] font-medium text-white hover:text-indigo-600"> cc196[at]bmkg.go.id </p>
+                                <p class="text-sm leading-[22px] md:text-base md:leading-[25px] font-medium text-white hover:text-orange-500"> cc196[at]bmkg.go.id </p>
                             </li>
                         </ul>
                     </div>
@@ -42,21 +42,21 @@
                 <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 xl:gap-0">
                     <div class="xl:pr-4">
                         <ul role="list" class="mt-5 space-y-3">
-                            <li><a href="https://cuaca.bmkg.go.id" class="flex gap-2 items-center text-sm leading-[22px] md:text-base md:leading-[25px] font-medium text-white hover:text-indigo-600">Starting a Family<span></span></a></li>
-                            <li><a href="{{ url('pregnancy') }}" class="flex gap-2 items-center text-sm leading-[22px] md:text-base md:leading-[25px] font-medium text-white hover:text-indigo-600">Pregnancy<span></span></a></li>
-                            <li><a href="{{ url('baby-name') }}" class="flex gap-2 items-center text-sm leading-[22px] md:text-base md:leading-[25px] font-medium text-white hover:text-indigo-600">Baby Names<span></span></a></li>
-                            <li><a href="https://iklim.bmkg.go.id" class="flex gap-2 items-center text-sm leading-[22px] md:text-base md:leading-[25px] font-medium text-white hover:text-indigo-600">Parenting<span></span></a></li>
-                            <li><a href="{{ url('activities') }}" class="flex gap-2 items-center text-sm leading-[22px] md:text-base md:leading-[25px] font-medium text-white hover:text-indigo-600">Activities<span></span></a></li>
-                            <li><a href="{{ url('articles') }}" class="flex gap-2 items-center text-sm leading-[22px] md:text-base md:leading-[25px] font-medium text-white hover:text-indigo-600">News<span></span></a></li>
+                            <li><a href="https://cuaca.bmkg.go.id" class="flex gap-2 items-center text-sm leading-[22px] md:text-base md:leading-[25px] font-medium text-white hover:text-orange-500">Starting a Family<span></span></a></li>
+                            <li><a href="{{ url('pregnancy') }}" class="flex gap-2 items-center text-sm leading-[22px] md:text-base md:leading-[25px] font-medium text-white hover:text-orange-500">Pregnancy<span></span></a></li>
+                            <li><a href="{{ url('baby-name') }}" class="flex gap-2 items-center text-sm leading-[22px] md:text-base md:leading-[25px] font-medium text-white hover:text-orange-500">Baby Names<span></span></a></li>
+                            <li><a href="https://iklim.bmkg.go.id" class="flex gap-2 items-center text-sm leading-[22px] md:text-base md:leading-[25px] font-medium text-white hover:text-orange-500">Parenting<span></span></a></li>
+                            <li><a href="{{ url('activities') }}" class="flex gap-2 items-center text-sm leading-[22px] md:text-base md:leading-[25px] font-medium text-white hover:text-orange-500">Activities<span></span></a></li>
+                            <li><a href="{{ url('articles') }}" class="flex gap-2 items-center text-sm leading-[22px] md:text-base md:leading-[25px] font-medium text-white hover:text-orange-500">News<span></span></a></li>
                         </ul>
                     </div>
                     <div class="xl:pr-4">
                         <ul role="list" class="mt-5 space-y-3">
-                            <li><a href="{{ url('about') }}" class="flex gap-2 items-center text-sm leading-[22px] md:text-base md:leading-[25px] font-medium text-white hover:text-indigo-600">About Us<span></span></a></li>
-                            <li><a href="{{ url('faqs') }}" class="flex gap-2 items-center text-sm leading-[22px] md:text-base md:leading-[25px] font-medium text-white hover:text-indigo-600">Faqs<span></span></a></li>
-                            <li><a href="{{ url('contact') }}" class="flex gap-2 items-center text-sm leading-[22px] md:text-base md:leading-[25px] font-medium text-white hover:text-indigo-600">Contact<span></span></a></li>
-                            <li><a href="{{ url('terms') }}" class="flex gap-2 items-center text-sm leading-[22px] md:text-base md:leading-[25px] font-medium text-white hover:text-indigo-600">Terms of Service<span></span></a></li>
-                            <li><a href="{{ url('advertise') }}" class="flex gap-2 items-center text-sm leading-[22px] md:text-base md:leading-[25px] font-medium text-white hover:text-indigo-600">Advertise<span></span></a></li>
+                            <li><a href="{{ url('about') }}" class="flex gap-2 items-center text-sm leading-[22px] md:text-base md:leading-[25px] font-medium text-white hover:text-orange-500">About Us<span></span></a></li>
+                            <li><a href="{{ url('faqs') }}" class="flex gap-2 items-center text-sm leading-[22px] md:text-base md:leading-[25px] font-medium text-white hover:text-orange-500">Faqs<span></span></a></li>
+                            <li><a href="{{ url('contact') }}" class="flex gap-2 items-center text-sm leading-[22px] md:text-base md:leading-[25px] font-medium text-white hover:text-orange-500">Contact<span></span></a></li>
+                            <li><a href="{{ url('terms') }}" class="flex gap-2 items-center text-sm leading-[22px] md:text-base md:leading-[25px] font-medium text-white hover:text-orange-500">Terms of Service<span></span></a></li>
+                            <li><a href="{{ url('advertise') }}" class="flex gap-2 items-center text-sm leading-[22px] md:text-base md:leading-[25px] font-medium text-white hover:text-orange-500">Advertise<span></span></a></li>
                         </ul>
                     </div>
                     <div class="">

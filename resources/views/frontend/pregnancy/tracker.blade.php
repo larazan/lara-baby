@@ -61,7 +61,7 @@
                                             </div>
                                             <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
                                                 @foreach($first as $f)
-                                                <div class="relative flex flex-col rounded-md bg-blue-200 border-2 border-gray-600 px-4 py-2 shadow-menu transition hover:scale-105">
+                                                <div class="relative flex flex-col rounded-md bg-blue-200 border-2 border-gray-800 px-4 py-2 shadow-menu transition hover:scale-105">
                                                     <a href="{{ url('pregnancy/tracker/first-trimester/week-'.$f) }}" class="absolute top-0 left-0 w-full h-full z-[5] rounded-2xl" aria-label="Baca selengkapnya"></a>
                                                     <div class="flex justify-between items-center">
                                                         <span class="text-blue-600 text-2xl font-bold ">{{ $f }}</span>
@@ -90,7 +90,7 @@
                                             </div>
                                             <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
                                                 @foreach($second as $f)
-                                                <div class="relative flex flex-col rounded-md bg-blue-200 border-2 border-gray-600 px-4 py-2 shadow-menu transition hover:scale-105">
+                                                <div class="relative flex flex-col rounded-md bg-blue-200 border-2 border-gray-800 px-4 py-2 shadow-menu transition hover:scale-105">
                                                     <a href="{{ url('pregnancy/tracker/first-trimester/week-'.$f) }}" class="absolute top-0 left-0 w-full h-full z-[5] rounded-2xl" aria-label="Baca selengkapnya"></a>
                                                     <div class="flex justify-between items-center">
                                                         <span class="text-blue-600 text-2xl font-bold ">{{ $f }}</span>
@@ -119,7 +119,7 @@
                                             </div>
                                             <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
                                                 @foreach($third as $f)
-                                                <div class="relative flex flex-col rounded-md bg-blue-200 border-2 border-gray-600 px-4 py-2 shadow-menu transition hover:scale-105">
+                                                <div class="relative flex flex-col rounded-md bg-blue-200 border-2 border-gray-800 px-4 py-2 shadow-menu transition hover:scale-105">
                                                     <a href="{{ url('pregnancy/tracker/first-trimester/week-'.$f) }}" class="absolute top-0 left-0 w-full h-full z-[5] rounded-2xl" aria-label="Baca selengkapnya"></a>
                                                     <div class="flex justify-between items-center">
                                                         <span class="text-blue-600 text-2xl font-bold ">{{ $f }}</span>
