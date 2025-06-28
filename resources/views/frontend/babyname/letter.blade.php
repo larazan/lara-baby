@@ -39,10 +39,10 @@
                     <div class="py-2 md:py-1 pt-2 md:pb-5 col-span-full w-full col-start-1 flex flex-row items-center justify-between gap-2 md:col-start-52 md:flex-nowrap xl:col-start-4 xl:col-end-12">
                         <div class="flex w-full gap-2 ">
 
-                        <div class="flex flex-col w-1/2 md:flex-row space-y-4 md:space-y-0 md:space-x-2 md:justify-between">
+                            <div class="flex flex-col w-1/2 md:flex-row space-y-4 md:space-y-0 md:space-x-2 md:justify-between">
                                 <div class="w-full md:w-1/2  flex flex-col col-span-6 sm:col-span-3">
                                     <label for="religion" class="hidden md:block text-sm md:text-md font-semibold text-gray-700 pb-1 tracking-wide">Religion</label>
-                                    <select name="religion" class="h-10 rounded border block appearance-none w-full bg-white border-gray-600 text-[11px] md:text-[13px] font-bold uppercase pl-2 tracking-wide text-gray-500 py-2 px-4 pr-0 leading-tight focus:placeholder-gray-600 focus:text-gray-700 focus:outline-none">
+                                    <select name="religion" class="h-10 rounded border block appearance-none w-full bg-white @if(Request::get('religion')){{ 'border-red-500 text-red-500' }}@else{{ 'border-gray-600 text-gray-500' }}@endif text-[11px] md:text-[13px] font-bold uppercase pl-2 tracking-wide py-2 px-4 pr-0 leading-tight focus:placeholder-gray-600 focus:text-gray-700 focus:outline-none">
                                         <option value="">Select Religion</option>
                                         @foreach($religions as $r)
                                         <option 
@@ -56,7 +56,7 @@
                                 </div>
                                 <div class="col-span-6 sm:col-span-3 w-full md:w-1/2 ">
                                     <label for="origin" class="hidden md:block text-sm md:text-md font-semibold text-gray-700 pb-1 tracking-wide">Origin</label>
-                                    <select name="origin" class="h-10 rounded border block appearance-none w-full bg-white border-gray-600 text-[11px] md:text-[13px] font-bold uppercase pl-2 tracking-wide text-gray-500 py-2 px-4 pr-0 leading-tight focus:placeholder-gray-600 focus:text-gray-700 focus:outline-none">
+                                    <select name="origin" class="h-10 rounded border block appearance-none w-full bg-white @if(Request::get('origin')){{ 'border-red-500 text-red-500' }}@else{{ 'border-gray-600 text-gray-500' }}@endif text-[11px] md:text-[13px] font-bold uppercase pl-2 tracking-wide py-2 px-4 pr-0 leading-tight focus:placeholder-gray-600 focus:text-gray-700 focus:outline-none">
                                         <option value="">Select Origin</option>
                                         @foreach($origins as $o)
                                         <option 
@@ -73,7 +73,7 @@
                             <div class="flex flex-col w-1/2 md:flex-row space-y-4 md:space-y-0 md:space-x-2 md:justify-between">
                                 <div class="w-full md:w-1/2  flex flex-col col-span-6 sm:col-span-3">
                                     <label for="country" class="hidden md:block text-sm md:text-md font-semibold text-gray-700 pb-1 tracking-wide">Country</label>
-                                    <select name="country" class="h-10 rounded border block appearance-none w-full bg-white border-gray-600 text-[11px] md:text-[13px] font-bold uppercase pl-2 tracking-wide text-gray-500 py-2 px-4 pr-0 leading-tight focus:placeholder-gray-600 focus:text-gray-700 focus:outline-none">
+                                    <select name="country" class="h-10 rounded border block appearance-none w-full bg-white @if(Request::get('country')){{ 'border-red-500 text-red-500' }}@else{{ 'border-gray-600 text-gray-500' }}@endif text-[11px] md:text-[13px] font-bold uppercase pl-2 tracking-wide py-2 px-4 pr-0 leading-tight focus:placeholder-gray-600 focus:text-gray-700 focus:outline-none">
                                         <option value="">Select Country</option>
                                         @foreach($countries as $c)
                                         <option 
@@ -87,7 +87,7 @@
                                 </div>
                                 <div class="col-span-6 sm:col-span-3 w-full md:w-1/2 ">
                                     <label for="gender" class="hidden md:block text-sm md:text-md font-semibold text-gray-700 pb-1 tracking-wide">Gender</label>
-                                    <select name="gender" class="h-10 rounded border block appearance-none w-full bg-white border-gray-600 text-[11px] md:text-[13px] font-bold uppercase pl-2 tracking-wide text-gray-500 py-2 px-4 pr-0 leading-tight focus:placeholder-gray-600 focus:text-gray-700 focus:outline-none">
+                                    <select name="gender" class="h-10 rounded border block appearance-none w-full bg-white  @if(Request::get('gender')){{ 'border-red-500 text-red-500' }}@else{{ 'border-gray-600 text-gray-500' }}@endif text-[11px] md:text-[13px] font-bold uppercase pl-2 tracking-wide  py-2 px-4 pr-0 leading-tight focus:placeholder-gray-600 focus:text-gray-700 focus:outline-none">
                                         <option value="">Select Gender</option>
                                         @foreach($genders as $key => $value)
                                         <option 

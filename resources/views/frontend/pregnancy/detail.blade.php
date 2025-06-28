@@ -10,7 +10,7 @@
     <div class="flex mx-auto w-full justify-center">
     <h2 class="text-lg font-semibold">Pregnancy Week by Week</h2>
     </div>
-    <ul class="flex gap-2  mx-auto w-full max-w-lg md:max-w-3xl h-fit overflow-x-auto scroll-smooth custom-scrollbar2">
+    <ul class="flex gap-2 md:gap-2  mx-auto w-full max-w-lg md:max-w-3xl h-fit overflow-x-auto scroll-smooth custom-scrollbar">
         @if(count($countBefore) > 0)
             @foreach($countBefore as $b)
                 <li class="flex rounded-full w-14 h-14 md:w-2 md:h-20 px-1 py-4 md:px-2 md:py-2">
@@ -25,8 +25,8 @@
         @endif
         @foreach($allRecords as $r)
         <li class="py-4">
-            <a href="{{ url('pregnancy/tracker/'.$r->categorySlug($r->category_id).'/'.$r->slug) }}" class="flex flex-col rounded-full w-14 h-14 px-1 py-1 md:px-2 md:py-2  @if($r->id == $article->id){{ 'text-white bg-purple-700 transition scale-125 mx-2' }}@else{{ 'text-gray-800 bg-gray-200' }}@endif border border-gray-300 shadow-lg justify-center items-center">
-                <span class="text-[11px] md:text-[11px]">week</span>
+            <a href="{{ url('pregnancy/tracker/'.$r->categorySlug($r->category_id).'/'.$r->slug) }}" class="flex flex-col rounded-full w-14 h-14 md:w-14 md:h-14 px-1 py-1 md:px-2 md:py-2  @if($r->id == $article->id){{ 'text-white bg-purple-700 transition scale-125 mx-2' }}@else{{ 'text-gray-800 bg-gray-200' }}@endif border-2 border-gray-800 shadow-menu justify-center items-center">
+                <span class="pt-1 text-[11px] md:text-[11px]">week</span>
                 <div class="text-lg font-semibold">
                     @php
                         $arr = explode(" ",$r->title)
