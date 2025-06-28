@@ -21,12 +21,12 @@
             </div>
 
             <div class="flex flex-wrap items-center gap-2 md:gap-3 mt-2 md:mt-2">
-              <a href="{{ url('articles/') }}" type="button" class="@if($cat_id == null){{ 'bg-[#0133CC1A]'}}@else{{ 'bg-white !border-[#CBD5E1]' }}@endif border-blue-primary hover:bg-[#0133CC1A] text-blue-primary inline-flex items-center justify-center text-xs md:text-sm rounded-full px-5 py-[6px] md:py-[9px] leading-[22px] font-bold md:font-medium border">
+              <a href="{{ url('articles/') }}" type="button" class="@if($cat_id == null){{ 'bg-[#87eaca]'}}@else{{ 'bg-white !border-[#CBD5E1]' }}@endif border-blue-primary hover:bg-[#87eaca] text-blue-primary inline-flex items-center justify-center text-xs md:text-sm rounded-full px-5 py-[6px] md:py-[9px] leading-[22px] font-bold md:font-medium border">
                 All
               </a>
               @foreach($categories as $cat)
                 <a href="{{ url('articles/'.$cat->slug) }}">
-                  <button type="button" class="@if($cat->id == $cat_id){{ 'bg-[#0133CC1A]'}}@else{{ 'bg-white !border-[#CBD5E1]' }}@endif border-blue-primary hover:bg-[#0133CC1A] text-blue-primary inline-flex items-center justify-center text-xs md:text-sm rounded-full px-5 py-[6px] md:py-[9px] leading-[22px] font-bold md:font-medium border   hover:!bg-[#0133CC1A] !text-gray-primary">{{ $cat->name }}</button>
+                  <button type="button" class="@if($cat->id == $cat_id){{ 'bg-[#87eaca]'}}@else{{ 'bg-white !border-[#CBD5E1]' }}@endif border-blue-primary hover:bg-[#87eaca] text-blue-primary inline-flex items-center justify-center text-xs md:text-sm rounded-full px-5 py-[6px] md:py-[9px] leading-[22px] font-bold md:font-medium border !text-gray-primary">{{ $cat->name }}</button>
                 </a>
               @endforeach
                   
@@ -35,6 +35,14 @@
       </div>
     </div>
     <div class="relative mx-auto max-w-6xl w-full px-6 lg:px-10 xl:px-0 pb-10 md:pb-20">
+      <div class="flex justify-between">
+          <h2 class="text-md md:text-[24px] md:leading-[33px] lg:text-[32px] lg:leading-[48px] font-bold text-gray-900">
+              Found {{ $countArticles }} Articles
+              @if(Request::segment(2))
+              <span> for "{{ str_replace("-", " ", Request::segment(2)) }}" </span>
+              @endif
+          </h2>
+      </div>
       <div class="mt-6 md:mt-12 mx-auto grid max-w-7xl grid-cols-1 gap-6 lg:gap-8 md:grid-cols-2 lg:grid-cols-3"><!--[-->
         @if($articles->count() > 0)
           @foreach($articles as $a)

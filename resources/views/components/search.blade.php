@@ -1,4 +1,4 @@
-<div class="flex items-center min-w-96">
+<div class="flex items-center ">
     <div x-data="{
         query: '',
         results: { keyword:'', babynames: [], articles: [], activities: [], queryActivity:'', queryArticle:'', queryBabyname:'' },

@@ -42,6 +42,7 @@ class ArticleController extends Controller
             return $q->where('title', 'like', "%{$keyword}%");
         });
 
+		$countArticles = count($query->get());
 		$articles = $query->paginate(8)->withQueryString();
 
 		// $articles = Cache::remember('articles-page-' . request('page', default:1), now()->addHour(), function () {
@@ -50,7 +51,7 @@ class ArticleController extends Controller
 
 		$categories = CategoryArticle::select(['id', 'name', 'slug'])->whereNotIn('id', $array)->get();
 
-		return $this->loadTheme('blogs.index', compact('title', 'articles', 'categories', 'cat_id'));
+		return $this->loadTheme('blogs.index', compact('title', 'articles', 'categories', 'cat_id', 'countArticles'));
     }
     
     public function show($slug)
