@@ -16,7 +16,7 @@
     <div class="h-1 bg-blue-500" :style="`width: ${percent}%`"></div>
 </div>
 
-<div class="flex flex-col justify-center w-full items-center gap-82 bg-white min-h-screen pt-0 md:pt-[60px]">
+<main class="flex flex-col justify-center w-full items-center gap-82 bg-white min-h-screen pt-0 md:pt-[60px]">
 
     <header class="max-w-[800px] flex flex-col gap-4 p-6 relative z-10 pt-24 md:pt-16">
         <div class="absolute top-16 md:top-2 left-6 flex  px-2 py-1 rounded-full border border-gray-900 text-gray-900 hover:text-white hover:bg-gray-800 items-center justify-between">
@@ -145,11 +145,10 @@
     </article>
     <!--  -->
 
-
-
-
-
-
+    <div class="w-full">
+    @include('components.related-article')
+    </div>
+</main>   
 
     @endsection
 
@@ -305,7 +304,7 @@
 
         .markdown-blog ul {
             margin: 0;
-            padding: 0;
+            padding-right: 10px !important;
             list-style-type: disc;
             margin: 20px 0;
         }

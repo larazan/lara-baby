@@ -29,12 +29,12 @@
                     <div class="relative flex flex-col w-full md:px-8 py-6 bg-white">
 
                         <div class="container mx-auto py-4" x-data="{ tab: '{{ $trimester }}' }">
-                            <ul class="flex justify-between w-full border-b-2 mt-0">
+                            <ul class="flex justify-between w-full mt-0">
                                 <li class="flex justify-center w-1/2 text-center  ">
                                     <a
-                                        class="flex w-full justify-center items-center md:text-lg text-blue-700 font-semibold hover:text-blue-800 hover:border-b-2 hover:border-blue-700 figtree-medium" 
+                                        class="flex w-full bg-blue-200 py-2 justify-center items-center md:text-lg text-blue-500 font-semibold border-2 border-white hover:border-blue-400 figtree-medium" 
                                         href="{{ url('/pregnancy/tracker/first-trimester') }}"
-                                        :class="{ 'text-blue-700 border-b-2 border-blue-700': tab == 'first-trimester'}"
+                                        :class="{ '!border-pink-400 bg-pink-200 text-pink-500': tab == 'first-trimester'}"
                                         {{-- @click.prevent="tab = 'first-trimester'" --}}
                                     >
                                         1st Trimester
@@ -42,9 +42,9 @@
                                 </li>
                                 <li class="flex justify-center w-1/2 text-center ">
                                     <a
-                                        class="flex w-full justify-center items-center md:text-lg text-blue-700 font-semibold hover:text-blue-800 hover:border-b-2 hover:border-blue-700 figtree-medium"
+                                        class="flex w-full bg-blue-200 py-2 justify-center items-center md:text-lg text-blue-500 font-semibold border-2 border-white hover:border-blue-400 figtree-medium"
                                         href="{{ url('/pregnancy/tracker/second-trimester') }}"
-                                        :class="{ 'text-blue-700 border-b-2 border-blue-700': tab == 'second-trimester'}"
+                                        :class="{ '!border-pink-400 bg-pink-200 text-pink-500': tab == 'second-trimester'}"
                                         {{-- @click.prevent="tab = 'second-trimester'" --}}
                                     >
                                         2nd Trimester
@@ -52,9 +52,9 @@
                                 </li>
                                 <li class="flex justify-center w-1/2 text-center ">
                                     <a
-                                        class="flex w-full justify-center items-center md:text-lg text-blue-700 font-semibold hover:text-blue-800 hover:border-b-2 hover:border-blue-700 figtree-medium"
+                                        class="flex w-full bg-blue-200 py-2 justify-center items-center md:text-lg text-blue-500 font-semibold border-2 border-white hover:border-blue-400 figtree-medium"
                                         href="{{ url('/pregnancy/tracker/third-trimester') }}"
-                                        :class="{ 'text-blue-700 border-b-2 border-blue-700': tab == 'third-trimester'}"
+                                        :class="{ '!border-pink-400 bg-pink-200 text-pink-500': tab == 'third-trimester'}"
                                         {{-- @click.prevent="tab = 'third-trimester'" --}}
                                     >
                                         3rd Trimester

@@ -1,27 +1,25 @@
-<nav class="flex" aria-label="Breadcrumb">
-    <ol role="list" class="flex items-center">
-        <li>
-            <div class="flex items-center">
-                <a href="/" class="text-sm md:text-base md:leading-[25px] font-medium text-black-primary">Beranda</a>
-            </div>
-        </li>
-        <li class="flex items-center"><!--[-->
-            <div class="flex items-center w-[100px] sm:w-full">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon" class="h-4 w-4 stoke-2 flex-shrink-0 text-[#64748B] mx-2">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5"></path>
-                </svg>
-                <a href="/cuaca/prakiraan-cuaca/35.78" class="text-black-primary text-sm md:text-base md:leading-[25px] font-medium truncate" aria-current="page">
-                    <p class="break-keep whitespace-nowrap truncate">Cuaca Kota Surabaya</p>
+<div class="border-b border-b-zinc-100">
+    <nav class="max-w-7xl2 mx-auto max-w-[994px] px-2 lg:px-6 xl:px-0">
+        <ol class="p-4 rounded flex flex-wrap text-sm text-gray-800">
+            <li>
+                <a href="https://namecensus.com" class="underline">
+                    Home
                 </a>
-            </div>
-            <div class="flex items-center w-[100px] sm:w-full">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon" class="h-4 w-4 stoke-2 flex-shrink-0 text-[#64748B] mx-2">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5"></path>
-                </svg>
-                <a href="/cuaca/prakiraan-cuaca/35.78.08" class="text-gray-primary text-sm md:text-base md:leading-[25px] font-medium truncate" aria-current="page">
-                    <p class="break-keep whitespace-nowrap truncate">Gubeng</p>
+            </li>
+            <li class="text-gray-400 px-2">
+                /
+            </li>
+            <li>
+                <a href="https://namecensus.com/first-names" class="underline">
+                    First names
                 </a>
-            </div><!--]-->
-        </li>
-    </ol>
-</nav>
+            </li>
+            <li class="text-gray-400 px-2">
+                /
+            </li>
+            <li>
+                Oliver first name popularity, history and meaning
+            </li>
+        </ol>
+    </nav>
+</div>

@@ -26,29 +26,29 @@
             <!-- tracker calendar -->
             <div class="w-full">
                 <div class=" w-full max-w-2xl mx-auto">
-                    <div class="relative flex flex-col w-full md:px-8 py-6 bg-white">
+                    <div class="relative flex flex-col w-full md:px-8 py-6 bg-white ">
 
-                        <div class="container mx-auto py-4" x-data="{ tab: 'tab1' }">
-                            <ul class="flex justify-between w-full border-b-2 mt-0">
+                        <div class="container mx-auto pb-4 " x-data="{ tab: 'tab1' }">
+                            <ul class="flex justify-between w-full mt-0">
                                 <li class="flex justify-center w-1/2 text-center  ">
                                     <a
-                                        class="flex w-full justify-center items-center md:text-lg text-blue-700 font-semibold hover:text-blue-800 hover:border-b-2 hover:border-blue-700 figtree-medium" 
+                                        class="flex w-full bg-blue-200 py-2 justify-center items-center md:text-lg text-blue-500 font-semibold border-2 border-white hover:border-blue-400 figtree-medium" 
                                         href="#"
-                                        :class="{ 'text-blue-700 border-b-2 border-blue-700': tab == 'tab1'}"
+                                        :class="{ '!border-pink-400 bg-pink-200 text-pink-500': tab == 'tab1'}"
                                         @click.prevent="tab = 'tab1'">1st Trimester</a>
                                 </li>
                                 <li class="flex justify-center w-1/2 text-center ">
                                     <a
-                                        class="flex w-full justify-center items-center md:text-lg text-blue-700 font-semibold hover:text-blue-800 hover:border-b-2 hover:border-blue-700 figtree-medium"
+                                        class="flex w-full bg-blue-200 py-2 justify-center items-center md:text-lg text-blue-500 font-semibold border-2 border-white hover:border-blue-400 figtree-medium"
                                         href="#"
-                                        :class="{ 'text-blue-700 border-b-2 border-blue-700': tab == 'tab2'}"
+                                        :class="{ '!border-pink-400 bg-pink-200 text-pink-500': tab == 'tab2'}"
                                         @click.prevent="tab = 'tab2'">2nd Trimester</a>
                                 </li>
                                 <li class="flex justify-center w-1/2 text-center ">
                                     <a
-                                        class="flex w-full justify-center items-center md:text-lg text-blue-700 font-semibold hover:text-blue-800 hover:border-b-2 hover:border-blue-700 figtree-medium"
+                                        class="flex w-full bg-blue-200 py-2 justify-center items-center md:text-lg text-blue-500 font-semibold border-2 border-white hover:border-blue-400 figtree-medium"
                                         href="#"
-                                        :class="{ 'text-blue-700 border-b-2 border-blue-700': tab == 'tab3'}"
+                                        :class="{ '!border-pink-400 bg-pink-200 text-pink-500': tab == 'tab3'}"
                                         @click.prevent="tab = 'tab3'">3rd Trimester</a>
                                 </li>
                             </ul>

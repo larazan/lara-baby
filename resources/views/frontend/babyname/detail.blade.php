@@ -30,7 +30,7 @@
             </div>
         </div>
         <div class="relative mx-auto max-w-6xl w-full px-6 lg:px-10 xl:px-0 -mt-7 pb-10">
-            <div class="w-full mx-auto md:max-w-[618px] xl:max-w-[790px] relative md:!max-w-[585px] figtree-reguler">
+            <div class="w-full mx-auto md:max-w-[618px] xl:max-w-[790px] relative md:!max-w-[585px]">
                 <x-dropdown-search />
 
             </div>
@@ -131,7 +131,7 @@
                         <div class="w-full my-6 flex justify-center border border-gray-800 rounded shadow-stack-sm  bg-white">
                             <div class="flex flex-col w-full text-gray-900">
                                 <div class="border-b border-gray-800 py-3 px-3 leading-tight justify-center text-center w-full">
-                                    <span class="text-md font-bold text-gray-900 uppercase ">{{ trim($babyname->name) }}</span>
+                                    <span class="text-md font-bold text-gray-900 uppercase figtree-bold">{{ trim($babyname->name) }}</span>
                                 </div>
                                 <div class="flex w-full justify-between items-center border-b border-gray-800 py-3 px-3">
                                     <div class="w-1/2 text-sm figtree-medium">Meaning</div>

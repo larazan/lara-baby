@@ -18,7 +18,7 @@
                                 @foreach($letters as $l)
                                 <a
                                     href="{{ url('baby-name/letter/'.$l) }}"
-                                    class="flex justify-center items-center  w-8 h-8 md:w-10 md:h-10 bg-white hover:!bg-orange-300 px-2 md:px-4 py-1 border-2 text-gray-900 hover:text-white border-gray-900 @if(Request::segment(3) == $l){{ 'bg-indigo-700 text-white' }}@else{{ 'bg-white text-gray-900' }}@endif">
+                                    class="flex justify-center items-center  w-8 h-8 md:w-10 md:h-10 bg-white hover:bg-orange-300 px-2 md:px-4 py-1 border-2 text-gray-900 hover:text-white border-gray-900 @if(Request::segment(3) === $l){{ '!bg-orange-300 text-white' }}@else{{ 'bg-white text-gray-900' }}@endif">
                                     <span class="uppercase font-bold figtree-reguler">{{ $l }}</span>
                                 </a>
                                 @endforeach
@@ -29,7 +29,7 @@
             </div>
         </div>
         <div class="relative mx-auto max-w-6xl w-full px-6 lg:px-10 xl:px-0 -mt-7 pb-10">
-            <div class="w-full mx-auto md:max-w-[618px] xl:max-w-[790px] relative md:!max-w-[585px] figtree-reguler">
+            <div class="w-full mx-auto md:max-w-[618px] xl:max-w-[790px] relative md:!max-w-[585px] ">
                 <x-dropdown-search />
             </div>
             <div class="mt-0 md:mt-6 mx-auto grid2 max-w-7xl grid-cols-12 gap-62 lg:gap-82 md:grid-cols-22 lg:grid-cols-32">

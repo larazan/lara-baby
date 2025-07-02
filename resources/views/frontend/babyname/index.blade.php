@@ -28,7 +28,7 @@
             </div>
         </div>
         <div class="relative mx-auto max-w-6xl w-full px-6 lg:px-10 xl:px-0 -mt-7 pb-10">
-            <div class="w-full mx-auto md:max-w-[618px] xl:max-w-[790px] relative md:!max-w-[585px] figtree-reguler">
+            <div class="w-full mx-auto md:max-w-[618px] xl:max-w-[790px] relative md:!max-w-[585px] ">
                 <x-dropdown-search />
                 
             </div>
