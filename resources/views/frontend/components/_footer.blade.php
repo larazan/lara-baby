@@ -42,21 +42,21 @@
                 <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 xl:gap-0">
                     <div class="xl:pr-4">
                         <ul role="list" class="mt-5 space-y-3">
-                            <li><a href="https://cuaca.bmkg.go.id" class="flex gap-2 items-center text-sm leading-[22px] md:text-base md:leading-[25px] font-medium text-white hover:text-orange-400">Starting a Family<span></span></a></li>
-                            <li><a href="{{ url('pregnancy') }}" class="flex gap-2 items-center text-sm leading-[22px] md:text-base md:leading-[25px] font-medium text-white hover:text-orange-400">Pregnancy<span></span></a></li>
-                            <li><a href="{{ url('baby-name') }}" class="flex gap-2 items-center text-sm leading-[22px] md:text-base md:leading-[25px] font-medium text-white hover:text-orange-400">Baby Names<span></span></a></li>
-                            <li><a href="https://iklim.bmkg.go.id" class="flex gap-2 items-center text-sm leading-[22px] md:text-base md:leading-[25px] font-medium text-white hover:text-orange-400">Parenting<span></span></a></li>
-                            <li><a href="{{ url('activities') }}" class="flex gap-2 items-center text-sm leading-[22px] md:text-base md:leading-[25px] font-medium text-white hover:text-orange-400">Activities<span></span></a></li>
-                            <li><a href="{{ url('articles') }}" class="flex gap-2 items-center text-sm leading-[22px] md:text-base md:leading-[25px] font-medium text-white hover:text-orange-400">News<span></span></a></li>
+                            <li><a href="https://cuaca.bmkg.go.id" class="flex gap-2 items-center text-sm leading-[22px] md:text-base md:leading-[25px] font-medium text-white hover:text-orange-400 figtree-reguler">Starting a Family<span></span></a></li>
+                            <li><a href="{{ url('pregnancy') }}" class="flex gap-2 items-center text-sm leading-[22px] md:text-base md:leading-[25px] font-medium text-white hover:text-orange-400 figtree-reguler">Pregnancy<span></span></a></li>
+                            <li><a href="{{ url('baby-name') }}" class="flex gap-2 items-center text-sm leading-[22px] md:text-base md:leading-[25px] font-medium text-white hover:text-orange-400 figtree-reguler">Baby Names<span></span></a></li>
+                            <li><a href="https://iklim.bmkg.go.id" class="flex gap-2 items-center text-sm leading-[22px] md:text-base md:leading-[25px] font-medium text-white hover:text-orange-400 figtree-reguler">Parenting<span></span></a></li>
+                            <li><a href="{{ url('activities') }}" class="flex gap-2 items-center text-sm leading-[22px] md:text-base md:leading-[25px] font-medium text-white hover:text-orange-400 figtree-reguler">Activities<span></span></a></li>
+                            <li><a href="{{ url('articles') }}" class="flex gap-2 items-center text-sm leading-[22px] md:text-base md:leading-[25px] font-medium text-white hover:text-orange-400 figtree-reguler">News<span></span></a></li>
                         </ul>
                     </div>
                     <div class="xl:pr-4">
                         <ul role="list" class="mt-5 space-y-3">
-                            <li><a href="{{ url('about') }}" class="flex gap-2 items-center text-sm leading-[22px] md:text-base md:leading-[25px] font-medium text-white hover:text-orange-400">About Us<span></span></a></li>
-                            <li><a href="{{ url('faqs') }}" class="flex gap-2 items-center text-sm leading-[22px] md:text-base md:leading-[25px] font-medium text-white hover:text-orange-400">Faqs<span></span></a></li>
-                            <li><a href="{{ url('contact') }}" class="flex gap-2 items-center text-sm leading-[22px] md:text-base md:leading-[25px] font-medium text-white hover:text-orange-400">Contact<span></span></a></li>
-                            <li><a href="{{ url('terms') }}" class="flex gap-2 items-center text-sm leading-[22px] md:text-base md:leading-[25px] font-medium text-white hover:text-orange-400">Terms of Service<span></span></a></li>
-                            <li><a href="{{ url('advertise') }}" class="flex gap-2 items-center text-sm leading-[22px] md:text-base md:leading-[25px] font-medium text-white hover:text-orange-400">Advertise<span></span></a></li>
+                            <li><a href="{{ url('about') }}" class="flex gap-2 items-center text-sm leading-[22px] md:text-base md:leading-[25px] font-medium text-white hover:text-orange-400 figtree-reguler">About Us<span></span></a></li>
+                            <li><a href="{{ url('faqs') }}" class="flex gap-2 items-center text-sm leading-[22px] md:text-base md:leading-[25px] font-medium text-white hover:text-orange-400 figtree-reguler">Faqs<span></span></a></li>
+                            <li><a href="{{ url('contact') }}" class="flex gap-2 items-center text-sm leading-[22px] md:text-base md:leading-[25px] font-medium text-white hover:text-orange-400 figtree-reguler">Contact<span></span></a></li>
+                            <li><a href="{{ url('terms') }}" class="flex gap-2 items-center text-sm leading-[22px] md:text-base md:leading-[25px] font-medium text-white hover:text-orange-400 figtree-reguler">Terms of Service<span></span></a></li>
+                            <li><a href="{{ url('advertise') }}" class="flex gap-2 items-center text-sm leading-[22px] md:text-base md:leading-[25px] font-medium text-white hover:text-orange-400 figtree-reguler">Advertise<span></span></a></li>
                         </ul>
                     </div>
                     <div class="">
@@ -180,7 +180,7 @@
             </div>
         </div>
         <div class="pt-8 md:pt-8 mt-10 border-t border-[#FFFFFF33] flex flex-col md:flex-row justify-between">
-            <p class="text-sm leading-[10px] md:text-base md:leading-[10px] text-[#FFFFFF8F]">© 2025 - Fimela</p>
+            <p class="text-sm leading-[10px] md:text-base md:leading-[10px] text-[#FFFFFF8F] figtree-reguler">© 2025 - Fimela</p>
         </div>
 
     </div>

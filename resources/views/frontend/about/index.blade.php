@@ -265,11 +265,11 @@
                                 </div>
                             </div>
                             <!--  -->
-                            <h1 class="text-3xl font-bold lg:text-4xl text-gray-800 ">About Million Facts</h1>
+                            <h1 class="text-2xl font-bold lg:text-4xl text-gray-800 figtree-bold">About Million Facts</h1>
                             <div class="flex items-center gap-x-5">
-                                <p class="text-xs sm:text-sm text-gray-800 dark:text-gray-200">Last updated: June 2024</p>
+                                <p class="text-xs sm:text-sm text-gray-600 dark:text-gray-200 figtree-reguler">Last updated: June 2024</p>
                             </div>
-                            <div class="font-serif2 text-gray-800 prose text-xl leading-8">
+                            <div class="text-gray-800 prose leading-8 figtree-reguler">
                                 <p>Hi 👋 Welcome to Million Facts, your ultimate destination for the most intriguing and random facts across a multitude of topics. From the animal kingdom to the glitz of celebrity life, from mouthwatering food trivia to cinematic gems, we’ve got something to pique everyone’s curiosity. Dive in and discover that you can learn something new about everything!</p>
                                 <p>At Million Facts, our mission is to ignite curiosity and inspire knowledge by delivering fascinating facts that entertain and educate. We aim to make learning fun and accessible, transforming everyday moments into opportunities for discovery.</p>
                                 <p>We commit to providing accurate, reliable, and well-researched facts that our audience can trust.</p>

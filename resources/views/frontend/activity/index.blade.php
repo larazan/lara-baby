@@ -11,10 +11,10 @@
                     <div class="flex flex-col items-center justify-center gap-4">
 
                         <div class="flex items-center gap-2.5 text-center max-w-[700px]"><!---->
-                            <h1 class="text-2xl leading-[33px] md:text-[32px] md:leading-[48px] xl:text-[40px] xl:leading-[54px] font-bold text-white">Activities</h1>
+                            <h1 class="text-2xl leading-[33px] md:text-[32px] md:leading-[48px] xl:text-[40px] xl:leading-[54px] font-bold text-white figtree-bold">Activities</h1>
                         </div>
                         <div>
-                            <p class="text-sm md:text-base md:leading-[25px] text-white text-center max-w-[905px]">Keeping toddlers, preschoolers, kindergarteners, and kids entertained and learning can be a fun challenge. <span class="hidden">Our blog section is chock-full of activities and crafts that are perfect for sparking creativity and curiosity in children of all ages.</span></p>
+                            <p class="text-sm md:text-base md:leading-[25px] text-white text-center max-w-[905px] figtree-reguler">Keeping toddlers, preschoolers, kindergarteners, and kids entertained and learning can be a fun challenge. <span class="hidden">Our blog section is chock-full of activities and crafts that are perfect for sparking creativity and curiosity in children of all ages.</span></p>
                         </div>
                     </div>
                 </div>
@@ -40,7 +40,7 @@
                                         :aria-expanded="open"
                                         aria-haspopup="listbox"
                                         class="relative z-0 w-full py-2 pl-3 pr-10 text-left transition duration-150 ease-in-out border border-gray-800 cursor-default focus:outline-none focus:shadow-outline-blue sm:text-sm sm:leading-5 shadow-menu bg-blue-400">
-                                        <span class="truncate text-sm font-semibold uppercase text-white">Select Activity</span>
+                                        <span class="truncate text-sm figtree-reguler font-semibold uppercase text-white">Select Activity</span>
                                         <span class="absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none">
                                             <svg class="w-5 h-5 text-white" :class="open ? 'rotate-90': ''" viewBox="0 0 20 20" fill="none" stroke="currentColor">
                                                 <path d="M7 7l3-3 3 3m0 6l-3 3-3-3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
@@ -65,7 +65,7 @@
                                             role="option"
                                             class="relative w-full text-white font-semibold select-none hover:text-white hover:bg-indigo-600">
                                             <a href="{{ url('activities/'.$a->slug) }}" class="w-full ">
-                                                <span class="block truncate py-1.5 pl-3 text-xs capitalize">{{ $a->name }}</span>
+                                                <span class="block truncate py-1.5 pl-3 text-xs capitalize figtree-reguler">{{ $a->name }}</span>
                                             </a>
                                         </li>
                                         @endforeach
@@ -87,7 +87,7 @@
                                         :aria-expanded="open"
                                         aria-haspopup="listbox"
                                         class="relative z-0 w-full py-2 pl-3 pr-10 text-left transition duration-150 ease-in-out border border-gray-800 cursor-default focus:outline-none focus:shadow-outline-blue sm:text-sm sm:leading-5 shadow-menu bg-orange-400">
-                                        <span class="truncate text-sm font-semibold uppercase text-white">Select Age</span>
+                                        <span class="truncate text-sm figtree-reguler font-semibold uppercase text-white">Select Age</span>
                                         <span class="absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none">
                                             <svg class="w-5 h-5 text-white" :class="open ? 'rotate-90': ''" viewBox="0 0 20 20" fill="none" stroke="currentColor">
                                                 <path d="M7 7l3-3 3 3m0 6l-3 3-3-3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
@@ -112,7 +112,7 @@
                                             role="option"
                                             class="relative w-full text-white font-semibold select-none hover:text-white hover:bg-indigo-600">
                                             <a href="{{ url('activities/'.$a->slug) }}" class="w-full ">
-                                                <span class="block truncate py-1.5 pl-3 text-xs capitalize">{{ $a->name }}</span>
+                                                <span class="block truncate py-1.5 pl-3 text-xs capitalize figtree-reguler">{{ $a->name }}</span>
                                             </a>
                                         </li>
                                         @endforeach
@@ -134,7 +134,7 @@
                                         :aria-expanded="open"
                                         aria-haspopup="listbox"
                                         class="relative z-0 w-full py-2 pl-3 pr-10 text-left transition duration-150 ease-in-out border border-gray-800 cursor-default focus:outline-none focus:shadow-outline-blue sm:text-sm sm:leading-5 shadow-menu bg-pink-400">
-                                        <span class="truncate text-sm font-semibold uppercase text-white">Select Craft</span>
+                                        <span class="truncate text-sm figtree-reguler font-semibold uppercase text-white">Select Craft</span>
                                         <span class="absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none">
                                             <svg class="w-5 h-5 text-white" :class="open ? 'rotate-90': ''" viewBox="0 0 20 20" fill="none" stroke="currentColor">
                                                 <path d="M7 7l3-3 3 3m0 6l-3 3-3-3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
@@ -159,7 +159,7 @@
                                             role="option"
                                             class="relative w-full text-white font-semibold select-none hover:text-white hover:bg-indigo-600">
                                             <a href="{{ url('activities/'.$a->slug) }}" class="w-full ">
-                                                <span class="block truncate py-1.5 pl-3 text-xs capitalize">{{ $a->name }}</span>
+                                                <span class="block truncate py-1.5 pl-3 text-xs capitalize figtree-reguler">{{ $a->name }}</span>
                                             </a>
                                         </li>
                                         @endforeach
@@ -188,7 +188,7 @@
                                         :aria-expanded="open"
                                         aria-haspopup="listbox"
                                         class="relative z-0 w-full py-2 pl-3 pr-10 text-left transition duration-150 ease-in-out border border-gray-800 cursor-default focus:outline-none focus:shadow-outline-blue sm:text-sm sm:leading-5 shadow-menu bg-indigo-400">
-                                        <span class="truncate text-sm font-semibold uppercase text-white">Select Learning</span>
+                                        <span class="truncate text-sm figtree-reguler font-semibold uppercase text-white">Select Learning</span>
                                         <span class="absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none">
                                             <svg class="w-5 h-5 text-white" :class="open ? 'rotate-90': ''" viewBox="0 0 20 20" fill="none" stroke="currentColor">
                                                 <path d="M7 7l3-3 3 3m0 6l-3 3-3-3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
@@ -213,7 +213,7 @@
                                             role="option"
                                             class="relative w-full text-white font-semibold select-none hover:text-white hover:bg-indigo-600">
                                             <a href="{{ url('activities/'.$a->slug) }}" class="w-full ">
-                                                <span class="block truncate py-1.5 pl-3 text-xs capitalize">{{ $a->name }}</span>
+                                                <span class="block truncate py-1.5 pl-3 text-xs capitalize figtree-reguler">{{ $a->name }}</span>
                                             </a>
                                         </li>
                                         @endforeach
@@ -235,7 +235,7 @@
                                         :aria-expanded="open"
                                         aria-haspopup="listbox"
                                         class="relative z-0 w-full py-2 pl-3 pr-10 text-left transition duration-150 ease-in-out border border-gray-800 cursor-default focus:outline-none focus:shadow-outline-blue sm:text-sm sm:leading-5 shadow-menu bg-green-400">
-                                        <span class="truncate text-sm font-semibold uppercase text-white">Select Painting</span>
+                                        <span class="truncate text-sm figtree-reguler font-semibold uppercase text-white">Select Painting</span>
                                         <span class="absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none">
                                             <svg class="w-5 h-5 text-white" :class="open ? 'rotate-90': ''" viewBox="0 0 20 20" fill="none" stroke="currentColor">
                                                 <path d="M7 7l3-3 3 3m0 6l-3 3-3-3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
@@ -260,7 +260,7 @@
                                             role="option"
                                             class="relative w-full text-white font-semibold select-none hover:text-white hover:bg-indigo-600">
                                             <a href="{{ url('activities/'.$a->slug) }}" class="w-full ">
-                                                <span class="block truncate py-1.5 pl-3 text-xs capitalize">{{ $a->name }}</span>
+                                                <span class="block truncate py-1.5 pl-3 text-xs capitalize figtree-reguler">{{ $a->name }}</span>
                                             </a>
                                         </li>
                                         @endforeach
@@ -282,7 +282,7 @@
                                         :aria-expanded="open"
                                         aria-haspopup="listbox"
                                         class="relative z-0 w-full py-2 pl-3 pr-10 text-left transition duration-150 ease-in-out border border-gray-800 cursor-default focus:outline-none focus:shadow-outline-blue sm:text-sm sm:leading-5 shadow-menu bg-yellow-400">
-                                        <span class="truncate text-sm font-semibold uppercase text-white">Select Sensory</span>
+                                        <span class="truncate text-sm figtree-reguler font-semibold uppercase text-white">Select Sensory</span>
                                         <span class="absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none">
                                             <svg class="w-5 h-5 text-white" :class="open ? 'rotate-90': ''" viewBox="0 0 20 20" fill="none" stroke="currentColor">
                                                 <path d="M7 7l3-3 3 3m0 6l-3 3-3-3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
@@ -307,7 +307,7 @@
                                             role="option"
                                             class="relative w-full text-white font-semibold select-none hover:text-white hover:bg-indigo-600">
                                             <a href="{{ url('activities/'.$a->slug) }}" class="w-full ">
-                                                <span class="block truncate py-1.5 pl-3 text-xs capitalize">{{ $a->name }}</span>
+                                                <span class="block truncate py-1.5 pl-3 text-xs capitalize figtree-reguler">{{ $a->name }}</span>
                                             </a>
                                         </li>
                                         @endforeach
@@ -365,7 +365,7 @@
                                                 role="option"
                                                 class="relative w-full text-white font-semibold select-none hover:text-white hover:bg-indigo-600">
                                                 <a href="{{ url('activities/'.$a->slug) }}" class="w-full ">
-                                                    <span class="block truncate py-1.5 pl-3 text-xs capitalize">{{ $a->name }}</span>
+                                                    <span class="block truncate py-1.5 pl-3 text-xs capitalize figtree-reguler">{{ $a->name }}</span>
                                                 </a>
                                             </li>
                                             @endforeach
@@ -412,7 +412,7 @@
                                                 role="option"
                                                 class="relative w-full text-white font-semibold select-none hover:text-white hover:bg-indigo-600">
                                                 <a href="{{ url('activities/'.$a->slug) }}" class="w-full ">
-                                                    <span class="block truncate py-1.5 pl-3 text-xs capitalize">{{ $a->name }}</span>
+                                                    <span class="block truncate py-1.5 pl-3 text-xs capitalize figtree-reguler">{{ $a->name }}</span>
                                                 </a>
                                             </li>
                                             @endforeach
@@ -459,7 +459,7 @@
                                                 role="option"
                                                 class="relative w-full text-white font-semibold select-none hover:text-white hover:bg-indigo-600">
                                                 <a href="{{ url('activities/'.$a->slug) }}" class="w-full ">
-                                                    <span class="block truncate py-1.5 pl-3 text-xs capitalize">{{ $a->name }}</span>
+                                                    <span class="block truncate py-1.5 pl-3 text-xs capitalize figtree-reguler">{{ $a->name }}</span>
                                                 </a>
                                             </li>
                                             @endforeach
@@ -506,7 +506,7 @@
                                                 role="option"
                                                 class="relative w-full text-white font-semibold select-none hover:text-white hover:bg-indigo-600">
                                                 <a href="{{ url('activities/'.$a->slug) }}" class="w-full ">
-                                                    <span class="block truncate py-1.5 pl-3 text-xs capitalize">{{ $a->name }}</span>
+                                                    <span class="block truncate py-1.5 pl-3 text-xs capitalize figtree-reguler">{{ $a->name }}</span>
                                                 </a>
                                             </li>
                                             @endforeach
@@ -553,7 +553,7 @@
                                                 role="option"
                                                 class="relative w-full text-white font-semibold select-none hover:text-white hover:bg-indigo-600">
                                                 <a href="{{ url('activities/'.$a->slug) }}" class="w-full ">
-                                                    <span class="block truncate py-1.5 pl-3 text-xs capitalize">{{ $a->name }}</span>
+                                                    <span class="block truncate py-1.5 pl-3 text-xs capitalize figtree-reguler">{{ $a->name }}</span>
                                                 </a>
                                             </li>
                                             @endforeach
@@ -600,7 +600,7 @@
                                                 role="option"
                                                 class="relative w-full text-white font-semibold select-none hover:text-white hover:bg-indigo-600">
                                                 <a href="{{ url('activities/'.$a->slug) }}" class="w-full ">
-                                                    <span class="block truncate py-1.5 pl-3 text-xs capitalize">{{ $a->name }}</span>
+                                                    <span class="block truncate py-1.5 pl-3 text-xs capitalize figtree-reguler">{{ $a->name }}</span>
                                                 </a>
                                             </li>
                                             @endforeach
@@ -616,15 +616,15 @@
             </div>
 
             <div class="mt-6 md:mt-12 flex justify-between items-center">
-                <span class="flex px-3 py-1 bg-gray-700 text-white text-sm rounded-full w-fit font-medium">{{ $title }}</span>
-                <span class="text-gray-800 md:text-lg md:text-2xl">
+                <span class="flex px-3 py-1 bg-gray-700 text-white text-sm rounded-full w-fit font-medium figtree-reguler">{{ $title }}</span>
+                <span class="text-gray-800 md:text-lg md:text-2xl pl-3 figtree-medium">
                     Found <span class="font-bold">{{ $count }}</span> results</span>
             </div>
             <!--  -->
 
             <div class="mt-4 md:mt-6 mx-auto grid max-w-7xl grid-cols-2 gap-2 md:gap-6 lg:gap-8 md:grid-cols-3 lg:grid-cols-4"><!--[-->
                 @foreach($activities as $act)
-                <article class="relative flex flex-col shadow-menu items-start justify-between w-full h-full bg-white p-2 md:p-4 rounded-lg md:rounded-2xl border-2 border-gray-800 hover:shadow-[0px_8px_32px_0px_rgba(100,_116,_139,_0.12)]">
+                <article class="relative flex flex-col shadow-stack-sm items-start justify-between w-full h-full bg-white p-2 md:p-4 rounded-lg md:rounded-2xl border-2 border-gray-800 hover:shadow-[0px_8px_32px_0px_rgba(100,_116,_139,_0.12)]">
                     <a href="{{ url('activity/'. $act->slug) }}" class="absolute top-0 left-0 w-full h-full z-[5] rounded-2xl" aria-label="Baca selengkapnya"></a>
                     <div class="w-full mb-4">
                         <div class="relative aspect-[16/9] w-full h-[166px] xl:h-[216px] rounded-md md:rounded-xl bg-gray-100 overflow-hidden">
@@ -633,11 +633,11 @@
                     </div>
                     <div class="flex flex-col justify-between w-full h-full">
                         <div>
-                            <span class="flex px-2 py-1 bg-orange-500 text-white text-xs rounded-full w-fit font-medium">{{ $act->category($act->category_id) }}</span>
-                            <h2 class="mt-2 text-base leading-[25px] md:text-lg md:leading-[27px] xl:text-2xl font-semibold text-gray-800">{{ $act->title }}</h2>
+                            <span class="flex px-2 py-1 bg-orange-500 text-white text-xs rounded-full w-fit font-medium figtree-reguler">{{ $act->category($act->category_id) }}</span>
+                            <h2 class="mt-2 text-base leading-[25px] md:text-lg md:leading-[27px] xl:text-2xl font-semibold text-gray-800 figtree-medium">{{ $act->title }}</h2>
                         </div>
                         <div class="mt-4">
-                            <a href="#" class="text-sm lg:text-base font-bold leading-6 text-blue-primary flex gap-2 items-center !text-base !leading-[25px]">Read more
+                            <a href="#" class="text-sm lg:text-base font-bold leading-6 text-blue-primary flex gap-2 items-center !text-base !leading-[25px] figtree-reguler">Read more
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon" class="w-5 h-5 stroke-2">
                                     <path fill-rule="evenodd" d="M3 10a.75.75 0 0 1 .75-.75h10.638L10.23 5.29a.75.75 0 1 1 1.04-1.08l5.5 5.25a.75.75 0 0 1 0 1.08l-5.5 5.25a.75.75 0 1 1-1.04-1.08l4.158-3.96H3.75A.75.75 0 0 1 3 10Z" clip-rule="evenodd"></path>
                                 </svg>

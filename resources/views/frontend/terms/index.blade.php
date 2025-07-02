@@ -2,10 +2,10 @@
 
 @section('content')
 
-<main class="flex flex-col bg-white min-h-screen pt-16 md:pt-[100px] max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-@include('frontend.components._leaderboard')
-  <div class="prose-lg max-w-screen-sm mx-auto pt-12">
-    <div class="flex flex-1 flex-col pb-20  max-w-md md:max-w-2xl markdown-blog">
+<main class="flex flex-col bg-white min-h-screen pt-0 md:pt-[20px] max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+@include('frontend.components._advertisement')
+  <div class="prose-lg max-w-screen-sm mx-auto pt-0">
+    <div class="flex flex-1 flex-col pb-20  max-w-md md:max-w-2xl markdown-blog figtree-reguler">
       <div>
         <div class="container">
           <div class="flex px-4">

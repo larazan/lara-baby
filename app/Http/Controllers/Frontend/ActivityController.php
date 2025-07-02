@@ -28,13 +28,13 @@ class ActivityController extends Controller
         //                 ->orderBy('parent_id', 'asc')
         //                 ->get();
         $categories = DB::table('categories AS c1')
-        ->leftJoin('categories AS c2', 'c1.parent_id', '=', 'c2.id')
-        ->orderBy('c2.name')
-        ->orderByRaw('c1.parent_id IS NULL')
-        ->orderBy('c1.parent_id')
-        ->orderBy('c1.name')
-        ->select('c1.name AS child_name', 'c2.name AS parent_name')
-        ->get();
+                        ->leftJoin('categories AS c2', 'c1.parent_id', '=', 'c2.id')
+                        ->orderBy('c2.name')
+                        ->orderByRaw('c1.parent_id IS NULL')
+                        ->orderBy('c1.parent_id')
+                        ->orderBy('c1.name')
+                        ->select('c1.name AS child_name', 'c2.name AS parent_name')
+                        ->get();
 
         // Activities
         $activityOption = Category::select(['id', 'name', 'slug', 'parent_id'])->where('parent_id', 1)->get();
@@ -60,13 +60,26 @@ class ActivityController extends Controller
             'original',
             ])->active();
 
+        
+
         if ($slug) {
             $category = Category::where('slug', $slug)->first();
             $cat_id = $category->id;
+            // if has child
+            $c = Category::where('parent_id', $cat_id)->get();
+            // $arr = DB::table('activities')->select('id')->where('parent_id', $cat_id);
+            $arr = [];
+            // if ($c->count() > 0) {
+            //     foreach ($c as $k) {
+            //         array_push($arr, $k->id);
+            //     }
+            // }
             $title = Str::ucfirst($category->name) . " Activity"; 
         } else {
             $category = null; 
-            $cat_id = null; 
+            $cat_id = null;
+            // $c = null; 
+            $arr = null;
             $title = "Activity"; 
         }
 
@@ -75,12 +88,18 @@ class ActivityController extends Controller
             $title = Str::ucfirst($keyword) . " Activity";
         } else {
             $keyword = null;
-            $title = "Activity";
+            // $title = "Activity4";
         }
+
+        // $query2 = $query->whereIn('category_id', $arr)->get();
 
         $query->when($cat_id > 0, function ($q) use ($cat_id) {
             return $q->where('category_id', $cat_id);
         });
+
+        // $query->when($arr, function ($q) use ($arr) {
+        //     return $q->whereIn('category_id', [7,8,9,10,11]);
+        // });
 
         $query->when($request->search, function ($q) use ($keyword) {
             return $q->where('title', 'like', "%{$keyword}%");
@@ -89,7 +108,7 @@ class ActivityController extends Controller
         $count = $query->get()->count();
         $activities = $query->paginate(12)->withQueryString();
 
-        return $this->loadTheme('activity.index', compact('title', 'parent_cat', 'category', 'categories', 'activities', 'activityOption', 'ages', 'crafts', 'learnings', 'painting', 'sensory', 'count'));
+        return $this->loadTheme('activity.index', compact('title', 'parent_cat', 'category', 'categories', 'activities', 'activityOption', 'ages', 'crafts', 'learnings', 'painting', 'sensory', 'count',));
     }
 
     public function show($slug)

@@ -18,7 +18,7 @@ class Dashboard extends Component
 
     public function mount() {
         $this->articleCount = Article::count();
-        $this->factCount = Babyname::count();
+        $this->factCount = Babyname::all()->count();
         $this->subscribeCount = Newsletter::count();
         $this->contacts = Contact::select(['id', 'name', 'email', 'subject', 'message'])
         ->take(9)

@@ -32,7 +32,7 @@ $categories = \App\Models\Category::select(['name', 'slug', 'parent_id'])->where
             <div class="w-full px-0 border-t-1 border-t-gray-300">
                 <!-- submenu -->
                 <div class="w-full px-6" x-data="{ subOpen:false }">
-                    <button :class="subOpen ? 'text-[#02979a]' : 'text-[#475569] hover:text-orange-500 border-b'" @click="subOpen = !subOpen" type="button" aria-expanded="true" class="w-full flex justify-between items-center gap-2  py-3 md:py-4 text-md md:text-[18px] font-bold">
+                    <button :class="subOpen ? 'text-[#02979a]' : 'text-[#475569] hover:text-orange-500 border-b'" @click="subOpen = !subOpen" type="button" aria-expanded="true" class="w-full flex justify-between items-center gap-2  py-3 md:py-4 text-md md:text-[18px] font-bold figtree-bold">
                         <span>Pregnancy</span>
                         <span>
                             <svg :class="subOpen ? 'rotate-180 transition duration-300' : 'transition duration-300'" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon" class="w-6 h-6 md:w-8 md:h-8 transition-all">
@@ -53,47 +53,47 @@ $categories = \App\Models\Category::select(['name', 'slug', 'parent_id'])->where
                             <div class="py-0 lg:py-6 px-4 xl:py-8 xl:px-6 order-1 lg:order-2">
                                 <ul class="text-sm leading-[22px] font-medium text-[#475569] mt-[14px] xl:mt-4 flex flex-col gap-[14px]">
                                     <li>
-                                        <a href="/profil" class="flex gap-3 hover:text-blue-primary hover:underline" aria-label="Selengkapnya">
+                                        <a href="{{ url('/pregnancy') }}" class="figtree-reguler flex gap-3 hover:text-blue-primary hover:underline" aria-label="Selengkapnya">
                                             <p>Pregnancy Tracker</p>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="/profil/organisasi" class="flex gap-3 hover:text-blue-primary hover:underline" aria-label="Selengkapnya">
-                                            <p>Trying to Conceive</p>
+                                        <a href="{{ url('/pregnancy/tracker/first-trimester') }}" class="figtree-reguler flex gap-3 hover:text-blue-primary hover:underline" aria-label="Selengkapnya">
+                                            <p>1st Trimester</p>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="/profil/pejabat" class="flex gap-3 hover:text-blue-primary hover:underline" aria-label="Selengkapnya">
-                                            <p>Signs & Symptoms</p>
+                                        <a href="{{ url('/pregnancy/tracker/second-trimester') }}" class="figtree-reguler flex gap-3 hover:text-blue-primary hover:underline" aria-label="Selengkapnya">
+                                            <p>2nd Trimester</p>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="/profil/balai-upt" class="flex gap-3 hover:text-blue-primary hover:underline" aria-label="Selengkapnya">
-                                            <p>Pregnancy Health</p>
+                                        <a href="{{ url('/pregnancy/tracker/third-trimester') }}" class="figtree-reguler flex gap-3 hover:text-blue-primary hover:underline" aria-label="Selengkapnya">
+                                            <p>3rd Trimester</p>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="/profil/balai-upt" class="flex gap-3 hover:text-blue-primary hover:underline" aria-label="Selengkapnya">
+                                        <a href="/profil/balai-upt" class="figtree-reguler flex gap-3 hover:text-blue-primary hover:underline" aria-label="Selengkapnya">
                                             <p>High Risk Pregnancies</p>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="/profil/balai-upt" class="flex gap-3 hover:text-blue-primary hover:underline" aria-label="Selengkapnya">
+                                        <a href="/profil/balai-upt" class="figtree-reguler flex gap-3 hover:text-blue-primary hover:underline" aria-label="Selengkapnya">
                                             <p>Preparing for Baby</p>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="/profil/balai-upt" class="flex gap-3 hover:text-blue-primary hover:underline" aria-label="Selengkapnya">
+                                        <a href="/profil/balai-upt" class="figtree-reguler flex gap-3 hover:text-blue-primary hover:underline" aria-label="Selengkapnya">
                                             <p>Concerns & Complications</p>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="/profil/balai-upt" class="flex gap-3 hover:text-blue-primary hover:underline" aria-label="Selengkapnya">
+                                        <a href="/profil/balai-upt" class="figtree-reguler flex gap-3 hover:text-blue-primary hover:underline" aria-label="Selengkapnya">
                                             <p>Labor & Delivery</p>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="/profil/balai-upt" class="flex gap-3 hover:text-blue-primary hover:underline" aria-label="Selengkapnya">
+                                        <a href="/profil/balai-upt" class="figtree-reguler flex gap-3 hover:text-blue-primary hover:underline" aria-label="Selengkapnya">
                                             <p>Postpartum</p>
                                         </a>
                                     </li>
@@ -107,7 +107,7 @@ $categories = \App\Models\Category::select(['name', 'slug', 'parent_id'])->where
 
                 <!-- submenu -->
                 <div class="w-full px-6" x-data="{ subOpen:false }">
-                    <button :class="subOpen ? 'text-[#02979a]' : 'text-[#475569] hover:text-orange-500 border-b'" @click="subOpen = !subOpen" type="button" aria-expanded="true" class="w-full flex justify-between items-center gap-2 py-3 md:py-4 text-md md:text-[18px] font-bold">
+                    <button :class="subOpen ? 'text-[#02979a]' : 'text-[#475569] hover:text-orange-500 border-b'" @click="subOpen = !subOpen" type="button" aria-expanded="true" class="w-full flex justify-between items-center gap-2 py-3 md:py-4 text-md md:text-[18px] font-bold figtree-bold">
                         <span>Parenting</span>
                         <span>
                             <svg :class="subOpen ? 'rotate-180 transition duration-300' : 'transition duration-300'" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon" class="w-6 h-6 md:w-8 md:h-8 transition-all">
@@ -129,22 +129,22 @@ $categories = \App\Models\Category::select(['name', 'slug', 'parent_id'])->where
                             <div class="py-0 lg:py-6 px-4 xl:py-8 xl:px-6 order-1 lg:order-2">
                                 <ul class="text-sm leading-[22px] font-medium text-[#475569] mt-[14px] xl:mt-4 flex flex-col gap-[14px]">
                                     <li>
-                                        <a href="/profil" class="flex gap-3 hover:text-blue-primary hover:underline" aria-label="Selengkapnya">
+                                        <a href="/profil" class="figtree-reguler flex gap-3 hover:text-blue-primary hover:underline" aria-label="Selengkapnya">
                                             <p>Babies</p>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="/profil/organisasi" class="flex gap-3 hover:text-blue-primary hover:underline" aria-label="Selengkapnya">
+                                        <a href="/profil/organisasi" class="figtree-reguler flex gap-3 hover:text-blue-primary hover:underline" aria-label="Selengkapnya">
                                             <p>Toddlers</p>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="/profil/pejabat" class="flex gap-3 hover:text-blue-primary hover:underline" aria-label="Selengkapnya">
+                                        <a href="/profil/pejabat" class="figtree-reguler flex gap-3 hover:text-blue-primary hover:underline" aria-label="Selengkapnya">
                                             <p>Kids</p>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="/profil/pejabat" class="flex gap-3 hover:text-blue-primary hover:underline" aria-label="Selengkapnya">
+                                        <a href="/profil/pejabat" class="figtree-reguler flex gap-3 hover:text-blue-primary hover:underline" aria-label="Selengkapnya">
                                             <p>Teens</p>
                                         </a>
                                     </li>
@@ -158,7 +158,7 @@ $categories = \App\Models\Category::select(['name', 'slug', 'parent_id'])->where
                 <!--  -->
                 <!-- submenu -->
                 <div class="w-full px-6" x-data="{ subOpen:false }">
-                    <button :class="subOpen ? 'text-[#02979a]' : 'text-[#475569] hover:text-orange-500 border-b'" @click="subOpen = !subOpen" type="button" aria-expanded="true" class="w-full flex justify-between items-center gap-2 py-3 md:py-4 text-md md:text-[18px] font-bold">
+                    <button :class="subOpen ? 'text-[#02979a]' : 'text-[#475569] hover:text-orange-500 border-b'" @click="subOpen = !subOpen" type="button" aria-expanded="true" class="w-full flex justify-between items-center gap-2 py-3 md:py-4 text-md md:text-[18px] font-bold figtree-bold">
                         <span>Baby Names</span>
                         <span>
                             <svg :class="subOpen ? 'rotate-180 transition duration-300' : 'transition duration-300'" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon" class="w-6 h-6 md:w-8 md:h-8 transition-all">
@@ -180,22 +180,22 @@ $categories = \App\Models\Category::select(['name', 'slug', 'parent_id'])->where
                             <div class="py-0 lg:py-6 px-4 xl:py-8 xl:px-6 order-1 lg:order-2">
                                 <ul class="text-sm leading-[22px] font-medium text-[#475569] mt-[14px] xl:mt-4 flex flex-col gap-[14px]">
                                     <li>
-                                        <a href="/profil" class="flex gap-3 hover:text-blue-primary hover:underline" aria-label="Selengkapnya">
+                                        <a href="/baby-name" class="figtree-reguler flex gap-3 hover:text-blue-primary hover:underline" aria-label="Selengkapnya">
                                             <p>Browse All Baby Names</p>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="/profil/organisasi" class="flex gap-3 hover:text-blue-primary hover:underline" aria-label="Selengkapnya">
+                                        <a href="{{ url('/baby-name?religion=&origin=&country=&gender=2') }}" class="figtree-reguler flex gap-3 hover:text-blue-primary hover:underline" aria-label="Selengkapnya">
                                             <p>Top Girl Names</p>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="/profil/pejabat" class="flex gap-3 hover:text-blue-primary hover:underline" aria-label="Selengkapnya">
+                                        <a href="{{ url('/baby-name?religion=&origin=&country=&gender=1') }}" class="figtree-reguler flex gap-3 hover:text-blue-primary hover:underline" aria-label="Selengkapnya">
                                             <p>Top Boy Names</p>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="/profil/balai-upt" class="flex gap-3 hover:text-blue-primary hover:underline" aria-label="Selengkapnya">
+                                        <a href="/profil/balai-upt" class="figtree-reguler flex gap-3 hover:text-blue-primary hover:underline" aria-label="Selengkapnya">
                                             <p>Trending Names</p>
                                         </a>
                                     </li>
@@ -208,7 +208,7 @@ $categories = \App\Models\Category::select(['name', 'slug', 'parent_id'])->where
                 <!--  -->
                 <!-- activity -->
                 <div class="w-full px-6" x-data="{ subOpen:false }">
-                    <button :class="subOpen ? 'text-[#02979a]' : 'text-[#475569] hover:text-orange-500 border-b'" @click="subOpen = !subOpen" type="button" aria-expanded="true" class="w-full flex justify-between items-center gap-2 py-3 md:py-4 text-md md:text-[18px] font-bold">
+                    <button :class="subOpen ? 'text-[#02979a]' : 'text-[#475569] hover:text-orange-500 border-b'" @click="subOpen = !subOpen" type="button" aria-expanded="true" class="w-full flex justify-between items-center gap-2 py-3 md:py-4 text-md md:text-[18px] font-bold figtree-bold">
                         <span>Activities</span>
                         <span>
                             <svg :class="subOpen ? 'rotate-180 transition duration-300' : 'transition duration-300'" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon" class="w-6 h-6 md:w-8 md:h-8 transition-all">
@@ -231,7 +231,7 @@ $categories = \App\Models\Category::select(['name', 'slug', 'parent_id'])->where
                                 <ul class="text-sm leading-[22px] font-medium text-[#475569] mt-[14px] xl:mt-4 flex flex-col gap-[14px]">
                                     @foreach($categories as $c)
                                     <li>
-                                        <a href="{{ url('activities/'.$c->slug) }}" class="flex gap-3 hover:text-blue-primary hover:underline" aria-label="Selengkapnya">
+                                        <a href="{{ url('activities/'.$c->slug) }}" class="figtree-reguler flex gap-3 hover:text-blue-primary hover:underline" aria-label="Selengkapnya">
                                             <p>{{ $c->name }}</p>
                                         </a>
                                     </li>
@@ -246,7 +246,7 @@ $categories = \App\Models\Category::select(['name', 'slug', 'parent_id'])->where
                 <!--  -->
                 <!-- submenu -->
                 <div class="w-full px-6">
-                    <a href="{{ url('articles') }}" class="w-full flex justify-between items-center gap-2 py-3 md:py-4 text-md md:text-[18px] font-bold text-[#475569] hover:text-orange-500">
+                    <a href="{{ url('articles') }}" class="w-full flex justify-between items-center gap-2 py-3 md:py-4 text-md md:text-[18px] font-bold figtree-bold text-[#475569] hover:text-orange-500">
                         <span>News</span>
                     </a>
                     
@@ -260,7 +260,7 @@ $categories = \App\Models\Category::select(['name', 'slug', 'parent_id'])->where
                     tabindex="0"
                     type="button"
                     href="{{ url('login') }}">
-                    <p dir="ltr" class="text-[18px]2 leading-[29px]2 font-semibold  pointer-events-none !text-[16px] !leading-[22px] text-indigo-600">Log in</p>
+                    <p dir="ltr" class="text-[18px]2 leading-[29px]2 font-semibold figtree-medium pointer-events-none !text-[16px] !leading-[22px] text-indigo-600">Log in</p>
                 </a>
                 <a
                     class="z-0 group relative inline-flex items-center justify-center rounded-full box-border appearance-none select-none whitespace-nowrap font-normal subpixel-antialiased overflow-hidden tap-highlight-transparent data-[pressed=true]:scale-[0.97] outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 px-4 text-small rounded-medium [&amp;>svg]:max-w-[theme(spacing.8)] transition-transform-colors-opacity motion-reduce:transition-none text-default-foreground data-[hover=true]:opacity-hover min-w-[110px]  h-[53px] gap-[12px] bg-indigo-600  active:bg-indigo-700  focus:bg-indigo-700 hover:bg-indigo-700 data-[hover=true]:opacity-1 shadow-menu border-2 border-gray-600"
@@ -268,7 +268,7 @@ $categories = \App\Models\Category::select(['name', 'slug', 'parent_id'])->where
                     tabindex="0"
                     type="button"
                     href="{{ url('register') }}">
-                    <p dir="ltr" class="text-[18px]2 leading-[29px]2 font-semibold  text-gray-100 pointer-events-none !text-[16px] !leading-[22px]">Register</p>
+                    <p dir="ltr" class="text-[18px]2 leading-[29px]2 font-semibold figtree-medium text-gray-100 pointer-events-none !text-[16px] !leading-[22px]">Register</p>
                 </a>
             </div>
         </li>

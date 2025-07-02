@@ -142,6 +142,18 @@ class BabynameController extends Controller
             return redirect('baby-name');
         }
 
+        // Related Name
+        $searchTerm = $babyname->name;
+        $threshold = 1; // Define your Levenshtein distance threshold (e.g., allow up to 3 edits)
+
+        $names = Babyname::select(['name', 'slug', 'gender_id', 'status'])->where('slug', '!=', $slug)->active()->get();
+
+        // 2. Filter the collection using PHP's levenshtein function
+        $relatedNames = $names->filter(function ($baby) use ($searchTerm, $threshold) {
+            $distance = levenshtein($searchTerm, $baby->name);
+            return $distance <= $threshold;
+        });
+
         // $searchTerm = $babyname->name;
         // $maxDistance = 2;
 
@@ -163,9 +175,9 @@ class BabynameController extends Controller
         ->whatsapp()        
         ->reddit();
 
-        $title = "Arti kata nama: " . $babyname->name;
+        $title = "Meaning, origin and history of the name " . $babyname->name;
         
-        return $this->loadTheme('babyname.detail', compact('letters', 'genders', 'origins', 'religions', 'countries', 'title', 'babyname', 'shareComponent',));
+        return $this->loadTheme('babyname.detail', compact('letters', 'genders', 'origins', 'religions', 'countries', 'title', 'babyname', 'shareComponent', 'relatedNames'));
     }
 
     public function letter($letter)

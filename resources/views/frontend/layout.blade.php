@@ -76,6 +76,9 @@
       font-feature-settings: normal;
       font-variation-settings: normal;
       scroll-behavior: smooth;
+      font-optical-sizing: auto;
+      font-weight: 600;
+      font-style: normal;
     }
 
     #background-bar:after {

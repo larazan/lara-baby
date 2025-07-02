@@ -3,6 +3,7 @@
 @section('content')
 @include('frontend.components._share')
 
+
 <main class="overflow-hidden pt-0">
     <div class="relative">
         <div class="relative">
@@ -11,14 +12,14 @@
                 <div class="mx-auto max-w-6xl px-6 lg:px-10 xl:px-0">
                     <div class="flex flex-col items-center justify-center gap-4">
                         <div class="flex items-center gap-2.5 text-center max-w-[700px]"><!---->
-                            <h1 class="text-lg leading-[33px] md:text-[32px] md:leading-[48px] xl:text-[40px] xl:leading-[54px] font-bold text-gray-900">Arti Nama <span class="underline underline-offset-2 capitalize">{{ $babyname->name }}</span></h1>
+                            <h1 class="text-lg leading-[33px] md:text-[32px] md:leading-[48px] xl:text-[40px] xl:leading-[54px] font-bold text-gray-900 figtree-bold">Arti Nama <span class="underline underline-offset-2 capitalize">{{ $babyname->name }}</span></h1>
                         </div>
                         <div>
                             <div class="flex flex-wrap items-center gap-1 md:gap-2 justify-center md:justify-center mx-auto w-12/12 md:w-10/12 ">
                                 @foreach($letters as $l)
                                 <a
                                     href="{{ url('baby-name/letter/'.$l) }}"
-                                    class="flex justify-center items-center w-8 h-8 md:w-10 md:h-10  px-2 md:px-4 py-1 border-2 border-gray-900 @if(Request::segment(3) == $l){{ 'bg-orange-300 text-white' }}@else{{ 'bg-white text-gray-900 hover:bg-orange-300 hover:text-white' }}@endif">
+                                    class="flex justify-center items-center figtree-reguler w-8 h-8 md:w-10 md:h-10  px-2 md:px-4 py-1 border-2 border-gray-900 @if(Request::segment(3) == $l){{ 'bg-orange-300 text-white' }}@else{{ 'bg-white text-gray-900 hover:bg-orange-300 hover:text-white' }}@endif">
                                     <span class="uppercase font-bold ">{{ $l }}</span>
                                 </a>
                                 @endforeach
@@ -29,7 +30,7 @@
             </div>
         </div>
         <div class="relative mx-auto max-w-6xl w-full px-6 lg:px-10 xl:px-0 -mt-7 pb-10">
-            <div class="w-full mx-auto md:max-w-[618px] xl:max-w-[790px] relative md:!max-w-[585px]">
+            <div class="w-full mx-auto md:max-w-[618px] xl:max-w-[790px] relative md:!max-w-[585px] figtree-reguler">
                 <x-dropdown-search />
 
             </div>
@@ -42,8 +43,8 @@
 
                             <div class="flex flex-col w-1/2 md:flex-row space-y-4 md:space-y-0 md:space-x-2 md:justify-between">
                                 <div class="w-full md:w-1/2  flex flex-col col-span-6 sm:col-span-3">
-                                    <label for="religion" class="hidden md:block text-sm md:text-md font-semibold text-gray-700 pb-1 tracking-wide">Religion</label>
-                                    <select name="religion" class="h-10 rounded border block appearance-none w-full bg-white @if(Request::get('religion')){{ 'border-red-500 text-red-500' }}@else{{ 'border-gray-600 text-gray-500' }}@endif text-[11px] md:text-[13px] font-bold uppercase pl-2 tracking-wide py-2 px-4 pr-0 leading-tight focus:placeholder-gray-600 focus:text-gray-700 focus:outline-none">
+                                    <label for="religion" class="figtree-reguler hidden md:block text-sm md:text-md font-semibold text-gray-700 pb-1 tracking-wide">Religion</label>
+                                    <select name="religion" class="figtree-reguler h-10 rounded border block appearance-none w-full bg-white @if(Request::get('religion')){{ 'border-red-500 text-red-500' }}@else{{ 'border-gray-600 text-gray-500' }}@endif text-[11px] md:text-[13px] font-bold uppercase pl-2 tracking-wide py-2 px-4 pr-0 leading-tight focus:placeholder-gray-600 focus:text-gray-700 focus:outline-none">
                                         <option value="">Select Religion</option>
                                         @foreach($religions as $r)
                                         <option 
@@ -56,8 +57,8 @@
                                     </select>
                                 </div>
                                 <div class="col-span-6 sm:col-span-3 w-full md:w-1/2 ">
-                                    <label for="origin" class="hidden md:block text-sm md:text-md font-semibold text-gray-700 pb-1 tracking-wide">Origin</label>
-                                    <select name="origin" class="h-10 rounded border block appearance-none w-full bg-white @if(Request::get('origin')){{ 'border-red-500 text-red-500' }}@else{{ 'border-gray-600 text-gray-500' }}@endif text-[11px] md:text-[13px] font-bold uppercase pl-2 tracking-wide py-2 px-4 pr-0 leading-tight focus:placeholder-gray-600 focus:text-gray-700 focus:outline-none">
+                                    <label for="origin" class="figtree-reguler hidden md:block text-sm md:text-md font-semibold text-gray-700 pb-1 tracking-wide">Origin</label>
+                                    <select name="origin" class="figtree-reguler h-10 rounded border block appearance-none w-full bg-white @if(Request::get('origin')){{ 'border-red-500 text-red-500' }}@else{{ 'border-gray-600 text-gray-500' }}@endif text-[11px] md:text-[13px] font-bold uppercase pl-2 tracking-wide py-2 px-4 pr-0 leading-tight focus:placeholder-gray-600 focus:text-gray-700 focus:outline-none">
                                         <option value="">Select Origin</option>
                                         @foreach($origins as $o)
                                         <option 
@@ -73,8 +74,8 @@
 
                             <div class="flex flex-col w-1/2 md:flex-row space-y-4 md:space-y-0 md:space-x-2 md:justify-between">
                                 <div class="w-full md:w-1/2  flex flex-col col-span-6 sm:col-span-3">
-                                    <label for="country" class="hidden md:block text-sm md:text-md font-semibold text-gray-700 pb-1 tracking-wide">Country</label>
-                                    <select name="country" class="h-10 rounded border block appearance-none w-full bg-white @if(Request::get('country')){{ 'border-red-500 text-red-500' }}@else{{ 'border-gray-600 text-gray-500' }}@endif text-[11px] md:text-[13px] font-bold uppercase pl-2 tracking-wide py-2 px-4 pr-0 leading-tight focus:placeholder-gray-600 focus:text-gray-700 focus:outline-none">
+                                    <label for="country" class="figtree-reguler hidden md:block text-sm md:text-md font-semibold text-gray-700 pb-1 tracking-wide">Country</label>
+                                    <select name="country" class="figtree-reguler h-10 rounded border block appearance-none w-full bg-white @if(Request::get('country')){{ 'border-red-500 text-red-500' }}@else{{ 'border-gray-600 text-gray-500' }}@endif text-[11px] md:text-[13px] font-bold uppercase pl-2 tracking-wide py-2 px-4 pr-0 leading-tight focus:placeholder-gray-600 focus:text-gray-700 focus:outline-none">
                                         <option value="">Select Country</option>
                                         @foreach($countries as $c)
                                         <option 
@@ -87,8 +88,8 @@
                                     </select>
                                 </div>
                                 <div class="col-span-6 sm:col-span-3 w-full md:w-1/2 ">
-                                    <label for="gender" class="hidden md:block text-sm md:text-md font-semibold text-gray-700 pb-1 tracking-wide">Gender</label>
-                                    <select name="gender" class="h-10 rounded border block appearance-none w-full bg-white  @if(Request::get('gender')){{ 'border-red-500 text-red-500' }}@else{{ 'border-gray-600 text-gray-500' }}@endif text-[11px] md:text-[13px] font-bold uppercase pl-2 tracking-wide  py-2 px-4 pr-0 leading-tight focus:placeholder-gray-600 focus:text-gray-700 focus:outline-none">
+                                    <label for="gender" class="figtree-reguler hidden md:block text-sm md:text-md font-semibold text-gray-700 pb-1 tracking-wide">Gender</label>
+                                    <select name="gender" class="figtree-reguler h-10 rounded border block appearance-none w-full bg-white  @if(Request::get('gender')){{ 'border-red-500 text-red-500' }}@else{{ 'border-gray-600 text-gray-500' }}@endif text-[11px] md:text-[13px] font-bold uppercase pl-2 tracking-wide  py-2 px-4 pr-0 leading-tight focus:placeholder-gray-600 focus:text-gray-700 focus:outline-none">
                                         <option value="">Select Gender</option>
                                         @foreach($genders as $key => $value)
                                         <option 
@@ -105,7 +106,7 @@
                             </div>
                         </div>
                         <div class="flex mx-auto w-full max-w-2xl px-0 py-3 ">
-                            <button type="submit" class="flex w-full mx-auto py-2 md:py-3 rounded-full border border-blue-800 items-center justify-center bg-blue-700 hover:bg-blue-800 font-semibold text-white">
+                            <button type="submit" class="flex w-full mx-auto py-2 md:py-3 figtree-medium rounded-full border-2 border-gray-800 shadow-menu items-center justify-center bg-blue-700 hover:bg-blue-800 font-semibold text-white">
                                 Browse
                             </button>
                         </div>
@@ -118,14 +119,13 @@
                 <div class="bg-white pb-0 md:pb-10">
                     <div class="mx-auto max-w-6xl md:px-6 lg:px-10 xl:px-0">
 
-                        <div class="pt-6 pb-4 border-b-2 border-slate-200 border-dashed dark:border-slate-600">
-                            <h1 class="font-luckiest-guy text-info text-2xl tracking-widest">Arti Nama {{ $babyname->name }} ({{ $babyname->origin_id }})</h1>
+                        <div class="pt-6 pb-0 border-b-2 border-slate-200 border-dashed dark:border-slate-600">
+                            <h1 class="text-black text-2xl font-semibold tracking-wide figtree-bold">Family name origins & meanings {{ $babyname->name }}</h1>
                         </div>
 
-                        <article class="text-[14px] font-main leading-6 dark:text-slate-300">
+                        <article class="pt-4 text-[14px] font-main leading-6 dark:text-slate-300 figtree-reguler">
                             Berikut adalah arti dari <strong>nama bǎo</strong> yang berasal dari Tionghoa yang memiliki jumlah huruf sebanyak <span>{{ $babyname->count() }}</span> huruf.
-                            <br>
-                            <br>Nama bǎo cocok untuk bayi berjenis kelamin Perempuan, Silahkan apabila Anda hendak melihat <a href="https://cekartinama.com/cari-arti-nama/bǎo.html" class="decorated">arti lain dari nama bǎo</a>.
+                            <span>Spanish, Portuguese, and Italian : from the personal name Cecilio, from Latin name C(a)ecilius, a derivative of caecus ‘blind’.</span>
                         </article>
 
                         <div class="w-full my-6 flex justify-center border border-gray-800 rounded shadow-stack-sm  bg-white">
@@ -134,12 +134,12 @@
                                     <span class="text-md font-bold text-gray-900 uppercase ">{{ trim($babyname->name) }}</span>
                                 </div>
                                 <div class="flex w-full justify-between items-center border-b border-gray-800 py-3 px-3">
-                                    <div class="w-1/2 text-sm font-mabrybold">Meaning</div>
-                                    <div class="w-1/2 text-sm font-mabry justify-end text-right">{{ $babyname->meaning }}</div>
+                                    <div class="w-1/2 text-sm figtree-medium">Meaning</div>
+                                    <div class="w-1/2 text-sm figtree-medium justify-end text-right">{{ $babyname->meaning }}</div>
                                 </div>
                                 <div class="flex justify-between items-center border-b border-gray-800 py-3 px-3">
-                                    <div class="text-sm font-mabrybold">Gender</div>
-                                    <div class="text-sm font-mabry">
+                                    <div class="text-sm figtree-medium">Gender</div>
+                                    <div class="text-sm figtree-medium">
                                         @if($babyname->gender_id == 1)
                                         <span>
                                             <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-gender-male"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M10 14m-5 0a5 5 0 1 0 10 0a5 5 0 1 0 -10 0" /><path d="M19 5l-5.4 5.4" /><path d="M19 5h-5" /><path d="M19 5v5" /></svg>
@@ -158,12 +158,12 @@
                                     </div>
                                 </div>
                                 <div class="flex justify-between items-center border-b border-gray-800 py-3 px-3">
-                                    <div class="text-sm font-mabrybold">Religion</div>
-                                    <div class="text-sm font-mabry">@if($babyname->religion_id){{ $babyname->religion($babyname->religion_id) }}@endif</div>
+                                    <div class="text-sm figtree-medium">Religion</div>
+                                    <div class="text-sm figtree-medium">@if($babyname->religion_id){{ $babyname->religion($babyname->religion_id) }}@endif</div>
                                 </div>
                                 <div class="flex justify-between items-center  border-gray-800 py-3 px-3">
-                                    <div class="text-sm font-mabrybold">Origin</div>
-                                    <div class="text-sm font-mabry">{{ $babyname->origin_id }}</div>
+                                    <div class="text-sm figtree-medium">Origin</div>
+                                    <div class="text-sm figtree-medium">{{ $babyname->origin_id }}</div>
                                 </div>
                             </div>
                         </div>
@@ -172,6 +172,30 @@
 
                     </div>
 
+                    <!--  -->
+                    <div class="mx-auto max-w-6xl md:px-6 lg:px-10 xl:px-0">
+                        <div class="flex justify-between">
+                            <h2 class="text-md md:text-[24px] md:leading-[33px] lg:text-[32px] lg:leading-[48px] font-bold text-gray-900 figtree-medium">Related Names</h2>
+                        </div>
+                        <div class="mt-2 md:mt-6 grid gap-4 lg:gap-8 grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"><!--[-->
+                            @foreach($relatedNames as $baby)
+                            <a aria-label="Selengkapnya" href="{{ url('baby-name/'. $baby->slug) }}" class="@if($baby->gender_id == 1){{ 'bg-[#dbebfa]' }}@elseif($baby->gender_id == 2){{ 'bg-orange-200' }}@else{{ 'bg-green-200' }}@endif hover:shadow-[0px_8px_32px_0px_rgba(100,_116,_139,_0.08)] border border-gray-700 flex justify-between items-center gap-3 p-3 md:px-4 md:py-3 rounded-lg drop-shadow-md transition hover:scale-105">
+                                <div class="md:flex items-center gap-3">
+                                    <p class="md:mt-0 text-xs leading-5 md:text-base md:leading-[25px] font-bold text-gray-800 capitalize figtree-medium">{{ $baby->name }}</p>
+                                </div>
+                                <div class="hidden2 md:block">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon" class="w-4 h-4 stroke-2 text-[#475569]">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"></path>
+                                    </svg>
+                                </div>
+
+                            </a>
+                            @endforeach
+
+                        </div>
+                        
+                    </div>
+                    <!--  -->
                 </div>
 
             </div>

@@ -2,7 +2,7 @@
 
 @section('content')
 
-<main class="flex h-max py-8 md:py-20 bg-[#fefbec]2 bg-white pt-20 md:pt-[120px]" x-data="{ alertShow: true }">
+<main class="flex h-max py-8 md:py-20 bg-[#fefbec]2 bg-white pt-10 md:pt-[80px]" x-data="{ alertShow: true }">
     <div class="flex  w-full2">
 
         <div class="max-w-full xl:max-w-[1800px] mx-auto flex flex-col justify-center items-center">
@@ -12,16 +12,16 @@
                 <div class="flex justify-center flex-col md:flex-row">
                     <div class="flex flex-col md:pr-[72px] md:max-w-[50%] md:w-[50%] pb-[48px] md:pb-0 ">
                         <div class="flex flex-col space-y-3 border-b pb-6">
-                            <h3 class="text-5xl md:text-5xl font-bold leading-12 text-black">
+                            <h3 class="text-2xl md:text-3xl font-bold leading-12 text-black figtree-bold">
                                 We can't wait to hear from you.
                             </h3>
                             <div>
 
-                                <p class="text-gray-900 py-2 text-2xl leading-tight">
+                                <p class="text-gray-900 py-2 text-lg leading-tight figtree-reguler">
                                     Let us know what you’re looking to achieve using the form, and one of our team will be in touch shortly.
                                 </p>
 
-                                <p class="text-gray-900  py-2 text-2xl leading-tight">
+                                <p class="text-gray-900  py-2 text-lg leading-tight figtree-reguler">
                                     Otherwise please feel free to call us during UK business office hours, or schedule a call.
                                 </p>
 
@@ -99,7 +99,7 @@
 
                         <div class="flex flex-col justify-start mx-auto max-w-md space-y-4 md:space-y-5 px-4 py-6 shadow-stack-sm  border-2 border-gray-800 shadow-lg rounded bg-[#fcfcfc]">
                             <div class="flex flex-col space-y-1 md:space-y-2">
-                                <h2 class="text-2xl md:text-3xl tracking font-semibold text-black">
+                                <h2 class="text-2xl md:text-3xl tracking font-semibold text-black figtree-medium">
                                     Talk with Us
                                 </h2>
                             </div>
@@ -107,39 +107,39 @@
                                 @csrf
                                 <div class="flex flex-col max-w-md space-y-4 md:space-y-5 ">
                                     <div class="relative w-full">
-                                        <p class="text-black text-[11px] font-semibold uppercase tracking">
+                                        <p class="text-black text-[11px] font-semibold uppercase tracking figtree-reguler">
                                             NAME
                                         </p>
                                         <div class="relative items-center">
-                                            <input class="flex w-full px-2 py-2 md:px-2 md:py-2 border bg-white border-gray-700 rounded-sm font-medium placeholder:font-normal" type="text" id="name" name="name" required />
+                                            <input class="flex w-full figtree-reguler px-2 py-2 md:px-2 md:py-2 border bg-white border-gray-700 rounded-sm font-medium placeholder:font-normal" type="text" id="name" name="name" required />
                                         </div>
                                     </div>
                                     <div class="relative w-full">
-                                        <p class="text-black text-[11px] font-semibold uppercase tracking">
+                                        <p class="text-black text-[11px] font-semibold uppercase tracking figtree-reguler">
                                             Email Address
                                         </p>
-                                        <input type="email" id="email" name="email" required class="flex w-full px-2 py-2 md:px-2 md:py-2 border bg-white border-gray-700 rounded-sm font-medium placeholder:font-normal" />
+                                        <input type="email" id="email" name="email" required class="flex w-full figtree-reguler px-2 py-2 md:px-2 md:py-2 border bg-white border-gray-700 rounded-sm font-medium placeholder:font-normal" />
                                     </div>
                                     <div class="relative w-full">
-                                        <p class="text-black text-[11px] font-semibold uppercase tracking">
+                                        <p class="text-black text-[11px] font-semibold uppercase tracking figtree-reguler">
                                             subject
                                         </p>
-                                        <input type="text" id="subject" name="subject" required class="flex w-full px-2 py-2 md:px-2 md:py-2 border border-gray-700 rounded-sm font-medium placeholder:font-normal" />
+                                        <input type="text" id="subject" name="subject" required class="flex w-full figtree-reguler px-2 py-2 md:px-2 md:py-2 border border-gray-700 rounded-sm font-medium placeholder:font-normal" />
                                     </div>
                                     <div class="relative w-full">
-                                        <p class="text-black text-[11px] font-semibold uppercase tracking">
+                                        <p class="text-black text-[11px] font-semibold uppercase tracking figtree-reguler">
                                             message
                                         </p>
-                                        <textarea rows="4" cols="50" id="message" name="message" required class="flex w-full px-2 py-2 md:px-2 md:py-2 border bg-white border-gray-700 rounded-sm font-medium placeholder:font-normal"></textarea>
+                                        <textarea rows="4" cols="50" id="message" name="message" required class="flex w-full figtree-reguler px-2 py-2 md:px-2 md:py-2 border bg-white border-gray-700 rounded-sm font-medium placeholder:font-normal"></textarea>
                                     </div>
 
                                     <button class="hidden relative inline-block2 text-lg group py-4" href="#">
                                         <span class="relative flex w-full z-10 button px-3 py-4 justify-center overflow-hidden leading-tight text-sm font-mabrybold text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-800 rounded text-md font-bold cursor-pointer">
                                             <span class="absolute inset-0 w-full h-full px-5 py-4 rounded bg-yellow-200 group-hover:bg-yellow-300"></span>
-                                            <span class="relative">Submit</span>
+                                            <span class="relative ">Submit</span>
                                         </span>
                                     </button>
-                                    <button type="submit" class="text-md font-bold rounded-sm transition-all duration-300 ease-out cursor-pointer bg-[#fd5f54] text-white border-2 border-[#fd5f54] hover:bg-white hover:text-[#fd5f54] hover:border-solid py-3 px-7 w-full">
+                                    <button type="submit" class="text-md font-bold figtree-medium rounded-sm transition-all duration-300 ease-out cursor-pointer bg-[#fd5f54] text-white border-2 border-[#fd5f54] hover:bg-white hover:text-[#fd5f54] hover:border-solid py-3 px-7 w-full">
                                         Submit
                                     </button>
                                 </div>

@@ -24,31 +24,40 @@
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="size-4">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
                 </svg>
-                <span class=" ml-1">Back</span>
+                <span class=" ml-1 figtree-reguler">Back</span>
             </a>
         </div>
 
         <div class="mt-0">
             <div>
-                <h1 class="text-2xl leading-[33px] md:text-[32px] md:leading-[48px] xl:text-[40px] xl:leading-[54px] font-bold text-gray-900"><!--[--><span>{{ $article->title }}</span><!--]--></h1>
+                <h1 class="text-2xl leading-[33px] md:text-[32px] md:leading-[48px] xl:text-[40px] xl:leading-[54px] font-bold text-gray-900 figtree-bold"><!--[--><span>{{ $article->title }}</span><!--]--></h1>
+                    
                 <div class="flex flex-wrap items-center gap-2 mt-4">
                     <div class="border-white rounded-full border-3 text-[20px] leading-9 text-center w-11 h-11 left-11 -top-6 roundedShadow sm:block border-1.5 ">
                         <img src="{{ Avatar::create(ucwords($article->user->name))->toBase64() }}" alt="{{ $article->user->name }}" aria-hidden="true" class="rounded-full w-full border-2 border-white" />
                     </div>
 
-                    <span class="flex sm:flex-row flex-col2 items-center gap-1">
-                        <span class="font-bold text-gray-800">
-                            <p class="capitalize">{{ $article->user->name }}</p>
-                        </span>
-                        <span class="text-muted">|</span>
-                        <span class="flex text-gray-600 text-sm">
-                            @if( $article->updated_at == null )
-                            <span class="hidden md:block">Published on</span> {{ $article->created_at->format('d M Y') }}
-                            @else
-                            <span class="hidden md:block">Updated on</span> {{ $article->updated_at->format('d M Y') }}
-                            @endif
-                        </span>
-                    </span>
+                    <div class="flex md:flex-row flex-col items-center2">
+                        <div class="flex justify-start text-right pr-1">
+                            <span class="font-bold text-gray-800">
+                                <p class="capitalize figtree-reguler">{{ $article->user->name }}</p>
+                            </span>
+                        </div>
+                        <div class="flex space-x-1 items-center">
+                            <span class="hidden md:block text-muted">|</span>
+                            <span class="flex text-gray-600 text-sm figtree-reguler">
+                                @if( $article->updated_at == null )
+                                <span class="hidden md:block pr-1">Published on </span> {{ $article->created_at->format('d M Y') }}
+                                @else
+                                <span class="hidden md:block pr-1">Updated on </span> {{ $article->updated_at->format('d M Y') }}
+                                @endif
+                            </span>
+                            <span class="text-muted">|</span>
+                            <span class="text-gray-600 text-sm figtree-reguler">
+                                {{ $article->readTime() }} min read
+                            </span>
+                        </div>
+                    </div>
 
                 </div>
             </div>
@@ -58,7 +67,7 @@
         </div>
         <div class="flex justify-between items-center w-full mx-auto mt-0">
             <div class="shadow-sm rounded-2xl">
-                <a class="w-full justify-center inline-flex items-center px-4 py-1 border border-transparent text-sm font-medium rounded-2xl shadow-sm text-white transition duration-150 bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cool-indigo-500" href="">{{ $article->category($article->category_id) }}</a>
+                <a class="w-full justify-center inline-flex items-center px-4 py-1 border border-transparent figtree-medium text-sm font-medium rounded-2xl shadow-sm text-white transition duration-150 bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cool-indigo-500" href="">{{ $article->category($article->category_id) }}</a>
             </div>
             <div class="flex justify-end items-end">
                 {!! $shareComponent !!}
@@ -73,7 +82,7 @@
         <div id="sticky-anchor"></div>
         <div x-data="{ open:false }" class="fixed top-[40px] z-20 flex flex-col w-full px-5 py-3 bg-[#dbebfa] border-y border-blue-800 my-4 shadow-md">
             <div class="flex w-full max-w-2xl mx-auto justify-center items-center space-x-1 cursor-pointer" @click="open = !open">
-                <span class="font-bold text-lg text-gray-800">Table of contents</span>
+                <span class="font-bold text-lg text-gray-800 figtree-medium">Table of contents</span>
                 <span class="text-primary font-normal text-2xl">
                     <!-- <svg :class="open ? 'rotate-180 transition duration-300' : 'transition duration-300'" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon" class="w-6 h-6 md:w-8 md:h-8 transition-all">
                         <path fill-rule="evenodd" d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd"></path>
@@ -92,19 +101,16 @@
             >
                 <ul class="list-unstyled">
                     <li class="py-1 md:py-1.5 toc-active ">
-                        <a href="#baby-girl-names-inspired-by-the-beatles-" class="text-base md:text-md text-gray-900 hover:text-orange-500 font-semibold">Baby Girl Names Inspired by The Beatles &nbsp;</a>
+                        <a href="#baby-girl-names-inspired-by-the-beatles-" class="text-base md:text-md text-gray-900 hover:text-orange-500 font-semibold figtree-medium">Baby Girl Names Inspired by The Beatles &nbsp;</a>
                     </li>
                     <li class="py-1 md:py-1.5">
-                        <a href="#the-beatles-names-for-boys" class="text-base md:text-md text-gray-900 hover:text-orange-500 font-semibold">The Beatles Names for Boys</a>
-
+                        <a href="#the-beatles-names-for-boys" class="text-base md:text-md text-gray-900 hover:text-orange-500 font-semibold figtree-medium">The Beatles Names for Boys</a>
                     </li>
                     <li class="py-1 md:py-1.5">
-                        <a href="#unisex-baby-names-inspired-by-the-beatles" class="text-base md:text-md text-gray-900 hover:text-orange-500 font-semibold">Unisex Baby Names Inspired by The Beatles</a>
-
+                        <a href="#unisex-baby-names-inspired-by-the-beatles" class="text-base md:text-md text-gray-900 hover:text-orange-500 font-semibold figtree-medium">Unisex Baby Names Inspired by The Beatles</a>
                     </li>
                     <li class="py-1 md:py-1.5">
-                        <a href="#finding-inspiration-that-lasts-" class="text-base md:text-md text-gray-900 hover:text-orange-500 font-semibold">Finding Inspiration That Lasts &nbsp;</a>
-
+                        <a href="#finding-inspiration-that-lasts-" class="text-base md:text-md text-gray-900 hover:text-orange-500 font-semibold figtree-medium">Finding Inspiration That Lasts &nbsp;</a>
                     </li>
                 </ul>
             </nav>
@@ -133,7 +139,7 @@
         </div>
     </div>
     <!--  -->
-    <article class="prose max-w-full sm:max-w-[740px] px-6 text-gray-800 markdown-blog pb-12">
+    <article class="prose max-w-full sm:max-w-[740px] px-6 text-gray-800 markdown-blog pb-12 figtree-reguler">
         {!! $contents['html'] !!}
         {{-- {!! $article->body !!} --}}
     </article>

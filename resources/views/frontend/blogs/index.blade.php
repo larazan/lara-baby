@@ -17,16 +17,16 @@
           <div class="flex flex-col items-center justify-center gap-4">
 
             <div class="flex items-center gap-2.5 text-center max-w-[700px]"><!---->
-              <h1 class="text-2xl leading-[33px] md:text-[32px] md:leading-[48px] xl:text-[40px] xl:leading-[54px] font-bold text-gray-900">News</h1>
+              <h1 class="text-2xl leading-[33px] md:text-[32px] md:leading-[48px] xl:text-[40px] xl:leading-[54px] font-bold text-gray-900 figtree-bold">News</h1>
             </div>
 
             <div class="flex flex-wrap items-center gap-2 md:gap-3 mt-2 md:mt-2">
-              <a href="{{ url('articles/') }}" type="button" class="@if($cat_id == null){{ 'bg-[#87eaca]'}}@else{{ 'bg-white !border-[#CBD5E1]' }}@endif border-blue-primary hover:bg-[#87eaca] text-blue-primary inline-flex items-center justify-center text-xs md:text-sm rounded-full px-5 py-[6px] md:py-[9px] leading-[22px] font-bold md:font-medium border">
+              <a href="{{ url('articles/') }}" type="button" class="@if($cat_id == null){{ 'bg-[#87eaca]'}}@else{{ 'bg-white !border-[#CBD5E1]' }}@endif border-blue-primary hover:bg-[#87eaca] text-blue-primary inline-flex items-center justify-center text-xs md:text-sm rounded-full px-5 py-[6px] md:py-[9px] leading-[22px] font-bold md:font-medium border figtree-medium">
                 All
               </a>
               @foreach($categories as $cat)
                 <a href="{{ url('articles/'.$cat->slug) }}">
-                  <button type="button" class="@if($cat->id == $cat_id){{ 'bg-[#87eaca]'}}@else{{ 'bg-white !border-[#CBD5E1]' }}@endif border-blue-primary hover:bg-[#87eaca] text-blue-primary inline-flex items-center justify-center text-xs md:text-sm rounded-full px-5 py-[6px] md:py-[9px] leading-[22px] font-bold md:font-medium border !text-gray-primary">{{ $cat->name }}</button>
+                  <button type="button" class="@if($cat->id == $cat_id){{ 'bg-[#87eaca]'}}@else{{ 'bg-white !border-[#CBD5E1]' }}@endif border-blue-primary hover:bg-[#87eaca] text-blue-primary inline-flex items-center justify-center text-xs md:text-sm rounded-full px-5 py-[6px] md:py-[9px] leading-[22px] font-bold md:font-medium border !text-gray-primary figtree-medium">{{ $cat->name }}</button>
                 </a>
               @endforeach
                   
@@ -36,7 +36,7 @@
     </div>
     <div class="relative mx-auto max-w-6xl w-full px-6 lg:px-10 xl:px-0 pb-10 md:pb-20">
       <div class="flex justify-between">
-          <h2 class="text-md md:text-[24px] md:leading-[33px] lg:text-[32px] lg:leading-[48px] font-bold text-gray-900">
+          <h2 class="text-md md:text-[24px] md:leading-[33px] lg:text-[32px] lg:leading-[48px] figtree-medium font-bold text-gray-900">
               Found {{ $countArticles }} Articles
               @if(Request::segment(2))
               <span> for "{{ str_replace("-", " ", Request::segment(2)) }}" </span>
@@ -75,13 +75,13 @@
           </div>
           <div class="flex flex-col justify-between w-full h-full">
             <div>
-              <time class="text-xs leading-[22px] text-gray-600 font-bold flex items-center">{{ $a->created_at->diffForHumans() }}</time>
-              <h2 class="mt-2 text-sm leading-[25px] md:text-base md:leading-[27px] xl:text-2xl font-bold text-gray-800 group-hover:text-orange-500">
+              <time class="text-xs leading-[22px] text-gray-600 font-bold flex items-center figtree-reguler">{{ $a->created_at->diffForHumans() }}</time>
+              <h2 class="mt-2 text-sm leading-[25px] md:text-base md:leading-[27px] xl:text-2xl font-bold figtree-medium text-gray-800 group-hover:text-orange-500">
                 {{ $a->title }}
               </h2>
             </div>
             <div class="flex items-center mt-4 space-x-2 text-[#00989d] !hover:text-[#06329d]">
-              <a href="{{ url('/article/' . $a->slug) }}" class="text-xs lg:text-base font-bold leading-6  flex gap-2 items-center uppercase">Read more</a>
+              <a href="{{ url('/article/' . $a->slug) }}" class="text-xs lg:text-base font-bold leading-6 figtree-reguler flex gap-2 items-center uppercase">Read more</a>
               <span>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon" class="w-5 h-5 stroke-2">
                   <path fill-rule="evenodd" d="M3 10a.75.75 0 0 1 .75-.75h10.638L10.23 5.29a.75.75 0 1 1 1.04-1.08l5.5 5.25a.75.75 0 0 1 0 1.08l-5.5 5.25a.75.75 0 1 1-1.04-1.08l4.158-3.96H3.75A.75.75 0 0 1 3 10Z" clip-rule="evenodd"></path>
@@ -94,7 +94,7 @@
 
 @else
 <div class="flex items-center justify-center mx-auto w-full ">
-  <span class="font-semibold text-md text-red-500">No record found!</span>
+  <span class="font-semibold text-md text-red-500 figtree-medium">No record found!</span>
 </div>
 @endif
         
