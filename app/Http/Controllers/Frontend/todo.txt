@@ -1,0 +1,14 @@
+menu header
+swiper
+home page
+nama lengkap
+scrape activity
+breadcrumb
+detail pregnant week
+toc
+calculator tool
+parenting page
+put cache
+put locale
+optimazing
+name & logo

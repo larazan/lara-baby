@@ -45,8 +45,10 @@ class BabynameController extends Controller
         });
 
         $query = DB::table('babynames')->select([
+            'id',
             'slug', 
             'name', 
+            'meaning',
             'gender_id', 
             'country_id',
             'religion_id',
@@ -135,8 +137,17 @@ class BabynameController extends Controller
             return Country::select(['id', 'name'])->orderBy('name', 'asc')->get();
         });
 
-        $babyname = Babyname::select(['name', 'meaning', 'slug', 'origin_id', 'gender_id', 'country_id', 'religion_id', 'status'])
-                    ->active()->where('slug', $slug)->first();
+        $babyname = Babyname::select([
+            'name', 
+            'meaning', 
+            'slug', 
+            'origin_id', 
+            'gender_id', 
+            'country_id', 
+            'religion_id', 
+            'status',
+            'locale',
+            ])->active()->where('slug', $slug)->first();
         
         if (!$babyname) {
             return redirect('baby-name');
@@ -196,7 +207,17 @@ class BabynameController extends Controller
 
         $alpha = Str::lower($letter);
         
-        $query = DB::table('babynames')->select(['slug', 'name', 'gender_id', 'locale', 'status'])->where('status', 'active');
+        $query = DB::table('babynames')->select([
+            'slug', 
+            'name', 
+            'meaning', 
+            'gender_id', 
+            'country_id',
+            'religion_id',
+            'origin_id', 
+            'locale', 
+            'status'
+            ])->where('status', 'active');
         
         $query->when($alpha, function ($q) use ($alpha) {
             return $q->where('name', 'like', "{$alpha}%");
