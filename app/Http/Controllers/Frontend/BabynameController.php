@@ -157,7 +157,17 @@ class BabynameController extends Controller
         $searchTerm = $babyname->name;
         $threshold = 1; // Define your Levenshtein distance threshold (e.g., allow up to 3 edits)
 
-        $names = Babyname::select(['name', 'slug', 'gender_id', 'status'])->where('slug', '!=', $slug)->active()->get();
+        $names = Babyname::select([
+            'name', 
+            'meaning', 
+            'slug', 
+            'origin_id', 
+            'gender_id', 
+            'country_id', 
+            'religion_id', 
+            'status',
+            'locale',
+        ])->where('slug', '!=', $slug)->active()->get();
 
         // 2. Filter the collection using PHP's levenshtein function
         $relatedNames = $names->filter(function ($baby) use ($searchTerm, $threshold) {

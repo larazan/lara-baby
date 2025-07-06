@@ -4,7 +4,6 @@
     :class="isScroll ? 'backdrop-blur-[20px] bg-[rgba(255,255,255,1)] drop-shadow-[0px_4px_3px_rgba(45,47,122,0.15)]' : ''"
     class="sticky z-40 top-0 w-full flex justify-center bg-white transition-all duration-1000 ease-in-out">
     <nav
-        
         class="flex z-40 items-center justify-center sticky top-0 inset-x-0 bg-basic-transparent h-[56px] md:h-[60px] transition-height duration-1000 ease-in-out max-w-[1170px] w-full px-[24px] desktop:px-0"
     >
         <header class="z-40 flex gap-4 w-full flex-row relative flex-nowrap items-center max-w-[1280px] justify-center px-0 h-[68px] desktop:h-[110px]">
@@ -23,7 +22,7 @@
                 </a>
             </div>
            
-            <div class="hidden md:block">
+            <div class="hidden md:block w-96">
                 <x-search />
             </div>
             
@@ -32,7 +31,7 @@
                 data-justify="end"
             >
             <li>
-                
+                @include('frontend.components._browse')
             </li>
                 @include('frontend.components._language')
                 <li class="h-full block md:hidden">

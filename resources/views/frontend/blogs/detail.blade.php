@@ -9,26 +9,19 @@
 @section('content')
 
 @include('frontend.components._bread')
+@include('frontend.components._toc2')
 <div x-data="scrollProgress()" x-init="init()" x-cloak class="fixed inset-x-0 top-0 z-50">
     <div class="h-1 bg-blue-500" :style="`width: ${percent}%`"></div>
 </div>
 
-<main class="flex flex-col justify-center w-full items-center bg-white min-h-screen pt-0 md:pt-[30px]">
-
-    <header class="max-w-[800px] flex flex-col gap-4 p-6 relative z-10 pt-14 md:pt-16">
-        <div class="absolute top-4 md:top-2 left-6 flex  px-2 py-1 rounded-full border border-gray-900 text-gray-900 hover:text-white hover:bg-gray-800 items-center justify-between">
-            <a href="{{ url('articles') }}" class="items-center text-xs md:text-sm flex">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="size-4">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
-                </svg>
-                <span class=" ml-1 figtree-reguler">Back</span>
-            </a>
-        </div>
-
-        <div class="mt-0">
+<main class="overflow-hidden pt-0"><!--[--><!--[-->
+    <div class="bg-white py-2 md:py-10">
+        <div class="mx-auto max-w-[994px] px-6 lg:px-10 xl:px-0">
             <div>
-                <h1 class="text-2xl leading-[33px] md:text-[32px] md:leading-[48px] xl:text-[40px] xl:leading-[54px] font-bold text-gray-900 figtree-bold"><!--[--><span>{{ $article->title }}</span><!--]--></h1>
 
+                <h2 class="text-xl md:text-[24px] md:leading-[33px] lg:text-[32px] figtree-bold lg:leading-[48px] font-bold text-gray-900" isnews="true"><!--[-->
+                    <span>{{ $title }}</span><!--]-->
+                </h2>
                 <div class="flex flex-wrap items-center gap-2 mt-4">
                     <div class="border-white rounded-full border-3 text-[20px] leading-9 text-center w-11 h-11 left-11 -top-6 roundedShadow sm:block border-1.5 ">
                         <img src="{{ Avatar::create(ucwords($article->user->name))->toBase64() }}" alt="{{ $article->user->name }}" aria-hidden="true" class="rounded-full w-full border-2 border-white" />
@@ -40,17 +33,17 @@
                                 <p class="capitalize figtree-reguler">{{ $article->user->name }}</p>
                             </span>
                         </div>
-                        <div class="flex space-x-1 items-center">
+                        <div class="flex space-x-1 items-center figtree-reguler">
                             <span class="hidden md:block text-muted">|</span>
-                            <span class="flex text-gray-600 text-sm figtree-reguler">
+                            <span class="flex text-gray-600 text-sm">
                                 @if( $article->updated_at == null )
-                                <span class="hidden md:block pr-1">Published on </span> {{ $article->created_at->format('d M Y') }}
+                                <span class="hidden md:block pr-1">Published on</span> {{ $article->created_at->format('d M Y') }}
                                 @else
-                                <span class="hidden md:block pr-1">Updated on </span> {{ $article->updated_at->format('d M Y') }}
+                                <span class="hidden md:block pr-1">Updated on</span> {{ $article->updated_at->format('d M Y') }}
                                 @endif
                             </span>
                             <span class="text-muted">|</span>
-                            <span class="text-gray-600 text-sm figtree-reguler">
+                            <span class="text-gray-600 text-sm">
                                 {{ $article->readTime() }} min read
                             </span>
                         </div>
@@ -58,85 +51,34 @@
 
                 </div>
             </div>
-            <div class="mt-3">
-                <img onerror="this.setAttribute('data-error', 1)" width="994" height="480" alt="BMKG Gelar Rapat Rekonsiliasi Aloptama, Perkuat Keandalan Peralatan Operasional di Seluruh Indonesia" loading="lazy" class="w-full h-[240px] md:h-[360px] lg:h-[480px] object-cover" src="https://i0.wp.com/content.bmkg.go.id/wp-content/uploads/IMG_9456.jpg?fit=1280%2C853&amp;ssl=1" srcset="https://i0.wp.com/content.bmkg.go.id/wp-content/uploads/IMG_9456.jpg?fit=1280%2C853&amp;ssl=1 1x, https://i0.wp.com/content.bmkg.go.id/wp-content/uploads/IMG_9456.jpg?fit=1280%2C853&amp;ssl=1 2x">
-            </div>
-        </div>
-        <div class="flex justify-between items-center w-full mx-auto mt-0">
-            <div class="shadow-sm rounded-2xl">
-                <a class="w-full justify-center inline-flex items-center px-4 py-1 border border-transparent figtree-medium text-sm font-medium rounded-2xl shadow-sm text-white transition duration-150 bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cool-indigo-500" href="">{{ $article->category($article->category_id) }}</a>
-            </div>
-            <div class="flex justify-end items-end">
-                {!! $shareComponent !!}
-            </div>
-        </div>
+            <div class="mt-3 md:mt-6">
+                <div>
+                    <img onerror="this.setAttribute('data-error', 1)" width="994" height="480" alt="Kepala BMKG Tegaskan Komitmen STMKG Cetak SDM Unggul Berdaya Saing Global di Hadapan Komisi V DPR RI" loading="lazy" data-nuxt-img="" class="w-full h-[240px] md:h-[360px] lg:h-[480px] object-cover" src="https://i0.wp.com/content.bmkg.go.id/wp-content/uploads/621A0225.jpg?fit=1280%2C853&amp;ssl=1" srcset="https://i0.wp.com/content.bmkg.go.id/wp-content/uploads/621A0225.jpg?fit=1280%2C853&amp;ssl=1 1x, https://i0.wp.com/content.bmkg.go.id/wp-content/uploads/621A0225.jpg?fit=1280%2C853&amp;ssl=1 2x">
 
-    </header>
+                    <div class="flex justify-between items-center w-full mx-auto mt-0 pt-3 pb-8">
+                        <div class="shadow-sm rounded-2xl">
+                            <a href="" class="w-full justify-center no-underline figtree-medium inline-flex items-center px-4 py-1 border border-transparent text-sm font-medium rounded-2xl shadow-sm text-white transition duration-150 bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cool-indigo-500">
+                                {{ $article->category($article->category_id) }}
+                            </a>
+                        </div>
+                        <div class="flex justify-end items-end">
+                            {!! $shareComponent !!}
+                        </div>
+                    </div>
 
-    <!-- toc -->
-    <div class="hidden2 flex flex-col w-full">
+                    <div class="news mt-0 md:mt-0 prose md:prose-md lg:prose-lg figtree-reguler text-[#334155] max-w-none hover:prose-a:text-blue-primary">
+                        {!! $contents['html'] !!}
+                    </div>
 
-        <div
-            x-data="{ isVisible: false }"
-            x-init="window.addEventListener('scroll', () => { isVisible = window.scrollY > 100; })"
-            x-show="isVisible"
-            x-transition:enter="transition ease-out duration-300"
-            x-transition:enter-start="opacity-0 transform translate-y-2"
-            x-transition:enter-end="opacity-100 transform translate-y-0"
-            x-transition:leave="transition ease-in duration-300"
-            x-transition:leave-start="opacity-100 transform translate-y-0"
-            x-transition:leave-end="opacity-0 transform translate-y-2">
-            <div x-data="{ open:false }" class="fixed top-[40px] z-20 flex flex-col w-full px-5 py-3 bg-[#dbebfa] border-y border-blue-800 my-4 shadow-md">
-                <div class="flex w-full max-w-2xl mx-auto justify-center items-center space-x-1 cursor-pointer" @click="open = !open">
-                    <span class="font-bold text-lg text-gray-800 figtree-medium">Table of contents</span>
-                    <span class="text-primary font-normal text-2xl">
-                        <!-- <svg :class="open ? 'rotate-180 transition duration-300' : 'transition duration-300'" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon" class="w-6 h-6 md:w-8 md:h-8 transition-all">
-                        <path fill-rule="evenodd" d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd"></path>
-                    </svg> -->
-                        <svg :class="open ? 'rotate-180 transition duration-300' : 'transition duration-300'" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="icon icon-tabler icons-tabler-filled icon-tabler-caret-down">
-                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                            <path d="M18 9c.852 0 1.297 .986 .783 1.623l-.076 .084l-6 6a1 1 0 0 1 -1.32 .083l-.094 -.083l-6 -6l-.083 -.094l-.054 -.077l-.054 -.096l-.017 -.036l-.027 -.067l-.032 -.108l-.01 -.053l-.01 -.06l-.004 -.057v-.118l.005 -.058l.009 -.06l.01 -.052l.032 -.108l.027 -.067l.07 -.132l.065 -.09l.073 -.081l.094 -.083l.077 -.054l.096 -.054l.036 -.017l.067 -.027l.108 -.032l.053 -.01l.06 -.01l.057 -.004l12.059 -.002z" />
-                        </svg>
-                    </span>
+                    
                 </div>
-                <nav x-show="open" aria-label="Table of contents"
-                    x-transition:enter="transition ease-out duration-300"
-                    x-transition:enter-start="opacity-0 transform -translate-y-6"
-                    x-transition:enter-end="opacity-100 transform translate-y-0"
-                    x-transition:leave="transition ease-in duration-300"
-                    x-transition:leave-start="opacity-100 transform translate-y-0"
-                    x-transition:leave-end="opacity-0 transform -translate-y-6"
-                    class="py-2">
-                    <ul class="list-unstyled">
-                        <li class="py-1 md:py-1.5 toc-active ">
-                            <a href="#baby-girl-names-inspired-by-the-beatles-" class="text-base md:text-md text-gray-900 hover:text-orange-500 font-semibold figtree-medium">Baby Girl Names Inspired by The Beatles &nbsp;</a>
-                        </li>
-                        <li class="py-1 md:py-1.5">
-                            <a href="#the-beatles-names-for-boys" class="text-base md:text-md text-gray-900 hover:text-orange-500 font-semibold figtree-medium">The Beatles Names for Boys</a>
-                        </li>
-                        <li class="py-1 md:py-1.5">
-                            <a href="#unisex-baby-names-inspired-by-the-beatles" class="text-base md:text-md text-gray-900 hover:text-orange-500 font-semibold figtree-medium">Unisex Baby Names Inspired by The Beatles</a>
-                        </li>
-                        <li class="py-1 md:py-1.5">
-                            <a href="#finding-inspiration-that-lasts-" class="text-base md:text-md text-gray-900 hover:text-orange-500 font-semibold figtree-medium">Finding Inspiration That Lasts &nbsp;</a>
-                        </li>
-                    </ul>
-                </nav>
+
             </div>
         </div>
-
     </div>
-    <!--  -->
-    <article class="prose max-w-full sm:max-w-[740px] px-6 text-gray-800 markdown-blog pb-12 figtree-reguler">
-        {!! $contents['html'] !!}
-        {{-- {!! $article->body !!} --}}
-    </article>
-    <!--  -->
-
-    <div class="w-full">
-        @include('components.related-article')
-    </div>
+    @include('components.related-article')
 </main>
+
 
 @endsection
 
@@ -304,6 +246,14 @@
     .markdown-blog li strong {
         padding-right: 10px;
     }
+
+    .news h2, .news h3 {
+    scroll-margin-block-start: 130px;
+  /*Adds margin to the top of the viewport*/
+  
+  scroll-margin-block-end: 110px;
+  /*Adds margin to the bottom of the viewport*/
+}
 </style>
 @endpush
 

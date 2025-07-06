@@ -624,7 +624,7 @@
   </style>
 </head>
 
-<body x-data="{ filterOpen: false, openSearch: false, customizeOpen: false, showModalInfo: false, menuOpen: false }">
+<body x-data="{ filterOpen: false, openSearch: false, customizeOpen: false, showModalInfo: false, menuOpen: false, categoryOpen: false }">
 
   <!-- <div id="background-bar"></div> -->
 

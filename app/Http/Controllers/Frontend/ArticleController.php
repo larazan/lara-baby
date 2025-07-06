@@ -56,9 +56,15 @@ class ArticleController extends Controller
     
     public function show($slug)
 	{
+		$article = Article::select(['id', 'title', 'category_id', 'slug', 'title', 'body', 'author_id', 'meta_title', 'meta_keyword', 'meta_description', 'status', 'created_at', 'updated_at'])->active()->where('slug', $slug)->first();
+
+		if (!$article) {
+			return redirect('articles');
+		}
+
 		$shareComponent = \Share::page(
             'https://www.positronx.io/create-autocomplete-search-in-laravel-with-typeahead-js/',
-            'Your share text comes here',
+            $article->title,
         )
         ->facebook()
         ->twitter()
@@ -66,13 +72,6 @@ class ArticleController extends Controller
         ->telegram()
         ->whatsapp()        
         ->reddit();
-
-
-		$article = Article::select(['id', 'title', 'category_id', 'slug', 'title', 'body', 'author_id', 'meta_title', 'meta_keyword', 'meta_description', 'status', 'created_at', 'updated_at'])->active()->where('slug', $slug)->first();
-
-		if (!$article) {
-			return redirect('articles');
-		}
 
 		$tags = $article->article_tags;
         if($tags)

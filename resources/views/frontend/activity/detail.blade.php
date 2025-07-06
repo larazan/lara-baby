@@ -4,38 +4,10 @@
 
 @include('frontend.components._bread')
 <main class="overflow-hidden pt-0"><!--[--><!--[-->
-    <div class="bg-white py-10 md:py-20">
+    <div class="bg-white py-2 md:py-10">
         <div class="mx-auto max-w-[994px] px-6 lg:px-10 xl:px-0">
             <div>
-                <div class="flex2 hidden gap-2 mb-4">
-                    <nav class="flex" aria-label="Breadcrumb">
-                        <ol role="list" class="flex items-center">
-                            <li>
-                                <div class="flex items-center">
-                                    <a href="/" class="text-sm md:text-base md:leading-[25px] font-medium text-black-primary">Beranda</a>
-                                </div>
-                            </li>
-                            <li class="flex items-center"><!--[-->
-                                <div class="flex items-center w-[100px] sm:w-full">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon" class="h-4 w-4 stoke-2 flex-shrink-0 text-[#64748B] mx-2">
-                                        <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5"></path>
-                                    </svg>
-                                    <a href="/berita" class="text-black-primary text-sm md:text-base md:leading-[25px] font-medium truncate" aria-current="page">
-                                        <p class="break-keep whitespace-nowrap truncate">Berita</p>
-                                    </a>
-                                </div>
-                                <div class="flex items-center w-[100px] sm:w-full">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon" class="h-4 w-4 stoke-2 flex-shrink-0 text-[#64748B] mx-2">
-                                        <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5"></path>
-                                    </svg>
-                                    <a href="/berita/utama" class="text-gray-primary text-sm md:text-base md:leading-[25px] font-medium truncate" aria-current="page">
-                                        <p class="break-keep whitespace-nowrap truncate">Berita Utama</p>
-                                    </a>
-                                </div><!--]-->
-                            </li>
-                        </ol>
-                    </nav>
-                </div>
+                
                 <h2 class="text-xl md:text-[24px] md:leading-[33px] lg:text-[32px] figtree-bold lg:leading-[48px] font-bold text-gray-900" isnews="true"><!--[-->
                     <span>{{ $title }}</span><!--]-->
                 </h2>
@@ -59,10 +31,7 @@
                                 <span class="hidden md:block pr-1">Updated on</span> {{ $activity->updated_at->format('d M Y') }}
                                 @endif
                             </span>
-                            <span class="text-muted">|</span>
-                            <span class="text-gray-600 text-sm">
-                                {{ $activity->readTime() }} min read
-                            </span>
+                            
                         </div>
                     </div>
 
@@ -113,8 +82,8 @@
                             </div>
                             <div></div>
                             <div class="flex flex-col gap-1 pl-6">
-                                <div class="text-black font-semibold figtree-medium">{{ $s->title }}</div>
-                                <div class="prose md:prose-md lg:prose-lg text-[#334155] max-w-none hover:prose-a:text-blue-primary figtree-reguler">{{ $s->description }}</div>
+                                <div class="text-black prose md:prose-md lg:prose-lg font-semibold figtree-medium">{{ $s->title }}</div>
+                                <div class=" text-[#334155] max-w-none hover:prose-a:text-blue-primary figtree-reguler">{{ $s->description }}</div>
                             </div>
                         </article>
                         @endforeach

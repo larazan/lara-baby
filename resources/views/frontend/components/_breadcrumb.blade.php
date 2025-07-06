@@ -17,7 +17,7 @@
                         <li class='before:inline-flex before:items-center before:px-1 before:text-sm before:content-[">"] text-black font-medium flex items-center uppercase leading-3 opacity-70'>
                             <p class="whitespace-nowrap text-xs md:text-sm font-semibold  text-black uppercase leading-3 opacity-70 truncate">
                                 <span class="break-keep whitespace-nowrap truncate">{{ $breadcrumbs_data['current_page_title'] }}</span>
-    </p>
+                            </p>
                         </li>
                     @else
                         @foreach ($breadcrumbs_data['breadcrumbs_array'] as $key => $value)

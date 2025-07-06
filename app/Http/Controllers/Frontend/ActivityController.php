@@ -74,7 +74,7 @@ class ActivityController extends Controller
             //         array_push($arr, $k->id);
             //     }
             // }
-            $title = Str::ucfirst($category->name) . " Activity"; 
+            $title = Str::ucfirst($category->name); 
         } else {
             $category = null; 
             $cat_id = null;
@@ -113,17 +113,6 @@ class ActivityController extends Controller
 
     public function show($slug)
     {
-        $shareComponent = \Share::page(
-            'https://www.positronx.io/create-autocomplete-search-in-laravel-with-typeahead-js/',
-            'Your share text comes here',
-        )
-        ->facebook()
-        ->twitter()
-        ->linkedin()
-        ->telegram()
-        ->whatsapp()        
-        ->reddit();
-
         $activity = Activity::select(
             [
             'id', 
@@ -145,6 +134,17 @@ class ActivityController extends Controller
 		if (!$activity) {
 			return redirect('activities');
 		}
+
+        $shareComponent = \Share::page(
+            'https://www.positronx.io/create-autocomplete-search-in-laravel-with-typeahead-js/',
+            $activity->title,
+        )
+        ->facebook()
+        ->twitter()
+        ->linkedin()
+        ->telegram()
+        ->whatsapp()        
+        ->reddit();
 
         $materials = Material::select(
             [
@@ -202,7 +202,7 @@ class ActivityController extends Controller
 		// get sub cat title
 		$sub_cat_title = 'Activities';
 		// get sub cat url
-		$sub_cat_url = url('activity');
+		$sub_cat_url = url('activities');
 	
 		$breadcrumbs_array[$sub_cat_url] = $sub_cat_title;
 		return $breadcrumbs_array;

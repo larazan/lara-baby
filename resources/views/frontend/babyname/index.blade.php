@@ -262,7 +262,17 @@
                                                             </div>
                                                             <div class="flex justify-between items-center border-b border-gray-800 py-3 px-3">
                                                                 <div class="text-sm figtree-medium">Religion</div>
-                                                                <div class="text-sm figtree-medium"><span x-text="popedBaby.religion_id"></span></div>
+                                                                <div class="text-sm figtree-medium">
+                                                                    <span x-show="popedBaby.religion_id == 1">Christianity</span>
+                                                                    <span x-show="popedBaby.religion_id == 2">Muslim</span>
+                                                                    <span x-show="popedBaby.religion_id == 3">Hinduism</span>
+                                                                    <span x-show="popedBaby.religion_id == 4">Buddhism</span>
+                                                                    <span x-show="popedBaby.religion_id == 5">Judaism</span>
+                                                                    <span x-show="popedBaby.religion_id == 6">Catholic</span>
+                                                                    <span x-show="popedBaby.religion_id == 7">Shintoism</span>
+                                                                    <span x-show="popedBaby.religion_id == 7">Sikhism</span>
+                                                                    <span x-show="popedBaby.religion_id == 7">Zoroastrianism</span>
+                                                                </div>
                                                             </div>
                                                             <div class="flex justify-between items-center  border-gray-800 py-3 px-3">
                                                                 <div class="text-sm figtree-medium">Origin</div>

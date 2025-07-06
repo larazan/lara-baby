@@ -624,7 +624,7 @@
 
             <div class="mt-4 md:mt-6 mx-auto grid max-w-7xl grid-cols-2 gap-2 md:gap-6 lg:gap-8 md:grid-cols-3 lg:grid-cols-4"><!--[-->
                 @foreach($activities as $act)
-                <article class="relative flex flex-col shadow-stack-sm items-start justify-between w-full h-full bg-white p-2 md:p-4 rounded-lg md:rounded-2xl border-2 border-gray-800 hover:shadow-[0px_8px_32px_0px_rgba(100,_116,_139,_0.12)]">
+                <article class="relative flex flex-col shadow-stack-sm items-start justify-between w-full h-full bg-white p-2 md:p-4 group rounded-lg md:rounded-2xl border-2 border-gray-800 hover:shadow-[0px_8px_32px_0px_rgba(100,_116,_139,_0.12)]">
                     <a href="{{ url('activity/'. $act->slug) }}" class="absolute top-0 left-0 w-full h-full z-[5] rounded-2xl" aria-label="Baca selengkapnya"></a>
                     <div class="w-full mb-4">
                         <div class="relative aspect-[16/9] w-full h-[166px] xl:h-[216px] rounded-md md:rounded-xl bg-gray-100 overflow-hidden">
@@ -634,7 +634,7 @@
                     <div class="flex flex-col justify-between w-full h-full">
                         <div>
                             <span class="flex px-2 py-1 bg-orange-500 text-white text-xs rounded-full w-fit font-medium figtree-reguler">{{ $act->category($act->category_id) }}</span>
-                            <h2 class="mt-2 text-base leading-[25px] md:text-lg md:leading-[27px] xl:text-2xl font-semibold text-gray-800 figtree-medium">{{ $act->title }}</h2>
+                            <h2 class="mt-2 text-base leading-[25px] md:text-lg md:leading-[27px] xl:text-2xl font-semibold text-gray-800 figtree-medium group-hover:text-orange-500">{{ $act->title }}</h2>
                         </div>
                         <div class="mt-4">
                             <a href="#" class="text-sm lg:text-base font-bold leading-6 text-blue-primary flex gap-2 items-center !text-base !leading-[25px] figtree-reguler">Read more
