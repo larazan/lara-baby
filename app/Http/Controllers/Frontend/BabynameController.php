@@ -15,23 +15,11 @@ use Illuminate\Support\Facades\Cache;
 class BabynameController extends Controller
 {
     //
-    public function __construct() {
-        $letters = range('A', 'Z');
-        $genders = [ 1 => 'boy', 2 => 'girl', 3 => 'unisex'];
-        $origins = Cache::remember('origins', now()->addHour(), function () {
-            return Origin::select(['id', 'name'])->orderBy('name', 'asc')->get();
-        });
-        $religions = Cache::remember('religions', now()->addHour(), function () {
-            return Religion::select(['id', 'name'])->orderBy('name', 'asc')->get();
-        });
-        $countries = Cache::remember('countries', now()->addHour(), function () {
-            return Country::select(['id', 'name'])->orderBy('name', 'asc')->get();
-        });
-
-    }
+   
 
     public function index(Request $request)
     {
+        $locale = app()->currentLocale();
         $letters = range('A', 'Z');
         $genders = [ 1 => 'boy', 2 => 'girl', 3 => 'unisex'];
         $origins = Cache::remember('origins', now()->addHour(), function () {
@@ -55,7 +43,7 @@ class BabynameController extends Controller
             'origin_id', 
             'locale', 
             'status'
-            ])->where('status', 'active');
+            ])->where('locale', $locale)->where('status', 'active');
 
         if ($request->search) {
             $keyword = $request->search;
@@ -203,6 +191,7 @@ class BabynameController extends Controller
 
     public function letter($letter)
     {
+        $locale = app()->currentLocale();
         $letters = range('A', 'Z');
         $genders = [ 1 => 'boy', 2 => 'girl', 3 => 'unisex'];
         $origins = Cache::remember('origins', now()->addHour(), function () {
@@ -227,7 +216,7 @@ class BabynameController extends Controller
             'origin_id', 
             'locale', 
             'status'
-            ])->where('status', 'active');
+            ])->where('locale', $locale)->where('status', 'active');
         
         $query->when($alpha, function ($q) use ($alpha) {
             return $q->where('name', 'like', "{$alpha}%");

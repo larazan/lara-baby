@@ -40,67 +40,66 @@
                         <div class="py-2 md:py-1 pt-2 md:pb-5 col-span-full w-full col-start-1 flex flex-row items-center justify-between gap-2 md:col-start-52 md:flex-nowrap xl:col-start-4 xl:col-end-12">
                             <div class="flex w-full gap-2 ">
 
-                            <div class="flex flex-col w-1/2 md:flex-row space-y-4 md:space-y-0 md:space-x-2 md:justify-between">
-                                <div class="w-full md:w-1/2  flex flex-col col-span-6 sm:col-span-3">
-                                    <label for="religion" class="figtree-reguler hidden md:block text-sm md:text-md font-semibold text-gray-700 pb-1 tracking-wide">Religion</label>
-                                    <select name="religion" class="figtree-reguler h-10 rounded border block appearance-none w-full bg-white @if(Request::get('religion')){{ 'border-red-500 text-red-500' }}@else{{ 'border-gray-600 text-gray-500' }}@endif text-[11px] md:text-[13px] font-bold uppercase pl-2 tracking-wide py-2 px-4 pr-0 leading-tight focus:placeholder-gray-600 focus:text-gray-700 focus:outline-none">
-                                        <option value="">Select Religion</option>
-                                        @foreach($religions as $r)
-                                        <option 
-                                            value="{{ $r->id }}"
-                                            @if(Request::get('religion') == $r->id) 
+                                <div class="flex flex-col w-1/2 md:flex-row space-y-4 md:space-y-0 md:space-x-2 md:justify-between">
+                                    <div class="w-full md:w-1/2  flex flex-col col-span-6 sm:col-span-3">
+                                        <label for="religion" class="figtree-reguler hidden md:block text-sm md:text-md font-semibold text-gray-700 pb-1 tracking-wide">Religion</label>
+                                        <select name="religion" class="figtree-reguler h-10 rounded border-2 block appearance-none w-full bg-white @if(Request::get('religion')){{ 'border-red-500 text-red-500' }}@else{{ 'border-gray-600 text-gray-500' }}@endif text-[11px] md:text-[13px] font-bold uppercase pl-2 tracking-wide py-2 px-4 pr-0 leading-tight focus:placeholder-gray-600 focus:text-gray-700 focus:outline-none">
+                                            <option value="">Select Religion</option>
+                                            @foreach($religions as $r)
+                                            <option
+                                                value="{{ $r->id }}"
+                                                @if(Request::get('religion')==$r->id)
                                                 selected
-                                            @endif
-                                        >{{ $r->name }}</option>
-                                        @endforeach
-                                    </select>
-                                </div>
-                                <div class="col-span-6 sm:col-span-3 w-full md:w-1/2 ">
-                                    <label for="origin" class="figtree-reguler hidden md:block text-sm md:text-md font-semibold text-gray-700 pb-1 tracking-wide">Origin</label>
-                                    <select name="origin" class="figtree-reguler h-10 rounded border block appearance-none w-full bg-white @if(Request::get('origin')){{ 'border-red-500 text-red-500' }}@else{{ 'border-gray-600 text-gray-500' }}@endif text-[11px] md:text-[13px] font-bold uppercase pl-2 tracking-wide py-2 px-4 pr-0 leading-tight focus:placeholder-gray-600 focus:text-gray-700 focus:outline-none">
-                                        <option value="">Select Origin</option>
-                                        @foreach($origins as $o)
-                                        <option 
-                                            value="{{ $o->id }}"
-                                            @if(Request::get('origin') == $o->id) 
+                                                @endif
+                                                >{{ $r->name }}</option>
+                                            @endforeach
+                                        </select>
+                                    </div>
+                                    <div class="col-span-6 sm:col-span-3 w-full md:w-1/2 ">
+                                        <label for="origin" class="figtree-reguler hidden md:block text-sm md:text-md font-semibold text-gray-700 pb-1 tracking-wide">Origin</label>
+                                        <select name="origin" class="figtree-reguler h-10 rounded border-2 block appearance-none w-full bg-white @if(Request::get('origin')){{ 'border-red-500 text-red-500' }}@else{{ 'border-gray-600 text-gray-500' }}@endif text-[11px] md:text-[13px] font-bold uppercase pl-2 tracking-wide py-2 px-4 pr-0 leading-tight focus:placeholder-gray-600 focus:text-gray-700 focus:outline-none">
+                                            <option value="">Select Origin</option>
+                                            @foreach($origins as $o)
+                                            <option
+                                                value="{{ $o->id }}"
+                                                @if(Request::get('origin')==$o->id)
                                                 selected
-                                            @endif
-                                        >{{ $o->name }}</option>
-                                        @endforeach
-                                    </select>
+                                                @endif
+                                                >{{ $o->name }}</option>
+                                            @endforeach
+                                        </select>
+                                    </div>
                                 </div>
-                            </div>
 
-                            <div class="flex flex-col w-1/2 md:flex-row space-y-4 md:space-y-0 md:space-x-2 md:justify-between">
-                                <div class="w-full md:w-1/2  flex flex-col col-span-6 sm:col-span-3">
-                                    <label for="country" class="figtree-reguler hidden md:block text-sm md:text-md font-semibold text-gray-700 pb-1 tracking-wide">Country</label>
-                                    <select name="country" class="figtree-reguler h-10 rounded border block appearance-none w-full bg-white @if(Request::get('country')){{ 'border-red-500 text-red-500' }}@else{{ 'border-gray-600 text-gray-500' }}@endif text-[11px] md:text-[13px] font-bold uppercase pl-2 tracking-wide py-2 px-4 pr-0 leading-tight focus:placeholder-gray-600 focus:text-gray-700 focus:outline-none">
-                                        <option value="">Select Country</option>
-                                        @foreach($countries as $c)
-                                        <option 
-                                            value="{{ $c->id }}"
-                                            @if(Request::get('country') == $c->id) 
+                                <div class="flex flex-col w-1/2 md:flex-row space-y-4 md:space-y-0 md:space-x-2 md:justify-between">
+                                    <div class="w-full md:w-1/2  flex flex-col col-span-6 sm:col-span-3">
+                                        <label for="country" class="figtree-reguler hidden md:block text-sm md:text-md font-semibold text-gray-700 pb-1 tracking-wide">Country</label>
+                                        <select name="country" class="figtree-reguler h-10 rounded border-2 block appearance-none w-full bg-white @if(Request::get('country')){{ 'border-red-500 text-red-500' }}@else{{ 'border-gray-600 text-gray-500' }}@endif text-[11px] md:text-[13px] font-bold uppercase pl-2 tracking-wide py-2 px-4 pr-0 leading-tight focus:placeholder-gray-600 focus:text-gray-700 focus:outline-none">
+                                            <option value="">Select Country</option>
+                                            @foreach($countries as $c)
+                                            <option
+                                                value="{{ $c->id }}"
+                                                @if(Request::get('country')==$c->id)
                                                 selected
-                                            @endif
-                                        >{{ $c->name }}</option>
-                                        @endforeach
-                                    </select>
-                                </div>
-                                <div class="col-span-6 sm:col-span-3 w-full md:w-1/2 ">
-                                    <label for="gender" class="figtree-reguler hidden md:block text-sm md:text-md font-semibold text-gray-700 pb-1 tracking-wide">Gender</label>
-                                    <select name="gender" class="figtree-reguler h-10 rounded border block appearance-none w-full bg-white  @if(Request::get('gender')){{ 'border-red-500 text-red-500' }}@else{{ 'border-gray-600 text-gray-500' }}@endif text-[11px] md:text-[13px] font-bold uppercase pl-2 tracking-wide  py-2 px-4 pr-0 leading-tight focus:placeholder-gray-600 focus:text-gray-700 focus:outline-none">
-                                        <option value="">Select Gender</option>
-                                        @foreach($genders as $key => $value)
-                                        <option 
-                                            value="{{ $key }}" 
-                                            @if(Request::get('gender') == $key) 
+                                                @endif
+                                                >{{ $c->name }}</option>
+                                            @endforeach
+                                        </select>
+                                    </div>
+                                    <div class="col-span-6 sm:col-span-3 w-full md:w-1/2 ">
+                                        <label for="gender" class="figtree-reguler hidden md:block text-sm md:text-md font-semibold text-gray-700 pb-1 tracking-wide">Gender</label>
+                                        <select name="gender" class="figtree-reguler h-10 rounded border-2 block appearance-none w-full bg-white  @if(Request::get('gender')){{ 'border-red-500 text-red-500' }}@else{{ 'border-gray-600 text-gray-500' }}@endif text-[11px] md:text-[13px] font-bold uppercase pl-2 tracking-wide  py-2 px-4 pr-0 leading-tight focus:placeholder-gray-600 focus:text-gray-700 focus:outline-none">
+                                            <option value="">Select Gender</option>
+                                            @foreach($genders as $key => $value)
+                                            <option
+                                                value="{{ $key }}"
+                                                @if(Request::get('gender')==$key)
                                                 selected
-                                            @endif
-                                        >{{ $value }}</option>
-                                        @endforeach
-                                    </select>
+                                                @endif>{{ $value }}</option>
+                                            @endforeach
+                                        </select>
+                                    </div>
                                 </div>
-                            </div>
 
                             </div>
                         </div>
@@ -141,17 +140,33 @@
                                     <div class="text-sm figtree-medium">
                                         @if($babyname->gender_id == 1)
                                         <span>
-                                            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-gender-male"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M10 14m-5 0a5 5 0 1 0 10 0a5 5 0 1 0 -10 0" /><path d="M19 5l-5.4 5.4" /><path d="M19 5h-5" /><path d="M19 5v5" /></svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-gender-male">
+                                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                                <path d="M10 14m-5 0a5 5 0 1 0 10 0a5 5 0 1 0 -10 0" />
+                                                <path d="M19 5l-5.4 5.4" />
+                                                <path d="M19 5h-5" />
+                                                <path d="M19 5v5" />
+                                            </svg>
                                         </span>
                                         @endif
                                         @if($babyname->gender_id == 2)
                                         <span>
-                                            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-gender-female"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 9m-5 0a5 5 0 1 0 10 0a5 5 0 1 0 -10 0" /><path d="M12 14v7" /><path d="M9 18h6" /></svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-gender-female">
+                                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                                <path d="M12 9m-5 0a5 5 0 1 0 10 0a5 5 0 1 0 -10 0" />
+                                                <path d="M12 14v7" />
+                                                <path d="M9 18h6" />
+                                            </svg>
                                         </span>
                                         @endif
                                         @if($babyname->gender_id == 3)
                                         <span>
-                                            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-gender-trasvesti"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M15 20a5 5 0 1 1 0 -10a5 5 0 0 1 0 10z" /><path d="M6 6l5.4 5.4" /><path d="M4 8l4 -4" /></svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-gender-trasvesti">
+                                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                                <path d="M15 20a5 5 0 1 1 0 -10a5 5 0 0 1 0 10z" />
+                                                <path d="M6 6l5.4 5.4" />
+                                                <path d="M4 8l4 -4" />
+                                            </svg>
                                         </span>
                                         @endif
                                     </div>
@@ -162,12 +177,12 @@
                                 </div>
                                 <div class="flex justify-between items-center  border-gray-800 py-3 px-3">
                                     <div class="text-sm figtree-medium">Origin</div>
-                                    <div class="text-sm figtree-medium">{{ $babyname->origin_id }}</div>
+                                    <div class="text-sm figtree-medium">@if($babyname->origin_id){{ $babyname->origin($babyname->origin_id) }}@endif</div>
                                 </div>
                             </div>
                         </div>
 
-                       
+
 
                     </div>
 
@@ -200,15 +215,14 @@
                                 this.popedBaby = null; // Clear data when not hovered
                             }
                         }"
-                            class=""
-                        >
+                            class="">
+                            @if($relatedNames->count() > 0)
                             <div class="relative mt-6 md:mt-12 grid gap-4 lg:gap-8 grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"><!--[-->
                                 @foreach($relatedNames as $baby)
                                 <div
                                     aria-label="Selengkapnya"
                                     class="@if($baby->gender_id == 1){{ 'bg-[#dbebfa]' }}@elseif($baby->gender_id == 2){{ 'bg-orange-200' }}@else{{ 'bg-green-200' }}@endif hover:shadow-[0px_8px_32px_0px_rgba(100,_116,_139,_0.08)] cursor-pointer border border-gray-700 flex justify-between items-center gap-3 p-3 md:px-4 md:py-3 rounded-lg drop-shadow-md transition hover:scale-105"
-                                    @click="showDetail({{ json_encode($baby) }}, $event)"
-                                >
+                                    @click="showDetail({{ json_encode($baby) }}, $event)">
                                     <div class="md:flex items-center gap-3">
                                         <p class="md:mt-0 text-xs leading-5 md:text-base md:leading-[25px] font-bold text-gray-800 capitalize figtree-medium">{{ $baby->name }}</p>
                                     </div>
@@ -219,7 +233,7 @@
                                     </div>
                                 </div>
                                 @endforeach
-
+                               
                                 <!-- Modal -->
                                 <div
                                     x-show="showMiniDetail"
@@ -273,66 +287,78 @@
                                                 </div>
                                                 <template x-if="popedBaby">
                                                     <div class="flex flex-col w-full gap-2">
-                                                    <div class="w-full my-2 flex justify-center border border-gray-800 rounded shadow-stack-sm  bg-white">
-                                                        <div class="flex flex-col w-full text-gray-900">
-                                                            <div class="border-b border-gray-800 py-3 px-3 leading-tight justify-center text-center w-full">
-                                                                <span class="text-md font-bold text-gray-900 uppercase figtree-bold" x-text="popedBaby.name"></span>
-                                                            </div>
-                                                            <div class="flex w-full justify-between items-center border-b border-gray-800 py-3 px-3">
-                                                                <div class="w-1/2 text-sm figtree-medium">Meaning</div>
-                                                                <div class="w-1/2 text-sm figtree-medium justify-end text-right"><span x-text="popedBaby.meaning"></span></div>
-                                                            </div>
-                                                            <div class="flex justify-between items-center border-b border-gray-800 py-3 px-3">
-                                                                <div class="text-sm figtree-medium">Gender</div>
-                                                                <div class="text-sm figtree-medium">
-                                                                    <!-- icon -->
-                                                                    <span x-show="popedBaby.gender_id == 1">
-                                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-gender-male">
-                                                                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                                                            <path d="M10 14m-5 0a5 5 0 1 0 10 0a5 5 0 1 0 -10 0" />
-                                                                            <path d="M19 5l-5.4 5.4" />
-                                                                            <path d="M19 5h-5" />
-                                                                            <path d="M19 5v5" />
-                                                                        </svg>
-                                                                    </span>
-                                                                    <span x-show="popedBaby.gender_id == 2">
-                                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-gender-female">
-                                                                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                                                            <path d="M12 9m-5 0a5 5 0 1 0 10 0a5 5 0 1 0 -10 0" />
-                                                                            <path d="M12 14v7" />
-                                                                            <path d="M9 18h6" />
-                                                                        </svg>
-                                                                    </span>
-                                                                    <span x-show="popedBaby.gender_id == 3">
-                                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-gender-trasvesti">
-                                                                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                                                            <path d="M15 20a5 5 0 1 1 0 -10a5 5 0 0 1 0 10z" />
-                                                                            <path d="M6 6l5.4 5.4" />
-                                                                            <path d="M4 8l4 -4" />
-                                                                        </svg>
-                                                                    </span>
+                                                        <div class="w-full my-2 flex justify-center border border-gray-800 rounded shadow-stack-sm  bg-white">
+                                                            <div class="flex flex-col w-full text-gray-900">
+                                                                <div class="border-b border-gray-800 py-3 px-3 leading-tight justify-center text-center w-full">
+                                                                    <span class="text-md font-bold text-gray-900 uppercase figtree-bold" x-text="popedBaby.name"></span>
                                                                 </div>
-                                                            </div>
-                                                            <div class="flex justify-between items-center border-b border-gray-800 py-3 px-3">
-                                                                <div class="text-sm figtree-medium">Religion</div>
-                                                                <div class="text-sm figtree-medium">
-                                                                    <span x-show="popedBaby.religion_id == 1">Christianity</span>
-                                                                    <span x-show="popedBaby.religion_id == 2">Muslim</span>
-                                                                    <span x-show="popedBaby.religion_id == 3">Hinduism</span>
-                                                                    <span x-show="popedBaby.religion_id == 4">Buddhism</span>
-                                                                    <span x-show="popedBaby.religion_id == 5">Judaism</span>
-                                                                    <span x-show="popedBaby.religion_id == 6">Catholic</span>
-                                                                    <span x-show="popedBaby.religion_id == 7">Shintoism</span>
-                                                                    <span x-show="popedBaby.religion_id == 7">Sikhism</span>
-                                                                    <span x-show="popedBaby.religion_id == 7">Zoroastrianism</span>
+                                                                <div class="flex w-full justify-between items-center border-b border-gray-800 py-3 px-3">
+                                                                    <div class="w-1/2 text-sm figtree-medium">Meaning</div>
+                                                                    <div class="w-1/2 text-sm figtree-medium justify-end text-right"><span x-text="popedBaby.meaning"></span></div>
                                                                 </div>
-                                                            </div>
-                                                            <div class="flex justify-between items-center  border-gray-800 py-3 px-3">
-                                                                <div class="text-sm figtree-medium">Origin</div>
-                                                                <div class="text-sm figtree-medium"><span x-text="popedBaby.origin_id"></span></div>
+                                                                <div class="flex justify-between items-center border-b border-gray-800 py-3 px-3">
+                                                                    <div class="text-sm figtree-medium">Gender</div>
+                                                                    <div class="text-sm figtree-medium">
+                                                                        <!-- icon -->
+                                                                        <span x-show="popedBaby.gender_id == 1">
+                                                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-gender-male">
+                                                                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                                                                <path d="M10 14m-5 0a5 5 0 1 0 10 0a5 5 0 1 0 -10 0" />
+                                                                                <path d="M19 5l-5.4 5.4" />
+                                                                                <path d="M19 5h-5" />
+                                                                                <path d="M19 5v5" />
+                                                                            </svg>
+                                                                        </span>
+                                                                        <span x-show="popedBaby.gender_id == 2">
+                                                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-gender-female">
+                                                                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                                                                <path d="M12 9m-5 0a5 5 0 1 0 10 0a5 5 0 1 0 -10 0" />
+                                                                                <path d="M12 14v7" />
+                                                                                <path d="M9 18h6" />
+                                                                            </svg>
+                                                                        </span>
+                                                                        <span x-show="popedBaby.gender_id == 3">
+                                                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-gender-trasvesti">
+                                                                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                                                                <path d="M15 20a5 5 0 1 1 0 -10a5 5 0 0 1 0 10z" />
+                                                                                <path d="M6 6l5.4 5.4" />
+                                                                                <path d="M4 8l4 -4" />
+                                                                            </svg>
+                                                                        </span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="flex justify-between items-center border-b border-gray-800 py-3 px-3">
+                                                                    <div class="text-sm figtree-medium">Religion</div>
+                                                                    <div class="text-sm figtree-medium">
+                                                                        <span x-show="popedBaby.religion_id == 1">Christianity</span>
+                                                                        <span x-show="popedBaby.religion_id == 2">Muslim</span>
+                                                                        <span x-show="popedBaby.religion_id == 3">Hinduism</span>
+                                                                        <span x-show="popedBaby.religion_id == 4">Buddhism</span>
+                                                                        <span x-show="popedBaby.religion_id == 5">Judaism</span>
+                                                                        <span x-show="popedBaby.religion_id == 6">Catholic</span>
+                                                                        <span x-show="popedBaby.religion_id == 7">Shintoism</span>
+                                                                        <span x-show="popedBaby.religion_id == 8">Sikhism</span>
+                                                                        <span x-show="popedBaby.religion_id == 9">Zoroastrianism</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="flex justify-between items-center  border-gray-800 py-3 px-3">
+                                                                    <div class="text-sm figtree-medium">Origin</div>
+                                                                    <div class="text-sm figtree-medium">
+                                                                        <span x-show="popedBaby.origin_id == 1">African</span>
+                                                                        <span x-show="popedBaby.origin_id == 2">Arabic</span>
+                                                                        <span x-show="popedBaby.origin_id == 3">American</span>
+                                                                        <span x-show="popedBaby.origin_id == 4">English</span>
+                                                                        <span x-show="popedBaby.origin_id == 5">Indonesian</span>
+                                                                        <span x-show="popedBaby.origin_id == 6">Sanskrit</span>
+                                                                        <span x-show="popedBaby.origin_id == 7">Korean</span>
+                                                                        <span x-show="popedBaby.origin_id == 8">Japanese</span>
+                                                                        <span x-show="popedBaby.origin_id == 9">Roman</span>
+                                                                        <span x-show="popedBaby.origin_id == 10">Russian</span>
+                                                                        <span x-show="popedBaby.origin_id == 11">Hindi</span>
+                                                                    </div>
+                                                                </div>
                                                             </div>
                                                         </div>
-                                                    </div>
                                                         <a :href="'/baby-name/'+ popedBaby.slug" class="w-full mx-auto py-2 md:py-3 rounded-lg border border-gray-800 items-center justify-center bg-blue-700 hover:bg-blue-800 font-semibold text-white text-center figtree-medium">View Full Details &rarr;</a>
                                                     </div>
                                                 </template>
@@ -341,10 +367,15 @@
                                     </div>
                                 </div>
                             </div>
+                            @else
+                                <div class="flex items-center justify-center mx-auto w-full">
+                                    <span class="font-semibold text-md text-red-500 figtree-medium">No record found!</span>
+                                </div>
+                            @endif
                         </div>
 
-                        
-                        
+
+
                     </div>
                     <!--  -->
                 </div>
@@ -359,13 +390,15 @@
 
 @push('style')
 <style>
-.shadow-stack-sm {
-    --tw-shadow: 3px 3px 0 -1px #fff, 3px 3px 0 #191a1b !important;
-}
+    .shadow-stack-sm {
+        --tw-shadow: 3px 3px 0 -1px #fff, 3px 3px 0 #191a1b !important;
+    }
 
-.shadow-menu, .shadow-stack, .shadow-stack-sm {
-    box-shadow: 0 0 transparent, 0 0 transparent, var(--tw-shadow) !important;
-    box-shadow: var(--tw-ring-offset-shadow, 0 0 transparent), var(--tw-ring-shadow, 0 0 transparent), var(--tw-shadow) !important;
-}
+    .shadow-menu,
+    .shadow-stack,
+    .shadow-stack-sm {
+        box-shadow: 0 0 transparent, 0 0 transparent, var(--tw-shadow) !important;
+        box-shadow: var(--tw-ring-offset-shadow, 0 0 transparent), var(--tw-ring-shadow, 0 0 transparent), var(--tw-shadow) !important;
+    }
 </style>
 @endpush

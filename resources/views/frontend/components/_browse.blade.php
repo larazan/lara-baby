@@ -114,12 +114,19 @@ $categories = \App\Models\Category::select(['name', 'slug'])->where('parent_id',
             <h1 class="text-green-500 text-lg figtree-bold">Activities</h1>
             <div class="py-0 lg:py-6 px-0 xl:py-8  order-1 lg:order-2">
               <ul class="text-sm leading-[22px] font-medium text-[#475569] mt-[14px] xl:mt-4 flex flex-col gap-[14px]">
+                <li>
+                    <a href="{{ url('activities/') }}" class="figtree-reguler flex gap-3 hover:text-blue-primary hover:underline" aria-label="Selengkapnya">
+                        <p>Activities</p>
+                    </a>
+                </li>
                 @foreach($categories as $c)
+                @if($c->slug != 'activities')
                 <li>
                   <a href="{{ url('activities/'.$c->slug) }}" class="figtree-reguler text-[#475569] hover:text-orange-500 flex gap-3 hover:text-blue-primary hover:underline" aria-label="Selengkapnya">
                     <p>{{ $c->name }}</p>
                   </a>
                 </li>
+                @endif
                 @endforeach
 
               </ul>

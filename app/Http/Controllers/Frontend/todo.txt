@@ -10,5 +10,8 @@ calculator tool
 parenting page
 put cache
 put locale
+    babyname
+    activity
+    article
 optimazing
 name & logo

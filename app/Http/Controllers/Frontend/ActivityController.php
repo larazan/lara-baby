@@ -17,6 +17,7 @@ class ActivityController extends Controller
     //
     public function index(Request $request, $slug = '')
     {
+        $locale = app()->currentLocale();
         $parent_cat = Category::selectRaw('id, name, slug, parent_id, status')
                         ->whereNull('parent_id')
                         ->get()->toArray();
@@ -58,7 +59,7 @@ class ActivityController extends Controller
             'slug',
             'status',
             'original',
-            ])->active();
+            ])->where('locale', $locale)->active();
 
         
 

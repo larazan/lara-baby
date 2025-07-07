@@ -82,16 +82,7 @@ $categories = \App\Models\Category::select(['name', 'slug', 'parent_id'])->where
                                             <p>Preparing for Baby</p>
                                         </a>
                                     </li>
-                                    <li>
-                                        <a href="/profil/balai-upt" class="figtree-reguler flex gap-3 hover:text-blue-primary hover:underline" aria-label="Selengkapnya">
-                                            <p>Concerns & Complications</p>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="/profil/balai-upt" class="figtree-reguler flex gap-3 hover:text-blue-primary hover:underline" aria-label="Selengkapnya">
-                                            <p>Labor & Delivery</p>
-                                        </a>
-                                    </li>
+                    
                                     <li>
                                         <a href="/profil/balai-upt" class="figtree-reguler flex gap-3 hover:text-blue-primary hover:underline" aria-label="Selengkapnya">
                                             <p>Postpartum</p>
@@ -229,12 +220,19 @@ $categories = \App\Models\Category::select(['name', 'slug', 'parent_id'])->where
 
                             <div class="py-0 lg:py-6 px-4 xl:py-8 xl:px-6 order-1 lg:order-2">
                                 <ul class="text-sm leading-[22px] font-medium text-[#475569] mt-[14px] xl:mt-4 flex flex-col gap-[14px]">
+                                    <li>
+                                        <a href="{{ url('activities/') }}" class="figtree-reguler flex gap-3 hover:text-blue-primary hover:underline" aria-label="Selengkapnya">
+                                            <p>Activities</p>
+                                        </a>
+                                    </li>
                                     @foreach($categories as $c)
+                                    @if($c->slug != 'activities')
                                     <li>
                                         <a href="{{ url('activities/'.$c->slug) }}" class="figtree-reguler flex gap-3 hover:text-blue-primary hover:underline" aria-label="Selengkapnya">
                                             <p>{{ $c->name }}</p>
                                         </a>
                                     </li>
+                                    @endif
                                     @endforeach
                                     
                                 </ul>

@@ -48,7 +48,17 @@ Route::group(
         'prefix' => LaravelLocalization::setLocale(),
         'middleware' => [ 'localeSessionRedirect', 'localizationRedirect', 'localeViewPath' ]
     ], function () {
+    // home
     Route::get('/', [HomeController::class, 'index'])->name('home');
+    // babyname
+    Route::get('/baby-name', [BabynameController::class, 'index'])->name('baby-name');
+    Route::get('/baby-name/letter/{letter}', [BabynameController::class, 'letter']);
+    // article
+    Route::get('/articles/{category?}', [ArticleController::class, 'index'])->name('articles');
+    // activity
+    Route::get('/activities/{slug?}', [ActivityController::class, 'index'])->name('activities');
+
+    // test
     Route::get('/welcome', function() {
         return view('welcome');
     })->name('welcome');
@@ -67,7 +77,7 @@ Route::middleware(['auth:sanctum', 'verified'])->group(function () {
 });
 
 // activity
-Route::get('/activities/{slug?}', [ActivityController::class, 'index'])->name('activities');
+
 Route::get('/activity/{slug}', [ActivityController::class, 'show']);
 // Route::post('/activities', [ActivityController::class, 'index'])->name('activity.submit');
 
@@ -77,12 +87,11 @@ Route::get('/pregnancy/tracker/{trimester}', [PregnancyController::class, 'track
 Route::get('/pregnancy/tracker/{trimester}/{slug}', [PregnancyController::class, 'show']);
 
 // babyname
-Route::get('/baby-name', [BabynameController::class, 'index'])->name('baby-name');
 Route::get('/baby-name/{slug}', [BabynameController::class, 'show']);
-Route::get('/baby-name/origin/{origin}', [BabynameController::class, 'origin']);
-Route::get('/baby-name/religion/{religion}', [BabynameController::class, 'religion']);
-Route::get('/baby-name/letter/{letter}', [BabynameController::class, 'letter']);
-Route::get('/baby-name/gender/{gender}', [BabynameController::class, 'gender']);
+
+// Route::get('/baby-name/origin/{origin}', [BabynameController::class, 'origin']);
+// Route::get('/baby-name/religion/{religion}', [BabynameController::class, 'religion']);
+// Route::get('/baby-name/gender/{gender}', [BabynameController::class, 'gender']);
 
 // Generate
 Route::get('generate-article', [GenerateArticleController::class, 'index']);
@@ -95,7 +104,7 @@ Route::get('/api/search', [SearchController::class, 'searchTwo'])->name('api.sea
 //     return view('search-dropdown');
 // });
 
-Route::get('/articles/{category?}', [ArticleController::class, 'index'])->name('articles');
+// article
 Route::get('/article/{slug}', [ArticleController::class, 'show']);
 Route::get('articles/tag/{tag}', [ArticleController::class, 'showByTag']);
 

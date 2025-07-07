@@ -18,7 +18,26 @@
                     <a href="{{ url('activity/'. $act->slug) }}" class="absolute top-0 left-0 w-full h-full z-[5] rounded-2xl" aria-label="Baca selengkapnya"></a>
                     <div class="w-full mb-4">
                         <div class="relative aspect-[16/9] w-full h-[166px] xl:h-[216px] rounded-md md:rounded-xl bg-gray-100 overflow-hidden">
-                            <img onerror="this.setAttribute('data-error', 1)" width="345" height="216" alt="BMKG-Kementerian Keuangan Perkuat Sinergi untuk Ketahanan Iklim dan Bencana dalam Mendukung Asta Cita" loading="lazy" data-nuxt-img="" class="w-full h-full object-cover" src="https://i0.wp.com/content.bmkg.go.id/wp-content/uploads/IMG_0051.jpg?fit=1280%2C853&amp;ssl=1" srcset="https://i0.wp.com/content.bmkg.go.id/wp-content/uploads/IMG_0051.jpg?fit=1280%2C853&amp;ssl=1 1x, https://i0.wp.com/content.bmkg.go.id/wp-content/uploads/IMG_0051.jpg?fit=1280%2C853&amp;ssl=1 2x">
+                        @if($act->original)
+                <img
+                  src="{{ asset('storage/'.$act->original) }}"
+                  data-src="{{ asset('storage/'.$act->original) }}"
+                  data-srcset="{{ asset('storage/'.$act->original. ' 860w') }},
+                          {{ asset('storage/'.$act->original. ' 640w') }},
+                          {{ asset('storage/'.$act->original. ' 420w') }}"
+                  alt="{{ $act->title }}"
+                  class="max-w-full md:max-w-none w-full h-full object-cover md:-mx-4 md:-mt-4 mb-0 rounded-xl"
+                  loading="lazy"
+                  width="345" height="216">
+                @else
+                <img
+                  src="{{ asset('frontend/img/ci-cd-cover.png') }}"
+                  data-src="{{ asset('frontend/img/ci-cd-cover.png') }}"
+                  data-srcset="{{ asset('frontend/img/ci-cd-cover.png 860w') }},
+                          {{ asset('frontend/img/ci-cd-cover.png 640w') }},
+                          {{ asset('frontend/img/ci-cd-cover.png 420w') }}"
+                  class="max-w-full md:max-w-none h-64 md:h-52 object-fit md:-mx-4 md:-mt-4 mb-0 rounded-xl" alt="" loading="lazy">
+                @endif
                         </div>
                     </div>
                     <div class="flex flex-col justify-between w-full h-full">
@@ -26,12 +45,13 @@
                             <span class="flex px-2 py-1 bg-orange-500 text-white text-xs rounded-full w-fit font-medium figtree-reguler">{{ $act->category($act->category_id) }}</span>
                             <h2 class="mt-2 text-base leading-[25px] md:text-lg md:leading-[27px] xl:text-2xl font-semibold text-gray-800 figtree-medium group-hover:text-orange-500">{{ $act->title }}</h2>
                         </div>
-                        <div class="mt-4">
-                            <a href="#" class="text-sm lg:text-base font-bold leading-6 text-blue-primary flex gap-2 items-center !text-base !leading-[25px] figtree-reguler">Read more
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon" class="w-5 h-5 stroke-2">
-                                    <path fill-rule="evenodd" d="M3 10a.75.75 0 0 1 .75-.75h10.638L10.23 5.29a.75.75 0 1 1 1.04-1.08l5.5 5.25a.75.75 0 0 1 0 1.08l-5.5 5.25a.75.75 0 1 1-1.04-1.08l4.158-3.96H3.75A.75.75 0 0 1 3 10Z" clip-rule="evenodd"></path>
-                                </svg>
-                            </a>
+                        <div class="flex items-center mt-4 space-x-2 text-[#00989d] !hover:text-[#06329d]">
+                            <a href="{{ url('activity/'. $act->slug) }}" class="text-xs lg:text-base font-bold leading-6 figtree-reguler flex gap-2 items-center uppercase">Read more</a>
+                            <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon" class="w-5 h-5 stroke-2">
+                                <path fill-rule="evenodd" d="M3 10a.75.75 0 0 1 .75-.75h10.638L10.23 5.29a.75.75 0 1 1 1.04-1.08l5.5 5.25a.75.75 0 0 1 0 1.08l-5.5 5.25a.75.75 0 1 1-1.04-1.08l4.158-3.96H3.75A.75.75 0 0 1 3 10Z" clip-rule="evenodd"></path>
+                            </svg>
+                            </span>
                         </div>
                     </div>
                 </article>

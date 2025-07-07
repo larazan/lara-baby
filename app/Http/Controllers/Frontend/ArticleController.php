@@ -14,6 +14,8 @@ class ArticleController extends Controller
     //
     public function index(Request $request, $category = '')
 	{
+		$locale = app()->currentLocale();
+		
 		if ($category) {
             $cat = CategoryArticle::where('slug', $category)->first();
             $cat_id = $cat->id;
@@ -32,7 +34,7 @@ class ArticleController extends Controller
         }
 
 		$array = [2, 4, 5, 6, 7];
-		$query = Article::select(['category_id', 'slug', 'title', 'body', 'author_id', 'original', 'status', 'created_at'])->whereNotIn('category_id', $array)->active()->orderBy('created_at', 'DESC');
+		$query = Article::select(['category_id', 'slug', 'title', 'body', 'author_id', 'original', 'status', 'created_at', 'locale'])->where('locale', $locale)->whereNotIn('category_id', $array)->active()->orderBy('created_at', 'DESC');
 
 		$query->when($cat_id > 0, function ($q) use ($cat_id) {
             return $q->where('category_id', '=', $cat_id);

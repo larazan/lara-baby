@@ -42,7 +42,7 @@
                                 <div class="flex flex-col w-1/2 md:flex-row space-y-4 md:space-y-0 md:space-x-2 md:justify-between">
                                     <div class="w-full md:w-1/2  flex flex-col col-span-6 sm:col-span-3">
                                         <label for="religion" class="hidden md:block text-sm md:text-md font-semibold text-gray-700 pb-1 tracking-wide figtree-reguler">Religion</label>
-                                        <select name="religion" class="figtree-reguler h-10 rounded border block appearance-none w-full bg-white @if(Request::get('religion')){{ 'border-red-500 text-red-500' }}@else{{ 'border-gray-600 text-gray-500' }}@endif text-[11px] md:text-[13px] font-bold uppercase pl-2 tracking-wide py-2 px-4 pr-0 leading-tight focus:placeholder-gray-600 focus:text-gray-700 focus:outline-none">
+                                        <select name="religion" class="figtree-reguler  h-10 rounded border-2 block appearance-none w-full bg-white @if(Request::get('religion')){{ 'border-red-500 text-red-500' }}@else{{ 'border-gray-600 text-gray-500' }}@endif text-[11px] md:text-[13px] font-bold uppercase pl-2 tracking-wide py-2 px-4 pr-0 leading-tight focus:placeholder-gray-600 focus:text-gray-700 focus:outline-none">
                                             <option value="">Select Religion</option>
                                             @foreach($religions as $r)
                                             <option
@@ -56,7 +56,7 @@
                                     </div>
                                     <div class="col-span-6 sm:col-span-3 w-full md:w-1/2 ">
                                         <label for="origin" class="figtree-reguler hidden md:block text-sm md:text-md font-semibold text-gray-700 pb-1 tracking-wide">Origin</label>
-                                        <select name="origin" class="figtree-reguler h-10 rounded border block appearance-none w-full bg-white @if(Request::get('origin')){{ 'border-red-500 text-red-500' }}@else{{ 'border-gray-600 text-gray-500' }}@endif text-[11px] md:text-[13px] font-bold uppercase pl-2 tracking-wide py-2 px-4 pr-0 leading-tight focus:placeholder-gray-600 focus:text-gray-700 focus:outline-none">
+                                        <select name="origin" class="figtree-reguler h-10 rounded border-2 block appearance-none w-full bg-white @if(Request::get('origin')){{ 'border-red-500 text-red-500' }}@else{{ 'border-gray-600 text-gray-500' }}@endif text-[11px] md:text-[13px] font-bold uppercase pl-2 tracking-wide py-2 px-4 pr-0 leading-tight focus:placeholder-gray-600 focus:text-gray-700 focus:outline-none">
                                             <option value="">Select Origin</option>
                                             @foreach($origins as $o)
                                             <option
@@ -73,7 +73,7 @@
                                 <div class="flex flex-col w-1/2 md:flex-row space-y-4 md:space-y-0 md:space-x-2 md:justify-between">
                                     <div class="w-full md:w-1/2  flex flex-col col-span-6 sm:col-span-3">
                                         <label for="country" class="figtree-reguler hidden md:block text-sm md:text-md font-semibold text-gray-700 pb-1 tracking-wide">Country</label>
-                                        <select name="country" class="figtree-reguler h-10 rounded border block appearance-none w-full bg-white @if(Request::get('country')){{ 'border-red-500 text-red-500' }}@else{{ 'border-gray-600 text-gray-500' }}@endif text-[11px] md:text-[13px] font-bold uppercase pl-2 tracking-wide py-2 px-4 pr-0 leading-tight focus:placeholder-gray-600 focus:text-gray-700 focus:outline-none">
+                                        <select name="country" class="figtree-reguler h-10 rounded border-2 block appearance-none w-full bg-white @if(Request::get('country')){{ 'border-red-500 text-red-500' }}@else{{ 'border-gray-600 text-gray-500' }}@endif text-[11px] md:text-[13px] font-bold uppercase pl-2 tracking-wide py-2 px-4 pr-0 leading-tight focus:placeholder-gray-600 focus:text-gray-700 focus:outline-none">
                                             <option value="">Select Country</option>
                                             @foreach($countries as $c)
                                             <option
@@ -87,7 +87,7 @@
                                     </div>
                                     <div class="col-span-6 sm:col-span-3 w-full md:w-1/2 ">
                                         <label for="gender" class="figtree-reguler hidden md:block text-sm md:text-md font-semibold text-gray-700 pb-1 tracking-wide">Gender</label>
-                                        <select name="gender" class="figtree-reguler h-10 rounded border block appearance-none w-full bg-white  @if(Request::get('gender')){{ 'border-red-500 text-red-500' }}@else{{ 'border-gray-600 text-gray-500' }}@endif text-[11px] md:text-[13px] font-bold uppercase pl-2 tracking-wide  py-2 px-4 pr-0 leading-tight focus:placeholder-gray-600 focus:text-gray-700 focus:outline-none">
+                                        <select name="gender" class="figtree-reguler h-10 rounded border-2 block appearance-none w-full bg-white  @if(Request::get('gender')){{ 'border-red-500 text-red-500' }}@else{{ 'border-gray-600 text-gray-500' }}@endif text-[11px] md:text-[13px] font-bold uppercase pl-2 tracking-wide  py-2 px-4 pr-0 leading-tight focus:placeholder-gray-600 focus:text-gray-700 focus:outline-none">
                                             <option value="">Select Gender</option>
                                             @foreach($genders as $key => $value)
                                             <option
@@ -149,6 +149,7 @@
                         }"
                             class=""
                         >
+                            @if($babynames->count() > 0)
                             <div class="relative mt-6 md:mt-12 grid gap-4 lg:gap-8 grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"><!--[-->
                                 @foreach($babynames as $baby)
                                 <div
@@ -270,13 +271,25 @@
                                                                     <span x-show="popedBaby.religion_id == 5">Judaism</span>
                                                                     <span x-show="popedBaby.religion_id == 6">Catholic</span>
                                                                     <span x-show="popedBaby.religion_id == 7">Shintoism</span>
-                                                                    <span x-show="popedBaby.religion_id == 7">Sikhism</span>
-                                                                    <span x-show="popedBaby.religion_id == 7">Zoroastrianism</span>
+                                                                    <span x-show="popedBaby.religion_id == 8">Sikhism</span>
+                                                                    <span x-show="popedBaby.religion_id == 9">Zoroastrianism</span>
                                                                 </div>
                                                             </div>
                                                             <div class="flex justify-between items-center  border-gray-800 py-3 px-3">
                                                                 <div class="text-sm figtree-medium">Origin</div>
-                                                                <div class="text-sm figtree-medium"><span x-text="popedBaby.origin_id"></span></div>
+                                                                <div class="text-sm figtree-medium">
+                                                                    <span x-show="popedBaby.origin_id == 1">African</span>
+                                                                    <span x-show="popedBaby.origin_id == 2">Arabic</span>
+                                                                    <span x-show="popedBaby.origin_id == 3">American</span>
+                                                                    <span x-show="popedBaby.origin_id == 4">English</span>
+                                                                    <span x-show="popedBaby.origin_id == 5">Indonesian</span>
+                                                                    <span x-show="popedBaby.origin_id == 6">Sanskrit</span>
+                                                                    <span x-show="popedBaby.origin_id == 7">Korean</span>
+                                                                    <span x-show="popedBaby.origin_id == 8">Japanese</span>
+                                                                    <span x-show="popedBaby.origin_id == 9">Roman</span>
+                                                                    <span x-show="popedBaby.origin_id == 10">Russian</span>
+                                                                    <span x-show="popedBaby.origin_id == 11">Hindi</span>
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -288,7 +301,11 @@
                                     </div>
                                 </div>
                             </div>
-
+                            @else
+                                <div class="flex items-center justify-center mx-auto w-full">
+                                    <span class="font-semibold text-md text-red-500 figtree-medium">No record found!</span>
+                                </div>
+                            @endif
 
                         </div>
                     </div>
