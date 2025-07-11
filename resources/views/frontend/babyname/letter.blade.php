@@ -11,14 +11,14 @@
                     <div class="flex flex-col items-center justify-center gap-4">
 
                         <div class="flex items-center gap-2.5 text-center max-w-[700px]"><!---->
-                            <h1 class="text-lg leading-[33px] md:text-[32px] md:leading-[48px] xl:text-[40px] xl:leading-[54px] font-bold text-white capitalize figtree-bold">Baby Name Starting with letter {{ Request::segment(3) }}</h1>
+                            <h1 class="text-lg leading-[33px] md:text-[32px] md:leading-[48px] xl:text-[40px] xl:leading-[54px] font-bold text-white capitalize figtree-bold">Baby Name Starting with letter <span class="underline underline-offset-2 text-2xl">{{ Request::segment(4) }}</span></h1>
                         </div>
                         <div>
                             <div class="flex flex-wrap items-center gap-1 md:gap-2 justify-center md:justify-center mx-auto w-12/12 md:w-10/12 ">
                                 @foreach($letters as $l)
                                 <a
                                     href="{{ url('baby-name/letter/'.$l) }}"
-                                    class="flex justify-center items-center  w-8 h-8 md:w-10 md:h-10 bg-white hover:bg-orange-300 px-2 md:px-4 py-1 border-2 text-gray-900 hover:text-white border-gray-900 @if(Request::segment(3) === $l){{ '!bg-orange-300 text-white' }}@else{{ 'bg-white text-gray-900' }}@endif">
+                                    class="flex justify-center items-center  w-8 h-8 md:w-10 md:h-10 bg-white hover:bg-orange-300 px-2 md:px-4 py-1 border-2 text-gray-900 hover:text-white border-gray-900 @if(Request::segment(4) === $l){{ '!bg-orange-300 text-white' }}@else{{ 'bg-white text-gray-900' }}@endif">
                                     <span class="uppercase font-bold figtree-reguler">{{ $l }}</span>
                                 </a>
                                 @endforeach
@@ -147,7 +147,7 @@
                                 @foreach($babynames as $baby)
                                 <div
                                     aria-label="Selengkapnya"
-                                    class="@if($baby->gender_id == 1){{ 'bg-[#dbebfa]' }}@elseif($baby->gender_id == 2){{ 'bg-orange-200' }}@else{{ 'bg-green-200' }}@endif hover:shadow-[0px_8px_32px_0px_rgba(100,_116,_139,_0.08)] cursor-pointer border border-gray-700 flex justify-between items-center gap-3 p-3 md:px-4 md:py-3 rounded-lg drop-shadow-md transition hover:scale-105"
+                                    class="@if($baby->gender_id == 1){{ 'bg-[#dbebfa]' }}@elseif($baby->gender_id == 2){{ 'bg-pink-200' }}@else{{ 'bg-green-200' }}@endif hover:shadow-[0px_8px_32px_0px_rgba(100,_116,_139,_0.08)] cursor-pointer border border-gray-700 flex justify-between items-center gap-3 p-3 md:px-4 md:py-3 rounded-lg drop-shadow-md transition hover:scale-105"
                                     @click="showDetail({{ json_encode($baby) }}, $event)"
                                 >
                                     <div class="md:flex items-center gap-3">
@@ -309,7 +309,7 @@
                             <span class="font-semibold text-md text-gray-700 figtree-bold">Boy</span>
                         </div>
                         <div class="flex items-center gap-2">
-                            <div class="flex px-1 py-1 w-10 bg-orange-200 border border-gray-700"></div>
+                            <div class="flex px-1 py-1 w-10 bg-pink-200 border border-gray-700"></div>
                             <span class="font-semibold text-md text-gray-700 figtree-bold">Girl</span>
                         </div>
                         <div class="flex items-center gap-2">

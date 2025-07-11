@@ -13,6 +13,7 @@ use App\Http\Controllers\Frontend\NewsletterController;
 use App\Http\Controllers\Frontend\BabynameController;
 use App\Http\Controllers\Frontend\ActivityController;
 use App\Http\Controllers\Frontend\GenerateArticleController;
+use App\Http\Controllers\Frontend\ToolController;
 
 use App\Http\Controllers\SitemapController;
 
@@ -122,6 +123,12 @@ Route::get('/about', [PageController::class, 'about'])->name('about');
 Route::get('/advertise', [PageController::class, 'advertising'])->name('advertise');
 Route::get('/policy', [PageController::class, 'policy'])->name('privacy-policy');
 Route::get('/terms', [PageController::class, 'terms'])->name('terms');
+
+// tools
+Route::get('/baby-height-calc', [ToolController::class, 'babyHeightCalc'])->name('baby-height-calc');
+Route::get('/conception-date', [ToolController::class, 'conceptionDate'])->name('conception-date');
+Route::get('/ovulation-calc', [ToolController::class, 'ovulationCalc'])->name('ovulation-calc');
+Route::get('/pregnancy-weight-calc', [ToolController::class, 'pregnancyWeightCalc'])->name('pregnancy-calc');
 
 
 // Admin

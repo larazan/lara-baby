@@ -12,7 +12,7 @@
   <div class="relative">
     <div class="relative">
       <div class="w-full h-full absolute bg-[rgb(237,246,251)]/75"></div>
-      <div class="pb-12 md:pb-[72px] pt-10 md:py-20 relative">
+      <div class="pb-12 md:pb-[72px] pt-2 md:py-20 relative">
         <div class="mx-auto max-w-6xl px-6 lg:px-10 xl:px-0">
           <div class="flex flex-col items-center justify-center gap-4">
 
@@ -20,13 +20,13 @@
               <h1 class="text-2xl leading-[33px] md:text-[32px] md:leading-[48px] xl:text-[40px] xl:leading-[54px] font-bold text-gray-900 figtree-bold">News</h1>
             </div>
 
-            <div class="flex flex-wrap items-center gap-2 md:gap-3 mt-2 md:mt-2">
+            <div class="flex md:flex-wrap w-full md:w-auto overflow-x-auto md:overflow-none  items-center gap-2 md:gap-3 mt-0 md:mt-2">
               <a href="{{ url('articles/') }}" type="button" class="@if($cat_id == null){{ 'bg-[#87eaca]'}}@else{{ 'bg-white !border-[#CBD5E1]' }}@endif border-blue-primary hover:bg-[#87eaca] text-blue-primary inline-flex items-center justify-center text-xs md:text-sm rounded-full px-5 py-[6px] md:py-[9px] leading-[22px] font-bold md:font-medium border figtree-medium">
                 All
               </a>
               @foreach($categories as $cat)
-              <a href="{{ url('articles/'.$cat->slug) }}">
-                <button type="button" class="@if($cat->id == $cat_id){{ 'bg-[#87eaca]'}}@else{{ 'bg-white !border-[#CBD5E1]' }}@endif border-blue-primary hover:bg-[#87eaca] text-blue-primary inline-flex items-center justify-center text-xs md:text-sm rounded-full px-5 py-[6px] md:py-[9px] leading-[22px] font-bold md:font-medium border !text-gray-primary figtree-medium">{{ $cat->name }}</button>
+              <a href="{{ url('articles/'.$cat->slug) }}" class="@if($cat->id == $cat_id){{ 'bg-[#87eaca]'}}@else{{ 'bg-white !border-[#CBD5E1]' }}@endif border-blue-primary hover:bg-[#87eaca] inline-flex items-center justify-center text-xs md:text-sm rounded-full px-5 py-[6px] md:py-[9px] leading-[22px] font-bold md:font-medium border !text-gray-primary figtree-medium whitespace-nowrap">
+                <div class="">{{ $cat->name }}</div>
               </a>
               @endforeach
 

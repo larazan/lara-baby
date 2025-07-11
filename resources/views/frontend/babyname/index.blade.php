@@ -154,7 +154,7 @@
                                 @foreach($babynames as $baby)
                                 <div
                                     aria-label="Selengkapnya"
-                                    class="@if($baby->gender_id == 1){{ 'bg-[#dbebfa]' }}@elseif($baby->gender_id == 2){{ 'bg-orange-200' }}@else{{ 'bg-green-200' }}@endif hover:shadow-[0px_8px_32px_0px_rgba(100,_116,_139,_0.08)] cursor-pointer border border-gray-700 flex justify-between items-center gap-3 p-3 md:px-4 md:py-3 rounded-lg drop-shadow-md transition hover:scale-105"
+                                    class="@if($baby->gender_id == 1){{ 'bg-[#dbebfa]' }}@elseif($baby->gender_id == 2){{ 'bg-pink-200' }}@else{{ 'bg-green-200' }}@endif hover:shadow-[0px_8px_32px_0px_rgba(100,_116,_139,_0.08)] cursor-pointer border border-gray-700 flex justify-between items-center gap-3 p-3 md:px-4 md:py-3 rounded-lg drop-shadow-md transition hover:scale-105"
                                     @click="showDetail({{ json_encode($baby) }}, $event)"
                                 >
                                     <div class="md:flex items-center gap-3">
@@ -316,7 +316,7 @@
                             <span class="font-semibold text-md text-gray-700 figtree-bold">Boy</span>
                         </div>
                         <div class="flex items-center gap-2">
-                            <div class="flex px-1 py-1 w-10 bg-orange-200 border border-gray-700"></div>
+                            <div class="flex px-1 py-1 w-10 bg-pink-200 border border-gray-700"></div>
                             <span class="font-semibold text-md text-gray-700 figtree-bold">Girl</span>
                         </div>
                         <div class="flex items-center gap-2">

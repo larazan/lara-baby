@@ -6,7 +6,7 @@
 <main class="overflow-hidden pt-0">
     <div class="relative">
         <div class="relative">
-            <div class="w-full h-full absolute  @if($babyname->gender_id == 1){{ 'bg-[#dbebfa]' }}@elseif($babyname->gender_id == 2){{ 'bg-orange-200' }}@else{{ 'bg-green-200' }}@endif"></div>
+            <div class="w-full h-full absolute  @if($babyname->gender_id == 1){{ 'bg-[#dbebfa]' }}@elseif($babyname->gender_id == 2){{ 'bg-pink-200' }}@else{{ 'bg-green-200' }}@endif"></div>
             <div class="pb-[62px] pt-4 md:py-20 relative">
                 <div class="mx-auto max-w-6xl px-6 lg:px-10 xl:px-0">
                     <div class="flex flex-col items-center justify-center gap-4">
@@ -118,12 +118,15 @@
                     <div class="mx-auto max-w-6xl md:px-6 lg:px-10 xl:px-0">
 
                         <div class="pt-6 pb-0 border-b-2 border-slate-200 border-dashed dark:border-slate-600">
-                            <h1 class="text-black text-2xl font-semibold tracking-wide figtree-bold">Family name origins & meanings {{ $babyname->name }}</h1>
+                            <h1 class="text-black text-2xl font-semibold tracking-wide figtree-bold">What is the meaning of the name <span class="capitalize">{{ $babyname->name }}</span>?</h1>
                         </div>
 
                         <article class="pt-4 text-[14px] font-main leading-6 dark:text-slate-300 figtree-reguler">
-                            Berikut adalah arti dari <strong>nama bǎo</strong> yang berasal dari Tionghoa yang memiliki jumlah huruf sebanyak <span>{{ $babyname->count() }}</span> huruf.
-                            <span>Spanish, Portuguese, and Italian : from the personal name Cecilio, from Latin name C(a)ecilius, a derivative of caecus ‘blind’.</span>
+                            The name <span class="capitalize"><strong>{{ $babyname->name }}</strong></span>
+                             is primarily a <span>@if($babyname->gender_id == 1) Male @endif @if($babyname->gender_id == 2) Female @endif</span> name 
+                             @if($babyname->origin_id)<span>of {{ $babyname->origin($babyname->origin_id) }} origin</span>@endif
+                              and have <span>{{ $babyname->count() }}</span> letters
+                              that means <span class="underline">{{ $babyname->meaning }}</span>.
                         </article>
 
                         <div class="w-full my-6 flex justify-center border border-gray-800 rounded shadow-stack-sm  bg-white">
@@ -221,7 +224,7 @@
                                 @foreach($relatedNames as $baby)
                                 <div
                                     aria-label="Selengkapnya"
-                                    class="@if($baby->gender_id == 1){{ 'bg-[#dbebfa]' }}@elseif($baby->gender_id == 2){{ 'bg-orange-200' }}@else{{ 'bg-green-200' }}@endif hover:shadow-[0px_8px_32px_0px_rgba(100,_116,_139,_0.08)] cursor-pointer border border-gray-700 flex justify-between items-center gap-3 p-3 md:px-4 md:py-3 rounded-lg drop-shadow-md transition hover:scale-105"
+                                    class="@if($baby->gender_id == 1){{ 'bg-[#dbebfa]' }}@elseif($baby->gender_id == 2){{ 'bg-pink-200' }}@else{{ 'bg-green-200' }}@endif hover:shadow-[0px_8px_32px_0px_rgba(100,_116,_139,_0.08)] cursor-pointer border border-gray-700 flex justify-between items-center gap-3 p-3 md:px-4 md:py-3 rounded-lg drop-shadow-md transition hover:scale-105"
                                     @click="showDetail({{ json_encode($baby) }}, $event)">
                                     <div class="md:flex items-center gap-3">
                                         <p class="md:mt-0 text-xs leading-5 md:text-base md:leading-[25px] font-bold text-gray-800 capitalize figtree-medium">{{ $baby->name }}</p>

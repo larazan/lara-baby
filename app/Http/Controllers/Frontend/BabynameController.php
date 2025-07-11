@@ -322,6 +322,15 @@ class BabynameController extends Controller
         return $this->loadTheme('babyname.gender', compact('gender', 'letters', 'babynames', 'countNames', 'genders', 'origins', 'religions', 'countries'));
     
     }
+
+    public function generate()
+    {
+        // Fetch all names from the babynames table
+        $names = Babyname::pluck('name')->toArray();
+
+        // Pass the names to the Blade view
+        return $this->loadTheme('babyname.generate', compact('names'));
+    }
 }
 
 

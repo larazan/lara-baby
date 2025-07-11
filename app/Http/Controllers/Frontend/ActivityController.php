@@ -37,6 +37,11 @@ class ActivityController extends Controller
                         ->select('c1.name AS child_name', 'c2.name AS parent_name')
                         ->get();
 
+        // cache
+        // $categories = Cache::remember('categories', now()->addHour(), function () {
+        //     return DB::table('categories')->select(['name','slug'])->where('parent_id', null)->get();
+        // });
+
         // Activities
         $activityOption = Category::select(['id', 'name', 'slug', 'parent_id'])->where('parent_id', 1)->get();
         // Age
