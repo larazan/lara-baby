@@ -91,10 +91,10 @@ class Article extends Model
 		return self::STATUSES;
 	}
 
-    // public function id(): int
-    // {
-    //     return $this->id;
-    // }
+    public function id(): int
+    {
+        return $this->id;
+    }
 
     // public function title(): string
     // {

@@ -157,7 +157,7 @@
                                                 <div class="md:col-span-5 text-right">
                                                     <div class="inline-flex items-end space-x-2">
                                                         <a href="{{ url('admin/activity/all') }}" class="btn border-slate-200 hover--border-slate-300 text-indigo-500">Back</a>
-                                                        <button type="button" wire:click="updateActivity" class="btn ho xi ye">Submit</button>
+                                                        <button type="button" wire:click="updateActivity" class="btn ho xi ye">Update</button>
                                                     </div>
                                                 </div>
 

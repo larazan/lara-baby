@@ -1,6 +1,23 @@
-DONE
+<?php
 
-[
+namespace Database\Seeders;
+
+use App\Models\Babyname;
+use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+use Illuminate\Database\Seeder;
+use Carbon\Carbon;
+use Illuminate\Support\Str;
+
+class BabynameCowokSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     */
+    public function run(): void
+    {
+        //
+        $data = [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Aariz',
                 'meaning' => 'orang yang menjadi pemimpin',
@@ -9,7 +26,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Aaron',
                 'meaning' => 'pegunungan yang kuat atau gagah',
@@ -18,7 +35,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Aba',
                 'meaning' => 'bapak',
@@ -27,7 +44,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Abbas',
                 'meaning' => 'pemimpin',
@@ -36,7 +53,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Abbey',
                 'meaning' => 'pintar',
@@ -45,7 +62,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Abdah',
                 'meaning' => 'hamba Allah',
@@ -54,7 +71,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Abdan',
                 'meaning' => 'hamba',
@@ -63,7 +80,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Abdar',
                 'meaning' => 'tampan seperti bulan purnama',
@@ -72,7 +89,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Abel',
                 'meaning' => 'pemimpin yang penuh ambisi',
@@ -81,7 +98,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Abghi',
                 'meaning' => 'mencari',
@@ -90,7 +107,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Abhan',
                 'meaning' => 'mengetahui',
@@ -99,7 +116,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Abhar',
                 'meaning' => 'datang membawa kebaikan',
@@ -108,7 +125,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Abhizar',
                 'meaning' => 'yang menyebarkan',
@@ -117,7 +134,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Abimanyu',
                 'meaning' => 'gagah perkasa',
@@ -126,7 +143,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Abir',
                 'meaning' => 'pintar',
@@ -135,7 +152,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Abizar',
                 'meaning' => 'emas',
@@ -144,7 +161,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Abrisam',
                 'meaning' => 'orang lembut yang tampan',
@@ -153,7 +170,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Abner',
                 'meaning' => 'kecerdasan ',
@@ -162,7 +179,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Abqariyyin',
                 'meaning' => 'permadani indah',
@@ -171,7 +188,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Abqary',
                 'meaning' => 'cerdas',
@@ -180,7 +197,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Abraham',
                 'meaning' => 'pemimpin segala bangsa',
@@ -189,7 +206,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Abrar',
                 'meaning' => 'berbuat kebaikan',
@@ -198,7 +215,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Abyan',
                 'meaning' => 'yang lebih jelas',
@@ -207,7 +224,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ace',
                 'meaning' => 'persatuan',
@@ -216,7 +233,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Achnaf',
                 'meaning' => 'suci',
@@ -225,7 +242,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Adam',
                 'meaning' => 'nama seorang nabi',
@@ -234,7 +251,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Addina',
                 'meaning' => 'orang yang menghitung',
@@ -243,7 +260,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Addison',
                 'meaning' => 'putera Adam',
@@ -252,7 +269,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Addy',
                 'meaning' => 'keberuntungan, baik hati, mulia',
@@ -261,7 +278,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Aden',
                 'meaning' => 'tampan',
@@ -270,7 +287,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Adiel',
                 'meaning' => 'hiasan',
@@ -279,7 +296,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Adelard',
                 'meaning' => 'anak laki-laki yang gagah berani',
@@ -288,7 +305,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Addy',
                 'meaning' => 'keberuntungan',
@@ -297,7 +314,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Adonis',
                 'meaning' => 'paling tampan',
@@ -306,7 +323,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Adhan',
                 'meaning' => 'lembut',
@@ -315,7 +332,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Adiyat',
                 'meaning' => 'kuda perang yang lari kencang',
@@ -324,7 +341,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Adlan',
                 'meaning' => 'keadilan',
@@ -333,7 +350,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Adlun',
                 'meaning' => 'keadilan',
@@ -342,7 +359,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Adnan',
                 'meaning' => 'penenang hati',
@@ -351,7 +368,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Adras',
                 'meaning' => 'baik hati dan jantan',
@@ -360,7 +377,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Adri',
                 'meaning' => 'mengetahui',
@@ -369,7 +386,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Adyaan',
                 'meaning' => 'agama',
@@ -378,7 +395,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Adzdzin',
                 'meaning' => 'berserulah',
@@ -387,7 +404,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Adzin',
                 'meaning' => 'muadzin',
@@ -396,7 +413,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Adzra',
                 'meaning' => 'fasih',
@@ -405,7 +422,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Aegis',
                 'meaning' => 'pelindung',
@@ -414,7 +431,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Af’idah',
                 'meaning' => 'hati kecil',
@@ -423,7 +440,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Afa',
                 'meaning' => 'memaafkan',
@@ -432,7 +449,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Afandi',
                 'meaning' => 'berkedudukan tinggi',
@@ -441,7 +458,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Afaqa',
                 'meaning' => 'sadar',
@@ -450,7 +467,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Afdhal',
                 'meaning' => 'yang utama',
@@ -459,7 +476,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Affaaq',
                 'meaning' => 'pengembara',
@@ -468,7 +485,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Afif',
                 'meaning' => 'memiliki harga diri',
@@ -477,7 +494,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Afina',
                 'meaning' => 'yang memaafkan',
@@ -486,7 +503,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Afiq',
                 'meaning' => 'sifat utama',
@@ -495,7 +512,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Aflah',
                 'meaning' => 'beruntung',
@@ -504,7 +521,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Afreen',
                 'meaning' => 'tampan dan indah',
@@ -513,7 +530,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Aftar',
                 'meaning' => 'hari menuju senja',
@@ -522,7 +539,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Afuwwun',
                 'meaning' => 'pemaaf',
@@ -531,7 +548,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Afuza',
                 'meaning' => 'aku menang',
@@ -540,7 +557,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Afwaja',
                 'meaning' => 'berkelompok',
@@ -549,7 +566,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Afzal',
                 'meaning' => 'anggun',
@@ -558,7 +575,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Agam',
                 'meaning' => 'besar, gagah, kuat',
@@ -567,7 +584,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Agan',
                 'meaning' => 'tampan dan pintar',
@@ -576,7 +593,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Agathias',
                 'meaning' => 'baik',
@@ -585,7 +602,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Agharr',
                 'meaning' => 'tampan, mulia, berani, dan berkomitmen',
@@ -594,7 +611,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Aghnat',
                 'meaning' => 'bermanfaat',
@@ -603,7 +620,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Aghniya’',
                 'meaning' => 'kaya',
@@ -612,7 +629,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Agnor',
                 'meaning' => 'gagah, tangguh, dan perkasa',
@@ -621,7 +638,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ahabba',
                 'meaning' => 'lebih dicintai',
@@ -630,7 +647,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ahadan',
                 'meaning' => 'satu',
@@ -639,7 +656,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ahassa',
                 'meaning' => 'mengetahui',
@@ -648,7 +665,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ahda',
                 'meaning' => 'janji',
@@ -657,7 +674,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ahlam',
                 'meaning' => 'mimpi',
@@ -666,7 +683,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ahmmad',
                 'meaning' => 'pemimpin yang layak dipuja',
@@ -675,7 +692,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ahmed',
                 'meaning' => 'pemimpin yang berambisi, sukses, penuh visi',
@@ -684,7 +701,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ahsan',
                 'meaning' => 'berbuat baik',
@@ -693,7 +710,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Aidan',
                 'meaning' => 'pohon palem yang tinggi.',
@@ -702,7 +719,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Aidam',
                 'meaning' => 'pintar',
@@ -711,7 +728,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Aifaz',
                 'meaning' => 'pintar',
@@ -720,7 +737,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Aijaz',
                 'meaning' => 'keajaiban',
@@ -729,7 +746,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Akarsana',
                 'meaning' => 'menarik,menawan dan tampan',
@@ -738,7 +755,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Akeel',
                 'meaning' => 'pintar',
@@ -747,7 +764,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Akeil',
                 'meaning' => 'pintar',
@@ -756,7 +773,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Akil',
                 'meaning' => 'pintar',
@@ -765,7 +782,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Akira',
                 'meaning' => 'pintar',
@@ -774,7 +791,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Akbar',
                 'meaning' => 'mengagungkan, memuliakan',
@@ -783,7 +800,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Akhdan',
                 'meaning' => 'sahabat',
@@ -792,7 +809,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Akhtar',
                 'meaning' => 'bintang',
@@ -801,7 +818,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Akins',
                 'meaning' => 'berani',
@@ -810,7 +827,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Akmal',
                 'meaning' => 'sempurna',
@@ -819,7 +836,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Al',
                 'meaning' => 'singa yang pemberani',
@@ -828,7 +845,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Alagar',
                 'meaning' => 'tampan dan indah',
@@ -837,7 +854,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Alan',
                 'meaning' => 'tampan dan bahagia',
@@ -846,7 +863,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Alarich',
                 'meaning' => 'pemimpin yang berkuasa',
@@ -855,7 +872,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Alarico',
                 'meaning' => 'pemimpin yang kuat',
@@ -864,7 +881,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Albercio',
                 'meaning' => 'pemimpin yang bijaksana dan pintar',
@@ -873,7 +890,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Alberga',
                 'meaning' => 'pintar, pemimpin yang bijaksana',
@@ -882,7 +899,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Alberic',
                 'meaning' => 'pintar, pemimpin yang bijaksana',
@@ -891,7 +908,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Albert',
                 'meaning' => 'cerdas dan orang mulia',
@@ -900,7 +917,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Alden',
                 'meaning' => 'dalam bahasa Inggris',
@@ -910,7 +927,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Aldiano',
                 'meaning' => 'teman yang bijaksana',
@@ -919,7 +936,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Aldred',
                 'meaning' => 'penasihat yang bijaksana',
@@ -928,7 +945,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Aldric',
                 'meaning' => 'penguasa bijaksana',
@@ -937,7 +954,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Aldridge',
                 'meaning' => 'pemimpin tua dan bijaksana',
@@ -946,7 +963,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Aldrin',
                 'meaning' => 'penguasa bijaksana',
@@ -955,7 +972,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Alfan',
                 'meaning' => 'dua ribu',
@@ -964,7 +981,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Alfareezel',
                 'meaning' => 'kebaikan yang sempurana.',
@@ -973,7 +990,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Alfarizqi',
                 'meaning' => 'membawa rezeki',
@@ -982,7 +999,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Alfred',
                 'meaning' => 'dalam bahasa Polandia',
@@ -992,7 +1009,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Alfredo',
                 'meaning' => 'dalam bahasa Portugis',
@@ -1002,7 +1019,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Alger',
                 'meaning' => 'pejuang yang pintar',
@@ -1011,7 +1028,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Alhan',
                 'meaning' => 'bersinar, lembut',
@@ -1020,7 +1037,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Alib',
                 'meaning' => 'lemah lembut',
@@ -1029,7 +1046,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Alif',
                 'meaning' => 'yang pertama',
@@ -1038,7 +1055,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Aliif',
                 'meaning' => 'yang baik',
@@ -1047,7 +1064,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Aliyan',
                 'meaning' => 'keagungan',
@@ -1056,7 +1073,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Alkhalifi',
                 'meaning' => 'laki-laki yang baik dan sukses',
@@ -1065,7 +1082,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Allen',
                 'meaning' => 'tampan dan riang',
@@ -1074,7 +1091,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Alkhalifi',
                 'meaning' => 'laki-laki yang baik dan sukses',
@@ -1083,7 +1100,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Almaas',
                 'meaning' => 'intan',
@@ -1092,7 +1109,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Alpha',
                 'meaning' => 'pemimpin',
@@ -1101,7 +1118,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Alpheus',
                 'meaning' => 'pencetak kesuksesan',
@@ -1110,7 +1127,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Alsaba',
                 'meaning' => 'harta',
@@ -1119,7 +1136,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Alsaki',
                 'meaning' => 'Tampan, murah hati',
@@ -1128,7 +1145,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Alton',
                 'meaning' => 'berhasil dengan baik, cerdas, beruntung',
@@ -1137,7 +1154,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Alvan',
                 'meaning' => 'gunung',
@@ -1146,7 +1163,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Alvarendra',
                 'meaning' => 'berhati mulia, cerdas, dan beruntung',
@@ -1155,7 +1172,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Alveredus',
                 'meaning' => 'berpotensi untuk mencapai kesuksesan',
@@ -1164,7 +1181,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Alvi',
                 'meaning' => 'teman yang bijaksana',
@@ -1173,7 +1190,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Alvin',
                 'meaning' => 'teman yang setia',
@@ -1182,7 +1199,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Alviansyah',
                 'meaning' => 'teman setia yang benar',
@@ -1191,7 +1208,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Alvin',
                 'meaning' => 'teman yang setia',
@@ -1200,7 +1217,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Alvyn',
                 'meaning' => 'teman yang setia',
@@ -1209,7 +1226,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Alwynn',
                 'meaning' => 'teman mulia, mencapai kesuksesan',
@@ -1218,7 +1235,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Alyan',
                 'meaning' => 'besar, tinggi',
@@ -1227,7 +1244,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Alzam',
                 'meaning' => 'tekun',
@@ -1236,7 +1253,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Amadeus',
                 'meaning' => 'individualis, ambisius, sukses',
@@ -1245,7 +1262,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Amando',
                 'meaning' => 'mengekspresikan pikiran dengan baik',
@@ -1254,7 +1271,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Amanullah',
                 'meaning' => 'keamanan dari Allah.',
@@ -1263,7 +1280,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ameer',
                 'meaning' => 'pemimpin',
@@ -1272,7 +1289,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Amir',
                 'meaning' => 'putra mahkota',
@@ -1281,7 +1298,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Amjad',
                 'meaning' => 'mulia, saleh',
@@ -1290,7 +1307,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Amura',
                 'meaning' => 'pintar',
@@ -1299,7 +1316,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ammar',
                 'meaning' => 'kuat iman',
@@ -1308,7 +1325,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Amos',
                 'meaning' => 'dalam Ibrani',
@@ -1318,7 +1335,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ananias',
                 'meaning' => 'rahmat dan pemberian Tuhan',
@@ -1327,7 +1344,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Anas',
                 'meaning' => 'ramah',
@@ -1336,7 +1353,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Andre',
                 'meaning' => 'senang di rumah, lembut, baik, dan rajin',
@@ -1345,7 +1362,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Andreas',
                 'meaning' => 'gagah dan jantan',
@@ -1354,7 +1371,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Andrew',
                 'meaning' => 'kuat dan pemberani',
@@ -1363,7 +1380,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Aniq',
                 'meaning' => 'indah',
@@ -1372,7 +1389,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Anzel',
                 'meaning' => 'bahagia, yang diberkati, kebahagiaan',
@@ -1381,7 +1398,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Arnoldo',
                 'meaning' => 'kuat seperti elang',
@@ -1390,7 +1407,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Anggoro',
                 'meaning' => 'cerdas, ambisius, beruntung, dan berhasil dengan baik',
@@ -1399,7 +1416,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Anton',
                 'meaning' => 'cerdas serta jujur',
@@ -1408,7 +1425,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Antonios',
                 'meaning' => 'orang yang sukses',
@@ -1417,7 +1434,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Anthony',
                 'meaning' => 'dapat diandalkan, sukses',
@@ -1426,7 +1443,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Anwar',
                 'meaning' => 'jelas',
@@ -1435,7 +1452,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Anwarul',
                 'meaning' => 'bersinar, bercahaya',
@@ -1444,7 +1461,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Apurva',
                 'meaning' => 'bijaksana dan unik',
@@ -1453,7 +1470,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Aqeel',
                 'meaning' => 'tampan dan berwawasan luas',
@@ -1462,7 +1479,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Aqib',
                 'meaning' => 'balasan yang baik',
@@ -1471,7 +1488,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Aqila',
                 'meaning' => 'bijaksana',
@@ -1480,7 +1497,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Aqlan',
                 'meaning' => 'kebijaksanaan',
@@ -1489,7 +1506,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Aqmaar',
                 'meaning' => 'berwajah bulat seperti bulan',
@@ -1498,7 +1515,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Aram',
                 'meaning' => 'laki-laki yang bijaksana dan tenang',
@@ -1507,7 +1524,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Archei',
                 'meaning' => 'berani',
@@ -1516,7 +1533,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Archibald',
                 'meaning' => 'pemimpin yang berambisi, penuh visi, sukses',
@@ -1525,7 +1542,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ardhani',
                 'meaning' => 'suci',
@@ -1534,7 +1551,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Arefin',
                 'meaning' => 'pemimpin',
@@ -1543,7 +1560,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Areeb',
                 'meaning' => 'bijaksana dan cerdas',
@@ -1552,7 +1569,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Arhab',
                 'meaning' => 'lapang hati',
@@ -1561,7 +1578,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Arham',
                 'meaning' => 'penyayang',
@@ -1570,7 +1587,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Arib',
                 'meaning' => 'mahir',
@@ -1579,7 +1596,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Aridh',
                 'meaning' => 'tanah yang berumput',
@@ -1588,7 +1605,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Arif',
                 'meaning' => 'laki-laki yang bijaksana dan berpengetahuan luas',
@@ -1597,7 +1614,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ariq',
                 'meaning' => 'berbudi baik, mulia',
@@ -1606,7 +1623,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Arir',
                 'meaning' => 'bunyi',
@@ -1615,7 +1632,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Aris',
                 'meaning' => 'pangeran',
@@ -1624,7 +1641,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Asher',
                 'meaning' => 'diberkati',
@@ -1633,7 +1650,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Arish',
                 'meaning' => 'prajurit pemberani',
@@ -1642,7 +1659,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ariz',
                 'meaning' => 'kuat, kokoh',
@@ -1651,7 +1668,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Arizki',
                 'meaning' => 'laki-laki yang murah rezeki',
@@ -1660,7 +1677,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Arkeem',
                 'meaning' => 'bijaksana dan membangkitkan semangat',
@@ -1669,7 +1686,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Arman',
                 'meaning' => 'harapan, doa',
@@ -1678,7 +1695,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Armani',
                 'meaning' => 'pemimpin yang berambisi',
@@ -1687,7 +1704,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Arnold',
                 'meaning' => 'pemimpin elang',
@@ -1696,7 +1713,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Arrafif',
                 'meaning' => 'berakhlak mulia',
@@ -1705,7 +1722,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Arrazi',
                 'meaning' => 'senang',
@@ -1714,7 +1731,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Arsakha',
                 'meaning' => 'bangsawan yang dermawan',
@@ -1723,7 +1740,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Arshaan',
                 'meaning' => 'berani dan bijaksana',
@@ -1732,7 +1749,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Arsel',
                 'meaning' => 'pembawa kabar baik',
@@ -1741,7 +1758,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Arsyad',
                 'meaning' => 'anak yang cerdik',
@@ -1750,7 +1767,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Arthur',
                 'meaning' => 'setia dan kuat',
@@ -1759,7 +1776,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Arudra',
                 'meaning' => 'lembut, tidak kejam',
@@ -1768,7 +1785,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Arvin',
                 'meaning' => 'teman yang baik untuk semua orang',
@@ -1777,7 +1794,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Arvasatya',
                 'meaning' => 'bangsawan yang jujur dan setia',
@@ -1786,7 +1803,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Arya',
                 'meaning' => 'keturunan bangsawan',
@@ -1795,7 +1812,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Aryan',
                 'meaning' => 'dihormati',
@@ -1804,7 +1821,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Arzetha',
                 'meaning' => 'daratan',
@@ -1813,7 +1830,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Asad',
                 'meaning' => 'bahagia',
@@ -1822,7 +1839,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Asadel',
                 'meaning' => 'kaya raya',
@@ -1831,7 +1848,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Asdaaf',
                 'meaning' => 'terang, bersinar',
@@ -1840,7 +1857,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ashad',
                 'meaning' => 'yang paling bijaksana',
@@ -1849,7 +1866,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ashar',
                 'meaning' => 'bijaksana dan cerdas',
@@ -1858,7 +1875,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Asher',
                 'meaning' => 'diberkati',
@@ -1867,7 +1884,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ashfaq',
                 'meaning' => 'tampan, pembawa kebahagiaan',
@@ -1876,7 +1893,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ashil',
                 'meaning' => 'keturunan bangsawan',
@@ -1885,7 +1902,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Askary',
                 'meaning' => 'tentara',
@@ -1894,7 +1911,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Asra',
                 'meaning' => 'yang cepat',
@@ -1903,7 +1920,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Asraf',
                 'meaning' => 'sangat mulia',
@@ -1912,7 +1929,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Assajid',
                 'meaning' => 'bersujud kepada Allah',
@@ -1921,7 +1938,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Asyraf',
                 'meaning' => 'lebih mulia',
@@ -1930,7 +1947,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Atalaric',
                 'meaning' => 'harum',
@@ -1939,7 +1956,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Atha',
                 'meaning' => 'pemberian',
@@ -1948,7 +1965,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Athaillah',
                 'meaning' => 'karunia Allah',
@@ -1957,7 +1974,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Athar',
                 'meaning' => 'suci',
@@ -1966,7 +1983,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Athariz',
                 'meaning' => 'pembawa rezeki',
@@ -1975,7 +1992,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Atharrayhan',
                 'meaning' => 'harum',
@@ -1984,7 +2001,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Athaya',
                 'meaning' => 'hadiah, karunia, petunjuk',
@@ -1993,7 +2010,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Atlas',
                 'meaning' => 'Dewa Yunani yang mampu membawa langit di pundaknya',
@@ -2002,7 +2019,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Atsar',
                 'meaning' => 'sunah',
@@ -2011,7 +2028,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Atsir',
                 'meaning' => 'yang dihormati, dimuliakan',
@@ -2020,7 +2037,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Attar',
                 'meaning' => 'suci',
@@ -2029,7 +2046,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Audric',
                 'meaning' => 'penguasa yang bijaksana dan mulia',
@@ -2038,7 +2055,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Aulian',
                 'meaning' => 'pemimpin',
@@ -2047,7 +2064,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Avilas',
                 'meaning' => 'setia dan jujur',
@@ -2056,7 +2073,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Axel',
                 'meaning' => 'penghargaan yang diberikan Tuhan, berharga, berkat',
@@ -2065,7 +2082,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ayaan',
                 'meaning' => 'hadiah dari Tuhan',
@@ -2074,7 +2091,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Aydan',
                 'meaning' => 'bersemangat',
@@ -2083,7 +2100,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Aydin',
                 'meaning' => 'cerdas',
@@ -2092,7 +2109,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ayyash',
                 'meaning' => 'orang yang memiliki kehidupan yang baik',
@@ -2101,7 +2118,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Azain',
                 'meaning' => 'berkilau dan berkaca-kaca',
@@ -2110,7 +2127,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Azaria',
                 'meaning' => 'yang diberkati',
@@ -2119,7 +2136,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Azam',
                 'meaning' => 'agung',
@@ -2128,7 +2145,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Azar',
                 'meaning' => 'menolong, menguatkan',
@@ -2137,7 +2154,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Azhar',
                 'meaning' => 'bercahaya',
@@ -2146,7 +2163,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Aziel',
                 'meaning' => 'mengandalkan Tuhan',
@@ -2155,7 +2172,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Aziz',
                 'meaning' => 'mulia',
@@ -2164,7 +2181,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Azka',
                 'meaning' => 'semakin maju',
@@ -2173,7 +2190,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Azkayra',
                 'meaning' => 'seseorang yang dihormati dan bersih',
@@ -2182,7 +2199,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Azkia',
                 'meaning' => 'taat, saleh dan ilmu pengetahuan yang luas',
@@ -2191,7 +2208,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Badar',
                 'meaning' => 'bulan purnama',
@@ -2200,7 +2217,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Badiuzzaman',
                 'meaning' => 'keindahan masa',
@@ -2209,7 +2226,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Badruzzaman',
                 'meaning' => 'bulan yang menerangi peradaban',
@@ -2218,7 +2235,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Badshah',
                 'meaning' => 'pemimpin',
@@ -2227,7 +2244,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Bagus',
                 'meaning' => 'tampan dan baik',
@@ -2236,7 +2253,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Bahar',
                 'meaning' => 'bersinar terang',
@@ -2245,7 +2262,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Bahaudin',
                 'meaning' => 'sinar agama',
@@ -2254,7 +2271,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Bahi',
                 'meaning' => 'indah',
@@ -2263,7 +2280,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Bahir',
                 'meaning' => 'tampan, rupawan',
@@ -2272,7 +2289,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Bahjat',
                 'meaning' => 'melambangkan kebahagiaan',
@@ -2281,7 +2298,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Bahjan',
                 'meaning' => 'cemerlang',
@@ -2290,7 +2307,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Bahr',
                 'meaning' => 'lautan',
@@ -2299,7 +2316,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Bahran',
                 'meaning' => 'cahaya',
@@ -2308,7 +2325,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Bahtiar',
                 'meaning' => 'kaya, sejahtera',
@@ -2317,7 +2334,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Bahy',
                 'meaning' => 'tampan',
@@ -2326,7 +2343,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Baihaqi',
                 'meaning' => 'rajin, bijaksana, rendah hati',
@@ -2335,7 +2352,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Baiis',
                 'meaning' => 'yang kuat',
@@ -2344,7 +2361,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Baim',
                 'meaning' => 'penguasa yang baik',
@@ -2353,7 +2370,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Bais',
                 'meaning' => 'tentara',
@@ -2362,7 +2379,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Bakhtiar',
                 'meaning' => 'yang bahagia',
@@ -2371,7 +2388,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Baldwin',
                 'meaning' => 'teman yang berani',
@@ -2380,7 +2397,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Baleegh',
                 'meaning' => 'pria yang berkata bijak dan masuk akal',
@@ -2389,7 +2406,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Balian',
                 'meaning' => 'pemimpin',
@@ -2398,7 +2415,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Baniin',
                 'meaning' => 'arif, bijaksana',
@@ -2407,7 +2424,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Banim',
                 'meaning' => 'bijak',
@@ -2416,7 +2433,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Bany',
                 'meaning' => 'baik hati atau menggemaskan',
@@ -2425,7 +2442,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Barack',
                 'meaning' => 'berkah',
@@ -2434,7 +2451,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Barnard',
                 'meaning' => 'kuat seperti beruang',
@@ -2443,7 +2460,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Bayne',
                 'meaning' => 'perpaduan yang lembut',
@@ -2452,7 +2469,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Barkat',
                 'meaning' => 'berkat',
@@ -2461,7 +2478,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Bastian',
                 'meaning' => 'seorang yang patut dimuliakan',
@@ -2470,7 +2487,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Baqir',
                 'meaning' => 'berilmu',
@@ -2479,7 +2496,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Bardy',
                 'meaning' => 'tumbuhan',
@@ -2488,7 +2505,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Bari',
                 'meaning' => 'pandai',
@@ -2497,7 +2514,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Bariq',
                 'meaning' => 'bercahaya',
@@ -2506,7 +2523,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Barnett',
                 'meaning' => 'pemimpin',
@@ -2515,7 +2532,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Barra',
                 'meaning' => 'keteguhan',
@@ -2524,7 +2541,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Baram',
                 'meaning' => 'anak bangsa',
@@ -2533,7 +2550,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Barraq',
                 'meaning' => 'bersinar',
@@ -2542,7 +2559,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Baryal',
                 'meaning' => 'kesuksesan',
@@ -2551,7 +2568,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Barzun',
                 'meaning' => 'berani dan utama',
@@ -2560,7 +2577,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Bashir',
                 'meaning' => 'pembawa kabar berita',
@@ -2569,7 +2586,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Bashsha',
                 'meaning' => 'pembawa kabar baik',
@@ -2578,7 +2595,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Basilika',
                 'meaning' => 'berani',
@@ -2587,7 +2604,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Basilio',
                 'meaning' => 'setia',
@@ -2596,7 +2613,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Basir',
                 'meaning' => 'pemikir yang bijaksana',
@@ -2605,7 +2622,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Basman',
                 'meaning' => 'tersenyum',
@@ -2614,7 +2631,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Bassam',
                 'meaning' => 'selalu tersenyum',
@@ -2623,7 +2640,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Basyir',
                 'meaning' => 'pembawa berita baik',
@@ -2632,7 +2649,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Bayyin',
                 'meaning' => 'yang jelas',
@@ -2641,7 +2658,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Bazil',
                 'meaning' => 'pandai',
@@ -2650,7 +2667,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Bazil',
                 'meaning' => 'bijaksana atau kebijaksanaan',
@@ -2659,7 +2676,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Bazan',
                 'meaning' => 'nama sahabat Nabi',
@@ -2668,7 +2685,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Beauregard',
                 'meaning' => 'tatapan indah',
@@ -2677,7 +2694,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Beau',
                 'meaning' => 'tampan',
@@ -2686,7 +2703,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Behzad',
                 'meaning' => 'jujur.',
@@ -2695,7 +2712,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Bellamy',
                 'meaning' => 'teman yang tampan',
@@ -2704,7 +2721,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Bello',
                 'meaning' => 'tampan',
@@ -2713,7 +2730,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Beornet',
                 'meaning' => 'pemimpin',
@@ -2722,7 +2739,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ben',
                 'meaning' => 'setia dan pengertian',
@@ -2731,7 +2748,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Benedictus',
                 'meaning' => 'mendapat berkat',
@@ -2740,7 +2757,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Benedikte',
                 'meaning' => 'terberkati',
@@ -2749,7 +2766,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Bendino',
                 'meaning' => 'diberkati',
@@ -2758,7 +2775,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Benedito',
                 'meaning' => 'diberkati',
@@ -2767,7 +2784,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Beneficio',
                 'meaning' => 'anak laki-laki riang yang diberkati',
@@ -2776,7 +2793,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Benett',
                 'meaning' => 'anak yang diberkati',
@@ -2785,7 +2802,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Benedetto',
                 'meaning' => 'diberkati',
@@ -2794,7 +2811,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Benedict',
                 'meaning' => 'yang diberkati',
@@ -2803,7 +2820,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Benvolio',
                 'meaning' => 'harapan yang baik',
@@ -2812,7 +2829,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Beran',
                 'meaning' => 'pemimpin',
@@ -2821,7 +2838,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Bernard',
                 'meaning' => 'kuat seperti beruang',
@@ -2830,7 +2847,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Berthold',
                 'meaning' => 'pemimpin yang cemerlang',
@@ -2839,7 +2856,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Bertie',
                 'meaning' => 'bijaksana dan berbudi baik',
@@ -2848,7 +2865,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Bertrand',
                 'meaning' => 'pelindung dan cerdas ',
@@ -2857,7 +2874,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Betrus',
                 'meaning' => 'cerdas dan berkilau ',
@@ -2866,7 +2883,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Bhadrika',
                 'meaning' => 'gagah berani',
@@ -2875,7 +2892,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Bhattara',
                 'meaning' => 'sukses, menang',
@@ -2884,7 +2901,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Bhevin',
                 'meaning' => 'pemenang, dia yang sukses',
@@ -2893,7 +2910,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Bilal',
                 'meaning' => 'terpilih, nama sahabat Rasulullah SAW',
@@ -2902,7 +2919,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Bilfaqih',
                 'meaning' => 'memahami ilmu fikih',
@@ -2911,7 +2928,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Binesh',
                 'meaning' => 'anak yang saleh',
@@ -2920,7 +2937,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Bisyari',
                 'meaning' => 'kegembiraan',
@@ -2929,7 +2946,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Bisyir',
                 'meaning' => 'berita gembira',
@@ -2938,7 +2955,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Blake',
                 'meaning' => 'teman bisnis yang baik, keinginan untuk sukses',
@@ -2947,7 +2964,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Bobbi',
                 'meaning' => 'setia dan pengertian',
@@ -2956,7 +2973,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Bobby',
                 'meaning' => 'terkemuka dan gagah berani',
@@ -2965,7 +2982,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Bonifacius',
                 'meaning' => 'melakukan hal-hal baik',
@@ -2974,7 +2991,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Bostan',
                 'meaning' => 'taman',
@@ -2983,7 +3000,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Brandon',
                 'meaning' => 'berani dan pintar',
@@ -2992,7 +3009,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Brayden',
                 'meaning' => 'laki-laki yang bijaksana dan berani',
@@ -3001,7 +3018,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Breckan',
                 'meaning' => 'berani dan cerdas',
@@ -3010,7 +3027,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Brennan',
                 'meaning' => 'berani',
@@ -3019,7 +3036,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Breni',
                 'meaning' => 'orang yang menang',
@@ -3028,7 +3045,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Brenn',
                 'meaning' => 'pangeran, pencetak kesuksesan sebuah kerajaan',
@@ -3037,7 +3054,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Brian',
                 'meaning' => 'kuat, bijak, terhormat',
@@ -3046,7 +3063,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Bricio',
                 'meaning' => 'melambangkan kekuatan',
@@ -3055,7 +3072,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Brook',
                 'meaning' => 'suportif, lembut, keinginan untuk sukses',
@@ -3064,7 +3081,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Brox',
                 'meaning' => 'tampan dan pintar',
@@ -3073,7 +3090,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Bruce',
                 'meaning' => 'berani',
@@ -3082,7 +3099,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Bryan',
                 'meaning' => 'berani dan kuat',
@@ -3091,7 +3108,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Busyraa',
                 'meaning' => 'berita gembira',
@@ -3100,7 +3117,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Busyro',
                 'meaning' => 'pembawa kabar gembira',
@@ -3109,7 +3126,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Bustani',
                 'meaning' => 'taman',
@@ -3118,7 +3135,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Caden',
                 'meaning' => 'teman',
@@ -3127,7 +3144,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Cadi',
                 'meaning' => 'keberuntungan',
@@ -3136,7 +3153,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Caesar',
                 'meaning' => 'seorang raja',
@@ -3145,7 +3162,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Cahil yang',
                 'meaning' => 'seorang pria muda dan naif',
@@ -3154,7 +3171,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Cala',
                 'meaning' => 'istana.',
@@ -3163,7 +3180,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Caleb',
                 'meaning' => 'dermawan.',
@@ -3172,7 +3189,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Calix',
                 'meaning' => 'tampan',
@@ -3181,7 +3198,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Callen',
                 'meaning' => 'berani',
@@ -3190,7 +3207,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Candon yang',
                 'meaning' => 'seorang pria yang tulus dan jujur',
@@ -3199,7 +3216,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Candanin yang',
                 'meaning' => 'dia yang tulus dan setia',
@@ -3208,7 +3225,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Cano yang',
                 'meaning' => 'kehidupan',
@@ -3217,7 +3234,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Camran',
                 'meaning' => 'sukses',
@@ -3226,7 +3243,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Carim',
                 'meaning' => 'dermawan',
@@ -3235,7 +3252,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Carmen',
                 'meaning' => 'cinta',
@@ -3244,7 +3261,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Casey',
                 'meaning' => 'bermakna laki-laki berani',
@@ -3253,7 +3270,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Casildo',
                 'meaning' => 'pejuang.',
@@ -3262,7 +3279,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Castro',
                 'meaning' => 'pemberani, pemimpin',
@@ -3271,7 +3288,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Casper',
                 'meaning' => 'raja harta karun',
@@ -3280,7 +3297,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Cato',
                 'meaning' => 'cerdas, pintar, dan teliti',
@@ -3289,7 +3306,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Cazim',
                 'meaning' => 'penyabar',
@@ -3298,7 +3315,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Cavanaugh',
                 'meaning' => 'terlahir tampan ',
@@ -3307,7 +3324,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Cavan',
                 'meaning' => 'seorang yang tampan',
@@ -3316,7 +3333,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Cavin',
                 'meaning' => 'anak lelaki yang sangat tampan',
@@ -3325,7 +3342,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Caleb',
                 'meaning' => 'gagah berani',
@@ -3334,7 +3351,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Calvin',
                 'meaning' => 'orang yang bijaksana.',
@@ -3343,7 +3360,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Carl',
                 'meaning' => 'kuat seperti laki-laki',
@@ -3352,7 +3369,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Carlos',
                 'meaning' => 'bermakna laki-laki kuat',
@@ -3361,7 +3378,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Carolus',
                 'meaning' => 'bermakna pemenang yang kuat',
@@ -3370,7 +3387,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Carlo',
                 'meaning' => 'sangat kuat',
@@ -3379,7 +3396,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Carloy',
                 'meaning' => 'sangat kuat',
@@ -3388,7 +3405,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Careem',
                 'meaning' => 'mulia',
@@ -3397,7 +3414,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Carver',
                 'meaning' => 'cinta yang diberkati',
@@ -3406,7 +3423,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Cato',
                 'meaning' => 'dalam bahasa Latin',
@@ -3416,7 +3433,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Cedric',
                 'meaning' => 'karunia dari Tuhan',
@@ -3425,7 +3442,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Cedro',
                 'meaning' => 'bakat yang kuat',
@@ -3434,7 +3451,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ceol',
                 'meaning' => 'pemimpin kapal',
@@ -3443,7 +3460,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Cesare',
                 'meaning' => 'pria pemimpin',
@@ -3452,7 +3469,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Chacha yang',
                 'meaning' => 'elang',
@@ -3461,7 +3478,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Chahal',
                 'meaning' => 'pemilik suasana hati yang bahagia',
@@ -3470,7 +3487,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Chakir',
                 'meaning' => 'seseorang yang terpilih',
@@ -3479,7 +3496,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Chafik',
                 'meaning' => 'orang yang bersimpati',
@@ -3488,7 +3505,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Chahid',
                 'meaning' => 'saksi.',
@@ -3497,7 +3514,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Chairi',
                 'meaning' => 'kebaikan.',
@@ -3506,7 +3523,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Chairil',
                 'meaning' => 'kebaikan.',
@@ -3515,7 +3532,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Chalondra',
                 'meaning' => 'dia yang pintar ',
@@ -3524,7 +3541,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Chamroeun',
                 'meaning' => 'makmur, sukses',
@@ -3533,7 +3550,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Chanan yang',
                 'meaning' => 'Allah Mahapenyayang',
@@ -3542,7 +3559,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Chandler',
                 'meaning' => 'intuitif, sukses',
@@ -3551,7 +3568,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Chandrakeshwari',
                 'meaning' => 'cahaya kepemimpinan',
@@ -3560,7 +3577,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Channing',
                 'meaning' => 'sukses, tidak bergantung pada orang lain',
@@ -3569,7 +3586,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Chambeli yang',
                 'meaning' => 'bunga yang harum',
@@ -3578,7 +3595,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Charlie',
                 'meaning' => 'tampan, jantan, kuat, seseorang yang bebas',
@@ -3587,7 +3604,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Charles',
                 'meaning' => 'ceria, humor, sukses, pekerja keras',
@@ -3596,7 +3613,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Charley',
                 'meaning' => 'kreatif, pekerja keras, penolong, sukses',
@@ -3605,7 +3622,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Chashana yang',
                 'meaning' => 'laki-laki terpelajar',
@@ -3614,7 +3631,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Chash yang',
                 'meaning' => 'manis',
@@ -3623,7 +3640,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Chashida yang',
                 'meaning' => 'telah teruji, berpengalaman',
@@ -3632,7 +3649,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Chan',
                 'meaning' => 'bersinar.',
@@ -3641,7 +3658,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Chahal',
                 'meaning' => 'suasana hati yang bahagia',
@@ -3650,7 +3667,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Charagh yang',
                 'meaning' => 'cahaya, terang',
@@ -3659,7 +3676,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Chakshnusha yang',
                 'meaning' => 'untuk membuat bahagia ',
@@ -3668,7 +3685,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Chavash',
                 'meaning' => 'pemimpin.',
@@ -3677,7 +3694,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Cheluva',
                 'meaning' => 'tampan, menarik dan menawan',
@@ -3686,7 +3703,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Chet',
                 'meaning' => 'sukses, penuh semangat, beradaptasi',
@@ -3695,7 +3712,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Chief',
                 'meaning' => 'ketua, kepala',
@@ -3704,7 +3721,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Cid',
                 'meaning' => 'bangsawan',
@@ -3713,7 +3730,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Chisti yang',
                 'meaning' => 'kebijaksanaan agama. ',
@@ -3722,7 +3739,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Chitran',
                 'meaning' => 'sukses, berwarna cerah',
@@ -3731,7 +3748,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Chiraghdin yang',
                 'meaning' => 'pelita agama',
@@ -3740,7 +3757,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Christian',
                 'meaning' => 'sukses, pekerja keras, diberkati',
@@ -3749,7 +3766,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Chumaidi',
                 'meaning' => 'pujaan',
@@ -3758,7 +3775,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Chohan yang',
                 'meaning' => 'benteng kerajaan Rajputs',
@@ -3767,7 +3784,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Chonary',
                 'meaning' => 'orang yang bijaksana',
@@ -3776,7 +3793,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Choudhary',
                 'meaning' => 'pemimpin kelompok, pria yang dapat diandalkan',
@@ -3785,7 +3802,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Chouj yang',
                 'meaning' => 'unik, indah, elegan',
@@ -3794,7 +3811,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Clemence',
                 'meaning' => 'lembut, bersinar',
@@ -3803,7 +3820,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Cleo',
                 'meaning' => 'terkemuka',
@@ -3812,7 +3829,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Cleon',
                 'meaning' => 'terkenal',
@@ -3821,7 +3838,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Collan',
                 'meaning' => 'anak lelaki muda yang menarik dan tampan',
@@ -3830,7 +3847,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Coman',
                 'meaning' => 'bangsawan',
@@ -3839,7 +3856,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Calvin',
                 'meaning' => 'orang yang bijaksana.',
@@ -3848,7 +3865,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Cato',
                 'meaning' => 'dalam bahasa Latin',
@@ -3858,7 +3875,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Coen',
                 'meaning' => 'penasihat yang baik dan berani',
@@ -3867,7 +3884,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Conor',
                 'meaning' => 'berani',
@@ -3876,7 +3893,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Constantin',
                 'meaning' => 'tabah dan setia',
@@ -3885,7 +3902,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Constantine',
                 'meaning' => 'tabah dan setia',
@@ -3894,7 +3911,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Constantinos',
                 'meaning' => 'teguh, tabah dan setia',
@@ -3903,7 +3920,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Corrado',
                 'meaning' => 'konselor yang bijaksana',
@@ -3912,7 +3929,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Cullen',
                 'meaning' => 'tampan',
@@ -3921,7 +3938,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Crya',
                 'meaning' => 'bulan',
@@ -3930,7 +3947,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Cyrus',
                 'meaning' => 'seseorang yang cerdas dan berkuasa',
@@ -3939,7 +3956,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Cyn',
                 'meaning' => 'seseorang yang sangat cerdas',
@@ -3948,7 +3965,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Dabir',
                 'meaning' => 'guru.',
@@ -3957,7 +3974,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Dafa',
                 'meaning' => 'pembela.',
@@ -3966,7 +3983,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Dafi',
                 'meaning' => 'memotivasi, mendorong.',
@@ -3975,7 +3992,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Dahdy',
                 'meaning' => 'tercinta.',
@@ -3984,7 +4001,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Dahi',
                 'meaning' => 'orang yang cerdas.',
@@ -3993,7 +4010,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Dahtsam',
                 'meaning' => 'sopan, dermawan.',
@@ -4002,7 +4019,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Daidab',
                 'meaning' => 'pengawas.',
@@ -4011,7 +4028,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Daidabaan',
                 'meaning' => 'pengawal.',
@@ -4020,7 +4037,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Daies',
                 'meaning' => 'keteguhan hati',
@@ -4029,7 +4046,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Daiam',
                 'meaning' => 'kedamaian',
@@ -4038,7 +4055,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Dailam',
                 'meaning' => 'tentara.',
@@ -4047,7 +4064,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Daim',
                 'meaning' => 'kekal.',
@@ -4056,7 +4073,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Daisaq',
                 'meaning' => 'perhiasan, keindahan.',
@@ -4065,7 +4082,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Daitya',
                 'meaning' => 'keadilan.',
@@ -4074,7 +4091,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Dakhdaar',
                 'meaning' => 'emas.',
@@ -4083,7 +4100,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Dakota',
                 'meaning' => 'sistematik, teratur, berani sukses',
@@ -4092,7 +4109,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Dalahmas',
                 'meaning' => 'kuat, sabar, tabah.',
@@ -4101,7 +4118,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Dale',
                 'meaning' => 'rendah hati dan setia',
@@ -4110,7 +4127,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Dalham',
                 'meaning' => 'penyayang.',
@@ -4119,7 +4136,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Daliil',
                 'meaning' => 'petunjuk.',
@@ -4128,7 +4145,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Daliso',
                 'meaning' => 'berkah',
@@ -4137,7 +4154,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Dalmar',
                 'meaning' => 'orang yang serba bisa.',
@@ -4146,7 +4163,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Damitsa',
                 'meaning' => 'sopan, baik akhlaknya.',
@@ -4155,7 +4172,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Damsaz',
                 'meaning' => 'seorang sahabat atau pendamping',
@@ -4164,7 +4181,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Damon',
                 'meaning' => 'setia',
@@ -4173,7 +4190,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Daneer',
                 'meaning' => 'laki-laki yang penuh makna.',
@@ -4182,7 +4199,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Dani',
                 'meaning' => 'hakim yang adil',
@@ -4191,7 +4208,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Daniyal',
                 'meaning' => 'bijak, intelektual.',
@@ -4200,7 +4217,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Daniel',
                 'meaning' => 'hakim yang bijaksana',
@@ -4209,7 +4226,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Danish',
                 'meaning' => 'yang dicintai oleh Allah, dan bijaksana',
@@ -4218,7 +4235,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Dany',
                 'meaning' => 'dekat.',
@@ -4227,7 +4244,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Darian',
                 'meaning' => 'pembawa rezeki',
@@ -4236,7 +4253,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Darib',
                 'meaning' => 'terlatih.',
@@ -4245,7 +4262,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Dariel',
                 'meaning' => 'rendah hati dan setia',
@@ -4254,7 +4271,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Darien',
                 'meaning' => 'yang dipercaya.',
@@ -4263,7 +4280,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Daroo',
                 'meaning' => 'mengetahui, memahami.',
@@ -4272,7 +4289,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Darrel',
                 'meaning' => 'rendah hati dan setia',
@@ -4281,7 +4298,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Daroll',
                 'meaning' => 'baik, kokoh, kuat',
@@ -4290,7 +4307,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Darshish',
                 'meaning' => 'kuat.',
@@ -4299,7 +4316,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Darvesh',
                 'meaning' => 'suci.',
@@ -4308,7 +4325,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Darwish',
                 'meaning' => 'kebaikan, keceriaan.',
@@ -4317,7 +4334,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Daryaa',
                 'meaning' => 'memahami, mengetahui',
@@ -4326,7 +4343,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Darshell',
                 'meaning' => 'kebaikan',
@@ -4335,7 +4352,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Dasiis',
                 'meaning' => 'penyelidik.',
@@ -4344,7 +4361,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Datsar',
                 'meaning' => 'harta yang melimpah.',
@@ -4353,7 +4370,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Daud',
                 'meaning' => 'disukai, disayangi.',
@@ -4362,7 +4379,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Dausar',
                 'meaning' => 'besar kuat.',
@@ -4371,7 +4388,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Davian',
                 'meaning' => 'pemimpin manusia',
@@ -4380,7 +4397,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Davin',
                 'meaning' => 'bayi laki-laki yang cerdas',
@@ -4389,7 +4406,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'David',
                 'meaning' => 'berani',
@@ -4398,7 +4415,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Davidson',
                 'meaning' => 'pemimpin umat manusia ',
@@ -4407,7 +4424,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Dawwaas',
                 'meaning' => 'pemberani',
@@ -4416,7 +4433,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Dayada',
                 'meaning' => 'anak laki-laki, pencetak kesuksesan, pewaris',
@@ -4425,7 +4442,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Daylon',
                 'meaning' => 'setia dan dipercaya',
@@ -4434,7 +4451,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Dayyaan',
                 'meaning' => 'yang memerintah.',
@@ -4443,7 +4460,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Deandre',
                 'meaning' => 'prajurit yang berani',
@@ -4452,7 +4469,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Deck',
                 'meaning' => 'cerdas dan lihai',
@@ -4461,7 +4478,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Dedy',
                 'meaning' => 'berhasil dengan baik',
@@ -4470,7 +4487,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Deede',
                 'meaning' => 'lembut, sutra',
@@ -4479,7 +4496,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Deen',
                 'meaning' => 'kesetiaan',
@@ -4488,7 +4505,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Delon',
                 'meaning' => 'setia dan dipercaya',
@@ -4497,7 +4514,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Delvin',
                 'meaning' => 'keteguhan, kebijaksanaan, pengaruh, dan kekuasaan',
@@ -4506,7 +4523,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Delwyn',
                 'meaning' => 'rajin dan cerdas',
@@ -4515,7 +4532,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Den',
                 'meaning' => 'kepercayaan.',
@@ -4524,7 +4541,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Demason',
                 'meaning' => 'penulis yang sukses dan pintar, optimis',
@@ -4533,7 +4550,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Dennis',
                 'meaning' => 'laki-laki tangguh dan kuat',
@@ -4542,7 +4559,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Denzel',
                 'meaning' => 'dari benteng tinggi',
@@ -4551,7 +4568,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Derek',
                 'meaning' => 'berani dan baik',
@@ -4560,7 +4577,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Derrick',
                 'meaning' => 'lembut, pekerja keras, keinginan untuk sukses',
@@ -4569,7 +4586,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Desmon',
                 'meaning' => 'orang yang tekun',
@@ -4578,7 +4595,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Devan',
                 'meaning' => 'puisi',
@@ -4587,7 +4604,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Dhafir',
                 'meaning' => 'pemenang.',
@@ -4596,7 +4613,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Dhahir',
                 'meaning' => 'lembah yang indah.',
@@ -4605,7 +4622,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Dhaifullah',
                 'meaning' => 'tamu Allah.',
@@ -4614,7 +4631,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Dharmendra',
                 'meaning' => 'keberkahan Tuhan',
@@ -4623,7 +4640,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Dhawiy',
                 'meaning' => 'bercahaya',
@@ -4632,7 +4649,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Dhia',
                 'meaning' => 'sinar cahaya.',
@@ -4641,7 +4658,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Dhiaulhaq',
                 'meaning' => 'cahaya kebenaran.',
@@ -4650,7 +4667,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Diar',
                 'meaning' => 'kayu yang kokoh.',
@@ -4659,7 +4676,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Dien',
                 'meaning' => 'yang beragama.',
@@ -4668,7 +4685,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Difaa’',
                 'meaning' => 'pertahanan.',
@@ -4677,7 +4694,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Dilan',
                 'meaning' => 'laki-laki setia',
@@ -4686,7 +4703,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Diinaar',
                 'meaning' => 'dinar.',
@@ -4695,7 +4712,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Dikhlat',
                 'meaning' => 'hati.',
@@ -4704,7 +4721,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Dikri',
                 'meaning' => 'mengingat.',
@@ -4713,7 +4730,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Dilawar',
                 'meaning' => 'pemberani.',
@@ -4722,7 +4739,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Dilbaz',
                 'meaning' => 'hati yang teguh.',
@@ -4731,7 +4748,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Dilfa',
                 'meaning' => 'pemberani.',
@@ -4740,7 +4757,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Dilhaam',
                 'meaning' => 'pemberani.',
@@ -4749,7 +4766,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Dillon',
                 'meaning' => 'kebenaran yang diberkati',
@@ -4758,7 +4775,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Dinaan',
                 'meaning' => 'guci besar.',
@@ -4767,7 +4784,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Diovanni',
                 'meaning' => 'orang yang bijaksana dan bersinar',
@@ -4776,7 +4793,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Diya al Din',
                 'meaning' => 'yang tercerahkan oleh agama.',
@@ -4785,7 +4802,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Dixon',
                 'meaning' => 'berani dan kuat',
@@ -4794,7 +4811,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Dodi',
                 'meaning' => 'tercinta.',
@@ -4803,7 +4820,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Dominic',
                 'meaning' => 'milik Tuhan, anugerah Tuhan',
@@ -4812,7 +4829,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Don',
                 'meaning' => 'pemimpin dunia',
@@ -4821,7 +4838,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Donnald',
                 'meaning' => 'pemimpin dunia',
@@ -4830,7 +4847,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Donnel',
                 'meaning' => 'berani',
@@ -4839,7 +4856,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Dony',
                 'meaning' => 'berani',
@@ -4848,7 +4865,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Duhaamis',
                 'meaning' => 'pemberani.',
@@ -4857,7 +4874,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Duhmuts',
                 'meaning' => 'yang mulia.',
@@ -4866,7 +4883,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Duman',
                 'meaning' => 'pemberani.',
@@ -4875,7 +4892,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Duror',
                 'meaning' => 'mutiara.',
@@ -4884,7 +4901,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Durori',
                 'meaning' => 'sejenis mutiara.',
@@ -4893,7 +4910,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Dustin',
                 'meaning' => 'pemimpin dengan hati yang kuat',
@@ -4902,7 +4919,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Draco',
                 'meaning' => 'gagah seperti naga',
@@ -4911,7 +4928,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Drake',
                 'meaning' => 'gagah seperti naga',
@@ -4920,7 +4937,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Drew',
                 'meaning' => 'bijaksana',
@@ -4929,7 +4946,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Dzafri',
                 'meaning' => 'bersinar.',
@@ -4938,7 +4955,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Dzaka',
                 'meaning' => 'pintar, pandai.',
@@ -4947,7 +4964,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Dzakwan',
                 'meaning' => 'cerdas.',
@@ -4956,7 +4973,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Dzaky',
                 'meaning' => 'cerdas.',
@@ -4965,7 +4982,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Dzakir',
                 'meaning' => 'punya daya ingat yang kuat',
@@ -4974,7 +4991,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Dzikra',
                 'meaning' => 'ingatan, ketenangan, zikir',
@@ -4983,7 +5000,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Dzimar',
                 'meaning' => 'kehormatan diri.',
@@ -4992,7 +5009,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Dzuhairi',
                 'meaning' => 'baik, cerdas, beruntung',
@@ -5001,7 +5018,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Dzulfadli',
                 'meaning' => 'memiliki kelebihan.',
@@ -5010,7 +5027,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Dzulfikar',
                 'meaning' => 'nama pedang Rasulullah SAW.',
@@ -5019,7 +5036,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Dzulhanan',
                 'meaning' => 'penuh kasih sayang.',
@@ -5028,7 +5045,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Dzulhilmi',
                 'meaning' => 'penyabar',
@@ -5037,7 +5054,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Dzulsyafiq',
                 'meaning' => 'seseorang yang penuh belas kasihan',
@@ -5046,7 +5063,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Dzulqarnain',
                 'meaning' => 'seseorang yang memiliki dua kekuasaan',
@@ -5055,7 +5072,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Eason',
                 'meaning' => 'kebaikan',
@@ -5064,7 +5081,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Earl',
                 'meaning' => 'laki-laki mulia, pemimpin, pasukan',
@@ -5073,7 +5090,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Eberto',
                 'meaning' => 'pemimpin yang cemerlang',
@@ -5082,7 +5099,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Edbert',
                 'meaning' => 'kaya raya dan cerdas',
@@ -5091,7 +5108,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Edfred',
                 'meaning' => 'pemimpin yang makmur dan sukses',
@@ -5100,7 +5117,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Edi',
                 'meaning' => 'baik dan cerdas',
@@ -5109,7 +5126,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Edison',
                 'meaning' => 'tampan, anak Adam',
@@ -5118,7 +5135,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Edmondo',
                 'meaning' => 'kesuksesan tinggi, orang yang produktif',
@@ -5127,7 +5144,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Edmund',
                 'meaning' => 'orang yang sukses',
@@ -5136,7 +5153,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Edric',
                 'meaning' => 'pemimpin beruntung',
@@ -5145,7 +5162,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Eduk',
                 'meaning' => 'dia yang sukses',
@@ -5154,7 +5171,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Edwyn',
                 'meaning' => 'makmur, beruntung, kaya',
@@ -5163,7 +5180,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Efendi',
                 'meaning' => 'lembut.',
@@ -5172,7 +5189,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ehan',
                 'meaning' => 'bulan purnama.',
@@ -5181,7 +5198,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ehsan',
                 'meaning' => 'anak laki-laki yang menunjukkan belas kasih.',
@@ -5190,7 +5207,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Einas',
                 'meaning' => 'selalu damai.',
@@ -5199,7 +5216,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ejaz',
                 'meaning' => 'keajaiban',
@@ -5208,7 +5225,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ekyavan',
                 'meaning' => 'pintar ',
@@ -5217,7 +5234,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'El Zhar',
                 'meaning' => 'bunga yang berseri, cerah.',
@@ -5226,7 +5243,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Eldar  kehormatan.',
                 'gender_id' => 1,
@@ -5234,7 +5251,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Elden',
                 'meaning' => 'tua, teman yang bijaksana',
@@ -5243,7 +5260,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Eldred',
                 'meaning' => 'orang yang bijaksana',
@@ -5252,7 +5269,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Eldrick',
                 'meaning' => 'kreatif, bertanggung jawab dan keinginan sukses',
@@ -5261,7 +5278,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Eldon',
                 'meaning' => 'kebaikan',
@@ -5270,7 +5287,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Elfahreza',
                 'meaning' => 'ksatria.',
@@ -5279,7 +5296,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Elfathan',
                 'meaning' => 'kemenangan dari Allah.',
@@ -5288,7 +5305,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Elgan bermakan jernih dan kebaikan',
                 'gender_id' => 1,
@@ -5296,7 +5313,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Elhasiq',
                 'meaning' => 'laki-laki yang cerdas juga terampil',
@@ -5305,7 +5322,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Elias',
                 'meaning' => 'nama lain dari Nabi Ilyas.',
@@ -5314,7 +5331,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Elramdan',
                 'meaning' => 'penerang.',
@@ -5323,7 +5340,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Elrick',
                 'meaning' => 'raja yang bijaksana',
@@ -5332,7 +5349,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Elilendhi',
                 'meaning' => 'terlihat menarik dan tampan ',
@@ -5341,7 +5358,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Eliseo',
                 'meaning' => 'Tuhan penyelamatku',
@@ -5350,7 +5367,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Elnathan',
                 'meaning' => 'kiriman Tuhan, berkat Tuhan',
@@ -5359,7 +5376,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Elsin',
                 'meaning' => 'tampan dan indah',
@@ -5368,7 +5385,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Elvin',
                 'meaning' => 'laki-laki yang bijaksana',
@@ -5377,7 +5394,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Elvis',
                 'meaning' => 'anak yang setia',
@@ -5386,7 +5403,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Elwood',
                 'meaning' => 'pemimpin peri',
@@ -5395,7 +5412,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Eman',
                 'meaning' => 'kepercayaan.',
@@ -5404,7 +5421,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Emery',
                 'meaning' => 'pemimpin yang baik hati',
@@ -5413,7 +5430,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Emil',
                 'meaning' => 'berhasil dengan baik',
@@ -5422,7 +5439,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Emir',
                 'meaning' => 'pangeran yang mempesona.',
@@ -5431,7 +5448,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Emir',
                 'meaning' => 'pemimpin.',
@@ -5440,7 +5457,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Emran',
                 'meaning' => 'berkembang, sukses.',
@@ -5449,7 +5466,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Emry',
                 'meaning' => 'pemimpin besar',
@@ -5458,7 +5475,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Enayat',
                 'meaning' => 'berkah',
@@ -5467,7 +5484,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ender',
                 'meaning' => 'pengorbanan.',
@@ -5476,7 +5493,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Endre',
                 'meaning' => 'gagah',
@@ -5485,7 +5502,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Enoka',
                 'meaning' => 'terpelajar ',
@@ -5494,7 +5511,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Enver',
                 'meaning' => 'tampan',
@@ -5503,7 +5520,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Enzi',
                 'meaning' => 'gagah perkasa',
@@ -5512,7 +5529,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Eren',
                 'meaning' => 'laki-laki yang bijaksana',
@@ -5521,7 +5538,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Eric',
                 'meaning' => 'pemimpin yang bijaksana, kuat, dan penuh kasih',
@@ -5530,7 +5547,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Enrique',
                 'meaning' => 'pemimpin kawasan',
@@ -5539,7 +5556,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Enzio',
                 'meaning' => 'pemimpin',
@@ -5548,7 +5565,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Erhan',
                 'meaning' => 'pemimpin',
@@ -5557,7 +5574,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Erich',
                 'meaning' => 'pemimpin yang abadi',
@@ -5566,7 +5583,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Erie',
                 'meaning' => 'pemimpin, laki-laki mulia',
@@ -5575,7 +5592,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Erlangga',
                 'meaning' => 'baik dan setia',
@@ -5584,7 +5601,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Erol',
                 'meaning' => 'gagah berani',
@@ -5593,7 +5610,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Errando',
                 'meaning' => 'gagah berani',
@@ -5602,7 +5619,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Erryl',
                 'meaning' => 'pemimpin yang mulia',
@@ -5611,7 +5628,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ervin',
                 'meaning' => 'tampan, indah',
@@ -5620,7 +5637,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Erwin',
                 'meaning' => 'tampan dan adil',
@@ -5629,7 +5646,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Esa',
                 'meaning' => 'satu.',
@@ -5638,7 +5655,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Esfand',
                 'meaning' => 'pangeran yang suci.',
@@ -5647,7 +5664,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Eshaal',
                 'meaning' => 'penyelesaian.',
@@ -5656,7 +5673,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Eshaan',
                 'meaning' => 'keinginan.',
@@ -5665,7 +5682,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Eshal',
                 'meaning' => 'nama bunga di surga.',
@@ -5674,7 +5691,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ethan',
                 'meaning' => 'laki-laki bijaksana',
@@ -5683,7 +5700,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Eugene',
                 'meaning' => 'lahir dengan kebaikan',
@@ -5692,7 +5709,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Eulaion',
                 'meaning' => 'pembicara yang lembut',
@@ -5701,7 +5718,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Eustrato',
                 'meaning' => 'ksatria baik',
@@ -5710,7 +5727,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Euthym',
                 'meaning' => 'jiwa yang baik',
@@ -5719,7 +5736,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Eros',
                 'meaning' => 'cinta',
@@ -5728,7 +5745,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Evander',
                 'meaning' => 'laki-laki baik',
@@ -5737,7 +5754,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Evando',
                 'meaning' => 'laki-laki baik',
@@ -5746,7 +5763,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Everett',
                 'meaning' => 'kuat dan berani',
@@ -5755,7 +5772,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ewan',
                 'meaning' => 'kebaikan',
@@ -5764,7 +5781,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Erryl',
                 'meaning' => 'pemimpin yang mulia',
@@ -5773,7 +5790,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ezekiel',
                 'meaning' => 'cerdas ',
@@ -5782,7 +5799,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ezaz',
                 'meaning' => 'terhormat',
@@ -5791,7 +5808,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ezhar',
                 'meaning' => 'berseri',
@@ -5800,7 +5817,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Faaiz',
                 'meaning' => 'ksatria.',
@@ -5809,7 +5826,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Faiz',
                 'meaning' => 'tampan dan sukses',
@@ -5818,7 +5835,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Faaz',
                 'meaning' => 'sukses, jaya dalam hidup.',
@@ -5827,7 +5844,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Fabiandi',
                 'meaning' => 'cerdas',
@@ -5836,7 +5853,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Fadel',
                 'meaning' => 'dermawan, unggul, terhormat.',
@@ -5845,7 +5862,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Fadifaheem',
                 'meaning' => 'orang pintar dan pengertian.',
@@ -5854,7 +5871,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Fadie',
                 'meaning' => 'penyelamat.',
@@ -5863,7 +5880,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Fadgham yang',
                 'meaning' => 'lelaki tampan',
@@ -5872,7 +5889,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Fadhal',
                 'meaning' => 'kebaikan.',
@@ -5881,7 +5898,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Fadhlan',
                 'meaning' => 'keutamaan.',
@@ -5890,7 +5907,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Faezan',
                 'meaning' => 'pria yang pengertian.',
@@ -5899,7 +5916,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Fadlurrahman',
                 'meaning' => 'keutamaan dari Allah.',
@@ -5908,7 +5925,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Fahcreel',
                 'meaning' => 'kebanggaan.',
@@ -5917,7 +5934,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Faheel',
                 'meaning' => 'cerdas, jenius',
@@ -5926,7 +5943,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Faheem',
                 'meaning' => 'cerdas, bijaksana.',
@@ -5935,7 +5952,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Fahham',
                 'meaning' => 'sangat cerdas',
@@ -5944,7 +5961,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Fahim',
                 'meaning' => 'intelijen dan bijaksana',
@@ -5953,7 +5970,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Fahiz',
                 'meaning' => 'berani dan sukses',
@@ -5962,7 +5979,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Fahmi',
                 'meaning' => 'cerdas ',
@@ -5971,7 +5988,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Fahreza',
                 'meaning' => 'ksatria.',
@@ -5980,7 +5997,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Fahrian',
                 'meaning' => 'kemegahan.',
@@ -5989,7 +6006,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Faidhan',
                 'meaning' => 'banyak kebajikannya.',
@@ -5998,7 +6015,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Faiq',
                 'meaning' => 'istimewa.',
@@ -6007,7 +6024,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Faiz',
                 'meaning' => 'pemenang.',
@@ -6016,7 +6033,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Faizan',
                 'meaning' => 'pemimpin.',
@@ -6025,7 +6042,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Fakhri',
                 'meaning' => 'kemegahan.',
@@ -6034,7 +6051,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Fakhrial',
                 'meaning' => 'menang dengan cerdas',
@@ -6043,7 +6060,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Fakhrudin',
                 'meaning' => 'kebanggaan agama.',
@@ -6052,7 +6069,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Falah',
                 'meaning' => 'sukses, beruntung.',
@@ -6061,7 +6078,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Falih',
                 'meaning' => 'beruntung.',
@@ -6070,7 +6087,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Fandy',
                 'meaning' => 'berhasil dengan baik dan cerdas',
@@ -6079,7 +6096,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Fanani',
                 'meaning' => 'berbakat.',
@@ -6088,7 +6105,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Fakhrial',
                 'meaning' => 'menang dengan cerdas',
@@ -6097,7 +6114,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Faus',
                 'meaning' => 'kemenangan, kesuksesan, kejayaan',
@@ -6106,7 +6123,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Fauwaz',
                 'meaning' => 'sukses, sejahtera',
@@ -6115,7 +6132,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Fauzaan',
                 'meaning' => 'sukses, kemenangan',
@@ -6124,7 +6141,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Fauzan',
                 'meaning' => 'sukses, kemenangan',
@@ -6133,7 +6150,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Fauzi',
                 'meaning' => 'sukses, kemenangan',
@@ -6142,7 +6159,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Faqih',
                 'meaning' => 'pemahaman tinggi.',
@@ -6151,7 +6168,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Fareed',
                 'meaning' => 'unik.',
@@ -6160,7 +6177,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Farel',
                 'meaning' => 'orang yang berani, pahlawan',
@@ -6169,7 +6186,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Farhan',
                 'meaning' => 'selalu gembira.',
@@ -6178,7 +6195,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Farid',
                 'meaning' => 'perhiasan yang sangat berharga.',
@@ -6187,7 +6204,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Faridan',
                 'meaning' => 'istimewa.',
@@ -6196,7 +6213,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Fariq',
                 'meaning' => 'dapat membedakan yang baik dan yang tidak baik.',
@@ -6205,7 +6222,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Faris',
                 'meaning' => 'cerdas',
@@ -6214,7 +6231,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Farraas',
                 'meaning' => 'pemikiran yang tajam.',
@@ -6223,7 +6240,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Farris',
                 'meaning' => 'gagah',
@@ -6232,7 +6249,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Faruq',
                 'meaning' => 'pembeda.',
@@ -6241,7 +6258,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Farzan',
                 'meaning' => 'berpengetahuan, bijaksana, cerdas',
@@ -6250,7 +6267,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Farzani',
                 'meaning' => 'bijak, pandai, dan cerdas',
@@ -6259,7 +6276,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Fattah',
                 'meaning' => 'seseorang yang pintah dan kuat',
@@ -6268,7 +6285,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Fathan',
                 'meaning' => 'petunjuk.',
@@ -6277,7 +6294,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Fathansyah',
                 'meaning' => 'kemenangan.',
@@ -6286,7 +6303,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Fathin',
                 'meaning' => 'cerdas.',
@@ -6295,7 +6312,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Fathurrahman',
                 'meaning' => 'pembuka kejayaan dari Yang Maha Pengasih.',
@@ -6304,7 +6321,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Fatir',
                 'meaning' => 'menunjukkan pembuat atau pencipta.',
@@ -6313,7 +6330,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Fauzan',
                 'meaning' => 'kemenangan.',
@@ -6322,7 +6339,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Fawad',
                 'meaning' => 'hati.',
@@ -6331,7 +6348,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Fawwaz',
                 'meaning' => 'mendapat keberuntungan.',
@@ -6340,7 +6357,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Fayed',
                 'meaning' => 'yang menang.',
@@ -6349,7 +6366,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Fayyadh',
                 'meaning' => 'mulia.',
@@ -6358,7 +6375,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Fazli',
                 'meaning' => 'tampan dan baik',
@@ -6367,7 +6384,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Federick',
                 'meaning' => 'pemimpin yang cinta kedamaian',
@@ -6376,7 +6393,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Federico',
                 'meaning' => 'pemimpin yang tenang',
@@ -6385,7 +6402,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Felix',
                 'meaning' => 'orang yang diberkati dengan keberuntungan dan sukses',
@@ -6394,7 +6411,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ferdinand',
                 'meaning' => 'gagah berani, suka berpetualang',
@@ -6403,7 +6420,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Fernando',
                 'meaning' => 'perjalanan yang berani',
@@ -6412,7 +6429,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Fiaz',
                 'meaning' => 'dermawan.',
@@ -6421,7 +6438,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Fidai',
                 'meaning' => 'pengorbanan.',
@@ -6430,7 +6447,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Filbert',
                 'meaning' => 'sangat brilian ',
@@ -6439,7 +6456,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Finley',
                 'meaning' => 'prajurit yang berani dan adil',
@@ -6448,7 +6465,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Firas',
                 'meaning' => 'kecerdikan.',
@@ -6457,7 +6474,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Firaz',
                 'meaning' => 'orang yang dapat berpikir tajam.',
@@ -6466,7 +6483,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Floyd',
                 'meaning' => 'orang yang bijaksana',
@@ -6475,7 +6492,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Frank',
                 'meaning' => 'rajin, pekerja keras, keinginan sukses',
@@ -6484,7 +6501,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Franklin',
                 'meaning' => 'bertanggung jawab, diberkati, keinginan sukses',
@@ -6493,7 +6510,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Freddy',
                 'meaning' => 'pemimpin yang cinta kedamaian',
@@ -6502,7 +6519,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Frederico',
                 'meaning' => 'pemimpin yang murah hati',
@@ -6511,7 +6528,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Fredico',
                 'meaning' => 'pemimpin yang tenang',
@@ -6520,7 +6537,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Fredo',
                 'meaning' => 'pemimpin tenang',
@@ -6529,7 +6546,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Friedel',
                 'meaning' => 'pemimpin tenang',
@@ -6538,7 +6555,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Fridmar',
                 'meaning' => 'cerdas',
@@ -6547,7 +6564,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Fritz',
                 'meaning' => 'pemimpin yang penuh kedamaian',
@@ -6556,7 +6573,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Gadi',
                 'meaning' => 'Tuhan adalah penuntunku.',
@@ -6565,7 +6582,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Gadhi',
                 'meaning' => 'yang mencari ilmu',
@@ -6574,7 +6591,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Galant',
                 'meaning' => 'berani',
@@ -6583,7 +6600,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Galvin',
                 'meaning' => 'mawar.',
@@ -6592,7 +6609,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Gamal',
                 'meaning' => 'kuat, tampan, pandai.',
@@ -6601,7 +6618,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Gamaliel',
                 'meaning' => 'yang diberikan Tuhan',
@@ -6610,7 +6627,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Gameel',
                 'meaning' => 'tampan.',
@@ -6619,7 +6636,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Gania',
                 'meaning' => 'kaya.',
@@ -6628,7 +6645,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Gauzan',
                 'meaning' => 'berwawasan luas.',
@@ -6637,7 +6654,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Garren',
                 'meaning' => 'yang berkuasa dengan tombaknya',
@@ -6646,7 +6663,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Garrett',
                 'meaning' => 'prajurit yang berani',
@@ -6655,7 +6672,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Garrick',
                 'meaning' => 'penguasa bertombak',
@@ -6664,7 +6681,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Gatrif',
                 'meaning' => 'pemberani',
@@ -6673,7 +6690,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Gaver',
                 'meaning' => 'pahlawan tangguh',
@@ -6682,7 +6699,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Gavril',
                 'meaning' => 'kekuatan',
@@ -6691,7 +6708,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Genhart',
                 'meaning' => 'pemimpin bertombak',
@@ -6700,7 +6717,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Geraldo',
                 'meaning' => 'pemimpin dengan tombak',
@@ -6709,7 +6726,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Greg',
                 'meaning' => 'pemimpin yang baik',
@@ -6718,7 +6735,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Gerrard',
                 'meaning' => 'pemimpin yang berani',
@@ -6727,7 +6744,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ghaalib',
                 'meaning' => 'pemenang.',
@@ -6736,7 +6753,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ghaanim',
                 'meaning' => 'pemenang dan sukses',
@@ -6745,7 +6762,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ghaaly',
                 'meaning' => 'berharga.',
@@ -6754,7 +6771,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ghadur',
                 'meaning' => 'rupawan.',
@@ -6763,7 +6780,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ghafarullah',
                 'meaning' => 'Allah Yang Maha Pengampun.',
@@ -6772,7 +6789,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ghaffar',
                 'meaning' => 'berhati lembut.',
@@ -6781,7 +6798,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ghafi',
                 'meaning' => 'berhati lembut.',
@@ -6790,7 +6807,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ghafif',
                 'meaning' => 'pemaaf.',
@@ -6799,7 +6816,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ghafur',
                 'meaning' => 'pemaaf.',
@@ -6808,7 +6825,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ghaisan',
                 'meaning' => 'rupawan.',
@@ -6817,7 +6834,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ghalbah',
                 'meaning' => 'sukses, menang dan mengalahkan ',
@@ -6826,7 +6843,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ghali',
                 'meaning' => 'berharga.',
@@ -6835,7 +6852,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ghani',
                 'meaning' => 'Allah Yang Maha Kaya.',
@@ -6844,7 +6861,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ghania',
                 'meaning' => 'makmur.',
@@ -6853,7 +6870,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ghanim',
                 'meaning' => 'sukses.',
@@ -6862,7 +6879,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ghanimi',
                 'meaning' => 'kejayaan.',
@@ -6871,7 +6888,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ghassan',
                 'meaning' => 'tampan, awet muda.',
@@ -6880,7 +6897,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ghawalib',
                 'meaning' => 'berani dan berjaya.',
@@ -6889,7 +6906,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ghayade',
                 'meaning' => 'momen yang lembut',
@@ -6898,7 +6915,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ghayth',
                 'meaning' => 'hujan.',
@@ -6907,7 +6924,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ghayyaats',
                 'meaning' => 'berkah.',
@@ -6916,7 +6933,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ghazir',
                 'meaning' => 'memiliki kelebihan.',
@@ -6925,7 +6942,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ghaziya',
                 'meaning' => 'pejuang.',
@@ -6934,7 +6951,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ghazlan',
                 'meaning' => 'tenunan.',
@@ -6943,7 +6960,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ghaus',
                 'meaning' => 'penyelamat.',
@@ -6952,7 +6969,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ghazwan',
                 'meaning' => 'penakluk.',
@@ -6961,7 +6978,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ghibran',
                 'meaning' => 'menyatukan.',
@@ -6970,7 +6987,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ghifari',
                 'meaning' => 'berhati lembut.',
@@ -6979,7 +6996,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ghirrid',
                 'meaning' => 'pandai berbicara.',
@@ -6988,7 +7005,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ghonim',
                 'meaning' => 'kebahagiaan.',
@@ -6997,7 +7014,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ghossan',
                 'meaning' => 'pemberi kesejukan hati.',
@@ -7006,7 +7023,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ghufron',
                 'meaning' => 'pengampun.',
@@ -7015,7 +7032,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Gibran',
                 'meaning' => 'paling pandai.',
@@ -7024,7 +7041,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Gilbert',
                 'meaning' => 'dapat dipercaya dan sumpah setia',
@@ -7033,7 +7050,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Gilberto',
                 'meaning' => 'perjanjian yang bijaksana',
@@ -7042,7 +7059,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Gilen',
                 'meaning' => 'sumpah setia',
@@ -7051,7 +7068,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Gilory',
                 'meaning' => 'sangat setia kepada raja',
@@ -7060,7 +7077,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Gohar',
                 'meaning' => 'batu mulia, permata',
@@ -7069,7 +7086,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Granger',
                 'meaning' => 'tampan dan menawan',
@@ -7078,7 +7095,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Grantland',
                 'meaning' => 'tampan dan menarik',
@@ -7087,7 +7104,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Graciano',
                 'meaning' => 'tampan',
@@ -7096,7 +7113,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Grato',
                 'meaning' => 'berkat dari Tuhan',
@@ -7105,7 +7122,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Graydon',
                 'meaning' => 'anak yang bijaksana',
@@ -7114,7 +7131,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Graziano',
                 'meaning' => 'pemberani dan lembut',
@@ -7123,7 +7140,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Griffin',
                 'meaning' => 'pendekar yang berani',
@@ -7132,7 +7149,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Gueithgno',
                 'meaning' => 'yang bijaksana dan cerdas',
@@ -7141,7 +7158,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Gulfam',
                 'meaning' => 'orang yang wajahnya lembut',
@@ -7150,7 +7167,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Gurtaj',
                 'meaning' => 'lembut, jantan',
@@ -7159,7 +7176,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Gyan',
                 'meaning' => 'berilmu pengetahuan',
@@ -7168,7 +7185,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Gyanamurthy',
                 'meaning' => 'seseorang yang ilmunya sangat tinggi',
@@ -7177,7 +7194,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Gyanand',
                 'meaning' => 'kebahagiaan yang datang dari pengetahuan ',
@@ -7186,7 +7203,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Gyanav',
                 'meaning' => 'penuh pengetahuan ',
@@ -7195,7 +7212,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Gyani',
                 'meaning' => 'jenius',
@@ -7204,7 +7221,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Haady',
                 'meaning' => 'membawa ke jalan yang benar.',
@@ -7213,7 +7230,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Haadziq',
                 'meaning' => 'cerdik.',
@@ -7222,7 +7239,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Haadzir',
                 'meaning' => 'pandai, cakap.',
@@ -7231,7 +7248,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Haamiz',
                 'meaning' => 'cerdas',
@@ -7240,7 +7257,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Haatim',
                 'meaning' => 'hakim yang dipercaya.',
@@ -7249,7 +7266,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Haazim',
                 'meaning' => 'berkemauan keras.',
@@ -7258,7 +7275,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Haaziq',
                 'meaning' => 'cerdas.',
@@ -7267,7 +7284,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Habbab',
                 'meaning' => 'yang dicintai.',
@@ -7276,7 +7293,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Habib',
                 'meaning' => 'tercinta.',
@@ -7285,7 +7302,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Habr',
                 'meaning' => 'orang saleh.',
@@ -7294,7 +7311,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Habrizi',
                 'meaning' => 'kesempurnaan, kebaikan.',
@@ -7303,7 +7320,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Hadari',
                 'meaning' => 'maju.',
@@ -7312,7 +7329,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Hadaya',
                 'meaning' => 'hadiah, pemberian.',
@@ -7321,7 +7338,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Haddad',
                 'meaning' => 'memiliki kemauan kuat.',
@@ -7330,7 +7347,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Hadi',
                 'meaning' => 'petunjuk jalan.',
@@ -7339,7 +7356,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Hadid',
                 'meaning' => 'petunjuk jalan.',
@@ -7348,7 +7365,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Hadif',
                 'meaning' => 'yang lurus.',
@@ -7357,7 +7374,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Hadwan',
                 'meaning' => 'pemberi ketenangan.',
@@ -7366,7 +7383,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Hadzadz',
                 'meaning' => 'cerdas akalnya.',
@@ -7375,7 +7392,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Hadz-dzaa',
                 'meaning' => 'yang cepat menerima akalnya.',
@@ -7384,7 +7401,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Haekal',
                 'meaning' => 'besar, subur, tinggi.',
@@ -7393,7 +7410,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Hafaar',
                 'meaning' => 'pengukir pada logam.',
@@ -7402,7 +7419,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Hafid',
                 'meaning' => 'baik dan bijaksana',
@@ -7411,7 +7428,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Hafiz',
                 'meaning' => 'pemelihara, kuat ingatannya.',
@@ -7420,7 +7437,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Hafsya',
                 'meaning' => 'bersungguh-sungguh.',
@@ -7429,7 +7446,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Hafuza',
                 'meaning' => 'pemberi semangat.',
@@ -7438,7 +7455,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Hafwan',
                 'meaning' => 'memuliakan.',
@@ -7447,7 +7464,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Haidar',
                 'meaning' => 'singa, berani.',
@@ -7456,7 +7473,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Haikal',
                 'meaning' => 'membawa kebaikan.',
@@ -7465,7 +7482,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Hakeem',
                 'meaning' => 'laki-laki bijaksana',
@@ -7474,7 +7491,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Hakim',
                 'meaning' => 'bijaksana, pemurah.',
@@ -7483,7 +7500,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Halim',
                 'meaning' => 'lembut, sabar.',
@@ -7492,7 +7509,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Hamal',
                 'meaning' => 'suci.',
@@ -7501,7 +7518,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Hamas',
                 'meaning' => 'antusias.',
@@ -7510,7 +7527,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Hamdan',
                 'meaning' => 'berakhlak terpuji.',
@@ -7519,7 +7536,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Hamdani',
                 'meaning' => 'orang yang menetap di suatu tempat.',
@@ -7528,7 +7545,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Hamdi',
                 'meaning' => 'pujian.',
@@ -7537,7 +7554,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Hamiiz',
                 'meaning' => 'kuat.',
@@ -7546,7 +7563,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Hamimi',
                 'meaning' => 'pemberi semangat.',
@@ -7555,7 +7572,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Hamish',
                 'meaning' => 'rendah hati, praktis, sukses',
@@ -7564,7 +7581,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Hamit',
                 'meaning' => 'bekerja menuju kesuksesan',
@@ -7573,7 +7590,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Hamizan bemakna cerdas, kuat, tampan.',
                 'gender_id' => 1,
@@ -7581,7 +7598,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Hamzah',
                 'meaning' => 'kuat, berani.',
@@ -7590,7 +7607,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Hanaan',
                 'meaning' => 'rezeki, berkah.',
@@ -7599,7 +7616,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Hanan',
                 'meaning' => 'penuh kasih sayang.',
@@ -7608,7 +7625,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Hani',
                 'meaning' => 'yang bahagia.',
@@ -7617,7 +7634,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Hanif',
                 'meaning' => 'orang yang beriman.',
@@ -7626,7 +7643,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Hank',
                 'meaning' => 'tidak mudah terpengaruh dan sukses',
@@ -7635,7 +7652,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Hanno',
                 'meaning' => 'anugerah',
@@ -7644,7 +7661,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Hans',
                 'meaning' => 'keteguhan, kebijaksanaan, pengaruh',
@@ -7653,7 +7670,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Haq',
                 'meaning' => 'keadilan.',
@@ -7662,7 +7679,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Harith',
                 'meaning' => 'kuat.',
@@ -7671,7 +7688,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Harish',
                 'meaning' => 'kebaikan, dermawan',
@@ -7680,7 +7697,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Hareez',
                 'meaning' => 'lembut',
@@ -7689,7 +7706,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Hariprasad',
                 'meaning' => 'diberkati oleh Krishna',
@@ -7698,7 +7715,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Harriet',
                 'meaning' => 'pemimpin lahan',
@@ -7707,7 +7724,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Harold',
                 'meaning' => 'pemimpin pasukan',
@@ -7716,7 +7733,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Harzan',
                 'meaning' => 'penjagaan.',
@@ -7725,7 +7742,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Hasan',
                 'meaning' => 'tampan.',
@@ -7734,7 +7751,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Hasby',
                 'meaning' => 'pemberi.',
@@ -7743,7 +7760,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Hashif',
                 'meaning' => 'tegas, berani.',
@@ -7752,7 +7769,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Hasib',
                 'meaning' => 'mulia.',
@@ -7761,7 +7778,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Hasyim',
                 'meaning' => 'dapat memecahkan masalah.',
@@ -7770,7 +7787,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Hawley',
                 'meaning' => 'sukses dan penuh semangat',
@@ -7779,7 +7796,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Hawwas',
                 'meaning' => 'bersemangat.',
@@ -7788,7 +7805,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Hazell',
                 'meaning' => 'pemimpin rumah tangga',
@@ -7797,7 +7814,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Haziq',
                 'meaning' => 'terampil, cerdas',
@@ -7806,7 +7823,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Hazmi',
                 'meaning' => 'teguh pendirian, tegas, bijaksana.',
@@ -7815,7 +7832,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Headley',
                 'meaning' => 'beruntung, sukses dan pintar',
@@ -7824,7 +7841,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Hector',
                 'meaning' => 'tabah dan setia',
@@ -7833,7 +7850,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Hekima',
                 'meaning' => 'berpengetahuan',
@@ -7842,7 +7859,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Henadan',
                 'meaning' => 'anugerah dari Tuhan',
@@ -7851,7 +7868,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Hercules',
                 'meaning' => 'gagah, berani, dan kuat',
@@ -7860,7 +7877,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Hendrik',
                 'meaning' => 'pemimpin, penguasa',
@@ -7869,7 +7886,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Henry',
                 'meaning' => 'pemimpin rumah tangga',
@@ -7878,7 +7895,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Hero',
                 'meaning' => 'kepemimpinan, pertahanan yang berani',
@@ -7887,7 +7904,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Herrardo',
                 'meaning' => 'pemimpin dengan tombak',
@@ -7896,7 +7913,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Hendrik',
                 'meaning' => 'pemimpin, penguasa',
@@ -7905,7 +7922,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Henry',
                 'meaning' => 'pemimpin rumah tangga',
@@ -7914,7 +7931,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Hero',
                 'meaning' => 'kepemimpinan, pertahanan yang berani',
@@ -7923,7 +7940,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Herrardo',
                 'meaning' => 'pemimpin dengan tombak',
@@ -7932,7 +7949,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Hilal',
                 'meaning' => 'bulan sabit.',
@@ -7941,7 +7958,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Hillel',
                 'meaning' => 'bulan baru.',
@@ -7950,7 +7967,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Hilman',
                 'meaning' => 'sopan, sabar.',
@@ -7959,7 +7976,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Hilmi',
                 'meaning' => 'kesopanan, kesabaran.',
@@ -7968,7 +7985,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Hisyam',
                 'meaning' => 'kemurahan.',
@@ -7977,7 +7994,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Hitayu',
                 'meaning' => 'baik kepada sesama',
@@ -7986,7 +8003,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Hitsaam',
                 'meaning' => 'anak bukit.',
@@ -7995,7 +8012,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Hiyar',
                 'meaning' => 'harta yang banyak.',
@@ -8004,7 +8021,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Hubert',
                 'meaning' => 'menarik, ramah, sukses dan pekerja keras',
@@ -8013,7 +8030,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Huda',
                 'meaning' => 'penuntun, pembimbing.',
@@ -8022,7 +8039,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Hugh',
                 'meaning' => 'cerdas',
@@ -8031,7 +8048,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Hugo',
                 'meaning' => 'pemikiran, cerdas',
@@ -8040,7 +8057,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Hulaimi',
                 'meaning' => 'sabar, murah hati.',
@@ -8049,7 +8066,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Hulwaan',
                 'meaning' => 'manis.',
@@ -8058,7 +8075,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Humam',
                 'meaning' => 'berambisi.',
@@ -8067,7 +8084,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Hurroos',
                 'meaning' => 'penjaga, pengawal.',
@@ -8076,7 +8093,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Husaam',
                 'meaning' => 'pedang yang tajam.',
@@ -8085,7 +8102,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Husain',
                 'meaning' => 'baik, indah.',
@@ -8094,7 +8111,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Husaini',
                 'meaning' => 'kebaikan.',
@@ -8103,7 +8120,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Husna',
                 'meaning' => 'yang paling bagus.',
@@ -8112,7 +8129,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Hutrusy',
                 'meaning' => 'pemuda yang sigap.',
@@ -8121,7 +8138,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Huzaifa',
                 'meaning' => 'suci.',
@@ -8130,7 +8147,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Hylmi',
                 'meaning' => 'penyabar',
@@ -8139,7 +8156,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Hyun',
                 'meaning' => 'cerdas',
@@ -8148,7 +8165,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ian',
                 'meaning' => 'kemegahan Tuhan',
@@ -8157,7 +8174,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ibtisam',
                 'meaning' => 'senyuman.',
@@ -8166,7 +8183,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Idam',
                 'meaning' => 'serasi.',
@@ -8175,7 +8192,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Idris',
                 'meaning' => 'cerdas, rajin belajar.',
@@ -8184,7 +8201,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Idyzraf',
                 'meaning' => 'penyayang.',
@@ -8193,7 +8210,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ihaan',
                 'meaning' => 'fasih dalam berkata.',
@@ -8202,7 +8219,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ihsan',
                 'meaning' => 'kebaikan, kemurahan hati.',
@@ -8211,7 +8228,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ikhwaan',
                 'meaning' => 'saudara laki-laki.',
@@ -8220,7 +8237,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Iklil',
                 'meaning' => 'mahkota.',
@@ -8229,7 +8246,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ikmaal',
                 'meaning' => 'penyempurnaan.',
@@ -8238,7 +8255,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ikram',
                 'meaning' => 'menghormati.',
@@ -8247,7 +8264,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ilan',
                 'meaning' => 'orang yang baik',
@@ -8256,7 +8273,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ilaan',
                 'meaning' => 'hadiah dari Allah, cerdas',
@@ -8265,7 +8282,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Illifat',
                 'meaning' => 'kebaikan',
@@ -8274,7 +8291,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ivan',
                 'meaning' => 'pemberian Tuhan yang indah',
@@ -8283,7 +8300,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Imad',
                 'meaning' => 'arus utama.',
@@ -8292,7 +8309,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Imadi',
                 'meaning' => 'tiang agama.',
@@ -8301,7 +8318,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Iman',
                 'meaning' => 'iman kepada Allah.',
@@ -8310,7 +8327,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Imara',
                 'meaning' => 'mengunjungi.',
@@ -8319,7 +8336,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Imdad',
                 'meaning' => 'mendukung.',
@@ -8328,7 +8345,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Imtiaz',
                 'meaning' => 'unik.',
@@ -8337,7 +8354,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Imtiazuddin',
                 'meaning' => 'keunggulan iman.',
@@ -8346,7 +8363,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Imtisal',
                 'meaning' => 'mengikuti.',
@@ -8355,7 +8372,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Inbihaj',
                 'meaning' => 'keceriaan.',
@@ -8364,7 +8381,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Inbisat',
                 'meaning' => 'keceriaan.',
@@ -8373,7 +8390,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Infisal',
                 'meaning' => 'perbedaan, pemisah.',
@@ -8382,7 +8399,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Insaf',
                 'meaning' => 'keadilan.',
@@ -8391,7 +8408,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Intiha',
                 'meaning' => 'penyelesaian.',
@@ -8400,7 +8417,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Intizar',
                 'meaning' => 'antisipasi.',
@@ -8409,7 +8426,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Iqbaal',
                 'meaning' => 'kesejahteraan.',
@@ -8418,7 +8435,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Iqdam',
                 'meaning' => 'keberanian.',
@@ -8427,7 +8444,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Iqleem',
                 'meaning' => 'negara.',
@@ -8436,7 +8453,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Iqtidar',
                 'meaning' => 'kekuatan.',
@@ -8445,7 +8462,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Irfan',
                 'meaning' => 'kebijaksanaan.',
@@ -8454,7 +8471,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Isam',
                 'meaning' => 'sukses secara mandiri',
@@ -8463,7 +8480,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Irsyaad',
                 'meaning' => 'penunjuk.',
@@ -8472,7 +8489,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Irvin',
                 'meaning' => 'memiliki wajah yang tampan dan adil',
@@ -8481,7 +8498,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Irving',
                 'meaning' => 'adil dan tampan',
@@ -8490,7 +8507,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ishaq',
                 'meaning' => 'sukses, penolong dan sejahtera',
@@ -8499,7 +8516,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ishlah',
                 'meaning' => 'memperbaiki.',
@@ -8508,7 +8525,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ismaeel',
                 'meaning' => 'nama seorang nabi.',
@@ -8517,7 +8534,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ismat',
                 'meaning' => 'dapat menjauhi maksiat.',
@@ -8526,7 +8543,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Israr',
                 'meaning' => 'tekad.',
@@ -8535,7 +8552,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Issachar',
                 'meaning' => 'anak laki-laki yang diberikan oleh Tuhan',
@@ -8544,7 +8561,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Istibhar',
                 'meaning' => 'menjadi bahagia.',
@@ -8553,7 +8570,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Isyraf',
                 'meaning' => 'pengawasan.',
@@ -8562,7 +8579,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Isyraq',
                 'meaning' => 'kuat, menginspirasi.',
@@ -8571,7 +8588,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ithar',
                 'meaning' => 'mengasihi orang lain.',
@@ -8580,7 +8597,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ittihaf',
                 'meaning' => 'sambutan penuh.',
@@ -8589,7 +8606,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ivan',
                 'meaning' => 'pemberian Tuhan yang indah',
@@ -8598,7 +8615,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ivander',
                 'meaning' => 'laki-laki yang terbaik',
@@ -8607,7 +8624,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Iyan',
                 'meaning' => 'waktu, era, zaman.',
@@ -8616,7 +8633,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Izaad',
                 'meaning' => 'kesetiaan.',
@@ -8625,7 +8642,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Izaan',
                 'meaning' => 'penerimaan, penyerahan, ketaatan.',
@@ -8634,7 +8651,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Izaz',
                 'meaning' => 'kehormatan.',
@@ -8643,7 +8660,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Izfaar',
                 'meaning' => 'membantu seseorang mencapai kemenangan.',
@@ -8652,7 +8669,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Izhar',
                 'meaning' => 'mengungkapkan.',
@@ -8661,7 +8678,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Izqian',
                 'meaning' => 'kebaikan.',
@@ -8670,7 +8687,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Izyan',
                 'meaning' => 'anak baik.',
@@ -8679,7 +8696,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Izzadin',
                 'meaning' => 'kemuliaan agama.',
@@ -8688,7 +8705,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Izzam',
                 'meaning' => 'anak terpuji.',
@@ -8697,7 +8714,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Izzat',
                 'meaning' => 'perkasa.',
@@ -8706,7 +8723,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Izzul',
                 'meaning' => 'kemuliaan',
@@ -8715,7 +8732,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ja’far',
                 'meaning' => 'sungai kecil.',
@@ -8724,7 +8741,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jaabir',
                 'meaning' => 'pembaruan yang agung.',
@@ -8733,7 +8750,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jaakhir',
                 'meaning' => 'lembah yang luas.',
@@ -8742,7 +8759,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jaan',
                 'meaning' => 'anak yang menghidupi.',
@@ -8751,7 +8768,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jaar',
                 'meaning' => 'tetangga.',
@@ -8760,7 +8777,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jaasir',
                 'meaning' => 'pemberani.',
@@ -8769,7 +8786,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jabar',
                 'meaning' => 'lelaki pemberani.',
@@ -8778,7 +8795,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jabeer',
                 'meaning' => 'anak laki-laki yang menenangkan.',
@@ -8787,7 +8804,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jabir',
                 'meaning' => 'menggantikan yang hilang.',
@@ -8796,7 +8813,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jabr',
                 'meaning' => 'pemberani.',
@@ -8805,7 +8822,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jabran',
                 'meaning' => 'pemberani.',
@@ -8814,7 +8831,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jack',
                 'meaning' => 'adil, optimis dan keinginan sukses',
@@ -8823,7 +8840,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jadaa',
                 'meaning' => 'hadiah.',
@@ -8832,7 +8849,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jadan',
                 'meaning' => 'suara merdu.',
@@ -8841,7 +8858,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jadid',
                 'meaning' => 'yang mengawali sesuatu.',
@@ -8850,7 +8867,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jadii',
                 'meaning' => 'murah hati.',
@@ -8859,7 +8876,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jadir',
                 'meaning' => 'mekar.',
@@ -8868,7 +8885,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jadzdzaab',
                 'meaning' => 'yang memikat.',
@@ -8877,7 +8894,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jadzil',
                 'meaning' => 'yang gembira.',
@@ -8886,7 +8903,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jafnah',
                 'meaning' => 'dermawan.',
@@ -8895,7 +8912,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jahd',
                 'meaning' => 'perjuangan.',
@@ -8904,7 +8921,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jahdan',
                 'meaning' => 'sungguh-sungguh.',
@@ -8913,7 +8930,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jahdami',
                 'meaning' => 'seorang ahli hadist.',
@@ -8922,7 +8939,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jahfal',
                 'meaning' => 'mulia, agung.',
@@ -8931,7 +8948,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jahi',
                 'meaning' => 'yang salatnya bagus.',
@@ -8940,7 +8957,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jahiir',
                 'meaning' => 'murni, suci.',
@@ -8949,7 +8966,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jahiz',
                 'meaning' => 'mata yang bersinar.',
@@ -8958,7 +8975,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jahuri',
                 'meaning' => 'bersuara jelas.',
@@ -8967,7 +8984,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jairath',
                 'meaning' => 'kemenangan dan kesuksesan',
@@ -8976,7 +8993,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jaisy',
                 'meaning' => 'pasukan.',
@@ -8985,7 +9002,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jakhiif',
                 'meaning' => 'jiwa, hati.',
@@ -8994,7 +9011,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jakhroo',
                 'meaning' => 'mata yang sipit.',
@@ -9003,7 +9020,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jakob',
                 'meaning' => 'ceria, penuh keyakinan dan keinginan sukses',
@@ -9012,7 +9029,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jalee',
                 'meaning' => 'jelas.',
@@ -9021,7 +9038,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jalees',
                 'meaning' => 'sahabat.',
@@ -9030,7 +9047,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jalib',
                 'meaning' => 'menarik.',
@@ -9039,7 +9056,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jaliis',
                 'meaning' => 'teman.',
@@ -9048,7 +9065,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jalwaa',
                 'meaning' => 'yang mengkilap.',
@@ -9057,7 +9074,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jalwan',
                 'meaning' => 'penemu kebenaran.',
@@ -9066,7 +9083,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Janasheen',
                 'meaning' => 'pencetak kesuksesan',
@@ -9075,7 +9092,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jamal',
                 'meaning' => 'sesuatu yang indah.',
@@ -9084,7 +9101,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jamahl',
                 'meaning' => 'tampan',
@@ -9093,7 +9110,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jameel',
                 'meaning' => 'pria tampan.',
@@ -9102,7 +9119,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'James',
                 'meaning' => 'berani dan prajurit yang kuat',
@@ -9111,7 +9128,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jamiil ',
                 'meaning' => 'yang indah.',
@@ -9120,7 +9137,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Janaan',
                 'meaning' => 'hati.',
@@ -9129,7 +9146,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Janadi',
                 'meaning' => 'manusia yang baik',
@@ -9138,7 +9155,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Janied',
                 'meaning' => 'manusia yang baik',
@@ -9147,7 +9164,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jasir',
                 'meaning' => 'pemberani.',
@@ -9156,7 +9173,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'ason',
                 'meaning' => 'seorang pahlawan',
@@ -9165,7 +9182,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jasron',
                 'meaning' => 'keberanian.',
@@ -9174,7 +9191,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jauhar',
                 'meaning' => 'permata.',
@@ -9183,7 +9200,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jauhari',
                 'meaning' => 'permata berharga.',
@@ -9192,7 +9209,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jausyan',
                 'meaning' => 'baju besi.',
@@ -9201,7 +9218,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jawaahir',
                 'meaning' => 'permata.',
@@ -9210,7 +9227,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jawabir',
                 'meaning' => 'orang yang memperbaiki barang-barang yang rusak.',
@@ -9219,7 +9236,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jawad',
                 'meaning' => 'pemurah.',
@@ -9228,7 +9245,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jawhar',
                 'meaning' => 'berharga.',
@@ -9237,7 +9254,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jaya',
                 'meaning' => 'sukses, kejayaan',
@@ -9246,7 +9263,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jayakanthan',
                 'meaning' => 'sukses',
@@ -9255,7 +9272,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jayatra',
                 'meaning' => 'orang yang memimpin pada kesuksesan',
@@ -9264,7 +9281,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jaydin',
                 'meaning' => 'bijaksana dan cerdas',
@@ -9273,7 +9290,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jayed',
                 'meaning' => 'dermawan.',
@@ -9282,7 +9299,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jaymar',
                 'meaning' => 'tampan ',
@@ -9291,7 +9308,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jaywin',
                 'meaning' => 'sukses, pencapaian',
@@ -9300,7 +9317,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jayyid',
                 'meaning' => 'bagus.',
@@ -9309,7 +9326,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jazaa',
                 'meaning' => 'kaya.',
@@ -9318,7 +9335,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jazee',
                 'meaning' => 'seseorang yang cukup.',
@@ -9327,7 +9344,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jazeel',
                 'meaning' => 'hebat, luar biasa.',
@@ -9336,7 +9353,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jazib',
                 'meaning' => 'menarik dan tampan ',
@@ -9345,7 +9362,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jaziil',
                 'meaning' => 'yang fasih perkataannya.',
@@ -9354,7 +9371,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jazlan',
                 'meaning' => 'gembira.',
@@ -9363,7 +9380,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jefford',
                 'meaning' => 'gagah berani',
@@ -9372,7 +9389,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jeramiah',
                 'meaning' => 'pemberian Tuhan, anugerah Tuhan',
@@ -9381,7 +9398,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jeremy',
                 'meaning' => 'pemberian Tuhan',
@@ -9390,7 +9407,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jerrick',
                 'meaning' => 'pekerja keras, selalu diberkati dan sukses',
@@ -9399,7 +9416,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jemal',
                 'meaning' => 'tampan',
@@ -9408,7 +9425,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jeraldo',
                 'meaning' => 'memimpin dengan tombak',
@@ -9417,7 +9434,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jerry',
                 'meaning' => 'pemimpin bertombak',
@@ -9426,7 +9443,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jibal',
                 'meaning' => 'gunung.',
@@ -9435,7 +9452,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jidan',
                 'meaning' => 'keteguhan, kebijaksanaan, pengaruh dan kekuasaan',
@@ -9444,7 +9461,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jiddah',
                 'meaning' => 'bernasib baik.',
@@ -9453,7 +9470,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jifaan',
                 'meaning' => 'yang dermawan.',
@@ -9462,7 +9479,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jihaar',
                 'meaning' => 'menjadi terang.',
@@ -9471,7 +9488,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jillauz',
                 'meaning' => 'gagah berani.',
@@ -9480,7 +9497,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jimin',
                 'meaning' => 'bijaksana dan lembut',
@@ -9489,7 +9506,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jimmy',
                 'meaning' => 'berani dan setia',
@@ -9498,7 +9515,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jindaar',
                 'meaning' => 'pengawal raja.',
@@ -9507,7 +9524,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jirfaas',
                 'meaning' => 'besar, kuat.',
@@ -9516,7 +9533,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jirhaam',
                 'meaning' => 'pemberani.',
@@ -9525,7 +9542,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jirjiis',
                 'meaning' => 'nama seorang nabi selain yang 25.',
@@ -9534,7 +9551,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jiyaad',
                 'meaning' => 'yang terbaik.',
@@ -9543,7 +9560,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jizaa',
                 'meaning' => 'balasan, ganjaran.',
@@ -9552,7 +9569,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jodd',
                 'meaning' => 'pantai.',
@@ -9561,7 +9578,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Joel',
                 'meaning' => 'gagah',
@@ -9570,7 +9587,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Johann',
                 'meaning' => 'tanggung jawab, sukses dan berkeinginan kuat',
@@ -9579,7 +9596,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'John',
                 'meaning' => 'pemberian Tuhan',
@@ -9588,7 +9605,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Johnny',
                 'meaning' => 'pemberian dari Tuhan',
@@ -9597,7 +9614,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Johd',
                 'meaning' => 'perjuangan.',
@@ -9606,7 +9623,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Joud',
                 'meaning' => 'kemurahan hati.',
@@ -9615,7 +9632,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Joko',
                 'meaning' => 'pemuda yang sukses',
@@ -9624,7 +9641,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jonas',
                 'meaning' => 'lembut, merpati',
@@ -9633,7 +9650,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jonathan',
                 'meaning' => 'raja yang baik',
@@ -9642,7 +9659,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jonni',
                 'meaning' => 'anugerah dari Tuhan',
@@ -9651,7 +9668,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jordanka',
                 'meaning' => 'mendapatkan sukses dengan mudah',
@@ -9660,7 +9677,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Joseph',
                 'meaning' => 'berkat Tuhan',
@@ -9669,7 +9686,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Joywin',
                 'meaning' => 'sukacita dari kesuksesan',
@@ -9678,7 +9695,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jucentius',
                 'meaning' => 'perhatian dan sukses yang mudah',
@@ -9687,7 +9704,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Judas',
                 'meaning' => 'seorang yang dipuja',
@@ -9696,7 +9713,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Juhaida',
                 'meaning' => 'kekuatan.',
@@ -9705,7 +9722,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Juhara',
                 'meaning' => 'batu mulia.',
@@ -9714,7 +9731,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jumaan',
                 'meaning' => 'mutiara.',
@@ -9723,7 +9740,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jumail',
                 'meaning' => 'burung bernyanyi.',
@@ -9732,7 +9749,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Junaan',
                 'meaning' => 'perisai.',
@@ -9741,7 +9758,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Junada',
                 'meaning' => 'penolong.',
@@ -9750,7 +9767,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Junaid',
                 'meaning' => 'prajurit kecil.',
@@ -9759,7 +9776,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Juraiw',
                 'meaning' => 'anak.',
@@ -9768,7 +9785,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Jusam',
                 'meaning' => 'bertubuh besar dan kuat.',
@@ -9777,7 +9794,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Juud',
                 'meaning' => 'kemurahan hati.',
@@ -9786,7 +9803,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Juwaid',
                 'meaning' => 'dermawan',
@@ -9795,7 +9812,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Kaasib',
                 'meaning' => 'beruntung.',
@@ -9804,7 +9821,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Kaamran',
                 'meaning' => 'makmur, sukses dan diberkati',
@@ -9813,7 +9830,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Kabir',
                 'meaning' => 'agung.',
@@ -9822,7 +9839,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Kadhim',
                 'meaning' => 'bisa mengendalikan diri.',
@@ -9831,7 +9848,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Kadon',
                 'meaning' => 'sukses',
@@ -9840,7 +9857,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Kafa',
                 'meaning' => 'hujan yang lembut.',
@@ -9849,7 +9866,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Kafathan',
                 'meaning' => 'hujan kemenangan.',
@@ -9858,7 +9875,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Kafeel',
                 'meaning' => 'bertanggung jawab.',
@@ -9867,7 +9884,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Kafi',
                 'meaning' => 'cukup.',
@@ -9876,7 +9893,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Kaivan',
                 'meaning' => 'tampan',
@@ -9885,7 +9902,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Kaizer',
                 'meaning' => 'seorang kaisar.',
@@ -9894,7 +9911,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Kaleph',
                 'meaning' => 'pencetak kesuksesan',
@@ -9903,7 +9920,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Kalief',
                 'meaning' => 'sukses',
@@ -9912,7 +9929,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Kalif',
                 'meaning' => 'pencetak kesuksesan, pencipta',
@@ -9921,7 +9938,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Kalvin',
                 'meaning' => 'orang yang bijaksana',
@@ -9930,7 +9947,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Kamal',
                 'meaning' => 'kesempurnaan.',
@@ -9939,7 +9956,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Kamayel',
                 'meaning' => 'sempurna.',
@@ -9948,7 +9965,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Kameel',
                 'meaning' => 'sempurna.',
@@ -9957,7 +9974,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Kanu',
                 'meaning' => 'tampan',
@@ -9966,7 +9983,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Kanz',
                 'meaning' => 'harta yang tersimpan.',
@@ -9975,7 +9992,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Kanzo',
                 'meaning' => 'harta.',
@@ -9984,7 +10001,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Kanzuddin',
                 'meaning' => 'harta iman.',
@@ -9993,7 +10010,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Karam',
                 'meaning' => 'kemurahan hati.',
@@ -10002,7 +10019,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Karim',
                 'meaning' => 'dermawan, terhormat, terkemuka.',
@@ -10011,7 +10028,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Karl',
                 'meaning' => 'paling tampan',
@@ -10020,7 +10037,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Kashaaf',
                 'meaning' => 'penemu.',
@@ -10029,7 +10046,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Kasim',
                 'meaning' => 'indah, rupawan.',
@@ -10038,7 +10055,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Kasimir',
                 'meaning' => 'tentram.',
@@ -10047,7 +10064,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Kasir',
                 'meaning' => 'berlimpah.',
@@ -10056,7 +10073,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Kasoo',
                 'meaning' => 'berlimpah.',
@@ -10065,7 +10082,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Kasra',
                 'meaning' => 'orang yang bijaksana',
@@ -10074,7 +10091,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Kasran',
                 'meaning' => 'berlimpah.',
@@ -10083,7 +10100,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Kassab',
                 'meaning' => 'pemenang.',
@@ -10092,7 +10109,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Kasyafani',
                 'meaning' => 'murni, suci.',
@@ -10101,7 +10118,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Kathir',
                 'meaning' => 'banyak.',
@@ -10110,7 +10127,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Katib',
                 'meaning' => 'cendikiawan.',
@@ -10119,7 +10136,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Kattam',
                 'meaning' => 'penjaga rahasia.',
@@ -10128,7 +10145,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Kautsarrazky',
                 'meaning' => 'banyak rezeki.',
@@ -10137,7 +10154,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Kaven',
                 'meaning' => 'tampan, menarik, menawan',
@@ -10146,7 +10163,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Kawthar',
                 'meaning' => 'berlimpah.',
@@ -10155,7 +10172,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Kayani',
                 'meaning' => 'kerajaan, raja.',
@@ -10164,7 +10181,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Kaynen',
                 'meaning' => 'yang bijaksana',
@@ -10173,7 +10190,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Kaysan',
                 'meaning' => 'orang yang bijaksana',
@@ -10182,7 +10199,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Kazim',
                 'meaning' => 'penyabar',
@@ -10191,7 +10208,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Kazumi',
                 'meaning' => 'kedamaian yang indah',
@@ -10200,7 +10217,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Keane',
                 'meaning' => 'tinggi dan tampan',
@@ -10209,7 +10226,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Keeley',
                 'meaning' => 'ramping',
@@ -10218,7 +10235,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Keint',
                 'meaning' => 'tampan',
@@ -10227,7 +10244,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ken',
                 'meaning' => 'tampan, sehat dan kuat',
@@ -10236,7 +10253,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Kendry',
                 'meaning' => 'orang yang bijaksana',
@@ -10245,7 +10262,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Kenji',
                 'meaning' => 'keinginan yang kuat untuk sukses',
@@ -10254,7 +10271,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Kennard',
                 'meaning' => 'kapten yang gagah berani',
@@ -10263,7 +10280,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Kenneth',
                 'meaning' => 'tampan dan anak dari api',
@@ -10272,7 +10289,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Kenney',
                 'meaning' => 'kreatif, penuh ide, keinginan sukses',
@@ -10281,7 +10298,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Kenny',
                 'meaning' => 'tampan',
@@ -10290,7 +10307,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Kenya',
                 'meaning' => 'anak yang bijaksana dan cerdas',
@@ -10299,7 +10316,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Kenzo',
                 'meaning' => 'kuat dan sehat',
@@ -10308,7 +10325,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Kenzy',
                 'meaning' => 'memiliki keinginan untuk sukses',
@@ -10317,7 +10334,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Kevern',
                 'meaning' => 'anak muda yang tampan',
@@ -10326,7 +10343,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Kevin',
                 'meaning' => 'tampan',
@@ -10335,7 +10352,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Kevon',
                 'meaning' => 'anak ini tampan',
@@ -10344,7 +10361,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Keyan',
                 'meaning' => 'eksistensi.',
@@ -10353,7 +10370,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Khaalud',
                 'meaning' => 'abadi.',
@@ -10362,7 +10379,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Khabir',
                 'meaning' => 'ahli, banyak pengetahuan.',
@@ -10371,7 +10388,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Khaer',
                 'meaning' => 'kebaikan.',
@@ -10380,7 +10397,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Khafifi',
                 'meaning' => 'gesit, lincah, pintar.',
@@ -10389,7 +10406,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Khafisy',
                 'meaning' => 'yang matanya sipit.',
@@ -10398,7 +10415,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Khailad',
                 'meaning' => 'abadi.',
@@ -10407,7 +10424,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Khair',
                 'meaning' => 'kebaikan.',
@@ -10416,7 +10433,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Khairan',
                 'meaning' => 'baik.',
@@ -10425,7 +10442,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Khairullah',
                 'meaning' => 'sesuatu yang baik dari Allah SWT.',
@@ -10434,7 +10451,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Khalaf',
                 'meaning' => 'anak baik.',
@@ -10443,7 +10460,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Khaldan',
                 'meaning' => 'abadi.',
@@ -10452,7 +10469,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Khaleed',
                 'meaning' => 'berani.',
@@ -10461,7 +10478,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Khallef',
                 'meaning' => 'pencetak kesuksesan dan pewaris',
@@ -10470,7 +10487,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Khaleeq',
                 'meaning' => 'sopan, ramah.',
@@ -10479,7 +10496,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Khalfan',
                 'meaning' => 'pencetak kesuksesan',
@@ -10488,7 +10505,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Khalfun',
                 'meaning' => 'anak berbudi luhur.',
@@ -10497,7 +10514,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Khali',
                 'meaning' => 'menyendiri.',
@@ -10506,7 +10523,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Khalief',
                 'meaning' => 'sukses.',
@@ -10515,7 +10532,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Khalifa',
                 'meaning' => 'pencetak kesuksesan',
@@ -10524,7 +10541,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Khalifat',
                 'meaning' => 'penerus.',
@@ -10533,7 +10550,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Khalifi',
                 'meaning' => 'baik, sukses.',
@@ -10542,7 +10559,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Khalil',
                 'meaning' => 'kesayanganku.',
@@ -10551,7 +10568,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Khalis',
                 'meaning' => 'murni.',
@@ -10560,7 +10577,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Khalish',
                 'meaning' => 'ikhlas, murni.',
@@ -10569,7 +10586,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Khaliq',
                 'meaning' => 'kreatif',
@@ -10578,7 +10595,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Khalud',
                 'meaning' => 'abadi.',
@@ -10587,7 +10604,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Khaluq',
                 'meaning' => 'baik budi.',
@@ -10596,7 +10613,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Khamauri',
                 'meaning' => 'laki-laki yang sangat bijaksana',
@@ -10605,7 +10622,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Khanaan',
                 'meaning' => 'kemewahan.',
@@ -10614,7 +10631,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Kharisma',
                 'meaning' => 'mengagumkan, gagah',
@@ -10623,7 +10640,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Khasir',
                 'meaning' => 'ramah.',
@@ -10632,7 +10649,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Khasyi',
                 'meaning' => 'khusyuk dalam berdoa.',
@@ -10641,7 +10658,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Khawli',
                 'meaning' => 'kepala, pengawas.',
@@ -10650,7 +10667,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Khayyar',
                 'meaning' => 'baik.',
@@ -10659,7 +10676,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Khayyir',
                 'meaning' => 'baik, berbudi luhur.',
@@ -10668,7 +10685,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Khazeer',
                 'meaning' => 'berwarna hijau, laut.',
@@ -10677,7 +10694,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Khazim',
                 'meaning' => 'dapat mengekang amarah.',
@@ -10686,7 +10703,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Kheer',
                 'meaning' => 'kebajikan.',
@@ -10695,7 +10712,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Khidan',
                 'meaning' => 'sahabat.',
@@ -10704,7 +10721,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Khidhom',
                 'meaning' => 'dermawan, penyabar.',
@@ -10713,7 +10730,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Khidhrim',
                 'meaning' => 'lautan yang luas.',
@@ -10722,7 +10739,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Khiilaan',
                 'meaning' => 'murah hati.',
@@ -10731,7 +10748,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Khilal',
                 'meaning' => 'persahabatan.',
@@ -10740,7 +10757,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Khilqoh',
                 'meaning' => 'naluri.',
@@ -10749,7 +10766,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Khindziidz',
                 'meaning' => 'juru pidato yang fasih.',
@@ -10758,7 +10775,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Khirwa’',
                 'meaning' => 'halus, lembut.',
@@ -10767,7 +10784,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Khiyar',
                 'meaning' => 'berbudi luhur.',
@@ -10776,7 +10793,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Khobbaaz',
                 'meaning' => 'pembuat roti.',
@@ -10785,7 +10802,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Khobiir',
                 'meaning' => 'yang berpengalaman.',
@@ -10794,7 +10811,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Khodhir',
                 'meaning' => 'yang hijau.',
@@ -10803,7 +10820,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Khofiidh',
                 'meaning' => 'kehidupan yang mudah, menyenangkan.',
@@ -10812,7 +10829,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Khofiif',
                 'meaning' => 'sigap, ramah, periang.',
@@ -10821,7 +10838,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Khofiir',
                 'meaning' => 'penjaga.',
@@ -10830,7 +10847,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Khoifaq',
                 'meaning' => 'padang Sahara yang luas.',
@@ -10839,7 +10856,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Khoiri',
                 'meaning' => 'amal.',
@@ -10848,7 +10865,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Kholad',
                 'meaning' => 'hati.',
@@ -10857,7 +10874,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Kholaf',
                 'meaning' => 'anak saleh.',
@@ -10866,7 +10883,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Kholiil',
                 'meaning' => 'kekasih.',
@@ -10875,7 +10892,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Kholiiq',
                 'meaning' => 'yang patut.',
@@ -10884,7 +10901,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Khollaab',
                 'meaning' => 'menarik hati.',
@@ -10893,7 +10910,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Khomiim',
                 'meaning' => 'yang terpuji.',
@@ -10902,7 +10919,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Khosyi',
                 'meaning' => 'khusyuk dalam salat.',
@@ -10911,7 +10928,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Khoulad',
                 'meaning' => 'abadi.',
@@ -10920,7 +10937,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Khufa',
                 'meaning' => 'pintar, cerdas',
@@ -10929,7 +10946,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Khulaid',
                 'meaning' => 'abadi.',
@@ -10938,7 +10955,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Khulaif',
                 'meaning' => 'penerus.',
@@ -10947,7 +10964,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Khulaifah',
                 'meaning' => 'penerus.',
@@ -10956,7 +10973,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Khumaidi',
                 'meaning' => 'memiliki semangat yang tinggi, cerdas',
@@ -10965,7 +10982,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Khurarizmi',
                 'meaning' => 'nisbah.',
@@ -10974,7 +10991,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Kian',
                 'meaning' => 'raja yang bijaksana',
@@ -10983,7 +11000,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Kibaar',
                 'meaning' => 'yang hebat.',
@@ -10992,7 +11009,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Kifah',
                 'meaning' => 'perjuangan.',
@@ -11001,7 +11018,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Kifl',
                 'meaning' => 'keberuntungan.',
@@ -11010,7 +11027,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Kinan',
                 'meaning' => 'menutupi.',
@@ -11019,7 +11036,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Kinza',
                 'meaning' => 'harta yang tersembunyi.',
@@ -11028,7 +11045,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Kiram',
                 'meaning' => 'mulia, bersahabat.',
@@ -11037,7 +11054,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Kishwar',
                 'meaning' => 'sebuah negara.',
@@ -11046,7 +11063,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Kosmos',
                 'meaning' => 'keindahan',
@@ -11055,7 +11072,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Konan',
                 'meaning' => 'cerdas, bijaksana',
@@ -11064,7 +11081,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Kratos',
                 'meaning' => 'kekuatan dan kekuasaan',
@@ -11073,7 +11090,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Krirriit',
                 'meaning' => 'penunjuk jalan.',
@@ -11082,7 +11099,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Krirriq',
                 'meaning' => 'dermawan.',
@@ -11091,7 +11108,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Kumail',
                 'meaning' => 'sempurna.',
@@ -11100,7 +11117,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Kuraiman',
                 'meaning' => 'dermawan.',
@@ -11109,7 +11126,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Kyros',
                 'meaning' => 'pemimpin yang bersinar',
@@ -11118,7 +11135,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Laaiq',
                 'meaning' => 'cocok, layak.',
@@ -11127,7 +11144,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Labeeq',
                 'meaning' => 'cerdas, aktif, halus',
@@ -11136,7 +11153,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Labib',
                 'meaning' => 'sehat akal.',
@@ -11145,7 +11162,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Labid',
                 'meaning' => 'pemberani.',
@@ -11154,7 +11171,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Lahiq',
                 'meaning' => 'pengikut.',
@@ -11163,7 +11180,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Lailan',
                 'meaning' => 'dua malam.',
@@ -11172,7 +11189,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Lais Arsalan',
                 'meaning' => 'berani.',
@@ -11181,7 +11198,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Lakhan',
                 'meaning' => 'sukses',
@@ -11190,7 +11207,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Lambert',
                 'meaning' => 'cerdas',
@@ -11199,7 +11216,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Larkin',
                 'meaning' => 'gagah berani',
@@ -11208,7 +11225,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Latafat',
                 'meaning' => 'kelembutan.',
@@ -11217,7 +11234,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Lateef',
                 'meaning' => 'menyenangkan.',
@@ -11226,7 +11243,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Lathif',
                 'meaning' => 'lembut.',
@@ -11235,7 +11252,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Latif',
                 'meaning' => 'pria yang menerima keanekaragaman.',
@@ -11244,7 +11261,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Layzal',
                 'meaning' => 'abadi.',
@@ -11253,7 +11270,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Lazuardy',
                 'meaning' => 'kaki langit.',
@@ -11262,7 +11279,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Leander',
                 'meaning' => 'kuat seperti singa',
@@ -11271,7 +11288,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Leandro',
                 'meaning' => 'berani seperti singa',
@@ -11280,7 +11297,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Leon',
                 'meaning' => 'berani',
@@ -11289,7 +11306,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Leonard berani seperti singa',
                 'gender_id' => 1,
@@ -11297,7 +11314,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Lemuel',
                 'meaning' => 'berbakti pada Tuhan',
@@ -11306,7 +11323,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Leon',
                 'meaning' => 'kuat seperti singa',
@@ -11315,7 +11332,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Leonardo',
                 'meaning' => 'kuat seperti singa',
@@ -11324,7 +11341,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Leonathan',
                 'meaning' => 'anugerah Tuhan yang seperti singa',
@@ -11333,7 +11350,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Leonidas',
                 'meaning' => 'seorang yang kuat dan masyhur',
@@ -11342,7 +11359,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Liam',
                 'meaning' => 'pelindung yang tegas.',
@@ -11351,7 +11368,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Linford',
                 'meaning' => 'seorang yang gagah dan kuat',
@@ -11360,7 +11377,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Loreto',
                 'meaning' => 'berkah',
@@ -11369,16 +11386,16 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
-                'name' => 'Lu'ay',
+                'name' => 'Lu’ay',
                 'meaning' => 'lelaki yang berani dan teguh hatinya',
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Luay',
                 'meaning' => 'daerah datar pasir.',
@@ -11387,7 +11404,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Lucretius',
                 'meaning' => 'sukses dan makmur ',
@@ -11396,7 +11413,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Luham',
                 'meaning' => 'hebat.',
@@ -11405,7 +11422,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Luke',
                 'meaning' => 'kreatif, sopan, berkeinginan sukses dan semangat',
@@ -11414,7 +11431,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Lukman bermakna',
                 'gender_id' => 1,
@@ -11422,7 +11439,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Luqman',
                 'meaning' => 'kebenaran yang terang.',
@@ -11431,7 +11448,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Lutaif',
                 'meaning' => 'lembut hati.',
@@ -11440,7 +11457,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Lutfi',
                 'meaning' => 'baik hati.',
@@ -11449,7 +11466,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Lutfullah',
                 'meaning' => 'kebaikan Tuhan.',
@@ -11458,7 +11475,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Lutfurrahman',
                 'meaning' => 'kebaikan Tuhan.',
@@ -11467,7 +11484,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Luthfan',
                 'meaning' => 'lembut.',
@@ -11476,7 +11493,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Luthfi',
                 'meaning' => 'lembut.',
@@ -11485,7 +11502,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Layaan',
                 'meaning' => 'lembut',
@@ -11494,7 +11511,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Luwaih',
                 'meaning' => 'jelas.',
@@ -11503,7 +11520,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Luzman',
                 'meaning' => 'tetap',
@@ -11512,7 +11529,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Maan',
                 'meaning' => 'bermanfaat.',
@@ -11521,7 +11538,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Maarif',
                 'meaning' => 'berilmu.',
@@ -11530,7 +11547,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Maarif',
                 'meaning' => 'pengetahuan, kebijaksanaan.',
@@ -11539,7 +11556,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Maarufi',
                 'meaning' => 'pelaku perbuatan baik.',
@@ -11548,7 +11565,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Maashar',
                 'meaning' => 'sekelompok orang, saudara.',
@@ -11557,7 +11574,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Maashiro',
                 'meaning' => 'masyarakat.',
@@ -11566,7 +11583,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Maayish',
                 'meaning' => 'rezeki.',
@@ -11575,7 +11592,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Maayush',
                 'meaning' => 'hidup.',
@@ -11584,7 +11601,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Maaz',
                 'meaning' => 'pemberani.',
@@ -11593,7 +11610,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Maazim',
                 'meaning' => 'sabar, bermartabat.',
@@ -11602,7 +11619,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Maazin',
                 'meaning' => 'wajah yang berseri.',
@@ -11611,7 +11628,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Maazir',
                 'meaning' => 'alasan.',
@@ -11620,7 +11637,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Maazuz',
                 'meaning' => 'kuat.',
@@ -11629,7 +11646,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Macallan',
                 'meaning' => 'anak lelaki dari lelaki tampan',
@@ -11638,7 +11655,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Macario',
                 'meaning' => 'diberkati',
@@ -11647,7 +11664,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Mack',
                 'meaning' => 'setia, mandiri, keinginan sukses',
@@ -11656,7 +11673,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Mackenzie',
                 'meaning' => 'kreatif, pengambil risiko, sukses',
@@ -11665,7 +11682,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Madiba',
                 'meaning' => 'pemimpin dengan rasa hormat dan kasih',
@@ -11674,7 +11691,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Madin',
                 'meaning' => 'logam.',
@@ -11683,7 +11700,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Maeesh',
                 'meaning' => 'hidup.',
@@ -11692,7 +11709,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Mafakhir',
                 'meaning' => 'perbuatan mulia.',
@@ -11701,7 +11718,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Maftuh',
                 'meaning' => 'ahli hukum.',
@@ -11710,7 +11727,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Mahaprana',
                 'meaning' => 'penuh sikap optimis',
@@ -11719,7 +11736,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Mahdiy',
                 'meaning' => 'mendapatkan hidayah.',
@@ -11728,7 +11745,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Maher',
                 'meaning' => 'laki-laki yang bijaksana dan pintar',
@@ -11737,7 +11754,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Mahedi',
                 'meaning' => 'cerdas',
@@ -11746,7 +11763,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Mahib',
                 'meaning' => 'berkarisma.',
@@ -11755,7 +11772,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Mahid',
                 'meaning' => 'orang yang membuat segalanya mudah.',
@@ -11764,7 +11781,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Mahir',
                 'meaning' => 'cakap.',
@@ -11773,7 +11790,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Malazi',
                 'meaning' => 'tempat perlindungan.',
@@ -11782,7 +11799,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Malik',
                 'meaning' => 'menguasai.',
@@ -11791,7 +11808,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Malvin',
                 'meaning' => 'ketua bersenjata, pengatur',
@@ -11800,7 +11817,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Manaf',
                 'meaning' => 'unggul.',
@@ -11809,7 +11826,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Manan',
                 'meaning' => 'pemurah.',
@@ -11818,7 +11835,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Manna',
                 'meaning' => 'kuat.',
@@ -11827,7 +11844,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Manoah',
                 'meaning' => 'hadiah dari Tuhan',
@@ -11836,7 +11853,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Manrico',
                 'meaning' => 'pemimpin yang berkuasa',
@@ -11845,7 +11862,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Manrique',
                 'meaning' => 'memiliki jiwa kepemimpinan',
@@ -11854,7 +11871,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Manzur',
                 'meaning' => 'pria yang berilmu',
@@ -11863,7 +11880,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Marius',
                 'meaning' => 'gagah berani',
@@ -11872,7 +11889,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Mark',
                 'meaning' => 'lembut, baik dan berkeinginan untuk sukses',
@@ -11881,7 +11898,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Marcelle',
                 'meaning' => 'berjiwa pemimpin, berani ambil resiko',
@@ -11890,7 +11907,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Marlo',
                 'meaning' => 'berjiwa pemimpin dan berani mengambil resiko',
@@ -11899,7 +11916,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Marva',
                 'meaning' => 'kebaikan',
@@ -11908,7 +11925,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Marwan',
                 'meaning' => 'bermartabat.',
@@ -11917,7 +11934,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Marzuq',
                 'meaning' => 'beruntung',
@@ -11926,7 +11943,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Mas’ud',
                 'meaning' => 'bahagia.',
@@ -11935,7 +11952,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Masarrat',
                 'meaning' => 'kebahagiaan.',
@@ -11944,7 +11961,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Mashal',
                 'meaning' => 'penerang.',
@@ -11953,7 +11970,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Mashkoor',
                 'meaning' => 'yang terpuji.',
@@ -11962,7 +11979,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Matalino',
                 'meaning' => 'pintar',
@@ -11971,7 +11988,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Mauza',
                 'meaning' => 'kebaikan',
@@ -11980,7 +11997,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Mateo',
                 'meaning' => 'pemberian Tuhan',
@@ -11989,7 +12006,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Mattana',
                 'meaning' => 'pemberian Tuhan, hadiah dari Tuhan',
@@ -11998,7 +12015,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Matthew',
                 'meaning' => 'pemberian Tuhan',
@@ -12007,7 +12024,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Mathias',
                 'meaning' => 'pemberian Tuhan',
@@ -12016,7 +12033,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Matias',
                 'meaning' => 'pemberian Tuhan',
@@ -12025,7 +12042,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Matz',
                 'meaning' => 'karunia dari Tuhan',
@@ -12034,7 +12051,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Maqil',
                 'meaning' => 'cerdas',
@@ -12043,7 +12060,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Max nama',
                 'meaning' => 'berani dan kuat',
@@ -12052,7 +12069,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Mazin',
                 'meaning' => 'membawa hujan.',
@@ -12061,7 +12078,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Mckenna',
                 'meaning' => 'anak dari seseorang yang tampan',
@@ -12070,7 +12087,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Mckinney',
                 'meaning' => 'berani',
@@ -12079,7 +12096,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Melviano',
                 'meaning' => 'pemimpin yang terhormat',
@@ -12088,7 +12105,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Melville',
                 'meaning' => 'pemimpin',
@@ -12097,7 +12114,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Melvin',
                 'meaning' => 'seorang teman yang setia',
@@ -12106,7 +12123,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Menelik',
                 'meaning' => 'anak yang bijaksana',
@@ -12115,7 +12132,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Merrick',
                 'meaning' => 'selalu diberkati, ekspresif dan sukses',
@@ -12124,7 +12141,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Michael',
                 'meaning' => 'hadiah dari Tuhan',
@@ -12133,7 +12150,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Mika',
                 'meaning' => 'cerdas, indah, memikat',
@@ -12142,7 +12159,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Mishab',
                 'meaning' => 'cerdas, baik',
@@ -12151,7 +12168,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Miraj',
                 'meaning' => 'kenaikan.',
@@ -12160,7 +12177,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Mirsab',
                 'meaning' => 'nama pedang Rasulullah SAW.',
@@ -12169,7 +12186,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Moody',
                 'meaning' => 'berani',
@@ -12178,7 +12195,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Mu’tashim',
                 'meaning' => 'terpelihara.',
@@ -12187,7 +12204,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Muaz',
                 'meaning' => 'nama sahabat Rasulullah SAW.',
@@ -12196,7 +12213,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Mubarak',
                 'meaning' => 'diberkati.',
@@ -12205,7 +12222,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Mudrik',
                 'meaning' => 'berakal.',
@@ -12214,7 +12231,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Mudzaffar',
                 'meaning' => 'kemenangan.',
@@ -12223,7 +12240,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Moody',
                 'meaning' => 'berani',
@@ -12232,7 +12249,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Mufid',
                 'meaning' => 'pemberi manfaat.',
@@ -12241,7 +12258,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Mufrih',
                 'meaning' => 'yang membuat gembira.',
@@ -12250,7 +12267,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Muhafiz',
                 'meaning' => 'baik yang melindungi.',
@@ -12259,7 +12276,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Muhana',
                 'meaning' => 'tenang, damai.',
@@ -12268,7 +12285,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Muhsin',
                 'meaning' => 'yang berbuat kebaikan.',
@@ -12277,7 +12294,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Mukhbit',
                 'meaning' => 'tunduk patuh.',
@@ -12286,7 +12303,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Mumtaz',
                 'meaning' => 'istimewa.',
@@ -12295,7 +12312,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Munawwir',
                 'meaning' => 'pemberi cahaya.',
@@ -12304,7 +12321,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Munif',
                 'meaning' => 'bermartabat tinggi.',
@@ -12313,7 +12330,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Muntashir',
                 'meaning' => 'yang menang.',
@@ -12322,7 +12339,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Murad',
                 'meaning' => 'memiliki tekad.',
@@ -12331,7 +12348,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Murkhi',
                 'meaning' => 'hidup dalam kemudahan.',
@@ -12340,7 +12357,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Murran',
                 'meaning' => 'lembut.',
@@ -12349,7 +12366,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Mus’ad',
                 'meaning' => 'yang dibahagiakan.',
@@ -12358,7 +12375,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Musharraf',
                 'meaning' => 'yang dimuliakan.',
@@ -12367,7 +12384,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Mushoddiq',
                 'meaning' => 'yang mempercayai.',
@@ -12376,7 +12393,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Mustajab',
                 'meaning' => 'terkabulnya doa.',
@@ -12385,7 +12402,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Mustayar',
                 'meaning' => 'penasihat.',
@@ -12394,7 +12411,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Musthafa',
                 'meaning' => 'terpilih.',
@@ -12403,7 +12420,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Mutairi',
                 'meaning' => 'seperti hujan.',
@@ -12412,7 +12429,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Mutawakkil',
                 'meaning' => 'bertawakal.',
@@ -12421,7 +12438,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Myles',
                 'meaning' => 'berani dan kuat',
@@ -12430,7 +12447,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Naashir',
                 'meaning' => 'suka menolong.',
@@ -12439,7 +12456,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Nabhan',
                 'meaning' => 'mulia.',
@@ -12448,7 +12465,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Nabigh',
                 'meaning' => 'unggul, pintar.',
@@ -12457,7 +12474,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Nabih',
                 'meaning' => 'pintar.',
@@ -12466,7 +12483,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Nabiha',
                 'meaning' => 'cerdik.',
@@ -12475,7 +12492,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Nabil',
                 'meaning' => 'terhormat.',
@@ -12484,7 +12501,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Nadeem',
                 'meaning' => 'teman, pendamping.',
@@ -12493,7 +12510,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Nadhif',
                 'meaning' => 'bersih.',
@@ -12502,7 +12519,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Nadhir',
                 'meaning' => 'indah.',
@@ -12511,7 +12528,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Nadil',
                 'meaning' => 'berjuang.',
@@ -12520,7 +12537,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Nadir',
                 'meaning' => 'berharga.',
@@ -12529,7 +12546,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Nadeem',
                 'meaning' => 'seorang teman, pemimpin, kepercayaan',
@@ -12538,7 +12555,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Naeem',
                 'meaning' => 'mempesona.',
@@ -12547,7 +12564,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Nafees',
                 'meaning' => 'menunjukkan murni.',
@@ -12556,7 +12573,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Nahwan',
                 'meaning' => 'bijaksana, cerdas',
@@ -12565,7 +12582,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Nahyan',
                 'meaning' => 'anak yang bijaksana',
@@ -12574,7 +12591,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Najeb',
                 'meaning' => 'cerdas',
@@ -12583,7 +12600,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Najib',
                 'meaning' => 'keturunan yang mulia.',
@@ -12592,7 +12609,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Najid',
                 'meaning' => 'mendukung.',
@@ -12601,7 +12618,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Najih',
                 'meaning' => 'orang yang berhasil.',
@@ -12610,7 +12627,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Najmi',
                 'meaning' => 'bintang.',
@@ -12619,7 +12636,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Naransyah',
                 'meaning' => 'berkah.',
@@ -12628,7 +12645,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Narayanastra',
                 'meaning' => 'tindakan yang berilmu ',
@@ -12637,7 +12654,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Naseer',
                 'meaning' => 'yang membantu.',
@@ -12646,7 +12663,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Nashan',
                 'meaning' => 'cerdas, pemberi nasihat yang baik',
@@ -12655,7 +12672,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Nashif',
                 'meaning' => 'adil.',
@@ -12664,7 +12681,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Nashir',
                 'meaning' => 'suka menolong.',
@@ -12673,7 +12690,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Nasim',
                 'meaning' => 'menghirup udara segar.',
@@ -12682,7 +12699,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Nasir',
                 'meaning' => 'meraih kemenangan.',
@@ -12691,7 +12708,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Nassah',
                 'meaning' => 'pemberi nasihat yang baik.',
@@ -12700,7 +12717,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Nassar',
                 'meaning' => 'pendukung.',
@@ -12709,7 +12726,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Nasrath',
                 'meaning' => 'seni, mendukung, cerdas',
@@ -12718,7 +12735,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Nata',
                 'meaning' => 'raja, pemimpin',
@@ -12727,7 +12744,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Nate',
                 'meaning' => 'yang diberkati Tuhan',
@@ -12736,7 +12753,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Nathan',
                 'meaning' => 'pemberian Tuhan',
@@ -12745,7 +12762,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Nathanael',
                 'meaning' => 'Tuhan yang telah berikan',
@@ -12754,7 +12771,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Natiq',
                 'meaning' => 'mampu berbicara.',
@@ -12763,7 +12780,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Naufal',
                 'meaning' => 'dermawan.',
@@ -12772,7 +12789,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Navaz',
                 'meaning' => 'berkah dan hidup yang indah',
@@ -12781,7 +12798,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Naveed',
                 'meaning' => 'kabar gembira.',
@@ -12790,7 +12807,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Nawafil',
                 'meaning' => 'perbuatan baik.',
@@ -12799,7 +12816,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Nawfal',
                 'meaning' => 'murah hati.',
@@ -12808,7 +12825,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Nawl',
                 'meaning' => 'kedermawanan.',
@@ -12817,7 +12834,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Nawaz',
                 'meaning' => 'tampan dan dermawan',
@@ -12826,7 +12843,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Nawwab',
                 'meaning' => 'wakil.',
@@ -12835,7 +12852,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Nawwar',
                 'meaning' => 'pemberi cahaya.',
@@ -12844,7 +12861,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Nawyan',
                 'meaning' => 'bertekad, bertujuan.',
@@ -12853,7 +12870,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Nayel',
                 'meaning' => 'berani, pemenang.',
@@ -12862,7 +12879,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Nayem',
                 'meaning' => 'tenang, yakin.',
@@ -12871,7 +12888,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Nayir',
                 'meaning' => 'bercahaya, brilian.',
@@ -12880,7 +12897,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Nazal',
                 'meaning' => 'pangeran dan berkah',
@@ -12889,7 +12906,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Nazar',
                 'meaning' => 'pemikir.',
@@ -12898,7 +12915,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Nazeef',
                 'meaning' => 'bersih.',
@@ -12907,7 +12924,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Nazeer',
                 'meaning' => 'pemberi peringatan.',
@@ -12916,7 +12933,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Nazih',
                 'meaning' => 'murni dan suci.',
@@ -12925,7 +12942,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Nazir',
                 'meaning' => 'pengawas.',
@@ -12934,7 +12951,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Neem',
                 'meaning' => 'mewah, kemudahan.',
@@ -12943,7 +12960,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Nehan',
                 'meaning' => 'tampan dan kuat ',
@@ -12952,7 +12969,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Nehrin',
                 'meaning' => 'sungai.',
@@ -12961,7 +12978,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Nehwin',
                 'meaning' => 'bijaksana, cerdas',
@@ -12970,7 +12987,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Neimat',
                 'meaning' => 'berkah.',
@@ -12979,7 +12996,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Neo',
                 'meaning' => 'hadiah dari Tuhan',
@@ -12988,7 +13005,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Netanel',
                 'meaning' => 'pemberian Tuhan',
@@ -12997,7 +13014,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Niamullah',
                 'meaning' => 'berkah Tuhan.',
@@ -13006,7 +13023,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Nick',
                 'meaning' => 'inisiatif perubahan, ekspresif, keinginan sukses',
@@ -13015,7 +13032,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Nicko',
                 'meaning' => 'dewa dari sukses',
@@ -13024,7 +13041,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Nico',
                 'meaning' => 'sukses, kemenangan',
@@ -13033,7 +13050,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Nijat',
                 'meaning' => 'keselamatan, sukses',
@@ -13042,7 +13059,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Nikko',
                 'meaning' => 'dewa kesuksesan',
@@ -13051,7 +13068,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Niklas',
                 'meaning' => 'sukses yang berhak untuk orang',
@@ -13060,7 +13077,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Nisbat',
                 'meaning' => 'hubungan.',
@@ -13069,7 +13086,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Nisbi',
                 'meaning' => 'perbandingan.',
@@ -13078,7 +13095,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Nithar',
                 'meaning' => 'rela berkorban.',
@@ -13087,7 +13104,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Nizamul Haqi',
                 'meaning' => 'sistem kebenaran.',
@@ -13096,7 +13113,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Nizar',
                 'meaning' => 'yang memerintah.',
@@ -13105,7 +13122,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Noah',
                 'meaning' => 'orang yang diberi ilham, selamat',
@@ -13114,7 +13131,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Noha',
                 'meaning' => 'orang yang bijaksana dan cerdas',
@@ -13123,7 +13140,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Nohin',
                 'meaning' => 'cerdas, baik, ceria',
@@ -13132,7 +13149,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Noum',
                 'meaning' => 'hidup mudah dan mewah.',
@@ -13141,7 +13158,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Noyal',
                 'meaning' => 'kekuatan cerdas',
@@ -13150,7 +13167,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Nuaim',
                 'meaning' => 'lembut.',
@@ -13159,7 +13176,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Nuh',
                 'meaning' => 'nama seorang nabi.',
@@ -13168,7 +13185,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Nuhaan',
                 'meaning' => 'cerdas',
@@ -13177,7 +13194,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Nujaid',
                 'meaning' => 'dataran tinggi.',
@@ -13186,7 +13203,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Nujaim',
                 'meaning' => 'bintang kecil.',
@@ -13195,7 +13212,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Nukhail',
                 'meaning' => 'pohon palem kecil.',
@@ -13204,7 +13221,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Nukman',
                 'meaning' => 'anugerah.',
@@ -13213,7 +13230,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Nusaib',
                 'meaning' => 'sesuai.',
@@ -13222,7 +13239,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Nusair',
                 'meaning' => 'kemenangan.',
@@ -13231,7 +13248,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Nushur',
                 'meaning' => 'kebangkitan.',
@@ -13240,7 +13257,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Nuwair',
                 'meaning' => 'cahaya.',
@@ -13249,7 +13266,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Nuwairan',
                 'meaning' => 'cahaya.',
@@ -13258,7 +13275,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Nuwaisir',
                 'meaning' => 'pendukung.',
@@ -13267,7 +13284,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Nuzair',
                 'meaning' => 'penjaga',
@@ -13276,7 +13293,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Oakley',
                 'meaning' => 'pionir, pengambil risiko, sukses dan semangat',
@@ -13285,7 +13302,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Obaid',
                 'meaning' => 'hamba.',
@@ -13294,7 +13311,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Odai',
                 'meaning' => 'matahari terbit.',
@@ -13303,7 +13320,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Olasyar',
                 'meaning' => 'teman yang baik.',
@@ -13312,7 +13329,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Olayinka',
                 'meaning' => 'sehat',
@@ -13321,7 +13338,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Omaijid',
                 'meaning' => 'terpuji, mulia.',
@@ -13330,7 +13347,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Omar',
                 'meaning' => 'berumur panjang.',
@@ -13339,7 +13356,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Omair',
                 'meaning' => 'cerdas, pemecah masalah',
@@ -13348,7 +13365,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Omer',
                 'meaning' => 'sukses dan mekar',
@@ -13357,7 +13374,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Onays',
                 'meaning' => 'ramah.',
@@ -13366,7 +13383,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Onsi',
                 'meaning' => 'orang yang membawa ketenangan.',
@@ -13375,7 +13392,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Opick',
                 'meaning' => 'pertolongan.',
@@ -13384,7 +13401,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Oraib',
                 'meaning' => 'cerdas.',
@@ -13393,7 +13410,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Oraibi',
                 'meaning' => 'cerdas.',
@@ -13402,7 +13419,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Orzo',
                 'meaning' => 'kedekatan.',
@@ -13411,7 +13428,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Orville',
                 'meaning' => 'makmur dan tentram',
@@ -13420,7 +13437,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Osaka',
                 'meaning' => 'kharismatik, menarik, mandiri dan sukses',
@@ -13429,7 +13446,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Oscar',
                 'meaning' => 'cerdik, bijaksana, cerdas',
@@ -13438,7 +13455,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Osman',
                 'meaning' => 'pelayan Tuhan.',
@@ -13447,7 +13464,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Oswald',
                 'meaning' => 'kekuatan yang suci, baik hati, tegas, berpendirian mantap',
@@ -13456,7 +13473,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Otello',
                 'meaning' => 'kaya, makmur dan beruntung',
@@ -13465,7 +13482,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Othman',
                 'meaning' => 'tekun.',
@@ -13474,7 +13491,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Otis',
                 'meaning' => 'kaya raya',
@@ -13483,7 +13500,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Owaib',
                 'meaning' => 'orang yang bertobat.',
@@ -13492,7 +13509,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Owais',
                 'meaning' => 'nama sahabat Rasulullah SAW.',
@@ -13501,7 +13518,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Owaiz',
                 'meaning' => 'pengganti',
@@ -13510,7 +13527,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ozzi',
                 'meaning' => 'kekuatan, kekuasaan',
@@ -13519,7 +13536,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Pablo',
                 'meaning' => 'berjuang untuk berhasil',
@@ -13528,7 +13545,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Pahlevi',
                 'meaning' => 'dermawan.',
@@ -13537,7 +13554,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Park',
                 'meaning' => 'berjuang untuk berhasil, mandiri dan pekerja keras',
@@ -13546,7 +13563,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Parvis',
                 'meaning' => 'sukses',
@@ -13555,7 +13572,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Parvez',
                 'meaning' => 'berhasil, bijaksana, kuat.',
@@ -13564,7 +13581,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Parmenio',
                 'meaning' => 'setia dan stabil',
@@ -13573,7 +13590,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Pazir',
                 'meaning' => 'orang yang baik',
@@ -13582,7 +13599,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Pervaiz',
                 'meaning' => 'ramah, baik hati, menyenangkan.',
@@ -13591,7 +13608,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Pasya',
                 'meaning' => 'berwibawa, rendah hati, dihargai.',
@@ -13600,7 +13617,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Patrick',
                 'meaning' => 'berjiwa pemimpin, pengambil risiko dan sukses',
@@ -13609,7 +13626,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Payton',
                 'meaning' => 'berjuang untuk berhasil',
@@ -13618,7 +13635,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Pavel',
                 'meaning' => 'rendah hati',
@@ -13627,7 +13644,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Pedro',
                 'meaning' => 'gagah',
@@ -13636,7 +13653,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Perkasa',
                 'meaning' => 'gagah berani',
@@ -13645,7 +13662,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Perwira',
                 'meaning' => 'gagah dan pemberani',
@@ -13654,7 +13671,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Pete',
                 'meaning' => 'berjuang untuk berhasil, dinamis, petualang',
@@ -13663,7 +13680,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Peter',
                 'meaning' => 'berjuang untuk berhasil, baik, lembut',
@@ -13672,7 +13689,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Pharell',
                 'meaning' => 'keberanian yang terbuktikan',
@@ -13681,7 +13698,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Phelan',
                 'meaning' => 'berwawasan luas, sukses, mandiri',
@@ -13690,7 +13707,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Philander',
                 'meaning' => 'peduli kepada sekitar',
@@ -13699,7 +13716,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Phoebus',
                 'meaning' => 'cerdas ',
@@ -13708,7 +13725,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Phoenix',
                 'meaning' => 'berjuang untuk sukses, jiwa pembimbing',
@@ -13717,7 +13734,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Piper',
                 'meaning' => 'berjuang untuk berhasil, pekerja keras, tenang',
@@ -13726,7 +13743,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Pito',
                 'meaning' => 'beruntung, bahagia, sukses',
@@ -13735,7 +13752,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Plato',
                 'meaning' => 'berjuang untuk sukses, tenang, penuh semangat',
@@ -13744,7 +13761,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Pramana',
                 'meaning' => 'berilmu',
@@ -13753,7 +13770,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Pramesh',
                 'meaning' => 'ahlinya pengetahuan yang benar ',
@@ -13762,7 +13779,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Pratapava',
                 'meaning' => 'gagah berani',
@@ -13771,7 +13788,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Prayan',
                 'meaning' => 'luar biasa cerdas ',
@@ -13780,7 +13797,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Proteus',
                 'meaning' => 'anak laki-laki pertama',
@@ -13789,7 +13806,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Qaabuus',
                 'meaning' => 'gagah dan tampan',
@@ -13798,7 +13815,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Qabeel',
                 'meaning' => 'nama putra Nabi Adam.',
@@ -13807,7 +13824,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Qabil',
                 'meaning' => 'cakap, terampil.',
@@ -13816,7 +13833,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Qabl',
                 'meaning' => 'peningkat.',
@@ -13825,7 +13842,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Qadi',
                 'meaning' => 'adil.',
@@ -13834,7 +13851,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Qadimi',
                 'meaning' => 'maju.',
@@ -13843,7 +13860,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Qadir',
                 'meaning' => 'Yang Maha Kuasa.',
@@ -13852,7 +13869,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Qahir',
                 'meaning' => 'yang menang.',
@@ -13861,7 +13878,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Qashid',
                 'meaning' => 'menuju pada kemudahan',
@@ -13870,7 +13887,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Qaid',
                 'meaning' => 'pemimpin.',
@@ -13879,7 +13896,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Qamar',
                 'meaning' => 'bulan.',
@@ -13888,7 +13905,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Qani',
                 'meaning' => 'memuaskan.',
@@ -13897,7 +13914,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Qarun',
                 'meaning' => 'kebajikan.',
@@ -13906,7 +13923,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Qasid',
                 'meaning' => 'penyampai pesan.',
@@ -13915,7 +13932,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Qasim',
                 'meaning' => 'yang terbaik.',
@@ -13924,7 +13941,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Qawaa',
                 'meaning' => 'tegak.',
@@ -13933,7 +13950,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Qawi',
                 'meaning' => 'perkasa.',
@@ -13942,7 +13959,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Qosiim',
                 'meaning' => 'yang molek.',
@@ -13951,7 +13968,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Qiyas',
                 'meaning' => 'pria tegas.',
@@ -13960,7 +13977,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Quinton',
                 'meaning' => 'potensial untuk berhasil, selalu diberkati',
@@ -13969,7 +13986,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Qureshi',
                 'meaning' => 'beruntung',
@@ -13978,7 +13995,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Qusyairi',
                 'meaning' => 'hujan.',
@@ -13987,7 +14004,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Qutb',
                 'meaning' => 'pemimpin',
@@ -13996,7 +14013,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Raafiq',
                 'meaning' => 'teman',
@@ -14005,7 +14022,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Raziq',
                 'meaning' => 'rezeki',
@@ -14014,7 +14031,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Raaziqin',
                 'meaning' => 'rezeki',
@@ -14023,7 +14040,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Radhika',
                 'meaning' => 'sukses, makmur',
@@ -14032,7 +14049,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Radi',
                 'meaning' => 'berkah Tuhan',
@@ -14041,7 +14058,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Radif',
                 'meaning' => 'sukses',
@@ -14050,7 +14067,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Radika',
                 'meaning' => 'sukses, makmur',
@@ -14059,7 +14076,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Radiv',
                 'meaning' => 'sukses',
@@ -14068,7 +14085,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Raed',
                 'meaning' => 'pemimpin.',
@@ -14077,7 +14094,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Raesha',
                 'meaning' => 'pemimpin.',
@@ -14086,7 +14103,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Rafael',
                 'meaning' => 'laki-laki yang diberkati',
@@ -14095,7 +14112,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Rafan',
                 'meaning' => 'ramah.',
@@ -14104,7 +14121,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Rafandra',
                 'meaning' => 'tampan dan jantan',
@@ -14113,7 +14130,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Rafathar',
                 'meaning' => 'derajatnya ditinggikan.',
@@ -14122,7 +14139,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Rafantino',
                 'meaning' => 'tampan, mulia',
@@ -14131,7 +14148,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Rafazza',
                 'meaning' => 'bahagia, sukses.',
@@ -14140,7 +14157,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Rafaezya',
                 'meaning' => 'derajat tinggi dan sukses.',
@@ -14149,7 +14166,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Rafeeq',
                 'meaning' => 'teman yang baik dan rendah hati.',
@@ -14158,7 +14175,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Rafeyat',
                 'meaning' => 'kuat.',
@@ -14167,7 +14184,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Raffertha',
                 'meaning' => 'kesejahteraan',
@@ -14176,7 +14193,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Rafie',
                 'meaning' => 'mulia, bahagia.',
@@ -14185,7 +14202,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Rafif',
                 'meaning' => 'berakhlak baik.',
@@ -14194,7 +14211,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Rafsan',
                 'meaning' => 'lampu, terang, cerdas',
@@ -14203,7 +14220,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Rafisqy',
                 'meaning' => 'kesempurnaan, kebaikan ',
@@ -14212,7 +14229,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Rahmadi',
                 'meaning' => 'kebaikan dari Allah',
@@ -14221,7 +14238,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Rahsya',
                 'meaning' => 'tegas, berjiwa kepemimpinan.',
@@ -14230,7 +14247,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Raihan',
                 'meaning' => 'pohon berbau harum.',
@@ -14239,7 +14256,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Raimi',
                 'meaning' => 'keutamaan.',
@@ -14248,7 +14265,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Rain',
                 'meaning' => 'berkah yang berlimpah',
@@ -14257,7 +14274,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Rainald',
                 'meaning' => 'pemimpin penasihat',
@@ -14266,7 +14283,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Rakin',
                 'meaning' => 'dihormati.',
@@ -14275,7 +14292,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ramadhan',
                 'meaning' => 'bukan suci diturunkannya Al-Qur’an.',
@@ -14284,7 +14301,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ramon',
                 'meaning' => 'pelindung yang bijaksana',
@@ -14293,7 +14310,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ranggi',
                 'meaning' => 'elok, tampan, bersikap gagah',
@@ -14302,7 +14319,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Rashad',
                 'meaning' => 'pemikir ',
@@ -14311,7 +14328,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Rasheed',
                 'meaning' => 'orang yang dewasa dan bijaksana',
@@ -14320,7 +14337,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Rasyad',
                 'meaning' => 'di jalan yang benar.',
@@ -14329,7 +14346,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Rasyiq',
                 'meaning' => 'bertubuh bagus.',
@@ -14338,7 +14355,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Raul',
                 'meaning' => 'laki-laki yang gagah',
@@ -14347,7 +14364,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Raven',
                 'meaning' => 'laki-laki bijaksana',
@@ -14356,7 +14373,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Rayaz',
                 'meaning' => 'cerdas, bijaksana',
@@ -14365,7 +14382,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Raylon',
                 'meaning' => 'pelindung yang bijaksana',
@@ -14374,7 +14391,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Raymond',
                 'meaning' => 'pelindung yang bijaksana',
@@ -14383,7 +14400,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Raymone',
                 'meaning' => 'pelindung yang bijaksana',
@@ -14392,7 +14409,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Rayne',
                 'meaning' => 'pemimpin yang bijaksana',
@@ -14401,7 +14418,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Rayshard',
                 'meaning' => 'laki-laki yang bijaksana',
@@ -14410,7 +14427,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Raziq',
                 'meaning' => 'pemberian, murah rezeki',
@@ -14419,7 +14436,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Razka',
                 'meaning' => 'rezeki',
@@ -14428,7 +14445,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Razky',
                 'meaning' => 'rezeki, anugerah, pemberian',
@@ -14437,7 +14454,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Reehan',
                 'meaning' => 'Harum, berkah dari Tuhan',
@@ -14446,7 +14463,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Rehan',
                 'meaning' => 'anak laki-laki pilihan Tuhan',
@@ -14455,7 +14472,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Reinhard',
                 'meaning' => 'besar, berani, kuat',
@@ -14464,7 +14481,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Renne',
                 'meaning' => 'gagah',
@@ -14473,7 +14490,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Renaldi',
                 'meaning' => 'pemimpin, pemberi saran yang baik',
@@ -14482,7 +14499,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Renier',
                 'meaning' => 'pemimpin bijaksana',
@@ -14491,7 +14508,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Renold',
                 'meaning' => 'penguasa yang bijaksana',
@@ -14500,7 +14517,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Respati',
                 'meaning' => 'gagah',
@@ -14509,7 +14526,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Rex',
                 'meaning' => 'pemimpin dan penasihat berkuasa',
@@ -14518,7 +14535,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Rexford',
                 'meaning' => 'pemimpin, ketua',
@@ -14527,7 +14544,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Reynard',
                 'meaning' => 'pemimpin bijak, berani, mulia',
@@ -14536,7 +14553,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Reynold',
                 'meaning' => 'penasihat raja, pemimpin bijak',
@@ -14545,7 +14562,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Rhino',
                 'meaning' => 'pemimpin',
@@ -14554,7 +14571,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Riaan',
                 'meaning' => 'raja kecil',
@@ -14563,7 +14580,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Riaz',
                 'meaning' => 'berlatih.',
@@ -14572,7 +14589,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ricardo',
                 'meaning' => 'pemimpin yang dominan',
@@ -14581,7 +14598,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ricciardo',
                 'meaning' => 'pemimpin yang mendominasi',
@@ -14590,7 +14607,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ricco',
                 'meaning' => 'pemimpin yang kuat',
@@ -14599,7 +14616,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Richard',
                 'meaning' => 'penguasa yang bijaksana',
@@ -14608,7 +14625,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Richi',
                 'meaning' => 'pemimpin yang dominan',
@@ -14617,7 +14634,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Richie',
                 'meaning' => 'pemimpin berkuasa dan kaya',
@@ -14626,7 +14643,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Rick',
                 'meaning' => 'serius, penuh pertimbangan, ingin sukses',
@@ -14635,7 +14652,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ricky',
                 'meaning' => 'simpatik, baik, toleransi, sukses',
@@ -14644,7 +14661,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Richmond',
                 'meaning' => 'pemimpin, penjaga berkuasa',
@@ -14653,7 +14670,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Rifber makna cerdas, bijaksana, berpengetahuan luas',
                 'gender_id' => 1,
@@ -14661,7 +14678,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Rifki',
                 'meaning' => 'baik, setia.',
@@ -14670,7 +14687,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Rifqi',
                 'meaning' => 'lemah lembut, baik hati',
@@ -14679,7 +14696,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Riki',
                 'meaning' => 'anak laki-laki gagah',
@@ -14688,7 +14705,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Riley',
                 'meaning' => 'berani',
@@ -14697,7 +14714,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Rizqullah',
                 'meaning' => 'rezeki dari Allah.',
@@ -14706,7 +14723,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Rizqy',
                 'meaning' => 'rezeki.',
@@ -14715,7 +14732,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Rizwan',
                 'meaning' => 'pembawa kabar baik.',
@@ -14724,7 +14741,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Roark',
                 'meaning' => 'humanis, idealis, kreatif, sukses',
@@ -14733,7 +14750,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Robin',
                 'meaning' => 'laki-laki yang bijaksana dan cerdas',
@@ -14742,7 +14759,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Rock',
                 'meaning' => 'ekspresif, ceria, keinginan kuat untuk sukses',
@@ -14751,7 +14768,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Rockie',
                 'meaning' => 'pemimpin kaya dan berkuasa',
@@ -14760,7 +14777,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Rockley',
                 'meaning' => 'keputusan tepat, ekspresif, sukses',
@@ -14769,7 +14786,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Rockwell',
                 'meaning' => 'idealis, jujur, optimis, keinginan sukses',
@@ -14778,7 +14795,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Roddy',
                 'meaning' => 'pemimpin terkenal',
@@ -14787,7 +14804,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Roderick',
                 'meaning' => 'selalu diberkati, ekspresif, ceria, sukses',
@@ -14796,7 +14813,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Rodrigo',
                 'meaning' => 'pemimpin terkenal',
@@ -14805,7 +14822,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Roid',
                 'meaning' => 'pemimpin',
@@ -14814,7 +14831,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ronald',
                 'meaning' => 'pemimpin yang bijaksana dan kuat',
@@ -14823,7 +14840,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ronny',
                 'meaning' => 'pemimpin dengan penilaian baik',
@@ -14832,7 +14849,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Rory',
                 'meaning' => 'berani',
@@ -14841,7 +14858,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Rubert',
                 'meaning' => 'pelajar',
@@ -14850,7 +14867,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Rustan',
                 'meaning' => 'kuat, cerdas',
@@ -14859,7 +14876,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ryn',
                 'meaning' => 'seorang pemimpin yang bijaksana',
@@ -14868,7 +14885,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Rylee',
                 'meaning' => 'gagah berani',
@@ -14877,7 +14894,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Rylie',
                 'meaning' => 'berani',
@@ -14886,7 +14903,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ryota',
                 'meaning' => 'gagah, kuat',
@@ -14895,7 +14912,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Saaeb',
                 'meaning' => 'masuk akal, rasional, cerdas',
@@ -14904,7 +14921,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Sabahi',
                 'meaning' => 'pemimpin, pejuang.',
@@ -14913,7 +14930,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Sabqi',
                 'meaning' => 'keutamaan.',
@@ -14922,7 +14939,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Safan',
                 'meaning' => 'cerdas, berpengetahuan luas',
@@ -14931,7 +14948,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Safaraz',
                 'meaning' => 'dihormati, diberkati.',
@@ -14940,7 +14957,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Safik',
                 'meaning' => 'cerdas',
@@ -14949,7 +14966,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Safiq',
                 'meaning' => 'belas kasih',
@@ -14958,7 +14975,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Safiy',
                 'meaning' => 'jujur',
@@ -14967,7 +14984,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Safwan',
                 'meaning' => 'ikhlas.',
@@ -14976,7 +14993,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Saguna',
                 'meaning' => 'laki-laki yang memiliki sifat baik',
@@ -14985,7 +15002,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Sahith',
                 'meaning' => 'anak yang bijaksana',
@@ -14994,7 +15011,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Saleeh',
                 'meaning' => 'benar, baik',
@@ -15003,7 +15020,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Saidan',
                 'meaning' => 'keberuntungan, kebahagiaan.',
@@ -15012,7 +15029,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Sakha',
                 'meaning' => 'kemurahan hati.',
@@ -15021,7 +15038,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Sameer',
                 'meaning' => 'teman yang menyenangkan.',
@@ -15030,7 +15047,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Samih',
                 'meaning' => 'lemah lembut.',
@@ -15039,7 +15056,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Samuel',
                 'meaning' => 'pilihan Tuhan',
@@ -15048,7 +15065,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Samy',
                 'meaning' => 'dewa, cerdas',
@@ -15057,7 +15074,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Sana',
                 'meaning' => 'cerdas',
@@ -15066,7 +15083,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Sandro',
                 'meaning' => 'orang baik',
@@ -15075,7 +15092,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Sankara',
                 'meaning' => 'pembawa keberuntungan',
@@ -15084,7 +15101,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Satria',
                 'meaning' => 'prajurit yang berani',
@@ -15093,7 +15110,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Saulo',
                 'meaning' => 'baik hati dan tulus hati',
@@ -15102,7 +15119,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Savio',
                 'meaning' => 'bijaksana dan pintar',
@@ -15111,7 +15128,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Sayyid',
                 'meaning' => 'pemimpin.',
@@ -15120,7 +15137,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Sebastian',
                 'meaning' => 'laki-laki terhormat yang bijaksana dan mulia',
@@ -15129,7 +15146,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Sedgewick',
                 'meaning' => 'dapat diandalkan, bertanggung jawab, sukses',
@@ -15138,7 +15155,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Seno',
                 'meaning' => 'bijak',
@@ -15147,7 +15164,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Shadiq',
                 'meaning' => 'tulus cintanya.',
@@ -15156,7 +15173,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Shafwan',
                 'meaning' => 'sahabat yang paling dikasihi.',
@@ -15165,7 +15182,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Shahim',
                 'meaning' => 'cerdas',
@@ -15174,7 +15191,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Shailendra',
                 'meaning' => 'pemimpin yang memiliki pengetahuan luas',
@@ -15183,7 +15200,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Shayan',
                 'meaning' => 'cerdas, raja',
@@ -15192,7 +15209,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Shobir',
                 'meaning' => 'sabar.',
@@ -15201,7 +15218,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Shunnar',
                 'meaning' => 'menyenangkan.',
@@ -15210,7 +15227,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Shyaan',
                 'meaning' => 'cerdas, bijaksana',
@@ -15219,7 +15236,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Skye',
                 'meaning' => 'mandiri, kebebasan, kesuksesan',
@@ -15228,7 +15245,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Skyler',
                 'meaning' => 'keinginan kuat untuk sukses',
@@ -15237,7 +15254,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Sohail',
                 'meaning' => 'seperti cahaya bulan.',
@@ -15246,7 +15263,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Solon',
                 'meaning' => 'kebijaksanaan',
@@ -15255,7 +15272,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Soni',
                 'meaning' => 'keteguhan, kebijaksanaan, pengaruh dan kekuasaan',
@@ -15264,7 +15281,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Sterne',
                 'meaning' => 'lelaki baik hati yang sederhana',
@@ -15273,7 +15290,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Sulthan',
                 'meaning' => 'pemimpin yang terpuji, seorang sultan',
@@ -15282,7 +15299,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Suman',
                 'meaning' => 'berhati baik',
@@ -15291,7 +15308,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Stefanos',
                 'meaning' => 'pemimpin yang memakai mahkota',
@@ -15300,7 +15317,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Syaban',
                 'meaning' => 'nama salah satu bulan dalam kalender hijriah.',
@@ -15309,7 +15326,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Syabil',
                 'meaning' => 'bintang.',
@@ -15318,7 +15335,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Syahdan',
                 'meaning' => 'yang melihat kebenaran.',
@@ -15327,7 +15344,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Syahrizky',
                 'meaning' => 'anak laki-laki yang diberikan rezeki',
@@ -15336,7 +15353,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Syakib',
                 'meaning' => 'pandai membalas budi baik.',
@@ -15345,7 +15362,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Syakur',
                 'meaning' => 'bersyukur.',
@@ -15354,7 +15371,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Syauqi',
                 'meaning' => 'kerinduan akan Tuhan.',
@@ -15363,7 +15380,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Syuja’',
                 'meaning' => 'pemberani',
@@ -15372,7 +15389,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Taaj',
                 'meaning' => 'mahkota.',
@@ -15381,7 +15398,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Tabriz',
                 'meaning' => 'pengungkap suatu kebaikan.',
@@ -15390,7 +15407,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Taddeo',
                 'meaning' => 'berani',
@@ -15399,7 +15416,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Tafhim',
                 'meaning' => 'berusaha memahami.',
@@ -15408,7 +15425,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Tahid',
                 'meaning' => 'cerdas',
@@ -15417,7 +15434,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Tahin',
                 'meaning' => 'kreatif, unik, cerdas',
@@ -15426,7 +15443,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Tahir',
                 'meaning' => 'suci.',
@@ -15435,7 +15452,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Taiz',
                 'meaning' => 'padat, berisi.',
@@ -15444,7 +15461,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Taly',
                 'meaning' => 'kaya.',
@@ -15453,7 +15470,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Tameez',
                 'meaning' => 'bijaksana.',
@@ -15462,7 +15479,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Tamim',
                 'meaning' => 'orang yang kuat.',
@@ -15471,7 +15488,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Tanner',
                 'meaning' => 'pangeran yang berani dan kuat',
@@ -15480,7 +15497,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Tanvir',
                 'meaning' => 'cahaya.',
@@ -15489,7 +15506,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Taqi',
                 'meaning' => 'bertakwa.',
@@ -15498,7 +15515,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Tareq',
                 'meaning' => 'bintang pagi.',
@@ -15507,7 +15524,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Tariif',
                 'meaning' => 'hidup mewah.',
@@ -15516,7 +15533,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Tariij',
                 'meaning' => 'lelaki yang kuat.',
@@ -15525,7 +15542,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Tariim',
                 'meaning' => 'yang selalu merendah kepada Allah SWT.',
@@ -15534,7 +15551,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Tarish',
                 'meaning' => 'adil.',
@@ -15543,7 +15560,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Tashdiiq',
                 'meaning' => 'mempercayai.',
@@ -15552,7 +15569,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Taufiiq',
                 'meaning' => 'pertolongan.',
@@ -15561,7 +15578,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Taufiqq',
                 'meaning' => 'pertolongan.',
@@ -15570,7 +15587,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Tauhid',
                 'meaning' => 'kemurnian.',
@@ -15579,7 +15596,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Taqa',
                 'meaning' => 'yang bertakwa.',
@@ -15588,7 +15605,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Tedrick',
                 'meaning' => 'pemberian Tuhan',
@@ -15597,7 +15614,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Teodorico',
                 'meaning' => 'dia yang memimpin agung',
@@ -15606,7 +15623,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Terell',
                 'meaning' => 'pemimpin yang membahana',
@@ -15615,7 +15632,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Terrelle',
                 'meaning' => 'pemimpin petir',
@@ -15624,7 +15641,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Terry',
                 'meaning' => 'pemimpin berkuasa',
@@ -15633,7 +15650,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Thaddeus',
                 'meaning' => 'pemberian Tuhan',
@@ -15642,7 +15659,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Thahir',
                 'meaning' => 'bersih.',
@@ -15651,7 +15668,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Thanos',
                 'meaning' => 'pemimpin abadi',
@@ -15660,7 +15677,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Thatcher',
                 'meaning' => 'berbakat, sukses, mandiri, optimis, kritis',
@@ -15669,7 +15686,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Thedric',
                 'meaning' => 'pemimpin sekumpulan orang',
@@ -15678,7 +15695,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Theo',
                 'meaning' => 'pemberian Tuhan',
@@ -15687,7 +15704,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Theodoros',
                 'meaning' => 'pemimpin dari Tuhan',
@@ -15696,7 +15713,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Theseus',
                 'meaning' => 'raja pengatur',
@@ -15705,7 +15722,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Thomas',
                 'meaning' => 'sukses, pekerja keras, berambisi, penuh visi',
@@ -15714,7 +15731,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Tilmiidz',
                 'meaning' => 'murid laki-laki.',
@@ -15723,7 +15740,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Tiryaaq',
                 'meaning' => 'penawar racun.',
@@ -15732,7 +15749,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Toby',
                 'meaning' => 'anak baik',
@@ -15741,7 +15758,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Tobias',
                 'meaning' => 'baik',
@@ -15750,7 +15767,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Tobi',
                 'meaning' => 'baik',
@@ -15759,7 +15776,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Tobiah',
                 'meaning' => 'kebaikan Tuhan',
@@ -15768,7 +15785,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Tomohiro',
                 'meaning' => 'pengetahuan ',
@@ -15777,7 +15794,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Tomoya',
                 'meaning' => 'seseorang yang bijak dan cerdas',
@@ -15786,7 +15803,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Trevor',
                 'meaning' => 'bijaksana',
@@ -15795,7 +15812,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Tristan',
                 'meaning' => 'berani dan ksatria',
@@ -15804,7 +15821,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Tsaaqib',
                 'meaning' => 'yang cerdas.',
@@ -15813,7 +15830,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Tsabab',
                 'meaning' => 'sempurna.',
@@ -15822,7 +15839,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Tsabat',
                 'meaning' => 'keteguhan hati.',
@@ -15831,7 +15848,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Tsabiy',
                 'meaning' => 'yang suka memuji orang.',
@@ -15840,7 +15857,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Tsakam',
                 'meaning' => 'arah jalan.',
@@ -15849,7 +15866,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Tsanaa',
                 'meaning' => 'pujian.',
@@ -15858,7 +15875,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Tsaqib',
                 'meaning' => 'hartawan.',
@@ -15867,7 +15884,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Tsaqif',
                 'meaning' => 'cerdas, pandai.',
@@ -15876,7 +15893,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Tsary',
                 'meaning' => 'memiliki harta.',
@@ -15885,7 +15902,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Tsaury',
                 'meaning' => 'tuan.',
@@ -15894,7 +15911,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Tsimaar',
                 'meaning' => 'buah.',
@@ -15903,7 +15920,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Tsumam',
                 'meaning' => 'jenis tumbuhan.',
@@ -15912,7 +15929,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Tuhaf',
                 'meaning' => 'hadiah.',
@@ -15921,7 +15938,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Turmusy',
                 'meaning' => 'sejenis tumbuhan.',
@@ -15930,7 +15947,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Tyaga',
                 'meaning' => 'pemberian Tuhan',
@@ -15939,7 +15956,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Tyson',
                 'meaning' => 'berani',
@@ -15948,7 +15965,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Tyrese',
                 'meaning' => 'berani dan cerdas',
@@ -15957,7 +15974,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ubadah',
                 'meaning' => 'berbakti kepada Allah.',
@@ -15966,7 +15983,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ubaid',
                 'meaning' => 'hamba Allah.',
@@ -15975,7 +15992,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ubayd',
                 'meaning' => 'penyembah.',
@@ -15984,7 +16001,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ukail',
                 'meaning' => 'pandai.',
@@ -15993,7 +16010,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ukasyah',
                 'meaning' => 'nama sahabat Rasulullah SAW.',
@@ -16002,7 +16019,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ulhaq',
                 'meaning' => 'kebenaran.',
@@ -16011,7 +16028,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ulya',
                 'meaning' => 'tinggi.',
@@ -16020,7 +16037,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ulwan',
                 'meaning' => 'tinggi.',
@@ -16029,7 +16046,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Umair',
                 'meaning' => 'cerdas, berumur panjang.',
@@ -16038,7 +16055,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Unais',
                 'meaning' => 'cinta, kasih sayang.',
@@ -16047,7 +16064,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Urfi',
                 'meaning' => 'air susu murni.',
@@ -16056,7 +16073,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Uthman',
                 'meaning' => 'gigih.',
@@ -16065,7 +16082,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Uthum',
                 'meaning' => 'istana.',
@@ -16074,7 +16091,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Utsman',
                 'meaning' => 'bijaksana, berkuasa.',
@@ -16083,7 +16100,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Uwais',
                 'meaning' => 'pemberian.',
@@ -16092,7 +16109,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Uwamir',
                 'meaning' => 'pemberani.',
@@ -16101,7 +16118,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Uzair',
                 'meaning' => 'penolong',
@@ -16110,7 +16127,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Uzzam',
                 'meaning' => 'singa, berani',
@@ -16119,7 +16136,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Vabian',
                 'meaning' => 'petani yang sukses',
@@ -16128,7 +16145,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Valeega',
                 'meaning' => 'terpercaya.',
@@ -16137,7 +16154,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Valen',
                 'meaning' => 'gagah',
@@ -16146,7 +16163,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Valeeqa',
                 'meaning' => 'terpercaya',
@@ -16155,7 +16172,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Valerius',
                 'meaning' => 'gagah berani',
@@ -16164,7 +16181,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Valfredo',
                 'meaning' => 'pemimpin yang melindungi',
@@ -16173,7 +16190,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Vander',
                 'meaning' => 'lelaki yang baik',
@@ -16182,7 +16199,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Vangelis',
                 'meaning' => 'pembawa kabar baik',
@@ -16191,7 +16208,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Varrell',
                 'meaning' => 'manusia yang berani',
@@ -16200,7 +16217,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Vasilis',
                 'meaning' => 'seorang pemimpin yang loyal',
@@ -16209,7 +16226,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Vehan',
                 'meaning' => 'kuat, cerdas',
@@ -16218,7 +16235,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ventura',
                 'meaning' => 'keberuntungan',
@@ -16227,7 +16244,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Verdianto',
                 'meaning' => 'rezeki yang mengalir',
@@ -16236,7 +16253,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Vernon',
                 'meaning' => 'bijaksana',
@@ -16245,7 +16262,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Vicenzo',
                 'meaning' => 'berjaya',
@@ -16254,7 +16271,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Vicky',
                 'meaning' => 'tujuan.',
@@ -16263,7 +16280,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Vihan',
                 'meaning' => 'kedamaian, kekayaan, cerdas',
@@ -16272,7 +16289,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Virendra',
                 'meaning' => 'mulia, pemberani',
@@ -16281,7 +16298,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Vasilis',
                 'meaning' => 'seorang pemimpin yang loyal',
@@ -16290,7 +16307,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Vorkan',
                 'meaning' => 'berani',
@@ -16299,7 +16316,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Wadi',
                 'meaning' => 'tenang.',
@@ -16308,7 +16325,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Wafa',
                 'meaning' => 'menepati janji.',
@@ -16317,7 +16334,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Wafda',
                 'meaning' => 'keberuntungan.',
@@ -16326,7 +16343,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Wafi',
                 'meaning' => 'sempurna.',
@@ -16335,7 +16352,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Wafiq',
                 'meaning' => 'sukses.',
@@ -16344,7 +16361,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Wafiyy',
                 'meaning' => 'setia.',
@@ -16353,7 +16370,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Wahab',
                 'meaning' => 'hadiah, berhati besar, baik hati.',
@@ -16362,7 +16379,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Washil',
                 'meaning' => 'menyatukan',
@@ -16371,7 +16388,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Wais',
                 'meaning' => 'seorang raja.',
@@ -16380,7 +16397,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Waiz',
                 'meaning' => 'penasihat.',
@@ -16389,7 +16406,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Wajdi',
                 'meaning' => 'bersemangat.',
@@ -16398,7 +16415,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Wajif',
                 'meaning' => 'tekun.',
@@ -16407,7 +16424,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Wajih',
                 'meaning' => 'orang yang berkedudukan.',
@@ -16416,7 +16433,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Walden',
                 'meaning' => 'untuk pemimpin',
@@ -16425,7 +16442,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Waldo',
                 'meaning' => 'pemimpin, berkuasa',
@@ -16434,7 +16451,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Waldron',
                 'meaning' => 'pemimpin',
@@ -16443,7 +16460,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Walif',
                 'meaning' => 'berteman.',
@@ -16452,7 +16469,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Walker',
                 'meaning' => 'keinginan kuat untuk sukses',
@@ -16461,7 +16478,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Walter',
                 'meaning' => 'pasukan penuh kuasa',
@@ -16470,7 +16487,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Waqqas',
                 'meaning' => 'nama sahabat Rasulullah SAW',
@@ -16479,7 +16496,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Warick',
                 'meaning' => 'pemimpin pertahanan',
@@ -16488,7 +16505,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Wasif',
                 'meaning' => 'orang yang memuji.',
@@ -16497,7 +16514,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Wasim',
                 'meaning' => 'rupawan.',
@@ -16506,7 +16523,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Wasl',
                 'meaning' => 'hubungan.',
@@ -16515,7 +16532,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Wazn',
                 'meaning' => 'menimbang.',
@@ -16524,7 +16541,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Widad',
                 'meaning' => 'kasih sayang.',
@@ -16533,7 +16550,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Wifaq',
                 'meaning' => 'keramahan, kesatuan.',
@@ -16542,7 +16559,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Wilbur',
                 'meaning' => 'orang yang bijaksana',
@@ -16551,7 +16568,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Wildan',
                 'meaning' => 'anak laki-laki surga.',
@@ -16560,7 +16577,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Wiley',
                 'meaning' => 'selalu diberkati',
@@ -16569,7 +16586,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Willard',
                 'meaning' => 'sangat bijaksana',
@@ -16578,7 +16595,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Wilfred',
                 'meaning' => 'pemimpin tegas',
@@ -16587,7 +16604,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'William',
                 'meaning' => 'pemimpin yang tegas',
@@ -16596,7 +16613,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Winfrey',
                 'meaning' => 'pemenang yang bijaksana',
@@ -16605,7 +16622,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Wisam',
                 'meaning' => 'bintang.',
@@ -16614,7 +16631,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Wisam',
                 'meaning' => 'manis, tampan, menarik.',
@@ -16623,7 +16640,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Witha',
                 'meaning' => 'tampan, rupawan.',
@@ -16632,7 +16649,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Witha',
                 'meaning' => 'tampan',
@@ -16641,7 +16658,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Wuhaib',
                 'meaning' => 'hadiah',
@@ -16650,7 +16667,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Xabell',
                 'meaning' => 'penyelamat.',
@@ -16659,7 +16676,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Xabier',
                 'meaning' => 'bersinar.',
@@ -16668,7 +16685,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Xabiya',
                 'meaning' => 'angin timur.',
@@ -16677,7 +16694,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Xanders',
                 'meaning' => 'pemimpin, komandan',
@@ -16686,7 +16703,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Xaquil',
                 'meaning' => 'pemimpin yang rupawan',
@@ -16695,7 +16712,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Xaver',
                 'meaning' => 'bersinar.',
@@ -16704,7 +16721,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Xavier',
                 'meaning' => 'hebat',
@@ -16713,7 +16730,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Xerxes',
                 'meaning' => 'pemimpin para pahlawan',
@@ -16722,7 +16739,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Yafizhan',
                 'meaning' => 'pelindung.',
@@ -16731,7 +16748,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Yaman',
                 'meaning' => 'diberkati, dicintai oleh Tuhan.',
@@ -16740,7 +16757,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Yamaro',
                 'meaning' => 'hidup, panjang umur.',
@@ -16749,7 +16766,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Yamir: Bulan.',
                 'gender_id' => 1,
@@ -16757,7 +16774,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Yaqdhan',
                 'meaning' => 'terjaga.',
@@ -16766,7 +16783,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Yaqien',
                 'meaning' => 'kepastian.',
@@ -16775,7 +16792,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Yarif',
                 'meaning' => 'berilmu.',
@@ -16784,7 +16801,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Yasar',
                 'meaning' => 'mewah, kemudahan.',
@@ -16793,7 +16810,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Yasir',
                 'meaning' => 'diberkati, hidup yang mudah.',
@@ -16802,7 +16819,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Yawar',
                 'meaning' => 'pengawal.',
@@ -16811,7 +16828,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Yazdan',
                 'meaning' => 'anugerah.',
@@ -16820,7 +16837,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Yazeed',
                 'meaning' => 'dia yang membuat kemajuan.',
@@ -16829,7 +16846,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Yeeshai',
                 'meaning' => 'pemberian yang mewah.',
@@ -16838,7 +16855,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Yeremia',
                 'meaning' => 'Tuhan telah menganugerahkan',
@@ -16847,7 +16864,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Yeswin',
                 'meaning' => 'sukses',
@@ -16856,7 +16873,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Yohaan',
                 'meaning' => 'beruntung',
@@ -16865,7 +16882,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Yoram',
                 'meaning' => 'anugerah mulia dari Tuhan',
@@ -16874,7 +16891,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Yosef',
                 'meaning' => 'anugerah dari Tuhan',
@@ -16883,7 +16900,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Yunan',
                 'meaning' => 'nama ulama.',
@@ -16892,7 +16909,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Yunus',
                 'meaning' => 'kemurnian.',
@@ -16901,7 +16918,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Yusuf',
                 'meaning' => 'lelaki yang tampan',
@@ -16910,7 +16927,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Yusr',
                 'meaning' => 'kelembutan, kemudahan',
@@ -16919,7 +16936,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Yusri',
                 'meaning' => 'kaya, dalam kemudahan',
@@ -16928,7 +16945,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Zaahirulhaq',
                 'meaning' => 'selalu mendukung.',
@@ -16937,7 +16954,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Zaaki',
                 'meaning' => 'seseorang yang tumbuh dalam kebaikan.',
@@ -16946,7 +16963,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Zachary',
                 'meaning' => 'cerdas ',
@@ -16955,7 +16972,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Zack',
                 'meaning' => 'cerdas, berjiwa petualang, optimis, semangat sukses',
@@ -16964,7 +16981,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Zacky',
                 'meaning' => 'cerdas.',
@@ -16973,7 +16990,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Zaeem',
                 'meaning' => 'tegas, bertanggung jawab.',
@@ -16982,7 +16999,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Zaedyn',
                 'meaning' => 'tampan',
@@ -16991,7 +17008,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Zafar',
                 'meaning' => 'kemenangan.',
@@ -17000,7 +17017,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Zafeer',
                 'meaning' => 'selalu menang.',
@@ -17009,7 +17026,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Zaheer',
                 'meaning' => 'bercahaya, penuh kehidupan.',
@@ -17018,7 +17035,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Zahian',
                 'meaning' => 'hari yang cerah, brilian.',
@@ -17027,7 +17044,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Zahid',
                 'meaning' => 'rendah hati.',
@@ -17036,7 +17053,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Zahin',
                 'meaning' => 'cerdik.',
@@ -17045,7 +17062,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Zahir',
                 'meaning' => 'pendukung.',
@@ -17054,7 +17071,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Zahirul',
                 'meaning' => 'cemerlang.',
@@ -17063,7 +17080,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Zahran',
                 'meaning' => 'bersinar, bercahaya.',
@@ -17072,7 +17089,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Zahrun',
                 'meaning' => 'mekar.',
@@ -17081,7 +17098,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Zahuko',
                 'meaning' => 'gembira, bahagia.',
@@ -17090,7 +17107,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Zaidan',
                 'meaning' => 'kelebihan.',
@@ -17099,7 +17116,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Zakey',
                 'meaning' => 'cerdas',
@@ -17108,7 +17125,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Zaki',
                 'meaning' => 'saleh, murni, diberkati.',
@@ -17117,7 +17134,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Zakkai',
                 'meaning' => 'cerdas, pintar',
@@ -17126,7 +17143,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Zakou',
                 'meaning' => 'peningkatan, pertumbuhan.',
@@ -17135,7 +17152,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Zakwan',
                 'meaning' => 'pintar, cerdas, intuitif',
@@ -17144,7 +17161,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Zamar',
                 'meaning' => 'anak tampan',
@@ -17153,7 +17170,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Zarek',
                 'meaning' => 'pemimpin yang dilindungi Tuhan',
@@ -17162,7 +17179,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Zayan',
                 'meaning' => 'rupawan.',
@@ -17171,7 +17188,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Zayden',
                 'meaning' => 'tampan',
@@ -17180,7 +17197,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Zayn',
                 'meaning' => 'tampan',
@@ -17189,7 +17206,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Zecheriah',
                 'meaning' => 'optimis, jujur, penuh prasangka, sukses',
@@ -17198,7 +17215,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Zeroun',
                 'meaning' => 'bijaksana.',
@@ -17207,7 +17224,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Zeus',
                 'meaning' => 'pemimpin, raja',
@@ -17216,7 +17233,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Zhafif',
                 'meaning' => 'cerdik.',
@@ -17225,7 +17242,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Zhafir',
                 'meaning' => 'yang menang.',
@@ -17234,7 +17251,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Zhandra',
                 'meaning' => 'penolong umat manusia',
@@ -17243,7 +17260,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Zharif',
                 'meaning' => 'bijaksana, cerdas',
@@ -17252,7 +17269,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Zifary',
                 'meaning' => 'kesejahteraan',
@@ -17261,7 +17278,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Zinon',
                 'meaning' => 'raja',
@@ -17270,7 +17287,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Ziyad',
                 'meaning' => 'kelebihan.',
@@ -17279,7 +17296,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Zoel',
                 'meaning' => 'sukses',
@@ -17288,7 +17305,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Zoraiz',
                 'meaning' => 'memancarkan cahaya.',
@@ -17297,7 +17314,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Zubair',
                 'meaning' => 'gagah dan bijaksana',
@@ -17306,7 +17323,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Zulkan',
                 'meaning' => 'pembawa kebahagiaan dan rezeki',
@@ -17315,7 +17332,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Zuri',
                 'meaning' => 'lembut, baik, pekerja keras, kesuksesan',
@@ -17324,7 +17341,7 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
-    [
+            [
                 'uuid' => Str::uuid(),
                 'name' => 'Zurio',
                 'meaning' => 'mampu meraih kesuksesan',
@@ -17333,3 +17350,6814 @@ DONE
                 'status' => 'active',
                 'created_at' => Carbon::now(),
             ],
+
+            // 
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Aksa',
+                'meaning' => 'Orang yang selalu jernih air mukanya',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Arion',
+                'meaning' => 'Mempesona, memikat hati',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Arshaka',
+                'meaning' => 'bersyukur, orang yang murah hati',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Arvin',
+                'meaning' => 'Teman yang baik bagi semua orang',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Aliando',
+                'meaning' => 'Mulia dan bahagia',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Alec',
+                'meaning' => 'Pelindung umat manusia',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Axelle',
+                'meaning' => ' Pembawa kedamaian',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Azada',
+                'meaning' => 'Kebebasan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Adhitama',
+                'meaning' => 'Tampan dan indah',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Azura',
+                'meaning' => 'Biru langit',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Abhimanyu',
+                'meaning' => 'Anak dari Arjuna',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Abayomi',
+                'meaning' => 'Anak yang lahir membawa kebahagiaan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Azri',
+                'meaning' => 'Cerdas',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Alvaro',
+                'meaning' => 'Bijaksana ',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Arkana',
+                'meaning' => 'Berhati terang',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Arrayan',
+                'meaning' => 'Pohon yang berbau harum',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Andhra',
+                'meaning' => 'Kuat dan berani',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Aydin',
+                'meaning' => 'Keteguhan dan kebijaksanaan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Abrisam',
+                'meaning' => 'Tampan dan lembut',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Achazia',
+                'meaning' => 'Raja',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Abinaya',
+                'meaning' => 'Semangat',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Abbas',
+                'meaning' => 'Singa, pemimpin',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Abizar',
+                'meaning' => 'tambang emas, yang menyebarkan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Abqary',
+                'meaning' => 'jenius, pintar, cerdas',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Abraham',
+                'meaning' => 'pembawa pesan dari Tuhan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Adnan',
+                'meaning' => 'penenang hati',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Afif',
+                'meaning' => 'punya harga diri',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Aidan',
+                'meaning' => 'pohon palem yang tinggi',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Alvan',
+                'meaning' => 'agung',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Alzam',
+                'meaning' => 'tekun',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Ameer',
+                'meaning' => 'penguasa atau pemimpin',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Amaar',
+                'meaning' => 'menjadi makmur, pembangun',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Aqila',
+                'meaning' => 'Bijaksana, pandai',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Asad',
+                'meaning' => 'senang, berbahagia, beruntung, singa',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Atlas',
+                'meaning' => 'nama dewa Yunani yang menopang Bumi',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Atalaric',
+                'meaning' => 'harum',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Atha',
+                'meaning' => 'pemberian',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Attar',
+                'meaning' => 'murni, suci, bersih',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Aulian',
+                'meaning' => 'pemimpin, semangat, malaikat, teman',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Azam',
+                'meaning' => 'agung, terhebat, paling penting, rajin, tekun',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Azhar',
+                'meaning' => 'bercahaya, lebih cerah, yang berseri, yang gemilang',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Aziz',
+                'meaning' => 'yang mulia, yang kuat, kekasih',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Aarush',
+                'meaning' => 'matahari',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Advik',
+                'meaning' => 'unik',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Austin',
+                'meaning' => 'yang hebat',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Ardashir',
+                'meaning' => 'pemimpin yang jujur',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Aryan',
+                'meaning' => 'yang mulia, yang suci',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Anzel',
+                'meaning' => 'Tuhan maha pemurah',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Arshakalif',
+                'meaning' => 'orang yang bijaksana',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Axel',
+                'meaning' => 'ayah dari kedamaian',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Bahr',
+                'meaning' => 'laut, lautan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Bahran',
+                'meaning' => 'bercahaya',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Bahi',
+                'meaning' => 'indah, yang sempurna',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Bahy',
+                'meaning' => 'yang tampan dan elok matanya',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Baihaqi',
+                'meaning' => 'imam perawi hadist',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Baim',
+                'meaning' => 'penguasa yang baik',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Bais',
+                'meaning' => 'tentara',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Bakhtiar',
+                'meaning' => 'yang bahagia',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Banan',
+                'meaning' => 'ujung jari',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Bani',
+                'meaning' => 'kaum',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Banin',
+                'meaning' => 'bijak, gigih',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Baqir',
+                'meaning' => 'pembelah, yang berilmu',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Bariq',
+                'meaning' => 'bercahaya, kemilau',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Barra',
+                'meaning' => 'keteguhan, berkah Tuhan, memiliki kekuasaan, bersih',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Barraq',
+                'meaning' => 'bersinar, berkilau, cemerlang',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Bashir',
+                'meaning' => 'pembawa berita baik',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Basil',
+                'meaning' => 'singa',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Basman',
+                'meaning' => 'yang banyak tersenyum',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Behzad',
+                'meaning' => 'jujur, perhatian',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Bilal',
+                'meaning' => 'terpilih',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Bin',
+                'meaning' => 'Seorang anak laki-laki',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Bryan',
+                'meaning' => 'Daratan tinggi',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Bruno',
+                'meaning' => 'Rambut kecoklatan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Brandon',
+                'meaning' => 'Gunung yang tinggi',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Bradley',
+                'meaning' => 'Seorang yang pemberani',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Bobby',
+                'meaning' => 'Sebuah anugerah',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Bishal',
+                'meaning' => 'Kekuatan, yang memimpin',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Benny',
+                'meaning' => 'Yang dapat dipercaya',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Bose',
+                'meaning' => 'Yang menguasai, kecerdasan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Bentley',
+                'meaning' => 'Tanaman yang lebat, ketenangan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Brock',
+                'meaning' => 'Binatang pengerat, bisa bermakna anak yang kuat dan hebat',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Caden',
+                'meaning' => 'teman, kerabat',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Caleb',
+                'meaning' => 'dermawan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Carim',
+                'meaning' => 'murah hati, dermawan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Casildo',
+                'meaning' => 'pemuda pejuang',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Cazim',
+                'meaning' => 'penyabar',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Cemal',
+                'meaning' => 'keindahan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Chafik',
+                'meaning' => 'bersimpati',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Chaker',
+                'meaning' => 'berterima kasih',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Chanan',
+                'meaning' => 'Tuhan itu Maha Pengasih',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Chahid',
+                'meaning' => 'saksi',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Chairi',
+                'meaning' => 'kebaikanku',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Chairil',
+                'meaning' => 'kebaikan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Chan',
+                'meaning' => 'bersinar',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Charagh',
+                'meaning' => 'cahaya dalam gelap',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Chashida',
+                'meaning' => 'berpengalaman, terpelajar',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Chawki',
+                'meaning' => 'memberikan kenyamanan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Chinar',
+                'meaning' => 'sebuah pohon',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Chokri',
+                'meaning' => 'diberkati',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Chumaidi',
+                'meaning' => 'pujaanku',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Coman',
+                'meaning' => 'mulia, luhur, bangsawan, ningrat',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Calvin',
+                'meaning' => 'Bersinar',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Cedric',
+                'meaning' => 'Alternatif',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Cody',
+                'meaning' => 'Kecerdasan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Charles',
+                'meaning' => 'Kekuatan, pemimpin',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Cyrus',
+                'meaning' => 'Seperti matahari, bersinar',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Cameron',
+                'meaning' => 'Cerdas',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Cal',
+                'meaning' => 'Yang berharga',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Carlton',
+                'meaning' => 'Perkotaan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Chan',
+                'meaning' => 'Cahaya',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Charilie',
+                'meaning' => 'Seorang yang diberkahi',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Callum ',
+                'meaning' => 'merpati',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Cruz',
+                'meaning' => 'berkat, kebaikan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Damian',
+                'meaning' => 'Sahabat yang baik.',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Delvin',
+                'meaning' => 'Teman yang baik.',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Delana',
+                'meaning' => 'Pelindung orang yang mulia',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Devan',
+                'meaning' => 'Puisi',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Dylan',
+                'meaning' => 'Anak laut',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Daanii',
+                'meaning' => 'dekat',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Daarii',
+                'meaning' => 'mengetahui',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Daaris',
+                'meaning' => 'pembaca, pelajar',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Daffa',
+                'meaning' => 'banyak memiliki pertahanan diri',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Dahdy',
+                'meaning' => 'yang tercinta',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Daifullah',
+                'meaning' => 'tamu Allah',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Daim',
+                'meaning' => 'kekal abadi',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Dalil',
+                'meaning' => 'penunjuk, alasan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Daiyan',
+                'meaning' => 'hakim, pembalas',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Danesh',
+                'meaning' => 'kebijaksanaan, terpelajar',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Daniyal',
+                'meaning' => 'pintar, cerdas',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Dary',
+                'meaning' => 'pandai, bijaksana',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Dawud',
+                'meaning' => 'yang tercinta',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Dayyan',
+                'meaning' => 'penguasa yang agung dan kuat',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Dhafi',
+                'meaning' => 'tamu',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Dhakiy',
+                'meaning' => 'pintar, cemerlang',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Dhia',
+                'meaning' => 'sinar, cahaya, sinaran kebenaran',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Dhiaulhaq',
+                'meaning' => 'sinar cahaya',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Durrani',
+                'meaning' => 'permataku',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Dzuhairi',
+                'meaning' => 'baik, cerdas, beruntung',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Darsh',
+                'meaning' => 'Pemimpin',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Diyan',
+                'meaning' => 'Lampu',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Dilan',
+                'meaning' => 'Sebuah kebaikan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'David',
+                'meaning' => 'Yang dicintai',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Dev',
+                'meaning' => 'Yang dikagumi',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Derek',
+                'meaning' => 'Raja',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Danny',
+                'meaning' => 'Berlaku adil',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Daniel',
+                'meaning' => 'Yang berlaku adil',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Darren',
+                'meaning' => 'Bukit yang tinggi',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Desmond',
+                'meaning' => 'Laki-laki pintar',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Dominic',
+                'meaning' => 'milik Tuhan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Evano',
+                'meaning' => 'Anugerah Tuhan yang paling indah',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Ersya',
+                'meaning' => 'Anak yang bersemangat dan cerdas',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Ezra',
+                'meaning' => 'Pertolongan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Ephraim',
+                'meaning' => 'Selalu berhasil dengan baik',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Elvano',
+                'meaning' => 'Anak yang kuat hadiah dari Tuhan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Edzard',
+                'meaning' => 'Penjaga kekayaan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Ebrahim',
+                'meaning' => 'pembawa pesan dari Tuhan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Efendi',
+                'meaning' => 'laki-laki lembut',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Ehan',
+                'meaning' => 'bulan purnama',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Ehsan',
+                'meaning' => 'kuat, baik',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Eiham ',
+                'meaning' => 'fantasi',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Eijaz ',
+                'meaning' => 'keajaiban atau berkat',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Eisa ',
+                'meaning' => 'Tuhan penyelamat',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Eiwa ',
+                'meaning' => 'pelindung',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Einas ',
+                'meaning' => 'ketenangan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'El Amin ',
+                'meaning' => 'dapat dipercaya',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'El Fatih ',
+                'meaning' => 'pemenang',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Emery',
+                'meaning' => 'penuh kasih',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Emran ',
+                'meaning' => 'berkembang, sukses',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Emir ',
+                'meaning' => 'Pangeran yang memesona',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Esfand ',
+                'meaning' => 'murni, suci',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Eshaal ',
+                'meaning' => 'penyelesaian',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Eshan ',
+                'meaning' => 'dalam kasih Allah',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Ettifaq ',
+                'meaning' => 'harmoni, kesatuan, persahabatan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Eyab ',
+                'meaning' => 'kembali',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Ezaz ',
+                'meaning' => 'karunia dari Allah',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Ezhar ',
+                'meaning' => 'bunga-bunga, yang berseri, yang gemilang, lebih cerah',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Ethan ',
+                'meaning' => 'kuat',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Faresta  ',
+                'meaning' => 'Malaikat',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Fajrin  ',
+                'meaning' => 'Kebahagiaan, kekuatan, pengetahuah luas, dan jalan hidup yang tentram',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Farrel ',
+                'meaning' => 'Manusia pemberani',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Farzan ',
+                'meaning' => 'Bijaksana',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Faadhil ',
+                'meaning' => 'berlimpah, mulia, beruntung dan memiliki banyak kebaikan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Fadgham ',
+                'meaning' => 'lelaki yang memesona',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Faidhan ',
+                'meaning' => 'lelaki yang banyak kebajikannya',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Faiq ',
+                'meaning' => 'baik, istimewa, unggul',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Fakhri ',
+                'meaning' => 'kemegahanku, kebanggaan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Faisal ',
+                'meaning' => 'pemisah antara hak dan batil, tegas',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Fannan ',
+                'meaning' => 'seniman',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Faqih ',
+                'meaning' => 'ahli Fiqih, cerdas, pintar, sangat alim',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Fariq ',
+                'meaning' => 'bisa membedakan yang baik dan yang tidak baik',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Farras ',
+                'meaning' => 'cerdas, banyak akal, tajam pikirannya',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Fathan',
+                'meaning' => 'kemenangan, cerdas, bijaksana',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Fatih ',
+                'meaning' => 'penakluk, pemimpin',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Fattah ',
+                'meaning' => 'Penakluk',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Fattan ',
+                'meaning' => 'yang memikat, menarik hati',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Fauzan ',
+                'meaning' => 'kemenangan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Fawad ',
+                'meaning' => 'hati, jiwa',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Fawwaz ',
+                'meaning' => 'yang selalu beruntung',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Fidai ',
+                'meaning' => 'pengorbanan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Firas ',
+                'meaning' => 'gigih, kecerdikan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Firhan ',
+                'meaning' => 'yang bahagia, yang senang',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Frey ',
+                'meaning' => 'mulia',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Felix ',
+                'meaning' => 'bahagia dan makmur',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Gandhi ',
+                'meaning' => 'Anak yang berilmu',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Gunadhya ',
+                'meaning' => 'Kekayaan dalam kebaikan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Galaxy',
+                'meaning' => 'gugus bintang, luar angkasa',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Galen',
+                'meaning' => 'tenang',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Gavin ',
+                'meaning' => 'Elang putih',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Gilang ',
+                'meaning' => 'Anak yang teguh',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Gafar ',
+                'meaning' => 'suka memaafkan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Gaffi ',
+                'meaning' => 'berhati lembut',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Ghaaziy ',
+                'meaning' => 'pejuang yang tidak kenal lelah',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Ghadi ',
+                'meaning' => 'singa',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Ghaffar ',
+                'meaning' => 'lembut hati, sedia mengampuni',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Ghafif ',
+                'meaning' => 'pemaaf, sedia mengampuni',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Ghaly ',
+                'meaning' => 'berharga, mahal',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Ghanim ',
+                'meaning' => 'sukses, berhasil',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Ghauts ',
+                'meaning' => 'bantuan, pertolongan, uluran.',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Ghava ',
+                'meaning' => 'lembut hati',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Ghazam ',
+                'meaning' => 'sayang, cinta',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Ghazi ',
+                'meaning' => 'pejuang',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Ghazwan ',
+                'meaning' => 'penakluk',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Ghifari ',
+                'meaning' => 'pengampun, lembut hati',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Ghiyats ',
+                'meaning' => 'bantuan yang tepat pada waktunya, hujan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Ghonim ',
+                'meaning' => 'keuntungan; kebahagiaan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Ghufran ',
+                'meaning' => 'ampunan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Ghyr ',
+                'meaning' => 'memiliki kecemburuan tinggi terhadap agama',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Gibran ',
+                'meaning' => 'yang terpandai',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Gifar ',
+                'meaning' => 'lembut',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Griffin',
+                'meaning' => 'dewa yang kuat',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Haadii ',
+                'meaning' => 'yang memberi petunjuk, penunjuk jalan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Hadaya ',
+                'meaning' => 'pemberian, hadiah',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Haddad ',
+                'meaning' => 'pandai besi, kuat kemauan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Hadziq ',
+                'meaning' => 'yang cerdik, pandai, mahir, cakap',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Haedar ',
+                'meaning' => 'pemberani',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Hafsya ',
+                'meaning' => 'yang berusaha sungguh-sungguh',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Hafuza ',
+                'meaning' => 'pemberi semangat',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Haikal ',
+                'meaning' => 'pokok yang besar dan subur',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Haitham ',
+                'meaning' => 'berani',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Hammam ',
+                'meaning' => 'memiliki ambisi yang kuat, bertekad kuat',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Hammami ',
+                'meaning' => 'pemberi semangat',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Hanai ',
+                'meaning' => 'kebahagiaan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Hanan ',
+                'meaning' => 'lemah lembut, penuh kasih sayang',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Hariz ',
+                'meaning' => 'yang kokoh, yang kuat',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Harraz ',
+                'meaning' => 'yang amat warak',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Harzan ',
+                'meaning' => 'penjagaan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Hasanain ',
+                'meaning' => 'bagus, baik, dua kebaikan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Hasbi ',
+                'meaning' => 'mencukupi',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Hasybi ',
+                'meaning' => 'pemberi, pembuat perhitungan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Husam ',
+                'meaning' => 'pedang yang tajam',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Henley ',
+                'meaning' => 'padang di dataran tinggi',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Horace',
+                'meaning' => 'pekerja keras dan ramah',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Hoshi',
+                'meaning' => 'Bintang, cahaya bintang',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Harrison',
+                'meaning' => 'Anak yang berbakti',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Hamza',
+                'meaning' => 'Singa',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Harvey',
+                'meaning' => 'Posisi yang tinggi',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Ibad ',
+                'meaning' => 'yang rajin beribadah',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Ikbal ',
+                'meaning' => 'kejayaan, penerimaan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Ikhlash ',
+                'meaning' => 'tulus hati, rela',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Ikhtiari ',
+                'meaning' => 'pilihanku',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Ikram ',
+                'meaning' => 'menghormati',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Ilmi ',
+                'meaning' => 'ilmu',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Imran ',
+                'meaning' => 'budi bahasa',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Insan ',
+                'meaning' => 'manusia',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Irsyad ',
+                'meaning' => 'petunjuk',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Ishlah ',
+                'meaning' => 'perdamaian',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Isham ',
+                'meaning' => 'baik hati, penuh perhitungan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Istiqlal ',
+                'meaning' => 'merdeka, bebas',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Isyraf ',
+                'meaning' => 'perhatian, pengawasan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Isyraq ',
+                'meaning' => 'menginspirasi, kuat',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Ithar ',
+                'meaning' => 'mengasihi orang lain',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Izaz',
+                'meaning' => 'kehormatan, harga diri, kasih sayang.',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Izz',
+                'meaning' => 'kekuatan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Izzat',
+                'meaning' => 'kemuliaan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Izdihar',
+                'meaning' => 'perkembangan, kemajuan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Izdiyad',
+                'meaning' => 'pertambahan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Irish ',
+                'meaning' => 'dewa bumi dalam kepercayaan Hindu',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Ihsan',
+                'meaning' => 'Matahari',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Ivan',
+                'meaning' => 'Hadiah dari Tuhan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Inshal',
+                'meaning' => 'Pemberani',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Ilias',
+                'meaning' => 'Pemberi',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Irvin',
+                'meaning' => 'Air yang mengalir',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Iann',
+                'meaning' => 'Selalu memberi, dermawan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Indranil',
+                'meaning' => 'Kebiruan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Irshaad',
+                'meaning' => 'Yang mendampingi',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Irwan',
+                'meaning' => 'Kemurnian',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Ibsham',
+                'meaning' => 'Pohon yang tinggi',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Ibrahim',
+                'meaning' => 'Bapak dari banyak orang, pemimpin',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Ilham',
+                'meaning' => 'Inspirasi, petunjuk',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Ishaq',
+                'meaning' => 'Tertawa, gembira',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Irfan',
+                'meaning' => 'Pengetahuan, kebijaksanaan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Ismail',
+                'meaning' => 'Didengar oleh Tuhan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Ihsan',
+                'meaning' => 'Kebaikan, kesempurnaan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Imran',
+                'meaning' => 'Makmur, sejahtera',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Idris',
+                'meaning' => 'Rajin belajar, tekun',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Ikhsan',
+                'meaning' => 'Kemurahan hati, kebaikan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Izzan',
+                'meaning' => 'Kepatuhan, ketaatan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Iqbal',
+                'meaning' => 'Kemakmuran, keberuntungan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Islah',
+                'meaning' => 'Perbaikan, reformasi',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Irsyad',
+                'meaning' => 'Bimbingan, petunjuk',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Inara',
+                'meaning' => 'Bersinar, terang',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Izam',
+                'meaning' => 'Keagungan, kemuliaan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Jaasir',
+                'meaning' => 'pemberani, mencerminkan kesuburan dan keberuntungan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Jabil',
+                'meaning' => 'yang kreatif',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Jabr',
+                'meaning' => 'yang menghimpun, orang yang senang berorganisasi untuk memerangi perpecahan.',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Jad',
+                'meaning' => 'sungguh-sungguh, dermawan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Jafin',
+                'meaning' => 'yang mengawal',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Jafni',
+                'meaning' => 'kawalanku dari kejahatan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Jaiz',
+                'meaning' => 'boleh',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Jauhar',
+                'meaning' => 'batu mulia, permata',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Jax',
+                'meaning' => 'Tuhan telah bermurah hati',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Jazim',
+                'meaning' => 'sebuah nama dari bunga melati bentuk yang lebih tua',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Jazlan',
+                'meaning' => 'gembira, riang',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Jazli',
+                'meaning' => 'fasih',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Jazman',
+                'meaning' => 'tekad bulat',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Jazmi',
+                'meaning' => 'tekad yang kukuh',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Jefrey',
+                'meaning' => 'tanah perdamaian',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Jiyaad',
+                'meaning' => 'yang terbaik',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Juani',
+                'meaning' => 'sinaranku',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Juhair',
+                'meaning' => 'suara yang nyaring/merdu, lantang',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Juhara',
+                'meaning' => 'batu mulia',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Juhlan',
+                'meaning' => 'yang termulia',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Joe',
+                'meaning' => 'Pemberani',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Jimmy',
+                'meaning' => 'Yang dikenang',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Jordan',
+                'meaning' => 'Mengalir',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Julian',
+                'meaning' => 'Lahir di bulan Juli',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Jay',
+                'meaning' => 'Kemenangan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Jareth',
+                'meaning' => 'Seimbang',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'James',
+                'meaning' => 'Orang ramah',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Johnson',
+                'meaning' => 'Seorang anak',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'John',
+                'meaning' => 'Kecerdasan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Jovan',
+                'meaning' => 'Seorang laki-laki',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Justin',
+                'meaning' => 'Kebenaran, pemikiran yang benar',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Jabbar',
+                'meaning' => 'Perkasa, kuat',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Jafar',
+                'meaning' => 'Sungai kecil, aliran',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Jamal',
+                'meaning' => 'Tampan, rupawan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Jibrail',
+                'meaning' => 'Kekuatan Tuhan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Kenzo ',
+                'meaning' => 'Kreatif dan pintar',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Kalandra ',
+                'meaning' => 'Anak periang yang membawa keceriaan dalam masyarakat',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Kenan ',
+                'meaning' => 'Tegas, tajam, tekun, dan rela berkorban',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Keanu ',
+                'meaning' => 'Hembusan sejuk dari atas gunung',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Kenzie ',
+                'meaning' => 'Pemimpin yang bijaksana dan dapat memberi keadilan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Kaaf ',
+                'meaning' => 'kesenangan, bersemangat',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Kaamil ',
+                'meaning' => 'memiliki sifat-sifat sempurna',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Kafi ',
+                'meaning' => 'sempurna, lengkap',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Kafil ',
+                'meaning' => 'yang menanggung atau menjamin',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Kaif ',
+                'meaning' => 'kesenangan; bersemangat',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Kairi ',
+                'meaning' => 'kebaikan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Karim ',
+                'meaning' => 'mulia, dermawan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Kashif ',
+                'meaning' => 'pembuka, penemu',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Kazi ',
+                'meaning' => 'hakim',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Kazim ',
+                'meaning' => 'penyabar',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Khafi ',
+                'meaning' => 'yang tersembunyi',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Khair ',
+                'meaning' => 'terbaik',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Khaisan ',
+                'meaning' => 'yang bijak',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Kanav ',
+                'meaning' => 'kisah lawas yang bijak',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Kai',
+                'meaning' => 'Seorang pemimpin',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Kaivan',
+                'meaning' => 'Anak laki-laki yang tampan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Ken',
+                'meaning' => 'Tangguh',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Keenan',
+                'meaning' => 'Sebuah keyakinan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Kellandra',
+                'meaning' => 'Penuh pesona',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Kyro',
+                'meaning' => 'Seorang pemimpin',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Latif',
+                'meaning' => 'baik hati, lembut',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Labib',
+                'meaning' => 'pandai, cerdik, berakal',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Labid',
+                'meaning' => 'singa, pemberani',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Lateef',
+                'meaning' => 'menyenangkan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Lathif',
+                'meaning' => 'lemah lembut',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Lamya',
+                'meaning' => 'berkilau; memancar',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Lateef',
+                'meaning' => 'menyenangkan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Layyin',
+                'meaning' => 'lembut, halus',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Lihaf',
+                'meaning' => 'yang menghangatkan kain, selimut',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Lujain',
+                'meaning' => 'perak',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Luqman',
+                'meaning' => 'yang cerdas, jalan terang',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Luthfi',
+                'meaning' => 'kelembutanku',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Laaiq',
+                'meaning' => 'cocok, memenuhi syarat, berkualitas',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Labis',
+                'meaning' => 'pelindung',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Lahiq',
+                'meaning' => 'pengikut, meraih, seseorang yang mengikuti dan meraihnya (cita-cita)',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Lutfan',
+                'meaning' => 'kelembutan, kebaikan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Luham',
+                'meaning' => 'hebat',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Liam',
+                'meaning' => 'pelindung yang tegas',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Lainufar',
+                'meaning' => 'pokok teratai',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Lahin',
+                'meaning' => 'cerdik, pandai',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Luca',
+                'meaning' => 'pembawa cahaya',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Mahardika',
+                'meaning' => 'Berbudi luhur',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Mahendra',
+                'meaning' => 'Raja yang sabar dalam bahasa arab.',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Mahawira',
+                'meaning' => 'Pahlawan yang besar',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Maharth',
+                'meaning' => 'jujur',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Melviano',
+                'meaning' => 'Pemimpin yang terhormat ',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Mahaprana',
+                'meaning' => 'Anak yang penuh sikap optimis',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Mirza',
+                'meaning' => 'Anak yang baik',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Milo',
+                'meaning' => 'pejuang yang penuh pengampunan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Madava',
+                'meaning' => 'Muda, segar',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Matteo',
+                'meaning' => 'Pemberian dari Tuhan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Mukesh',
+                'meaning' => 'Teman setia',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Maaz',
+                'meaning' => 'Laki-laki pemberani',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Moiz',
+                'meaning' => 'Yang memberikan perlindungan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Mahir',
+                'meaning' => 'Pandai',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Mehdi',
+                'meaning' => 'Jalan yang benar',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Mehram',
+                'meaning' => 'Teman dekat',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Moni',
+                'meaning' => 'Kesunyian',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Manik',
+                'meaning' => 'Berlian',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Monty',
+                'meaning' => 'Kreativitas',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Mahbub',
+                'meaning' => 'Orang yang disayang',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Mason',
+                'meaning' => 'Pekerja keras',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Misam',
+                'meaning' => 'Seorang yang perhatian',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Mayukh',
+                'meaning' => 'Matahari',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Monish',
+                'meaning' => 'Seorang pemilik',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Malek',
+                'meaning' => 'Pemimpin',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Max',
+                'meaning' => 'yang agung',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Naafi',
+                'meaning' => 'yang memberi manfaat',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Naashir',
+                'meaning' => 'suka menolong',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Naayif',
+                'meaning' => 'tinggi',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Nabhan',
+                'meaning' => 'mulia, terkenal, perwira',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Nabigh',
+                'meaning' => 'orang yang unggul',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Nachar',
+                'meaning' => 'banyak menolong',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Nadhif',
+                'meaning' => 'bersih',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Nadhirrizky',
+                'meaning' => 'mendapatkan rezeki yang baik',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Nadiim',
+                'meaning' => 'pendamping',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Nadil',
+                'meaning' => 'perjuangan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Nadiy',
+                'meaning' => 'pemurah',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Nafi',
+                'meaning' => 'berguna',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Nafis',
+                'meaning' => 'berharga, bernilai',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Naim',
+                'meaning' => 'kebaikan, kenyamanan, ketenangan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Nasrul',
+                'meaning' => 'kemenangan dari Allah',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Naufal ',
+                'meaning' => 'baik hati, dermawan dan tampan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Naushad ',
+                'meaning' => 'bahagia',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Nawfal ',
+                'meaning' => 'murah hati',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Nazhief ',
+                'meaning' => 'bersih',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Negm ',
+                'meaning' => 'bintang',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Noah',
+                'meaning' => 'damai',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Oba',
+                'meaning' => 'raja',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Obaid',
+                'meaning' => 'hamba',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Ocean',
+                'meaning' => 'lautan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Osama',
+                'meaning' => 'singa',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Ollie',
+                'meaning' => 'berani',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Osmond',
+                'meaning' => 'perlindungan, perkasa',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Orian',
+                'meaning' => 'keberuntungan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Oricon',
+                'meaning' => 'indah',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Ogaima',
+                'meaning' => 'pemimpin',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Oliver',
+                'meaning' => 'pasukan peri',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Omair',
+                'meaning' => 'cerdas',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Oman',
+                'meaning' => 'pelindung tinggi, anak pertama laki-laki',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Omran',
+                'meaning' => 'umur panjang',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Omri',
+                'meaning' => 'umur panjang',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Onn',
+                'meaning' => 'pertolongan, bantuan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Oringo',
+                'meaning' => 'anak laki-laki',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Orlen',
+                'meaning' => 'matahari bersinar',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Oscar',
+                'meaning' => 'cerdik, bijaksana, cerdas',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Osman',
+                'meaning' => 'pelayan Allah',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Oswald',
+                'meaning' => 'kekuatan yang suci, baik hati, tegas, berpendirian mantap',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Othman',
+                'meaning' => 'yang tekun',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Otis',
+                'meaning' => 'kaya raya',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Owen',
+                'meaning' => 'seseorang yang beruntung',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Ozak',
+                'meaning' => 'yang menyediakan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Pax',
+                'meaning' => 'damai',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Pradipa',
+                'meaning' => 'Terang bercahaya',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Pranadipa',
+                'meaning' => ' Makna dalam kehidupan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Prambudi',
+                'meaning' => 'Sejati, pandai, setia',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Parviz',
+                'meaning' => 'Anak yang beruntung, mujur.',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Pahlevi',
+                'meaning' => 'baik, berani, taat beragama, dermawan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Parvez',
+                'meaning' => 'sukses',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Pervaiz',
+                'meaning' => 'hembusan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Pasha',
+                'meaning' => 'tuan, yang mulia',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Pasya',
+                'meaning' => 'raja, pemimpin',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Pritam',
+                'meaning' => 'Yang dikasihi dan dicintai',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Priyam',
+                'meaning' => 'Kasih sayang',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Parsa',
+                'meaning' => 'Seorang pelindung',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Pawan',
+                'meaning' => 'Udara, angin segar',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Patrick',
+                'meaning' => 'Yang mendapat penghargaan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Prayan',
+                'meaning' => 'Kecerdasan luar biasa',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Padman',
+                'meaning' => 'Bunga lotus',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Prince',
+                'meaning' => 'Pangeran',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Preston',
+                'meaning' => 'Bangunan kokoh',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Pete',
+                'meaning' => 'Keadilan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Param',
+                'meaning' => 'Sebuah angin',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Pulkit',
+                'meaning' => 'Kebahagiaan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Parker',
+                'meaning' => 'Bijaksana',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Pradipta',
+                'meaning' => 'Cahaya',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Pram',
+                'meaning' => 'Sebuah cinta dan afeksi',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Pratham',
+                'meaning' => 'Yang pertama',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Qabil ',
+                'meaning' => 'yang menjaminkan, yang menanggung',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Qafil ',
+                'meaning' => 'yang kembali dari perjalanan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Qaifun ',
+                'meaning' => 'yang mengetahui ilmu filsafat',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Qais ',
+                'meaning' => 'perbandingan, kekuatan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Qari ',
+                'meaning' => 'lelaki pembaca Alquran',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Qashid ',
+                'meaning' => 'yang menuju pada kemudahan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Qasam ',
+                'meaning' => 'sumpah',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Qasar ',
+                'meaning' => 'meringkas',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Qasbah ',
+                'meaning' => 'menuntut ilmu',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Qasid ',
+                'meaning' => 'penyampai pesan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Qasif ',
+                'meaning' => 'penemu',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Qasim ',
+                'meaning' => 'pembagi, yang lurus, rupawan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Qawi ',
+                'meaning' => 'gagah, perkasa',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Qazun ',
+                'meaning' => 'sutera',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Qindil ',
+                'meaning' => 'pelita',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Qiyas ',
+                'meaning' => 'tegas',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Qiwam ',
+                'meaning' => 'dukungan, sokongan, penolong',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Qushai ',
+                'meaning' => 'berpikir jauh ke depan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Qolbu ',
+                'meaning' => 'hati, sesuatu yang halus',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Qutb ',
+                'meaning' => 'pemimpin',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Quill',
+                'meaning' => 'penolong',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Quilon',
+                'meaning' => 'cerdas',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Qahi',
+                'meaning' => 'kemenangan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Qane',
+                'meaning' => 'penyabar',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Quinn',
+                'meaning' => 'cerdas',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Rezvan',
+                'meaning' => 'Anak yang suka ilmu pengetahuan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Raka',
+                'meaning' => 'Anak yang teguh, bijaksana, memiliki pengaruh dan kekuasaan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Rafardhan ',
+                'meaning' => 'Anak laki-laki yang bercahaya cemerlang',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Raefal',
+                'meaning' => 'Kebahagiaan dan kehormatan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Reinaldo',
+                'meaning' => 'Pemimpin yang bijaksana',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Radhitya',
+                'meaning' => 'Matahari',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Reifansyah',
+                'meaning' => 'Kebaikan yang menghasilkan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Rayshiva',
+                'meaning' => 'Pelindung yang beruntung',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Radhika',
+                'meaning' => 'Sukses dan makmur',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Rasendriya ',
+                'meaning' => 'Memiliki ketajaman pancaindera',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Raihan',
+                'meaning' => 'Tumbuhan yang berbau harum',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Rafisqy',
+                'meaning' => 'Kesempurnaan dan kebaikan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Randi',
+                'meaning' => 'Pelindung keluarga',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Ravindra',
+                'meaning' => 'Kekuatan matahari',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Rauf',
+                'meaning' => 'Penuh kasih sayang, lemah lembut',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Rayyan ',
+                'meaning' => 'Cerdas, berwawasan luas',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Rifqi ',
+                'meaning' => 'Kawan, pendamping',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Ryan',
+                'meaning' => 'Raja',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Ryder',
+                'meaning' => 'Ksatria',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Reigha',
+                'meaning' => 'Berkat',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Roman',
+                'meaning' => 'Kuat dan berkuasa',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Rafi',
+                'meaning' => 'Teman tinggi, terhormat',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Rayhan',
+                'meaning' => 'Harum, wangi',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Rizki',
+                'meaning' => 'Rezeki, berkah',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Raziq',
+                'meaning' => 'Pemberi rezeki',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Raditya',
+                'meaning' => 'Matahari, bersinar',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Reyhan',
+                'meaning' => 'Wangi, harum',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Rakha',
+                'meaning' => 'Pembawa kebahagiaan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Raka',
+                'meaning' => 'Raja, pemimpin',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Rasyad',
+                'meaning' => 'Bijaksana, penunjuk jalan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Reza',
+                'meaning' => 'Kepuasan, persetujuan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Rama',
+                'meaning' => 'Menyenangkan, menarik',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Rajendra',
+                'meaning' => 'Raja para dewa',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Raihan',
+                'meaning' => 'Surgawi, pengasih',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Rifqi',
+                'meaning' => 'Teman, pendamping',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Rashid',
+                'meaning' => 'Penunjuk jalan yang benar',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Salvador',
+                'meaning' => 'Penyelamat',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Syahreza',
+                'meaning' => 'Laki-laki yang penuh kasih sayang',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Sayudha',
+                'meaning' => 'Penyembuh',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Shaquille',
+                'meaning' => 'Tampan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Saad ',
+                'meaning' => 'Bahagia',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Sabil ',
+                'meaning' => 'Jalan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Sabqi ',
+                'meaning' => 'Keutamaan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Sadiq',
+                'meaning' => 'Teman sejati',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Safiq ',
+                'meaning' => 'Belas kasih',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Safiy ',
+                'meaning' => 'Yang bersih dan jujur',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Saghir ',
+                'meaning' => 'Yang mengikut',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Sahnon ',
+                'meaning' => 'Kehalusan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Shabur ',
+                'meaning' => 'Penyabar',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Sahlan ',
+                'meaning' => 'Mudah, senang',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Sa’id ',
+                'meaning' => 'gembira, senang',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Sa’iy ',
+                'meaning' => 'yang berjalan cepat',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Sakha ',
+                'meaning' => 'kemurahan hati',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Sami',
+                'meaning' => 'pendengar yang baik',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Sarhan ',
+                'meaning' => 'kemudahan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Saskara ',
+                'meaning' => 'kebenaran dan kemurnian',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Shafi ',
+                'meaning' => 'jernih',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Shaghir ',
+                'meaning' => 'kecil, muda',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Shahib ',
+                'meaning' => 'kawan, teman sejawat',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Shaib ',
+                'meaning' => 'yang benar',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Silas',
+                'meaning' => 'kayu',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Syafid ',
+                'meaning' => 'penyayang',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Sandy',
+                'meaning' => 'Bepasir, yang pintar',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Simon',
+                'meaning' => 'Tuhan maha mendengar',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Taamir ',
+                'meaning' => 'banyak kebaikan, banyak rezeki',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Tabish ',
+                'meaning' => 'berkilau',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Tabriz ',
+                'meaning' => 'pengungkapan suatu kebaikan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Taheem ',
+                'meaning' => 'murni',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Tahir ',
+                'meaning' => 'yang bersih dan murni',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Tahoor',
+                'meaning' => 'kemurnian',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Taiq ',
+                'meaning' => 'yang merindu',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Talib ',
+                'meaning' => 'penuntut',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Tamam ',
+                'meaning' => 'kesempurnaan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Tameez ',
+                'meaning' => 'bijaksana',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Tanvir ',
+                'meaning' => 'cahaya',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Taqa ',
+                'meaning' => 'yang bertakwa',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Taqi ',
+                'meaning' => 'bertakwa',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Taslim ',
+                'meaning' => 'penyerahan, kepatuhan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Taufiq ',
+                'meaning' => 'petunjuk, pertolongan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Tariq ',
+                'meaning' => 'penakluk',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Thalib ',
+                'meaning' => 'pelajar, yang menuntut',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Thilal ',
+                'meaning' => 'embun, hujan rintik-rintik',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Thierry',
+                'meaning' => 'penguasa yang kuat',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Tabrani',
+                'meaning' => 'nama Ulama',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Taksa',
+                'meaning' => 'sayap',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Theo',
+                'meaning' => 'anugerah Tuhan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Taavi',
+                'meaning' => 'sangat disayangi',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Tsani ',
+                'meaning' => 'yang kedua',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Troy ',
+                'meaning' => 'prajurit',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Uba ',
+                'meaning' => 'kaya raya',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Ubbad ',
+                'meaning' => 'banyak ibadah',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Ubaid ',
+                'meaning' => 'orang-orang yang beriman',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Ubayd ',
+                'meaning' => 'penyembah',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Uday ',
+                'meaning' => 'naik',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Ujala ',
+                'meaning' => 'cerah',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Ukail ',
+                'meaning' => 'pintar, pandai',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Ulwan ',
+                'meaning' => 'tinggi',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Ulhaq ',
+                'meaning' => 'kebenaran',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Ulu ',
+                'meaning' => 'yang Empunya, punya',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Unais ',
+                'meaning' => 'cinta, kasih sayang',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Unays ',
+                'meaning' => 'yang lebih kecil',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Uqaab ',
+                'meaning' => 'burung elang',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Urfan ',
+                'meaning' => 'kebaikan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Uthman ',
+                'meaning' => 'rajin dan gigih',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Utaibah ',
+                'meaning' => 'persimpangan lembah',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Uwais ',
+                'meaning' => 'pemberian',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Uwamir ',
+                'meaning' => 'pemberani, singa',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Uzayr ',
+                'meaning' => 'berharga',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Uzzam ',
+                'meaning' => 'singa',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Ukkasya',
+                'meaning' => 'orang pertama yang meminta doa dari rasulullah agar bisa masuk surga tanpa hisab',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Va ',
+                'meaning' => 'kesetiaan, loyalitas',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Valdi ',
+                'meaning' => 'kekuatan besar',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Valeeqa ',
+                'meaning' => 'terpercaya',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Vicky ',
+                'meaning' => 'tujuan, akal',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Virendra ',
+                'meaning' => 'laki-laki yang mulia dan pemberani',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Vihaan',
+                'meaning' => 'Subuh',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Vansh',
+                'meaning' => 'Seorang yang pengertian',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Vernon',
+                'meaning' => 'Orang yang pandai dan bijaksana',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Virat',
+                'meaning' => 'Kekuatan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Vijay',
+                'meaning' => 'Kemenangan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Ved',
+                'meaning' => 'Ilmu pengetahuan yang penting',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Veer',
+                'meaning' => 'Seorang yang berani',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Vincent',
+                'meaning' => 'Ramah',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Vimal',
+                'meaning' => 'Seorang teman',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Valentino',
+                'meaning' => 'Orang yang sehat',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Vardhan',
+                'meaning' => 'Berkah',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Videsh',
+                'meaning' => 'Asing, orang ramah',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Vanu',
+                'meaning' => 'Teman',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Vicktor',
+                'meaning' => 'Kemenangan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Vijendra',
+                'meaning' => 'Kemenangan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Verdian',
+                'meaning' => 'Sebuah bukti',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Wafa',
+                'meaning' => 'menepati janji, merpati',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Wafi',
+                'meaning' => 'sempurna',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Wafiq',
+                'meaning' => 'sukses',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Wafiy ',
+                'meaning' => 'setia, jujur',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Wafri ',
+                'meaning' => 'kekayaanku, keluasanku',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Wahnan ',
+                'meaning' => 'mudah, senang',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Waiz ',
+                'meaning' => 'penasihat',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Wajdi ',
+                'meaning' => 'bersemangat, penuh cinta, gembira',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Walif ',
+                'meaning' => 'berteman',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Waldan',
+                'meaning' => 'anak baik',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Waqar ',
+                'meaning' => 'ketenangan dan sopan santun',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Washil ',
+                'meaning' => 'penghubung, yang menyatukan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Watsiq ',
+                'meaning' => 'kuat, kokoh, dapat dipercaya',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Wajif ',
+                'meaning' => 'yang tekun, gigih',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Wazni ',
+                'meaning' => 'yang menimbang secara adil',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Wi’am ',
+                'meaning' => 'keakraban, kemesraan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Widad ',
+                'meaning' => 'kasih sayang, cinta, cita-cita',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Wijdan ',
+                'meaning' => 'sanubari, hati',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Wisam ',
+                'meaning' => 'penghargaan, bintang kehormatan, petanda',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Wistara ',
+                'meaning' => 'tegas dan pandai',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Witha ',
+                'meaning' => 'tampan, rupawan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Wyman',
+                'meaning' => 'prajurit',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Xabier ',
+                'meaning' => 'bersinar',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Xabiya ',
+                'meaning' => 'angin timur',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Xalvador',
+                'meaning' => 'penyelamat',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Xaquil ',
+                'meaning' => 'rupawan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Xavi',
+                'meaning' => 'rumah baru',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Xaver ',
+                'meaning' => 'bersinar',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Xavier ',
+                'meaning' => 'bersinar, hebat, cerah',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Ximraan',
+                'meaning' => 'selebrasi, perayaan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Xyan',
+                'meaning' => 'sinar matahari',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Xylon',
+                'meaning' => 'Kayu',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Xana',
+                'meaning' => 'Seorang pemimpin',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Xander',
+                'meaning' => 'Cahaya gemerlap',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Xowie',
+                'meaning' => 'kehidupan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Xabier',
+                'meaning' => 'Rumah baru',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Xavier',
+                'meaning' => 'Cemerlang, terang',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Xander',
+                'meaning' => 'Pembela manusia',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Xerxes',
+                'meaning' => 'Penguasa pahlawan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Xavi',
+                'meaning' => 'Cemerlang, bersinar',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Xeno',
+                'meaning' => 'Tamu, orang asing',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Xian',
+                'meaning' => 'Damai, kemuliaan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Xion',
+                'meaning' => 'Surga, langit',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Xico',
+                'meaning' => 'Pembawa kedamaian',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Xylon',
+                'meaning' => 'Dari hutan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Xolani',
+                'meaning' => 'Pembawa kedamaian',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Xiomar',
+                'meaning' => 'Terkenal dalam pertempuran',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Xael',
+                'meaning' => 'Kekuatan Tuhan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Xanthus',
+                'meaning' => 'Keemasan, bersinar',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Xenon',
+                'meaning' => 'Unik, elemen langka',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Yaala ',
+                'meaning' => 'kemuliaan, tinggi',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Yabil ',
+                'meaning' => 'bijaksana, pemberi ampun',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Yafi ',
+                'meaning' => 'dewasa',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Yafiq ',
+                'meaning' => 'mulia, dihormati',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Yahya ',
+                'meaning' => 'kebahagiaan, kehidupan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Yarif ',
+                'meaning' => 'orang yang berilmu',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Yassar ',
+                'meaning' => 'kekayaan, kemewahan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Yasser ',
+                'meaning' => 'makmur',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Yaslam ',
+                'meaning' => 'yang selamat, berserah',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Yaslan ',
+                'meaning' => 'bijaksana',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Yassar ',
+                'meaning' => 'serba mudah',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Yeseren ',
+                'meaning' => 'kemudahan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Yeeshai',
+                'meaning' => 'pemberani',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Yusri',
+                'meaning' => 'kesenangan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Yolan',
+                'meaning' => 'berani',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Yadin',
+                'meaning' => 'petapa',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Yola ',
+                'meaning' => 'kemuliaan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Yosrey ',
+                'meaning' => 'makmur',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Yudanta ',
+                'meaning' => 'kuat dalam peperangan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Yuri',
+                'meaning' => 'bunga lili',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Yushar',
+                'meaning' => 'banyak kemudahan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Yusni ',
+                'meaning' => 'anak laki-laki',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Yusran ',
+                'meaning' => 'mudah',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Yazdan ',
+                'meaning' => 'belas kasihan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Yazid ',
+                'meaning' => 'bertambah, berlebih',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Yoshi',
+                'meaning' => 'Keberuntungan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Yafi',
+                'meaning' => 'Dewasa, bijaksana',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Yahya',
+                'meaning' => 'Hidup, pemberian Tuhan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Yusuf',
+                'meaning' => 'Bertambah, berkembang',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Yudha',
+                'meaning' => 'Pejuang, ksatria',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Yafiz',
+                'meaning' => 'Sukses, berhasil',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Yuvan',
+                'meaning' => 'Pemuda, yang muda',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Yudhit',
+                'meaning' => 'Cerdas, bijak',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Yasha',
+                'meaning' => 'Hadiah Tuhan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Yehuda',
+                'meaning' => 'Terpuji, disyukuri',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Yohan',
+                'meaning' => 'Rahmat Tuhan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Yardan',
+                'meaning' => 'Mengalir ke bawah',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Yuri',
+                'meaning' => 'Petani, pekerja keras',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Yuvan',
+                'meaning' => 'Pemuda yang bersemangat',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Yunus',
+                'meaning' => 'Merpati, damai',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Yaffa',
+                'meaning' => 'Indah, menawan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Zayyan ',
+                'meaning' => 'Tampan, baik',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Zaidan   ',
+                'meaning' => ' Pekerjaan yang sempurna',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Zidan      ',
+                'meaning' => 'Pengampunan dan kemerdekaan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Zachery  ',
+                'meaning' => 'Cerdas, berjiwa petualang, optimis, jujur',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Zaahiy ',
+                'meaning' => 'wajah yang rupawan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Zaalan ',
+                'meaning' => 'rajin, giat',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Zabda ',
+                'meaning' => 'pemberian',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Zabran ',
+                'meaning' => 'kuat, mampu',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Zafar ',
+                'meaning' => 'kemenangan, kejayaan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Zafran ',
+                'meaning' => 'kejayaan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Zahir ',
+                'meaning' => 'cahaya yang bersih',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Zaki',
+                'meaning' => 'cerdik, harum dan suci',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Zaid ',
+                'meaning' => 'meningkat, bertumbuh',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Zain',
+                'meaning' => 'perhiasan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Zander',
+                'meaning' => 'pembela manusia',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Zane',
+                'meaning' => 'Tuhan maha pengasih, kesayangan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Zavier ',
+                'meaning' => 'bersinar',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Zayan ',
+                'meaning' => 'cemerlang',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Zayid ',
+                'meaning' => 'dermawan, murah hati',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Zidan',
+                'meaning' => 'kemerdekaan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Zeeshan ',
+                'meaning' => 'tinggi',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Zefa ',
+                'meaning' => 'kebaikan',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Zhafir ',
+                'meaning' => 'menang, unggul',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Zhafran ',
+                'meaning' => 'orang yang menang',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Zhariif ',
+                'meaning' => 'cerdik',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Zhian ',
+                'meaning' => 'kuat, bersemangat, bertenaga',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Zufar ',
+                'meaning' => 'singa, pemberani',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Zuhair ',
+                'meaning' => 'yang berseri',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'uuid' => Str::uuid(),
+                'name' => 'Zuhayr ',
+                'meaning' => 'pandai, istimewa',
+                'gender_id' => 1,
+                'locale' => 'id',
+                'status' => 'active',
+                'created_at' => Carbon::now(),
+            ],
+        ];
+
+        Babyname::insert($data);
+    }
+}

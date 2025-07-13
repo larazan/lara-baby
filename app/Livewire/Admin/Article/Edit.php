@@ -46,6 +46,8 @@ class Edit extends Component
         'inactive'
     ];
 
+    public $array = [2, 4, 5, 6, 7];
+
     protected function rules() 
     {
         return [
@@ -104,6 +106,7 @@ class Edit extends Component
     
     public function updateArticle()
     {
+        // dd($this->body);
         $this->validate();
 
         $article = Article::findOrFail($this->articleId);
@@ -116,7 +119,9 @@ class Edit extends Component
                 $article->category_id = $this->categoryId;
                 $article->author_id = isset($this->author) ? $this->author : Auth::user()->id;
                 $article->title = $this->title;
-                $article->slug = Str::slug($this->title);
+                if (in_array($this->categoryId, $this->array)) {
+                    $article->slug = Str::slug($this->title);
+                }
                 $article->rand_id = Str::random(10);
                 $article->body = $this->body;
                 $article->locale = $this->locale;
@@ -204,7 +209,7 @@ class Edit extends Component
             }
         }
 
-        $this->reset();
+        // $this->reset();
         $this->dispatch(
             'banner-message', 
             style: 'success',

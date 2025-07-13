@@ -5,6 +5,7 @@ namespace App\Models;
 use App\Concerns\HasAuthor;
 use App\Concerns\HasLikes;
 use App\Concerns\HasSlug;
+use App\Concerns\HasUniqueSlug;
 use App\Concerns\HasTags;
 use App\Concerns\HasTimestamps;
 use App\Concerns\SlugTrait;
@@ -22,7 +23,7 @@ class Babyname extends Model
     use HasFactory;
     use SoftDeletes;
     // use HasAuthor;
-    // use HasSlug;
+    use HasSlug;
     // use HasLikes;
     use HasTimestamps;
     // use HasTags;

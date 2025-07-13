@@ -29,10 +29,20 @@ class DatabaseSeeder extends Seeder
             // ReligionSeeder::class,
             // OriginSeeder::class,
 
-            ActivitySeeder::class,
+            // ActivitySeeder::class,
             // PregnancySeeder::class,
             // EmmasdiarySeeder::class,
             // HamariSeeder::class,
+
+            // NamelistSeeder::class,
+            // NamelistCowokSeeder::class,
+
+            BabynameSeeder::class,
+            // BabynameCewekSeeder::class,
+            // BabynameCowokSeeder::class,
+            // BabynameCowokIslamSeeder::class,
+            // BabynameCowokEstetikSeeder::class,
+
         ]);
         // $this->call(\Database\Seeders\Tables\BabynamesSeeder::class);
     }

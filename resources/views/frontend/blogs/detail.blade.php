@@ -257,15 +257,3 @@
 </style>
 @endpush
 
-@push('js')
-<script>
-    function checkIfOffScreen() {
-        isOffScreen: false,
-        checkIfOffScreen() {
-            const element = document.getElementById('target-element');
-            const rect = element.getBoundingClientRect();
-            this.isOffScreen = rect.bottom <= 0 || rect.top >= window.innerHeight;
-        },
-    }
-</script>
-@endpush

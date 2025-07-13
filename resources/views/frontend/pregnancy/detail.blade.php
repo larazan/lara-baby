@@ -6,6 +6,11 @@
 @dump($countBefore)
 @dump($countAfter) -->
 
+@include('frontend.components._toc2')
+<div x-data="scrollProgress()" x-init="init()" x-cloak class="fixed inset-x-0 top-0 z-50">
+    <div class="h-1 bg-blue-500" :style="`width: ${percent}%`"></div>
+</div>
+
 <div class="flex flex-col gap-4 w-full py-6">
     <div class="flex mx-auto w-full justify-center">
     <h2 class="text-lg font-semibold figtree-bold">Pregnancy Week by Week</h2>
@@ -91,7 +96,19 @@
             </div>
         </div>
         <div class="relative mx-auto max-w-6xl w-full px-6 lg:px-10 xl:px-0 pb-10 md:pb-20">
+        <div class="mt-3 md:mt-6">
+                <div>
 
+            
+
+                    <div class="news mt-0 md:mt-0 prose md:prose-md lg:prose-lg figtree-reguler text-[#334155] max-w-none hover:prose-a:text-blue-primary">
+                        {!! $contents['html'] !!}
+                    </div>
+
+                    
+                </div>
+
+            </div>
         </div>
 
     </div>
@@ -99,3 +116,21 @@
 </main>
 
 @endsection
+
+@push('js')
+<script type="text/javascript">
+    const scrollProgress = () => {
+        return {
+            init() {
+                window.addEventListener('scroll', () => {
+                    let winScroll = document.body.scrollTop || document.documentElement.scrollTop
+                    let height = document.documentElement.scrollHeight - document.documentElement.clientHeight
+                    this.percent = Math.round((winScroll / height) * 100)
+                })
+            },
+            circumference: 30 * 2 * Math.PI,
+            percent: 0,
+        }
+    }
+</script>
+@endpush
