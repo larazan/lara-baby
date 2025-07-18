@@ -38,8 +38,8 @@
         <div class="flex justify-between">
           <h2 class="text-md md:text-[24px] md:leading-[33px] lg:text-[32px] lg:leading-[48px] figtree-medium font-bold text-gray-900">
             Found {{ $countArticles }} Articles
-            @if(Request::segment(2))
-            <span> for "{{ str_replace("-", " ", Request::segment(2)) }}" </span>
+            @if(Request::segment(3))
+            <span> for "{{ str_replace("-", " ", Request::segment(3)) }}" </span>
             @endif
           </h2>
         </div>

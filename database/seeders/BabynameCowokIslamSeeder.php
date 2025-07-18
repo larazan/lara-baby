@@ -16,7 +16,7 @@ class BabynameCowokIslamSeeder extends Seeder
     public function run(): void
     {
         //
-        $data = [
+        $dataTables = [
             [
                 'uuid' => Str::uuid(),
                 'name' => 'Aamir',
@@ -26,7 +26,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -37,7 +36,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -48,7 +46,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -59,7 +56,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -70,7 +66,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -81,7 +76,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -92,7 +86,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -103,7 +96,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -114,7 +106,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -125,7 +116,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -136,7 +126,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -147,7 +136,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -158,7 +146,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -169,7 +156,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -180,7 +166,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -191,7 +176,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -202,7 +186,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -213,7 +196,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -224,7 +206,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -235,7 +216,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -246,7 +226,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -257,7 +236,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -268,7 +246,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -279,7 +256,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -290,7 +266,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -301,7 +276,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -312,7 +286,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -323,7 +296,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -334,7 +306,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -345,7 +316,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -356,7 +326,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -367,7 +336,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -378,7 +346,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -389,7 +356,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -400,7 +366,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -411,7 +376,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -422,7 +386,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -433,7 +396,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -444,7 +406,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -455,7 +416,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -466,7 +426,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -477,7 +436,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -488,7 +446,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -499,7 +456,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -510,7 +466,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -521,7 +476,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -532,7 +486,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -543,7 +496,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -554,7 +506,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -565,7 +516,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -576,7 +526,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -587,7 +536,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -598,7 +546,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -609,7 +556,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -620,7 +566,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -631,7 +576,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -642,7 +586,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -653,7 +596,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -664,7 +606,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -675,7 +616,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -686,7 +626,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -697,7 +636,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -708,7 +646,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -719,7 +656,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -730,7 +666,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -741,7 +676,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -752,7 +686,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -763,7 +696,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -774,7 +706,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -785,7 +716,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -796,7 +726,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -807,7 +736,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -818,7 +746,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -829,7 +756,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -840,7 +766,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -851,7 +776,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -862,7 +786,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -873,7 +796,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -884,7 +806,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -895,7 +816,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -906,7 +826,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -917,7 +836,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -928,7 +846,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -939,7 +856,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -950,7 +866,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -961,7 +876,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -972,7 +886,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -983,7 +896,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -994,7 +906,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1005,7 +916,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1016,7 +926,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1027,7 +936,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1038,7 +946,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1049,7 +956,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1060,7 +966,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1071,7 +976,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1082,7 +986,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1093,7 +996,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1104,7 +1006,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1115,7 +1016,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1126,7 +1026,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1137,7 +1036,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1148,7 +1046,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1159,7 +1056,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1170,7 +1066,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1181,7 +1076,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1192,7 +1086,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1203,7 +1096,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1214,7 +1106,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1225,7 +1116,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1236,7 +1126,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1247,7 +1136,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1258,7 +1146,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1269,7 +1156,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1280,7 +1166,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1291,7 +1176,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1302,7 +1186,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1313,7 +1196,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1324,7 +1206,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1335,7 +1216,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1346,7 +1226,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1357,7 +1236,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1368,7 +1246,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1379,7 +1256,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1390,7 +1266,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1401,7 +1276,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1412,7 +1286,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1423,7 +1296,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1434,7 +1306,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1445,7 +1316,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1456,7 +1326,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1467,7 +1336,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1478,7 +1346,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1489,7 +1356,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1500,7 +1366,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1511,7 +1376,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1522,7 +1386,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1533,7 +1396,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1544,7 +1406,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1555,7 +1416,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1566,7 +1426,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1577,7 +1436,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1588,7 +1446,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1599,7 +1456,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1610,7 +1466,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1621,7 +1476,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1632,7 +1486,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1643,7 +1496,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1654,7 +1506,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1665,7 +1516,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1676,7 +1526,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1687,7 +1536,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1698,7 +1546,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1709,7 +1556,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1720,7 +1566,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1731,7 +1576,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1742,7 +1586,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1753,7 +1596,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1764,7 +1606,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1775,7 +1616,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1786,7 +1626,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1797,7 +1636,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1808,7 +1646,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1819,7 +1656,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1830,7 +1666,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1841,7 +1676,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1852,7 +1686,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1863,7 +1696,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1874,7 +1706,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1885,7 +1716,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1896,7 +1726,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1907,7 +1736,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1918,7 +1746,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1929,7 +1756,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1940,7 +1766,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1951,7 +1776,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1962,7 +1786,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1973,7 +1796,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1984,7 +1806,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1995,7 +1816,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2006,7 +1826,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2017,7 +1836,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2028,7 +1846,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2039,7 +1856,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2050,7 +1866,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2061,7 +1876,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2072,7 +1886,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2083,7 +1896,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2094,7 +1906,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2105,7 +1916,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2116,7 +1926,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2127,7 +1936,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2138,7 +1946,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2149,7 +1956,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2160,7 +1966,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2171,7 +1976,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2182,7 +1986,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2193,7 +1996,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2204,7 +2006,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2215,7 +2016,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2226,7 +2026,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2237,7 +2036,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2248,7 +2046,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2259,7 +2056,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2270,7 +2066,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2281,7 +2076,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2292,7 +2086,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2303,7 +2096,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2314,7 +2106,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2325,7 +2116,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2336,7 +2126,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2347,7 +2136,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2358,7 +2146,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2369,7 +2156,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2380,7 +2166,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2391,7 +2176,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2402,7 +2186,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2413,7 +2196,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2424,7 +2206,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2435,7 +2216,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2446,7 +2226,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2457,7 +2236,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2468,7 +2246,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2479,7 +2256,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2490,7 +2266,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2501,7 +2276,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2512,7 +2286,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2523,7 +2296,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2534,7 +2306,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2545,7 +2316,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2556,7 +2326,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2567,7 +2336,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2578,7 +2346,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2589,7 +2356,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2600,7 +2366,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2611,7 +2376,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2622,7 +2386,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2633,7 +2396,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2644,7 +2406,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2655,7 +2416,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2666,7 +2426,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2677,7 +2436,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2688,7 +2446,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2699,7 +2456,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2710,7 +2466,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2721,7 +2476,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2732,7 +2486,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2743,7 +2496,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2754,7 +2506,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2765,7 +2516,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2776,7 +2526,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2787,7 +2536,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2798,7 +2546,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2809,7 +2556,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2820,7 +2566,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2831,7 +2576,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2842,7 +2586,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2853,7 +2596,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2864,7 +2606,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2875,17 +2616,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
-            ],
-            [
-                'uuid' => Str::uuid(),
-                'name' => '40 Nama Bayi Laki-Laki Modern Islami dengan Abjad F',
-                'gender_id' => 1,
-                'religion_id' => 2,
-                'origin_id' => 2,
-                'locale' => 'id',
-                'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2896,7 +2626,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2907,7 +2636,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2918,7 +2646,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2929,7 +2656,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2940,7 +2666,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2951,7 +2676,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2962,7 +2686,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2973,7 +2696,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2984,7 +2706,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2995,7 +2716,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3006,7 +2726,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3017,7 +2736,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3028,7 +2746,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3039,7 +2756,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3050,7 +2766,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3061,7 +2776,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3072,7 +2786,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3083,7 +2796,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3094,7 +2806,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3105,7 +2816,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3116,7 +2826,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3127,7 +2836,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3138,7 +2846,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3149,7 +2856,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3160,7 +2866,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3171,7 +2876,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3182,7 +2886,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3193,7 +2896,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3204,7 +2906,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3215,7 +2916,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3226,7 +2926,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3237,7 +2936,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3248,7 +2946,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3259,7 +2956,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3270,7 +2966,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3281,7 +2976,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3292,7 +2986,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3303,7 +2996,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3314,7 +3006,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3325,7 +3016,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3336,7 +3026,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3347,7 +3036,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3358,7 +3046,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3369,7 +3056,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3380,7 +3066,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3391,7 +3076,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3402,7 +3086,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3413,7 +3096,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3424,7 +3106,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3435,7 +3116,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3446,7 +3126,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3457,7 +3136,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3468,7 +3146,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3479,7 +3156,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3490,7 +3166,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3501,7 +3176,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3512,7 +3186,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3523,7 +3196,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3534,7 +3206,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3545,7 +3216,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3556,7 +3226,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3567,7 +3236,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3578,7 +3246,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3589,7 +3256,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3600,7 +3266,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3611,7 +3276,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3622,7 +3286,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3633,7 +3296,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3644,7 +3306,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3655,7 +3316,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3666,7 +3326,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3677,7 +3336,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3688,7 +3346,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3699,7 +3356,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3710,7 +3366,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3721,7 +3376,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3732,7 +3386,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3743,7 +3396,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3754,7 +3406,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3765,7 +3416,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3776,7 +3426,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3787,7 +3436,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3798,7 +3446,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3809,7 +3456,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3820,7 +3466,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3831,7 +3476,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3842,7 +3486,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3853,7 +3496,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3864,7 +3506,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3875,7 +3516,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3886,7 +3526,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3897,7 +3536,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3908,7 +3546,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3919,7 +3556,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3930,7 +3566,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3941,7 +3576,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3952,7 +3586,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3963,7 +3596,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3974,7 +3606,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3985,7 +3616,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3996,7 +3626,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4007,7 +3636,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4018,7 +3646,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4029,7 +3656,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4040,7 +3666,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4051,7 +3676,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4062,7 +3686,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4073,7 +3696,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4084,7 +3706,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4095,7 +3716,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4106,7 +3726,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4117,7 +3736,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4128,7 +3746,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4139,7 +3756,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4150,7 +3766,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4161,7 +3776,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4172,7 +3786,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4183,7 +3796,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4194,7 +3806,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4205,7 +3816,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4216,7 +3826,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4227,7 +3836,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4238,7 +3846,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4249,7 +3856,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4260,7 +3866,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4271,7 +3876,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4282,7 +3886,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4293,7 +3896,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4304,7 +3906,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4315,7 +3916,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4326,7 +3926,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4337,7 +3936,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4348,7 +3946,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4359,7 +3956,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4370,7 +3966,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4381,7 +3976,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4392,7 +3986,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4403,7 +3996,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4414,7 +4006,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4425,7 +4016,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4436,7 +4026,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4447,7 +4036,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4458,7 +4046,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4469,7 +4056,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4480,7 +4066,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4491,7 +4076,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4502,7 +4086,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4513,7 +4096,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4524,7 +4106,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4535,7 +4116,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4546,7 +4126,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4557,7 +4136,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4568,7 +4146,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4579,7 +4156,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4590,7 +4166,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4601,7 +4176,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4612,7 +4186,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4623,7 +4196,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4634,7 +4206,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4645,7 +4216,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4656,7 +4226,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4667,7 +4236,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4678,7 +4246,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4689,7 +4256,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4700,7 +4266,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4711,7 +4276,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4722,7 +4286,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4733,7 +4296,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4744,7 +4306,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4755,7 +4316,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4766,7 +4326,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4777,7 +4336,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4788,7 +4346,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4799,7 +4356,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4810,7 +4366,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4821,7 +4376,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4832,7 +4386,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4843,7 +4396,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4854,7 +4406,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4865,7 +4416,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4876,7 +4426,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4887,7 +4436,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4898,7 +4446,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4909,7 +4456,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4920,7 +4466,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4931,7 +4476,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4942,7 +4486,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4953,7 +4496,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4964,7 +4506,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4975,7 +4516,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4986,7 +4526,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4997,7 +4536,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5008,7 +4546,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5019,7 +4556,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5030,7 +4566,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5041,7 +4576,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5052,7 +4586,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5063,7 +4596,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5074,7 +4606,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5085,7 +4616,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5096,7 +4626,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5107,7 +4636,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5118,7 +4646,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5129,7 +4656,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5140,7 +4666,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5151,7 +4676,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5162,7 +4686,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5173,7 +4696,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5184,7 +4706,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5195,7 +4716,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5206,7 +4726,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5217,7 +4736,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5228,7 +4746,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5239,7 +4756,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5250,7 +4766,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5261,7 +4776,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5272,7 +4786,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5283,7 +4796,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5294,7 +4806,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5305,7 +4816,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5316,7 +4826,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5327,7 +4836,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5338,7 +4846,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5349,7 +4856,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5360,7 +4866,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5371,7 +4876,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5382,7 +4886,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5393,7 +4896,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5404,7 +4906,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5415,7 +4916,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5426,7 +4926,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5437,7 +4936,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5448,7 +4946,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5459,7 +4956,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5470,7 +4966,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5481,7 +4976,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5492,7 +4986,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5503,7 +4996,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5514,7 +5006,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5525,7 +5016,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5536,7 +5026,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5547,7 +5036,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5558,7 +5046,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5569,7 +5056,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5580,7 +5066,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5591,7 +5076,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5602,7 +5086,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5613,7 +5096,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5624,7 +5106,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5635,7 +5116,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5646,7 +5126,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5657,7 +5136,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5668,7 +5146,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5679,7 +5156,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5690,7 +5166,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5701,7 +5176,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5712,7 +5186,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5723,7 +5196,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5734,7 +5206,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5745,7 +5216,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5756,7 +5226,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5767,7 +5236,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5778,7 +5246,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5789,7 +5256,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5800,7 +5266,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5811,7 +5276,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5822,7 +5286,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5833,7 +5296,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5844,7 +5306,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5855,7 +5316,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5866,7 +5326,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5877,7 +5336,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5888,7 +5346,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5899,7 +5356,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5910,7 +5366,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5921,7 +5376,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5932,7 +5386,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5943,7 +5396,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5954,7 +5406,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5965,7 +5416,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5976,7 +5426,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5987,7 +5436,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5998,7 +5446,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6009,7 +5456,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6020,7 +5466,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6031,7 +5476,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6042,7 +5486,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6053,7 +5496,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6064,7 +5506,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6075,7 +5516,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6086,7 +5526,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6097,7 +5536,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6108,7 +5546,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6119,7 +5556,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6130,7 +5566,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6141,7 +5576,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6152,7 +5586,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6163,7 +5596,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6174,7 +5606,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6185,7 +5616,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6196,7 +5626,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6207,7 +5636,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6218,7 +5646,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6229,7 +5656,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6240,7 +5666,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6251,7 +5676,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6262,7 +5686,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6273,7 +5696,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6284,7 +5706,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6295,7 +5716,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6306,7 +5726,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6317,7 +5736,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6328,7 +5746,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6339,7 +5756,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6350,7 +5766,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6361,7 +5776,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6372,7 +5786,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6383,7 +5796,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6394,7 +5806,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6405,7 +5816,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6416,7 +5826,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6427,7 +5836,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6438,7 +5846,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6449,7 +5856,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6460,7 +5866,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6471,7 +5876,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6482,7 +5886,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6493,7 +5896,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6504,7 +5906,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6515,7 +5916,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6526,7 +5926,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6537,7 +5936,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6548,7 +5946,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6559,7 +5956,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6570,7 +5966,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6581,7 +5976,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6592,7 +5986,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6603,7 +5996,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6614,7 +6006,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6625,7 +6016,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6636,7 +6026,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6647,7 +6036,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6658,7 +6046,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6669,7 +6056,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6680,7 +6066,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6691,7 +6076,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6702,7 +6086,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6713,7 +6096,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6724,7 +6106,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6735,7 +6116,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6746,7 +6126,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6757,7 +6136,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6768,7 +6146,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6779,7 +6156,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6790,7 +6166,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6801,7 +6176,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6812,7 +6186,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6823,7 +6196,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6834,7 +6206,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6845,7 +6216,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6856,7 +6226,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6867,7 +6236,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6878,7 +6246,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6889,7 +6256,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6900,7 +6266,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6911,7 +6276,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6922,7 +6286,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6933,7 +6296,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6944,7 +6306,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6955,7 +6316,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6966,7 +6326,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6977,7 +6336,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6988,7 +6346,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6999,7 +6356,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7010,7 +6366,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7021,7 +6376,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7032,7 +6386,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7043,7 +6396,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7054,7 +6406,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7065,7 +6416,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7076,7 +6426,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7087,7 +6436,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7098,7 +6446,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7109,7 +6456,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7120,7 +6466,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7131,7 +6476,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7142,7 +6486,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7153,7 +6496,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7164,7 +6506,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7175,7 +6516,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7186,7 +6526,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7197,7 +6536,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7208,7 +6546,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7219,7 +6556,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7230,7 +6566,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7241,7 +6576,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7252,7 +6586,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7263,7 +6596,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7274,7 +6606,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7285,7 +6616,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7296,7 +6626,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7307,7 +6636,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7318,7 +6646,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7329,7 +6656,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7340,7 +6666,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7351,7 +6676,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7362,7 +6686,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7373,7 +6696,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7384,7 +6706,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7395,7 +6716,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7406,7 +6726,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7417,7 +6736,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7428,7 +6746,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7439,7 +6756,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7450,7 +6766,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7461,7 +6776,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7472,7 +6786,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7483,7 +6796,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7494,7 +6806,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7505,7 +6816,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7516,7 +6826,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7527,7 +6836,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7538,7 +6846,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7549,7 +6856,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7560,7 +6866,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7571,7 +6876,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7582,7 +6886,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7593,7 +6896,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7604,7 +6906,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7615,7 +6916,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7626,7 +6926,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7637,7 +6936,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7648,7 +6946,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7659,7 +6956,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7670,7 +6966,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7681,7 +6976,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7692,7 +6986,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7703,7 +6996,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7714,7 +7006,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7725,7 +7016,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7736,7 +7026,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7747,7 +7036,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7758,7 +7046,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7769,7 +7056,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7780,7 +7066,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7791,7 +7076,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7802,7 +7086,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7813,7 +7096,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7824,7 +7106,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7835,7 +7116,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7846,7 +7126,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7857,7 +7136,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7868,7 +7146,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7879,7 +7156,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7890,7 +7166,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7901,7 +7176,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7912,7 +7186,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7923,7 +7196,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7934,7 +7206,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7945,7 +7216,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7956,7 +7226,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7967,7 +7236,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7978,7 +7246,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7989,7 +7256,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8000,7 +7266,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8011,7 +7276,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8022,7 +7286,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8033,7 +7296,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8044,7 +7306,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8055,7 +7316,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8066,7 +7326,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8077,7 +7336,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8088,7 +7346,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8099,7 +7356,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8110,7 +7366,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8121,7 +7376,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8132,7 +7386,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8143,7 +7396,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8154,7 +7406,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8165,7 +7416,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8176,7 +7426,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8187,7 +7436,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8198,7 +7446,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8209,7 +7456,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8220,7 +7466,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8231,7 +7476,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8242,7 +7486,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8253,7 +7496,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8264,7 +7506,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8275,7 +7516,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8286,7 +7526,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8297,7 +7536,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8308,7 +7546,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8319,7 +7556,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8330,7 +7566,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8341,7 +7576,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8352,7 +7586,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8363,7 +7596,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8374,7 +7606,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8385,7 +7616,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8396,7 +7626,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8407,7 +7636,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8418,7 +7646,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8429,7 +7656,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8440,7 +7666,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8451,7 +7676,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8462,7 +7686,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8473,7 +7696,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8484,7 +7706,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8495,7 +7716,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8506,7 +7726,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8517,7 +7736,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8528,7 +7746,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8539,7 +7756,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8550,7 +7766,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8561,7 +7776,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8572,7 +7786,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8583,7 +7796,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8594,7 +7806,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8605,7 +7816,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8616,7 +7826,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8627,7 +7836,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8638,7 +7846,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8649,7 +7856,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8660,7 +7866,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8671,7 +7876,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8682,7 +7886,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8693,7 +7896,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8704,7 +7906,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8715,7 +7916,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8726,7 +7926,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8737,7 +7936,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8748,7 +7946,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8759,7 +7956,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8770,7 +7966,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8781,7 +7976,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8792,7 +7986,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8803,7 +7996,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8814,7 +8006,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8825,7 +8016,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8836,7 +8026,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8847,7 +8036,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8858,7 +8046,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8869,7 +8056,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8880,7 +8066,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8891,7 +8076,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8902,7 +8086,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8913,7 +8096,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8924,7 +8106,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8935,7 +8116,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8946,7 +8126,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8957,7 +8136,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8968,7 +8146,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8979,7 +8156,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8990,7 +8166,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9001,7 +8176,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9012,7 +8186,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9023,7 +8196,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9034,7 +8206,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9045,7 +8216,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9056,7 +8226,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9067,7 +8236,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9078,7 +8246,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9089,7 +8256,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9100,7 +8266,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9111,7 +8276,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9122,7 +8286,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9133,7 +8296,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9144,7 +8306,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9155,7 +8316,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9166,7 +8326,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9177,7 +8336,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9188,7 +8346,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9199,7 +8356,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9210,7 +8366,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9221,7 +8376,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9232,7 +8386,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9243,7 +8396,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9254,7 +8406,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9265,7 +8416,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9276,7 +8426,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9287,7 +8436,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9298,7 +8446,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9309,7 +8456,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9320,7 +8466,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9331,7 +8476,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9342,7 +8486,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9353,7 +8496,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9364,7 +8506,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9375,7 +8516,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9386,7 +8526,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9397,7 +8536,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9408,7 +8546,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9419,7 +8556,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9430,7 +8566,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9441,7 +8576,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9452,7 +8586,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9463,7 +8596,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9474,7 +8606,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9485,7 +8616,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9496,7 +8626,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9507,7 +8636,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9518,7 +8646,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9529,7 +8656,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9540,7 +8666,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9551,7 +8676,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9562,7 +8686,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9573,7 +8696,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9584,7 +8706,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9595,7 +8716,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9606,7 +8726,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9617,7 +8736,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9628,7 +8746,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9639,7 +8756,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9650,7 +8766,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9661,7 +8776,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9672,7 +8786,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9683,7 +8796,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9694,7 +8806,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9705,7 +8816,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9716,7 +8826,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9727,7 +8836,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9738,7 +8846,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9749,7 +8856,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9760,7 +8866,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9771,7 +8876,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9782,7 +8886,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9793,7 +8896,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9804,7 +8906,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9815,7 +8916,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9826,7 +8926,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9837,7 +8936,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9848,7 +8946,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9859,7 +8956,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9870,7 +8966,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9881,7 +8976,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9892,7 +8986,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9903,7 +8996,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9914,7 +9006,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9925,7 +9016,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9936,7 +9026,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9947,7 +9036,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9958,7 +9046,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9969,7 +9056,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9980,7 +9066,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9991,7 +9076,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10002,7 +9086,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10013,7 +9096,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10024,7 +9106,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10035,7 +9116,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10046,7 +9126,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10057,7 +9136,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10068,7 +9146,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10079,7 +9156,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10090,7 +9166,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10101,7 +9176,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10112,7 +9186,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10123,7 +9196,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10134,7 +9206,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10145,7 +9216,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10156,7 +9226,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10167,7 +9236,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10178,7 +9246,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10189,7 +9256,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10200,7 +9266,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10211,17 +9276,16 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
-                'name' => 'Zaahiy rupawan',
+                'name' => 'Zaahiy',
+                'meaning' => 'rupawan',
                 'gender_id' => 1,
                 'religion_id' => 2,
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10232,7 +9296,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10243,7 +9306,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10254,7 +9316,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10265,7 +9326,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10276,7 +9336,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10287,7 +9346,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10298,7 +9356,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10309,7 +9366,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10320,7 +9376,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10331,7 +9386,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10342,7 +9396,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10353,7 +9406,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10364,7 +9416,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10375,7 +9426,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10386,7 +9436,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10397,7 +9446,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10408,7 +9456,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10419,7 +9466,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10430,7 +9476,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10441,7 +9486,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10452,7 +9496,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10463,7 +9506,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10474,7 +9516,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10485,7 +9526,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10496,7 +9536,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10507,7 +9546,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10518,7 +9556,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10529,7 +9566,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10540,7 +9576,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10551,7 +9586,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10562,7 +9596,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10573,7 +9606,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10584,7 +9616,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10595,7 +9626,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10606,7 +9636,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10617,7 +9646,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10628,7 +9656,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10639,7 +9666,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10650,7 +9676,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10661,7 +9686,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10672,7 +9696,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10683,7 +9706,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10694,7 +9716,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10705,7 +9726,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10716,7 +9736,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10727,7 +9746,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10738,7 +9756,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10749,7 +9766,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10760,7 +9776,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10771,7 +9786,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10782,7 +9796,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10793,7 +9806,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10804,7 +9816,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10815,7 +9826,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10826,7 +9836,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10837,7 +9846,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10848,7 +9856,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10859,7 +9866,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10870,7 +9876,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10881,7 +9886,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10892,7 +9896,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10903,7 +9906,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10914,7 +9916,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10925,7 +9926,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10936,7 +9936,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10947,7 +9946,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10958,7 +9956,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10969,7 +9966,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10980,7 +9976,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10991,7 +9986,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11002,7 +9996,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11013,7 +10006,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11024,7 +10016,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11035,7 +10026,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
 
 
@@ -11049,7 +10039,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11060,7 +10049,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11071,7 +10059,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11082,7 +10069,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11093,7 +10079,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11104,7 +10089,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11115,7 +10099,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11126,7 +10109,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11137,7 +10119,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11148,7 +10129,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11159,7 +10139,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11170,7 +10149,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11181,7 +10159,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11192,7 +10169,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11203,7 +10179,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11214,7 +10189,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11225,7 +10199,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11236,7 +10209,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11247,7 +10219,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11258,7 +10229,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11269,7 +10239,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11280,7 +10249,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11291,7 +10259,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11302,7 +10269,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11313,7 +10279,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11324,7 +10289,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11335,7 +10299,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11346,7 +10309,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11357,7 +10319,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11368,7 +10329,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11379,7 +10339,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11390,7 +10349,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11401,7 +10359,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11412,7 +10369,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11423,7 +10379,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11434,7 +10389,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11445,7 +10399,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11456,7 +10409,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11467,7 +10419,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11478,7 +10429,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11489,7 +10439,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11500,7 +10449,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11511,7 +10459,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11522,7 +10469,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11533,7 +10479,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11544,7 +10489,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11555,7 +10499,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11566,7 +10509,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11577,7 +10519,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11588,7 +10529,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11599,7 +10539,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11610,7 +10549,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11621,7 +10559,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11632,7 +10569,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11643,7 +10579,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11654,7 +10589,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11665,7 +10599,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11676,7 +10609,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11687,7 +10619,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11698,7 +10629,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11709,7 +10639,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11720,7 +10649,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11731,7 +10659,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11742,7 +10669,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11753,7 +10679,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11764,7 +10689,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11775,7 +10699,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11786,7 +10709,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11797,7 +10719,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11808,7 +10729,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11819,7 +10739,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11830,7 +10749,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11841,7 +10759,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11852,7 +10769,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11863,7 +10779,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11874,7 +10789,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11885,7 +10799,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11896,7 +10809,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11907,7 +10819,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11918,7 +10829,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11929,7 +10839,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11940,7 +10849,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11951,7 +10859,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11962,7 +10869,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11973,7 +10879,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11984,7 +10889,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11995,7 +10899,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12006,7 +10909,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12017,7 +10919,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12028,7 +10929,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12039,7 +10939,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12050,7 +10949,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12061,7 +10959,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12072,7 +10969,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12083,7 +10979,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12094,7 +10989,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12105,7 +10999,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12116,7 +11009,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12127,7 +11019,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12138,7 +11029,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12149,7 +11039,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12160,7 +11049,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12171,7 +11059,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12182,7 +11069,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12193,7 +11079,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12204,7 +11089,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12215,7 +11099,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12226,7 +11109,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12237,7 +11119,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12248,7 +11129,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12259,7 +11139,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12270,7 +11149,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12281,7 +11159,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12292,7 +11169,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12303,7 +11179,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12314,7 +11189,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12325,7 +11199,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12336,7 +11209,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12347,7 +11219,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12358,7 +11229,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12369,7 +11239,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12380,7 +11249,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12391,7 +11259,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12402,7 +11269,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12413,7 +11279,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12424,7 +11289,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12435,7 +11299,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12446,7 +11309,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12457,7 +11319,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12468,7 +11329,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12479,7 +11339,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12490,7 +11349,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12501,7 +11359,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12512,7 +11369,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12523,7 +11379,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12534,7 +11389,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12545,7 +11399,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12556,7 +11409,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12567,7 +11419,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12578,7 +11429,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12589,7 +11439,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12600,7 +11449,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12611,7 +11459,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12622,7 +11469,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12633,7 +11479,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12644,7 +11489,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12655,7 +11499,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12666,7 +11509,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12677,7 +11519,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12688,7 +11529,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12699,7 +11539,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12710,7 +11549,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12721,7 +11559,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12732,7 +11569,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12743,7 +11579,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12754,7 +11589,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12765,7 +11599,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12776,7 +11609,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12787,7 +11619,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12798,7 +11629,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12809,7 +11639,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12820,7 +11649,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12831,7 +11659,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12842,7 +11669,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12853,7 +11679,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12864,7 +11689,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12875,7 +11699,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12886,7 +11709,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12897,7 +11719,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12908,7 +11729,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12919,7 +11739,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12930,7 +11749,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12941,7 +11759,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12952,7 +11769,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12963,7 +11779,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12974,7 +11789,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12985,7 +11799,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12996,7 +11809,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13007,7 +11819,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13018,7 +11829,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13029,7 +11839,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13040,7 +11849,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13051,7 +11859,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13062,7 +11869,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13073,7 +11879,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13084,7 +11889,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13095,7 +11899,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13106,7 +11909,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13117,7 +11919,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13128,7 +11929,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13139,7 +11939,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13150,7 +11949,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13161,7 +11959,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13172,7 +11969,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13183,7 +11979,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13194,7 +11989,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13205,7 +11999,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13216,7 +12009,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13227,7 +12019,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13238,7 +12029,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13249,7 +12039,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13260,7 +12049,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13271,7 +12059,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13282,7 +12069,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13293,7 +12079,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13304,7 +12089,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13315,7 +12099,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13326,7 +12109,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13337,7 +12119,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13348,7 +12129,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13359,7 +12139,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13370,7 +12149,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13381,7 +12159,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13392,7 +12169,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13403,7 +12179,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13414,7 +12189,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13425,7 +12199,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13436,7 +12209,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13447,7 +12219,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13458,7 +12229,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13469,7 +12239,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13480,7 +12249,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13491,7 +12259,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13502,7 +12269,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13513,7 +12279,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13524,7 +12289,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13535,7 +12299,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13546,7 +12309,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13557,7 +12319,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13568,7 +12329,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13579,7 +12339,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13590,7 +12349,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13601,7 +12359,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13612,7 +12369,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13623,7 +12379,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13634,7 +12389,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13645,7 +12399,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13656,7 +12409,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13667,7 +12419,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13678,7 +12429,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13689,7 +12439,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13700,7 +12449,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13711,7 +12459,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13722,7 +12469,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13733,7 +12479,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13744,7 +12489,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13755,7 +12499,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13766,7 +12509,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13777,7 +12519,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13788,7 +12529,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13799,7 +12539,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13810,7 +12549,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13821,7 +12559,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13832,7 +12569,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13843,7 +12579,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13854,7 +12589,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13865,7 +12599,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13876,7 +12609,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13887,7 +12619,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13898,7 +12629,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13909,7 +12639,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13920,7 +12649,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13931,7 +12659,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13942,7 +12669,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13953,7 +12679,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13964,7 +12689,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13975,7 +12699,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13986,7 +12709,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13997,7 +12719,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14008,7 +12729,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14019,7 +12739,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14030,7 +12749,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14041,7 +12759,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14052,7 +12769,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14063,7 +12779,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14074,7 +12789,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14085,7 +12799,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14096,7 +12809,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14107,7 +12819,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14118,7 +12829,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14129,7 +12839,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14140,7 +12849,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14151,7 +12859,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14162,7 +12869,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14173,7 +12879,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14184,7 +12889,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14195,7 +12899,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14206,7 +12909,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14217,7 +12919,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14228,7 +12929,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14239,7 +12939,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14250,7 +12949,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14261,7 +12959,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14272,7 +12969,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14283,7 +12979,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14294,7 +12989,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14305,7 +12999,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14316,7 +13009,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14327,7 +13019,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14338,7 +13029,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14349,7 +13039,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14360,7 +13049,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14371,7 +13059,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14382,7 +13069,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14393,7 +13079,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14404,7 +13089,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14415,7 +13099,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14426,7 +13109,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14437,7 +13119,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14448,7 +13129,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14459,7 +13139,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14470,7 +13149,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14481,7 +13159,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14492,7 +13169,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14503,7 +13179,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14514,7 +13189,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14525,7 +13199,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14536,7 +13209,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14547,7 +13219,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14558,7 +13229,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14569,7 +13239,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14580,7 +13249,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14591,7 +13259,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14602,7 +13269,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14613,7 +13279,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14624,7 +13289,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14635,7 +13299,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14646,7 +13309,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14657,7 +13319,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14668,7 +13329,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14679,7 +13339,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14690,7 +13349,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14701,7 +13359,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14712,7 +13369,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14723,7 +13379,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14734,7 +13389,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14745,7 +13399,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14756,7 +13409,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14767,7 +13419,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14778,7 +13429,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14789,7 +13439,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14800,7 +13449,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14811,7 +13459,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14822,7 +13469,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14833,7 +13479,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14844,7 +13489,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14855,7 +13499,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14866,7 +13509,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14877,7 +13519,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14888,7 +13529,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14899,7 +13539,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14910,7 +13549,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14921,7 +13559,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14932,7 +13569,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14943,7 +13579,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14954,7 +13589,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14965,7 +13599,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14976,7 +13609,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14987,7 +13619,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14998,7 +13629,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15009,7 +13639,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15020,7 +13649,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15031,7 +13659,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15042,7 +13669,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15053,7 +13679,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15064,7 +13689,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15075,7 +13699,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15086,7 +13709,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15097,7 +13719,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15108,7 +13729,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15119,7 +13739,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15130,7 +13749,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15141,7 +13759,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15152,7 +13769,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15163,7 +13779,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15174,7 +13789,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15185,7 +13799,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15196,7 +13809,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15207,7 +13819,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15218,7 +13829,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15229,7 +13839,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15240,7 +13849,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15251,7 +13859,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15262,7 +13869,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15273,7 +13879,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15284,7 +13889,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15295,7 +13899,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15306,7 +13909,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15317,7 +13919,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15328,7 +13929,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15339,7 +13939,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15350,7 +13949,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15361,7 +13959,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15372,7 +13969,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15383,7 +13979,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15394,7 +13989,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15405,7 +13999,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15416,7 +14009,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15427,7 +14019,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15438,7 +14029,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15449,7 +14039,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15460,7 +14049,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15471,7 +14059,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15482,7 +14069,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15493,7 +14079,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15504,7 +14089,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15515,7 +14099,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15526,7 +14109,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15537,7 +14119,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15548,7 +14129,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15559,7 +14139,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15570,7 +14149,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15581,7 +14159,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15592,7 +14169,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15603,7 +14179,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15614,7 +14189,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15625,7 +14199,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15636,7 +14209,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15647,7 +14219,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15658,7 +14229,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15669,7 +14239,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15680,7 +14249,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15691,7 +14259,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15702,7 +14269,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15713,7 +14279,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15724,7 +14289,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15735,7 +14299,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15746,7 +14309,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15757,7 +14319,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15768,7 +14329,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15779,7 +14339,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15790,7 +14349,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15801,7 +14359,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15812,7 +14369,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15823,7 +14379,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15834,7 +14389,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15845,7 +14399,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15856,7 +14409,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15867,7 +14419,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15878,7 +14429,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15889,7 +14439,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15900,7 +14449,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15911,7 +14459,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15922,7 +14469,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15933,7 +14479,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15944,7 +14489,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15955,7 +14499,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15966,7 +14509,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15977,7 +14519,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15988,7 +14529,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15999,7 +14539,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16010,7 +14549,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16021,7 +14559,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16032,7 +14569,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16043,7 +14579,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16054,7 +14589,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16065,7 +14599,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16076,7 +14609,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16087,7 +14619,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16098,7 +14629,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16109,7 +14639,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16120,7 +14649,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16131,7 +14659,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16142,7 +14669,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16153,7 +14679,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16164,7 +14689,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16175,7 +14699,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16186,7 +14709,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16197,7 +14719,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16208,7 +14729,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16219,7 +14739,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16230,7 +14749,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16241,7 +14759,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16252,7 +14769,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16263,7 +14779,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16274,7 +14789,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16285,7 +14799,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16296,7 +14809,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16307,7 +14819,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16318,7 +14829,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16329,7 +14839,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16340,7 +14849,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16351,7 +14859,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16362,7 +14869,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16373,7 +14879,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16384,7 +14889,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16395,7 +14899,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16406,7 +14909,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16417,7 +14919,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16428,7 +14929,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16439,7 +14939,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16450,7 +14949,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16461,7 +14959,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16472,7 +14969,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16483,7 +14979,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16494,7 +14989,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16505,7 +14999,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16516,7 +15009,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16527,7 +15019,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16538,7 +15029,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16549,7 +15039,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16560,7 +15049,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16571,7 +15059,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16582,7 +15069,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16593,7 +15079,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16604,7 +15089,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16615,7 +15099,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16626,7 +15109,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16637,7 +15119,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16648,7 +15129,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16659,7 +15139,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16670,7 +15149,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16681,7 +15159,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16692,7 +15169,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16703,7 +15179,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16714,7 +15189,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16725,7 +15199,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16736,7 +15209,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16747,7 +15219,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16758,7 +15229,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16769,7 +15239,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16780,7 +15249,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16791,7 +15259,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16802,7 +15269,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16813,7 +15279,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16824,7 +15289,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16835,7 +15299,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16846,7 +15309,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16857,7 +15319,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16868,7 +15329,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16879,7 +15339,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16890,7 +15349,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16901,7 +15359,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16912,7 +15369,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16923,7 +15379,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16934,7 +15389,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16945,7 +15399,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16956,7 +15409,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16967,7 +15419,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16978,7 +15429,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16989,7 +15439,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17000,7 +15449,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17011,7 +15459,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17022,7 +15469,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17033,7 +15479,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17044,7 +15489,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17055,7 +15499,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17066,7 +15509,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17077,7 +15519,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17088,7 +15529,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17099,7 +15539,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17110,7 +15549,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17121,7 +15559,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17132,7 +15569,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17143,7 +15579,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17154,7 +15589,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17165,7 +15599,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17176,7 +15609,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17187,7 +15619,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17198,7 +15629,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17209,7 +15639,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17220,7 +15649,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17231,7 +15659,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17242,7 +15669,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17253,7 +15679,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17264,7 +15689,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17275,7 +15699,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17286,7 +15709,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17297,7 +15719,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17308,7 +15729,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17319,7 +15739,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17330,7 +15749,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17341,7 +15759,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17352,7 +15769,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17363,7 +15779,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17374,7 +15789,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17385,7 +15799,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17396,7 +15809,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17407,7 +15819,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17418,7 +15829,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17429,7 +15839,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17440,7 +15849,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17451,7 +15859,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17462,7 +15869,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17473,7 +15879,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17484,7 +15889,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17495,7 +15899,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17506,7 +15909,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17517,7 +15919,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17528,7 +15929,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17539,7 +15939,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17550,7 +15949,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17561,7 +15959,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17572,7 +15969,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17583,7 +15979,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17594,7 +15989,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17605,7 +15999,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17616,7 +16009,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17627,7 +16019,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17638,7 +16029,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17649,7 +16039,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17660,7 +16049,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17671,7 +16059,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17682,7 +16069,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17693,7 +16079,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17704,7 +16089,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17715,7 +16099,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17726,7 +16109,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17737,7 +16119,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17748,7 +16129,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17759,7 +16139,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17770,7 +16149,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17781,7 +16159,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17792,7 +16169,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17803,7 +16179,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17814,7 +16189,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17825,7 +16199,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17836,7 +16209,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17847,7 +16219,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17858,7 +16229,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17869,7 +16239,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17880,7 +16249,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17891,7 +16259,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17902,7 +16269,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17913,7 +16279,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17924,7 +16289,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17935,7 +16299,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17946,7 +16309,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17957,7 +16319,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17968,7 +16329,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17979,7 +16339,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17990,7 +16349,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18001,7 +16359,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18012,7 +16369,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18023,7 +16379,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18034,7 +16389,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18045,7 +16399,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18056,7 +16409,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18067,7 +16419,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18078,7 +16429,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18089,7 +16439,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18100,7 +16449,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18111,7 +16459,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18122,7 +16469,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18133,7 +16479,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18144,7 +16489,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18155,7 +16499,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18166,7 +16509,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18177,7 +16519,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18188,7 +16529,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18199,7 +16539,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18210,7 +16549,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18221,7 +16559,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18232,7 +16569,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18243,7 +16579,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18254,7 +16589,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18265,7 +16599,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18276,7 +16609,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18287,7 +16619,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18298,7 +16629,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18309,7 +16639,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18320,7 +16649,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18331,7 +16659,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18342,7 +16669,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18353,7 +16679,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18364,7 +16689,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18375,7 +16699,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18386,7 +16709,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18397,7 +16719,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18408,7 +16729,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18419,7 +16739,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18430,7 +16749,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18441,7 +16759,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18452,7 +16769,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18463,7 +16779,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18474,7 +16789,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18485,7 +16799,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18496,7 +16809,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18507,7 +16819,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18518,7 +16829,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18529,7 +16839,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18540,7 +16849,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18551,7 +16859,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18562,7 +16869,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18573,7 +16879,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18584,7 +16889,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18595,7 +16899,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18606,7 +16909,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18617,7 +16919,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18628,7 +16929,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18639,7 +16939,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18650,7 +16949,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18661,7 +16959,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18672,7 +16969,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18683,7 +16979,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18694,7 +16989,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18705,7 +16999,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18716,7 +17009,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18727,7 +17019,6 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18738,11 +17029,12 @@ class BabynameCowokIslamSeeder extends Seeder
                 'origin_id' => null,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
 
         ];
 
-        Babyname::insert($data);
+        foreach ($dataTables as $data) {
+            Babyname::create($data);
+        }
     }
 }

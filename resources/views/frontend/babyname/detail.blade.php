@@ -11,7 +11,7 @@
                 <div class="mx-auto max-w-6xl px-6 lg:px-10 xl:px-0">
                     <div class="flex flex-col items-center justify-center gap-4">
                         <div class="flex items-center gap-2.5 text-center max-w-[700px]"><!---->
-                            <h1 class="text-lg leading-[33px] md:text-[32px] md:leading-[48px] xl:text-[40px] xl:leading-[54px] font-bold text-gray-900 figtree-bold">Arti Nama <span class="underline underline-offset-2 capitalize">{{ $babyname->name }}</span></h1>
+                            <h1 class="text-lg leading-[33px] md:text-[32px] md:leading-[48px] xl:text-[40px] xl:leading-[54px] font-bold text-gray-900 figtree-bold">Meaning of the name <span class="underline underline-offset-2 capitalize">{{ $babyname->name }}</span></h1>
                         </div>
                         <div>
                             <div class="flex flex-wrap items-center gap-1 md:gap-2 justify-center md:justify-center mx-auto w-12/12 md:w-10/12 ">
@@ -123,10 +123,10 @@
 
                         <article class="pt-4 text-[14px] font-main leading-6 dark:text-slate-300 figtree-reguler">
                             The name <span class="capitalize"><strong>{{ $babyname->name }}</strong></span>
-                             is primarily a <span>@if($babyname->gender_id == 1) Male @endif @if($babyname->gender_id == 2) Female @endif</span> name 
-                             @if($babyname->origin_id)<span>of {{ $babyname->origin($babyname->origin_id) }} origin</span>@endif
-                              and have <span>{{ $babyname->count() }}</span> letters
-                              that means <span class="underline">{{ $babyname->meaning }}</span>.
+                            is primarily a <span>@if($babyname->gender_id == 1) Male @endif @if($babyname->gender_id == 2) Female @endif</span> name
+                            @if($babyname->origin_id)<span>of {{ $babyname->origin($babyname->origin_id) }} origin</span>@endif
+                            and have <span>{{ $babyname->count() }}</span> letters
+                            that means <span class="underline">{{ $babyname->meaning }}</span>.
                         </article>
 
                         <div class="w-full my-6 flex justify-center border border-gray-800 rounded shadow-stack-sm  bg-white">
@@ -236,7 +236,7 @@
                                     </div>
                                 </div>
                                 @endforeach
-                               
+
                                 <!-- Modal -->
                                 <div
                                     x-show="showMiniDetail"
@@ -371,16 +371,43 @@
                                 </div>
                             </div>
                             @else
-                                <div class="flex items-center justify-center mx-auto w-full">
-                                    <span class="font-semibold text-md text-red-500 figtree-medium">No record found!</span>
-                                </div>
+                            <div class="flex items-center justify-center mx-auto w-full">
+                                <span class="font-semibold text-md text-red-500 figtree-medium">No record found!</span>
+                            </div>
                             @endif
                         </div>
 
-
-
                     </div>
                     <!--  -->
+
+                    <div class="mx-auto max-w-6xl md:px-6 py-6 lg:px-10 xl:px-0 ">
+                        
+
+                        @if($relatedNames->count() > 0)
+                        <div class="w-full mt-4 border border-slate-200 rounded-t-lg overflow-x-auto">
+                            <table class="w-full divide-y divide-slate-200">
+                                <thead class="bg-indigo-200 text-slate-800 figtree-reguler">
+                                    <tr>
+                                        <th class="px-4 py-2 text-start">Full Name</th>
+                                        <th class="px-4 py-2 text-start">Meaning</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="divide-y divide-slate-200 bg-white text-slate-800 ">
+                                    @foreach($namelists as $f)
+                                    <tr class="hover:bg-slate-100 cursor-pointer odd:bg-white even:bg-slate-50">
+                                        <td class="px-4 py-2 figtree-medium">{{ $f->full_name }}</td>
+                                        <td class="px-4 py-2 figtree-reguler leading-tight">{{ $f->meaning }}</td>
+                                    </tr>
+                                    @endforeach
+                                </tbody>
+                            </table>
+                        </div>
+                        @else
+                        <div class="flex items-center justify-center mx-auto w-full">
+                            <span class="font-semibold text-md text-red-500 figtree-medium">No record found!</span>
+                        </div>
+                        @endif
+                    </div>
                 </div>
 
             </div>

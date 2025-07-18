@@ -1,0 +1,56 @@
+<?php
+
+namespace App\Http\Livewire;
+
+use App\Models\Category;
+use Livewire\Component;
+
+class CategoryIndex extends Component
+{
+    public $search = '';
+    public $sortField = 'id';
+    public $sortDirection = 'asc';
+
+    protected $listeners = ['categoryDeleted' => '$refresh'];
+
+    public function sortBy($field)
+    {
+        if ($this->sortField === $field) {
+            $this->sortDirection = $this->sortDirection === 'asc' ? 'desc' : 'asc';
+        } else {
+            $this->sortDirection = 'asc';
+        }
+        $this->sortField = $field;
+    }
+
+    public function deleteCategory($id)
+    {
+        $category = Category::find($id);
+        if ($category) {
+            // Check if there are any articles associated with this category
+            if ($category->articles()->count() > 0) {
+                session()->flash('error', 'Cannot delete category with associated articles.');
+            } else {
+                $category->delete();
+                session()->flash('success', 'Category deleted successfully.');
+                $this->emit('categoryDeleted');
+            }
+        }
+    }
+
+    public function render()
+    {
+        $categories = Category::when($this->search, function ($query) {
+                // Search across translatable names for the current locale
+                $locale = app()->getLocale();
+                $query->where("name->{$locale}", 'like', '%' . $this->search . '%');
+            })
+            ->orderBy($this->sortField, $this->sortDirection)
+            ->get();
+
+        return view('livewire.category-index', [
+            'categories' => $categories,
+            'currentLocale' => app()->getLocale(),
+        ]);
+    }
+}

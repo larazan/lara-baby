@@ -4,7 +4,7 @@ namespace App\Models;
 
 use App\Concerns\HasAuthor;
 use App\Concerns\HasLikes;
-use App\Concerns\HasSlug;
+// use App\Concerns\HasSlug;
 use App\Concerns\HasUniqueSlug;
 use App\Concerns\HasTags;
 use App\Concerns\HasTimestamps;
@@ -17,6 +17,8 @@ use Illuminate\Support\Str;
 use Laravel\Scout\Searchable;
 use Laravel\Scout\Attributes\SearchUsingFullText;
 use Laravel\Scout\Attributes\SearchUsingPrefix;
+use Spatie\Sluggable\HasSlug; // Import HasSlug
+use Spatie\Sluggable\SlugOptions; // Import SlugOptions
 
 class Babyname extends Model
 {
@@ -30,6 +32,7 @@ class Babyname extends Model
     // use HasUuids;
     use SlugTrait;
     use Searchable;
+    // use HasUniqueSlug;
 
     const TABLE = 'babynames';
 
@@ -129,6 +132,17 @@ class Babyname extends Model
     // {
     //     return $this->slug;
     // }
+
+    /**
+     * Get the options for generating the slug.
+     */
+    public function getSlugOptions() : SlugOptions
+    {
+        return SlugOptions::create()
+            ->generateSlugsFrom('name') // Generate slug from the 'name' attribute
+            ->saveSlugsTo('slug')
+            ->doNotGenerateSlugsOnUpdate(); // Optional: only generate on creation
+    }
 
     public function slugysh(): string
     {

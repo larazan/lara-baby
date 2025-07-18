@@ -1,0 +1,93 @@
+<?php
+
+namespace App\Http\Livewire;
+
+use App\Models\Article;
+use App\Models\Category;
+use Livewire\Component;
+
+class ArticleFormModal extends Component
+{
+    public $article; // Will be null for create, Article model for edit
+    public $category_id;
+    public $title = [];
+    public $content = [];
+    public $locales;
+
+    // Listener to open the modal with an article (or for create)
+    protected $listeners = ['openArticleModal' => 'mount'];
+
+    protected function rules()
+    {
+        $rules = [
+            'category_id' => 'required|exists:categories,id',
+        ];
+
+        foreach ($this->locales as $locale) {
+            $rules["title.{$locale}"] = 'required|string|max:255';
+            $rules["content.{$locale}"] = 'required|string';
+        }
+
+        return $rules;
+    }
+
+    public function mount($articleSlug = null)
+    {
+        $this->locales = config('app.locales');
+        $this->resetValidation(); // Clear validation errors on mount/re-mount
+
+        if ($articleSlug) {
+            $this->article = Article::where('slug', $articleSlug)->firstOrFail();
+            $this->category_id = $this->article->category_id;
+            foreach ($this->locales as $locale) {
+                $this->title[$locale] = $this->article->getTranslation('title', $locale, false);
+                $this->content[$locale] = $this->article->getTranslation('content', $locale, false);
+            }
+        } else {
+            $this->article = null; // Ensure it's null for create
+            $this->resetForm(); // Clear fields for new article
+        }
+    }
+
+    public function save()
+    {
+        $this->validate();
+
+        $data = [
+            'category_id' => $this->category_id,
+            'title' => $this->title,
+            'content' => $this->content,
+        ];
+
+        if ($this->article) {
+            $this->article->update($data);
+        } else {
+            Article::create($data);
+        }
+
+        $this->emit('articleSaved'); // Notify parent component
+        $this->dispatch('closeArticleModal'); // Close modal from parent
+    }
+
+    public function resetForm()
+    {
+        $this->category_id = null;
+        foreach ($this->locales as $locale) {
+            $this->title[$locale] = '';
+            $this->content[$locale] = '';
+        }
+        $this->resetValidation(); // Clear validation errors
+    }
+
+    public function closeModal()
+    {
+        $this->emit('closeArticleModal'); // Notify parent component to close
+        $this->resetForm(); // Reset form fields
+    }
+
+    public function render()
+    {
+        $categories = Category::all();
+        return view('livewire.article-form-modal', compact('categories'));
+    }
+}

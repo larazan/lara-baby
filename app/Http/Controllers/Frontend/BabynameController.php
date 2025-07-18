@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Frontend;
 
 use App\Models\Babyname;
+use App\Models\Namelist;
 use App\Models\Country;
 use App\Models\Origin;
 use App\Models\Religion;
@@ -185,8 +186,11 @@ class BabynameController extends Controller
         ->reddit();
 
         $title = "Meaning, origin and history of the name " . $babyname->name;
+
+        // Namelist
+        $namelists = Namelist::where('full_name', 'like', '%'.$babyname->name.'%')->orderBy('id', 'desc')->get();
         
-        return $this->loadTheme('babyname.detail', compact('letters', 'genders', 'origins', 'religions', 'countries', 'title', 'babyname', 'shareComponent', 'relatedNames'));
+        return $this->loadTheme('babyname.detail', compact('letters', 'genders', 'origins', 'religions', 'countries', 'title', 'babyname', 'shareComponent', 'relatedNames', 'namelists'));
     }
 
     public function letter($letter)

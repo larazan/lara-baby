@@ -14,7 +14,8 @@ class DatabaseSeeder extends Seeder
     public function run(): void
     {
         $this->call([
-            // CategorySeeder::class,
+           
+            // NewCategorySeeder::class,
             // RoleSeeder::class,
             // UserSeeder::class,
             // SettingSeeder::class,
@@ -37,11 +38,12 @@ class DatabaseSeeder extends Seeder
             // NamelistSeeder::class,
             // NamelistCowokSeeder::class,
 
-            BabynameSeeder::class,
+            // BabynameSeeder::class,
             // BabynameCewekSeeder::class,
             // BabynameCowokSeeder::class,
             // BabynameCowokIslamSeeder::class,
             // BabynameCowokEstetikSeeder::class,
+
 
         ]);
         // $this->call(\Database\Seeders\Tables\BabynamesSeeder::class);

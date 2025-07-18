@@ -9,6 +9,7 @@ use App\Http\Controllers\Frontend\HomeController;
 use App\Http\Controllers\Frontend\PageController;
 use App\Http\Controllers\Frontend\PregnancyController;
 use App\Http\Controllers\Frontend\SearchController;
+use App\Http\Controllers\Frontend\SearchNameController;
 use App\Http\Controllers\Frontend\NewsletterController;
 use App\Http\Controllers\Frontend\BabynameController;
 use App\Http\Controllers\Frontend\ActivityController;
@@ -98,7 +99,7 @@ Route::get('/baby-name/{slug}', [BabynameController::class, 'show']);
 Route::get('generate-article', [GenerateArticleController::class, 'index']);
 
 Route::get('search', SearchController::class)->name('search');
-// Route::get('search', [SearchController::class, 'search'])->name('search');
+Route::get('search-name', SearchNameController::class)->name('search-name');
 Route::post('/babyname/search', [SearchController::class, 'index'])->name('babyname.search');
 Route::get('/api/search', [SearchController::class, 'searchTwo'])->name('api.search');
 // Route::get('/search-dropdown', function () {

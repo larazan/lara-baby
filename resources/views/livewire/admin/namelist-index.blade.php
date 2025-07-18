@@ -146,7 +146,7 @@
                                 <div class="gh gt">Gender</div>
                             </th>
                             <th class="vi wy w_ vo lm">
-                                <div class="gh gt">Origin</div>
+                                <div class="gh gt">Religion</div>
                             </th>
                             <th class="vi wy w_ vo lm">
                                 <div class="gh gt">Status</div>
@@ -180,7 +180,7 @@
                                 </div>
                             </td>
                             <td class="vi wy w_ vo lm">
-                                <div class="gp text-slate-800">{{ $namelist->name }}</div>
+                                <div class="gp text-slate-800">{{ $namelist->full_name }}</div>
                             </td>
                             <td class="vi wy w_ vo lm">
                                 <div class="gp ">{{ $namelist->meaning }}</div>
@@ -190,19 +190,19 @@
                             </td>
                             <td class="vi wy w_ vo lm">
                                 @if ($namelist->gender_id === 1)
-                                    male
+                                    <div class="px-2 py-1 rounded-full bg-blue-600 text-white font-semibold flex w-fit justify-center items-center ">M</div>
                                 @endif 
 
                                 @if ($namelist->gender_id === 2)
-                                    female
+                                    <div class="px-2 py-1 rounded-full bg-pink-600 text-white font-semibold flex w-fit justify-center items-center ">F</div>
                                 @endif
                                 
                                 @if ($namelist->gender_id === 3)
-                                    uni
+                                <div class="px-2 py-1 rounded-full bg-green-600 text-white font-semibold flex w-fit justify-center items-center ">U</div>
                                 @endif
                             </td>
                             <td class="vi wy w_ vo lm">
-                                <div class="gp ">{{ $namelist->country($namelist->country_id) }}</div>
+                                <div class="gp ">{{ $namelist->religion($namelist->religion_id) }}</div>
                             </td>
                             <td class="vi wy w_ vo lm">
                                 @if ($namelist->status === 'inactive')

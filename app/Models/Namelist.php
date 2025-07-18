@@ -26,6 +26,7 @@ class Namelist extends Model
         'gender_id',
         'country_id',
         'religion_id',
+        'locale',
         'status',
     ];
 
@@ -59,4 +60,10 @@ class Namelist extends Model
 		$country = Country::where('id', $countryId)->first();
 		return $country->name;
 	}
+
+    public function religion($religionId)
+    {
+        $rel = Religion::where('id', $religionId)->first();
+		return $rel->name;
+    }
 }

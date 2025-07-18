@@ -19,7 +19,7 @@ class PregnancyController extends Controller
         $second = range(13, 25);
         $third = range(26, 40);
         $array = [2, 4, 5, 6];
-        $query = Article::select(['title', 'category_id', 'slug', 'title', 'body', 'author_id', 'original', 'status', 'created_at'])->whereIn('category_id', $array)->active();
+        $query = Article::select(['title', 'category_id', 'slug', 'title', 'body', 'author_id', 'original', 'status', 'created_at'])->whereIn('category_id', $array)->inRandomOrder()->active();
         
         if ($slug) {
             $category = CategoryArticle::where('slug', $slug)->first();

@@ -35,7 +35,7 @@ class NamelistIndex extends Component
     ];
 
     public $search = '';
-    public $sort = 'asc';
+    public $sort = 'desc';
     public $perPage = 10;
 
     public $showConfirmModal = false;

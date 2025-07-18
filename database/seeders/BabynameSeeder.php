@@ -16,7 +16,7 @@ class BabynameSeeder extends Seeder
     public function run(): void
     {
         //
-        $data = [
+        $dataTables = [
             // [
             //     'uuid' => Str::uuid(),
             //     'name' => '',
@@ -40,7 +40,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -51,7 +50,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -62,7 +60,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -73,7 +70,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -84,7 +80,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -95,7 +90,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -106,7 +100,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -117,7 +110,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -128,7 +120,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -139,7 +130,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -150,7 +140,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -161,7 +150,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -172,7 +160,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -183,7 +170,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -194,7 +180,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -205,7 +190,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -216,7 +200,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -227,7 +210,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -238,7 +220,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -249,7 +230,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -260,7 +240,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -271,7 +250,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -282,7 +260,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -293,7 +270,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -304,7 +280,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -315,7 +290,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -326,7 +300,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -337,7 +310,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -348,7 +320,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -359,7 +330,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -370,7 +340,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -381,7 +350,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -392,7 +360,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -403,7 +370,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -414,7 +380,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -425,7 +390,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -436,7 +400,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -447,7 +410,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -458,7 +420,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -469,7 +430,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -480,7 +440,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -491,7 +450,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -502,7 +460,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -513,7 +470,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -524,7 +480,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -535,7 +490,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -546,7 +500,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -557,7 +510,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -568,7 +520,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -579,7 +530,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -590,7 +540,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -601,7 +550,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -612,7 +560,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -623,7 +570,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -634,7 +580,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -645,7 +590,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -656,7 +600,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -667,7 +610,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -678,7 +620,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -689,7 +630,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -700,7 +640,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -711,7 +650,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -722,7 +660,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -733,7 +670,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -744,7 +680,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -755,7 +690,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -766,7 +700,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -777,7 +710,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -788,7 +720,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -799,7 +730,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -810,7 +740,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -821,7 +750,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -832,7 +760,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -843,7 +770,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -854,7 +780,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -865,7 +790,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -876,7 +800,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -887,7 +810,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -898,7 +820,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -909,7 +830,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -920,7 +840,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -931,7 +850,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -942,7 +860,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -953,7 +870,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -964,7 +880,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -975,7 +890,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -986,7 +900,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -997,7 +910,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1008,7 +920,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1019,7 +930,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1030,7 +940,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1041,7 +950,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1052,7 +960,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1063,7 +970,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1074,7 +980,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1085,7 +990,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1096,7 +1000,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1107,7 +1010,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1118,7 +1020,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1129,7 +1030,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
 
 
@@ -1142,7 +1042,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1153,7 +1052,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1164,7 +1062,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1175,7 +1072,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1186,7 +1082,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1197,7 +1092,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1208,7 +1102,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1219,7 +1112,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1230,7 +1122,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1241,7 +1132,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1252,7 +1142,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1263,7 +1152,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1274,7 +1162,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1285,7 +1172,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1296,7 +1182,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1307,7 +1192,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1318,7 +1202,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1329,7 +1212,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1340,7 +1222,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1351,7 +1232,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1362,7 +1242,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1373,7 +1252,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1384,7 +1262,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1395,7 +1272,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1406,7 +1282,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1417,7 +1292,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1428,7 +1302,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1439,7 +1312,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1450,7 +1322,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1461,7 +1332,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1472,7 +1342,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1483,7 +1352,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1494,7 +1362,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1505,7 +1372,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1516,7 +1382,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1527,7 +1392,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1538,7 +1402,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1549,7 +1412,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1560,7 +1422,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1571,7 +1432,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1582,7 +1442,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1593,7 +1452,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1604,7 +1462,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1615,7 +1472,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1626,7 +1482,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1637,7 +1492,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1648,7 +1502,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1659,7 +1512,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1670,7 +1522,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1681,7 +1532,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1692,7 +1542,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1703,7 +1552,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1714,7 +1562,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1725,7 +1572,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1736,7 +1582,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1747,7 +1592,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1758,7 +1602,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1769,7 +1612,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1780,7 +1622,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1791,7 +1632,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1802,7 +1642,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1813,7 +1652,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1824,7 +1662,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1835,7 +1672,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1846,7 +1682,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1857,7 +1692,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1868,7 +1702,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
 
 
@@ -1881,7 +1714,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1892,7 +1724,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1903,7 +1734,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1914,7 +1744,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1925,7 +1754,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1936,7 +1764,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1947,7 +1774,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1958,7 +1784,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1969,7 +1794,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1980,7 +1804,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1991,7 +1814,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2002,7 +1824,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2013,7 +1834,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2024,7 +1844,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2035,7 +1854,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2046,7 +1864,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2057,7 +1874,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2068,7 +1884,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2079,7 +1894,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2090,7 +1904,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2101,7 +1914,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2112,7 +1924,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2123,7 +1934,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2134,7 +1944,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2145,7 +1954,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2156,7 +1964,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2167,7 +1974,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2178,7 +1984,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2189,7 +1994,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2200,7 +2004,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2211,7 +2014,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2222,7 +2024,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2233,7 +2034,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2244,7 +2044,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2255,7 +2054,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2266,7 +2064,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2277,7 +2074,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2288,7 +2084,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2299,7 +2094,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2310,7 +2104,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2321,7 +2114,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2332,7 +2124,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2343,7 +2134,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2354,7 +2144,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2365,7 +2154,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2376,7 +2164,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2387,7 +2174,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2398,7 +2184,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2409,7 +2194,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2420,7 +2204,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2431,7 +2214,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2442,7 +2224,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2453,7 +2234,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2464,7 +2244,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2475,7 +2254,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2486,7 +2264,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2497,7 +2274,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2508,7 +2284,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2519,7 +2294,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2530,7 +2304,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2541,7 +2314,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2552,7 +2324,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2563,7 +2334,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2574,7 +2344,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2585,7 +2354,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2596,7 +2364,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2607,7 +2374,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
 
 
@@ -2620,7 +2386,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2631,7 +2396,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2642,7 +2406,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2653,7 +2416,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2664,7 +2426,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2675,7 +2436,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2686,7 +2446,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2697,7 +2456,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2708,7 +2466,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2719,7 +2476,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2730,7 +2486,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2741,7 +2496,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2752,7 +2506,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2763,7 +2516,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2774,7 +2526,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2785,7 +2536,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2796,7 +2546,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2807,7 +2556,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2818,7 +2566,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2829,7 +2576,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2840,7 +2586,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2851,7 +2596,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2862,7 +2606,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2873,7 +2616,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2884,7 +2626,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2895,7 +2636,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2906,7 +2646,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2917,7 +2656,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2928,7 +2666,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2939,7 +2676,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2950,7 +2686,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2961,7 +2696,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2972,7 +2706,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2983,7 +2716,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2994,7 +2726,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3005,7 +2736,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3016,7 +2746,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3027,7 +2756,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3038,7 +2766,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3049,7 +2776,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3060,7 +2786,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3071,7 +2796,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3082,7 +2806,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3093,7 +2816,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3104,7 +2826,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3115,7 +2836,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3126,7 +2846,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3137,7 +2856,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3148,7 +2866,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3159,7 +2876,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3170,7 +2886,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3181,7 +2896,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3192,7 +2906,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3203,7 +2916,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3214,7 +2926,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3225,7 +2936,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3236,7 +2946,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3247,7 +2956,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3258,7 +2966,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3269,7 +2976,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3280,7 +2986,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3291,7 +2996,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3302,7 +3006,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3313,7 +3016,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3324,7 +3026,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3335,7 +3036,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3346,7 +3046,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
 
 
@@ -3359,7 +3058,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3370,7 +3068,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3381,7 +3078,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3392,7 +3088,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3403,7 +3098,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3414,7 +3108,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3425,7 +3118,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3436,7 +3128,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3447,7 +3138,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3458,7 +3148,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3469,7 +3158,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3480,7 +3168,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3491,7 +3178,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3502,7 +3188,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3513,7 +3198,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3524,7 +3208,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3535,7 +3218,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3546,7 +3228,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3557,7 +3238,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3568,7 +3248,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3579,7 +3258,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3590,7 +3268,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3601,7 +3278,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3612,7 +3288,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3623,7 +3298,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3634,7 +3308,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3645,7 +3318,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3656,7 +3328,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3667,7 +3338,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3678,7 +3348,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3689,7 +3358,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3700,7 +3368,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3711,7 +3378,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3722,7 +3388,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3733,7 +3398,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3744,7 +3408,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3755,7 +3418,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3766,7 +3428,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3777,7 +3438,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3788,7 +3448,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3799,7 +3458,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3810,7 +3468,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3821,7 +3478,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3832,7 +3488,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3843,7 +3498,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3854,7 +3508,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3865,7 +3518,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3876,7 +3528,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3887,7 +3538,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3898,7 +3548,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3909,7 +3558,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3920,7 +3568,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3931,7 +3578,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3942,7 +3588,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3953,7 +3598,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3964,7 +3608,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3975,7 +3618,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3986,7 +3628,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3997,7 +3638,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4008,7 +3648,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4019,7 +3658,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4030,7 +3668,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4041,7 +3678,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4052,7 +3688,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4063,7 +3698,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4074,7 +3708,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4085,7 +3718,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
 
 
@@ -4098,7 +3730,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4109,7 +3740,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4120,7 +3750,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4131,7 +3760,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4142,7 +3770,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4153,7 +3780,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4164,7 +3790,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4175,7 +3800,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4186,7 +3810,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4197,7 +3820,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4208,7 +3830,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4219,7 +3840,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4230,7 +3850,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4241,7 +3860,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4252,7 +3870,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4263,7 +3880,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4274,7 +3890,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4285,7 +3900,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4296,7 +3910,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4307,7 +3920,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4318,7 +3930,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4329,7 +3940,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4340,7 +3950,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4351,7 +3960,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4362,7 +3970,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4373,7 +3980,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4384,7 +3990,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4395,7 +4000,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4406,7 +4010,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4417,7 +4020,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4428,7 +4030,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4439,7 +4040,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4450,7 +4050,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4461,7 +4060,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4472,7 +4070,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4483,7 +4080,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4494,7 +4090,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4505,7 +4100,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4516,7 +4110,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4527,7 +4120,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4538,17 +4130,16 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
-                'name' => 'Ellie wanita cantik yang bersinar',
+                'name' => 'Ellie',
+                'meaning' => 'wanita cantik yang bersinar',
                 'gender_id' => 2,
                 'religion_id' => 2,
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4559,7 +4150,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4570,7 +4160,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4581,7 +4170,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4592,7 +4180,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4603,7 +4190,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4614,7 +4200,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4625,17 +4210,16 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
-                'name' => 'Elvarette bermkana kebijaksanaan',
+                'name' => 'Elvarette',
+                'meaning' => 'kebijaksanaan',
                 'gender_id' => 2,
                 'religion_id' => 2,
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4646,7 +4230,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4657,7 +4240,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4668,7 +4250,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4679,7 +4260,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4690,7 +4270,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4701,7 +4280,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4712,7 +4290,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4723,7 +4300,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4734,7 +4310,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4745,7 +4320,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4756,7 +4330,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4767,7 +4340,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4778,7 +4350,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4789,7 +4360,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4800,7 +4370,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4811,7 +4380,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4822,7 +4390,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
 
 
@@ -4835,7 +4402,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4846,7 +4412,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4857,7 +4422,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4868,7 +4432,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4879,7 +4442,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4890,7 +4452,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4901,7 +4462,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4912,7 +4472,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4923,7 +4482,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4934,7 +4492,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4945,7 +4502,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4956,7 +4512,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4967,7 +4522,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4978,7 +4532,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4989,7 +4542,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5000,7 +4552,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5011,7 +4562,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5022,7 +4572,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5033,7 +4582,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5044,7 +4592,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5055,7 +4602,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5066,7 +4612,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5077,7 +4622,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5088,7 +4632,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5099,7 +4642,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5110,7 +4652,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5121,7 +4662,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5132,7 +4672,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5143,7 +4682,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5154,7 +4692,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5165,7 +4702,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5176,7 +4712,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5187,7 +4722,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5198,7 +4732,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5209,7 +4742,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5220,7 +4752,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5231,7 +4762,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5242,7 +4772,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5253,7 +4782,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5264,7 +4792,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5275,7 +4802,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5286,7 +4812,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5297,7 +4822,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5308,7 +4832,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5319,7 +4842,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5330,7 +4852,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5341,7 +4862,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5352,7 +4872,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5363,7 +4882,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5374,7 +4892,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5385,7 +4902,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5396,7 +4912,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5407,7 +4922,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5418,7 +4932,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5429,7 +4942,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5440,7 +4952,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5451,7 +4962,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5462,7 +4972,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5473,7 +4982,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5484,7 +4992,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5495,7 +5002,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5506,7 +5012,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5517,7 +5022,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5528,7 +5032,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5539,7 +5042,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5550,7 +5052,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5561,7 +5062,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
 
 
@@ -5574,7 +5074,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5585,7 +5084,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5596,7 +5094,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5607,7 +5104,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5618,7 +5114,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5629,7 +5124,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5640,7 +5134,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5651,7 +5144,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5662,7 +5154,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5673,7 +5164,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5684,7 +5174,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5695,7 +5184,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5706,7 +5194,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5717,7 +5204,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5728,7 +5214,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5739,7 +5224,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5750,7 +5234,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5761,7 +5244,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5772,7 +5254,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5783,7 +5264,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5794,7 +5274,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5805,7 +5284,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5816,7 +5294,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5827,7 +5304,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5838,7 +5314,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5849,7 +5324,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5860,7 +5334,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5871,7 +5344,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5882,7 +5354,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5893,7 +5364,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5904,7 +5374,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5915,7 +5384,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5926,7 +5394,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5937,7 +5404,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5948,7 +5414,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5959,7 +5424,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5970,7 +5434,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5981,7 +5444,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5992,7 +5454,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6003,7 +5464,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6014,7 +5474,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6025,7 +5484,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6036,7 +5494,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6047,7 +5504,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6058,7 +5514,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6069,7 +5524,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6080,7 +5534,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6091,7 +5544,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6102,7 +5554,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6113,7 +5564,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6124,7 +5574,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6135,7 +5584,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6146,7 +5594,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6157,7 +5604,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6168,7 +5614,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6179,17 +5624,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
-            ],
-            [
-                'uuid' => Str::uuid(),
-                'name' => 'Gul e rana bermakan mawah beraroma manis',
-                'gender_id' => 2,
-                'religion_id' => 2,
-                'origin_id' => 2,
-                'locale' => 'id',
-                'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6200,7 +5634,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6211,7 +5644,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6222,7 +5654,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6233,7 +5664,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6244,7 +5674,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6255,7 +5684,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6266,7 +5694,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6277,7 +5704,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6288,7 +5714,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6299,7 +5724,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
 
 
@@ -6312,7 +5736,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6323,7 +5746,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6334,7 +5756,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6345,7 +5766,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6356,7 +5776,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6367,7 +5786,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6378,7 +5796,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6389,7 +5806,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6400,7 +5816,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6411,17 +5826,16 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
-                'name' => 'Hadia pemimpin, pemandu',
+                'name' => 'Hadia',
+                'meaning' => 'pemimpin, pemandu',
                 'gender_id' => 2,
                 'religion_id' => 2,
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6432,7 +5846,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6443,7 +5856,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6454,7 +5866,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6465,7 +5876,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6476,7 +5886,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6487,7 +5896,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6498,7 +5906,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6509,7 +5916,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6520,7 +5926,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6531,7 +5936,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6542,7 +5946,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6553,7 +5956,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6564,7 +5966,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6575,7 +5976,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6586,7 +5986,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6597,7 +5996,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6608,7 +6006,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6619,7 +6016,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6630,7 +6026,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6641,7 +6036,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6652,7 +6046,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6663,7 +6056,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6674,7 +6066,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6685,17 +6076,16 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
-                'name' => 'Hamna bermakan burung pipit surga yang diberkati ',
+                'name' => 'Hamna',
+                'meaning' => 'burung pipit surga yang diberkati',
                 'gender_id' => 2,
                 'religion_id' => 2,
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6706,7 +6096,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6717,7 +6106,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6728,7 +6116,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6739,7 +6126,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6750,7 +6136,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6761,7 +6146,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6772,7 +6156,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6783,7 +6166,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6794,7 +6176,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6805,7 +6186,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6816,7 +6196,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6827,7 +6206,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6838,7 +6216,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6849,7 +6226,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6860,7 +6236,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6871,7 +6246,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6882,7 +6256,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6893,7 +6266,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6904,7 +6276,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6915,7 +6286,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6926,7 +6296,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6937,7 +6306,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6948,7 +6316,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6959,17 +6326,16 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
-                'name' => 'Humaira yang kemerah-merahan pipinya',
+                'name' => 'Humaira',
+                'meaning' => 'yang kemerah-merahan pipinya',
                 'gender_id' => 2,
                 'religion_id' => 2,
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6980,7 +6346,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -6991,7 +6356,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7002,7 +6366,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7013,7 +6376,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7024,7 +6386,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7035,7 +6396,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
 
 
@@ -7048,7 +6408,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7059,7 +6418,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7070,7 +6428,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7081,7 +6438,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7092,7 +6448,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7103,7 +6458,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7114,7 +6468,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7125,7 +6478,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7136,7 +6488,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7147,7 +6498,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7158,7 +6508,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7169,7 +6518,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7180,7 +6528,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7191,7 +6538,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7202,7 +6548,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7213,7 +6558,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7224,7 +6568,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7235,7 +6578,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7246,7 +6588,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7257,7 +6598,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7268,7 +6608,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7279,7 +6618,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7290,7 +6628,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7301,7 +6638,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7312,7 +6648,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7323,7 +6658,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7334,7 +6668,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7345,7 +6678,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7356,7 +6688,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7367,7 +6698,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7378,7 +6708,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7389,7 +6718,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7400,7 +6728,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7411,7 +6738,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7422,7 +6748,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7433,7 +6758,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7444,7 +6768,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7455,7 +6778,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7466,7 +6788,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7477,7 +6798,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7488,7 +6808,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7499,7 +6818,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7510,7 +6828,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7521,7 +6838,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7532,7 +6848,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7543,7 +6858,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7554,7 +6868,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7565,7 +6878,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7576,7 +6888,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7587,7 +6898,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7598,7 +6908,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7609,7 +6918,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7620,7 +6928,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7631,7 +6938,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7642,7 +6948,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7653,7 +6958,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7664,7 +6968,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7675,7 +6978,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7686,7 +6988,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7697,7 +6998,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7708,7 +7008,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7719,7 +7018,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7730,7 +7028,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7741,7 +7038,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7752,7 +7048,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7763,7 +7058,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7774,7 +7068,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
 
 
@@ -7787,7 +7080,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7798,7 +7090,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7809,7 +7100,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7820,7 +7110,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7831,7 +7120,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7842,7 +7130,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7853,7 +7140,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7864,7 +7150,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7875,7 +7160,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7886,7 +7170,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7897,7 +7180,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7908,7 +7190,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7919,7 +7200,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7930,7 +7210,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7941,7 +7220,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7952,7 +7230,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7963,7 +7240,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7974,7 +7250,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7985,7 +7260,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -7996,7 +7270,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8007,7 +7280,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8018,7 +7290,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8029,7 +7300,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8040,7 +7310,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8051,7 +7320,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8062,7 +7330,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8073,7 +7340,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8084,7 +7350,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8095,7 +7360,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8106,7 +7370,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8117,7 +7380,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8128,7 +7390,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8139,7 +7400,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8150,7 +7410,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8161,7 +7420,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8172,7 +7430,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8183,7 +7440,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8194,7 +7450,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8205,7 +7460,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8216,7 +7470,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8227,7 +7480,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8238,7 +7490,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8249,7 +7500,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8260,7 +7510,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8271,7 +7520,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8282,7 +7530,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8293,7 +7540,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8304,7 +7550,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8315,7 +7560,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8326,7 +7570,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8337,7 +7580,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8348,7 +7590,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8359,7 +7600,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8370,7 +7610,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8381,7 +7620,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8392,7 +7630,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8403,7 +7640,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8414,7 +7650,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8425,7 +7660,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8436,7 +7670,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8447,7 +7680,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8458,7 +7690,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8469,7 +7700,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8480,7 +7710,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8491,7 +7720,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8502,7 +7730,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8513,7 +7740,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
 
 
@@ -8526,7 +7752,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8537,7 +7762,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8548,7 +7772,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8559,7 +7782,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8570,7 +7792,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8581,7 +7802,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8592,7 +7812,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8603,7 +7822,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8614,7 +7832,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8625,7 +7842,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8636,7 +7852,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8647,7 +7862,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8658,7 +7872,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8669,7 +7882,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8680,7 +7892,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8691,7 +7902,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8702,7 +7912,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8713,7 +7922,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8724,7 +7932,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8735,7 +7942,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8746,7 +7952,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8757,7 +7962,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8768,7 +7972,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8779,7 +7982,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8790,7 +7992,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8801,7 +8002,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8812,7 +8012,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8823,7 +8022,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8834,7 +8032,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8845,7 +8042,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8856,7 +8052,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8867,7 +8062,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8878,7 +8072,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8889,7 +8082,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8900,7 +8092,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8911,7 +8102,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8922,7 +8112,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8933,7 +8122,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8944,7 +8132,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8955,7 +8142,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8966,7 +8152,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8977,7 +8162,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8988,7 +8172,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -8999,7 +8182,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9010,7 +8192,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9021,7 +8202,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9032,7 +8212,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9043,7 +8222,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9054,7 +8232,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9065,7 +8242,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9076,7 +8252,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9087,7 +8262,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9098,7 +8272,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9109,7 +8282,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9120,7 +8292,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9131,7 +8302,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9142,7 +8312,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9153,7 +8322,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9164,7 +8332,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9175,7 +8342,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9186,7 +8352,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9197,7 +8362,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9208,7 +8372,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9219,7 +8382,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9230,7 +8392,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9241,7 +8402,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9252,7 +8412,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
 
 
@@ -9265,7 +8424,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9276,7 +8434,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9287,7 +8444,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9298,7 +8454,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9309,7 +8464,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9320,7 +8474,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9331,7 +8484,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9342,7 +8494,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9353,7 +8504,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9364,7 +8514,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9375,7 +8524,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9386,7 +8534,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9397,7 +8544,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9408,7 +8554,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9419,7 +8564,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9430,7 +8574,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9441,7 +8584,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9452,7 +8594,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9463,7 +8604,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9474,7 +8614,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9485,7 +8624,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9496,7 +8634,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9507,7 +8644,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9518,7 +8654,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9529,7 +8664,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9540,7 +8674,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9551,7 +8684,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9562,7 +8694,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9573,7 +8704,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9584,7 +8714,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9595,7 +8724,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9606,7 +8734,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9617,7 +8744,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9628,7 +8754,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9639,7 +8764,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9650,7 +8774,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9661,7 +8784,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9672,7 +8794,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9683,7 +8804,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9694,7 +8814,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9705,7 +8824,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9716,7 +8834,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9727,7 +8844,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9738,7 +8854,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9749,7 +8864,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9760,7 +8874,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9771,7 +8884,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9782,7 +8894,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9793,7 +8904,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9804,7 +8914,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9815,7 +8924,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9826,7 +8934,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9837,7 +8944,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9848,7 +8954,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9859,7 +8964,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9870,7 +8974,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9881,7 +8984,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9892,7 +8994,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9903,7 +9004,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9914,7 +9014,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9925,7 +9024,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9936,7 +9034,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9947,7 +9044,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9958,7 +9054,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9969,7 +9064,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9980,7 +9074,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -9991,7 +9084,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
 
 
@@ -10004,7 +9096,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10015,7 +9106,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10026,7 +9116,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10037,7 +9126,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10048,7 +9136,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10059,7 +9146,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10070,7 +9156,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10081,7 +9166,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10092,7 +9176,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10103,7 +9186,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10114,7 +9196,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10125,7 +9206,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10136,7 +9216,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10147,7 +9226,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10158,7 +9236,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10169,7 +9246,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10180,7 +9256,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10191,7 +9266,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10202,7 +9276,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10213,7 +9286,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10224,7 +9296,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10235,7 +9306,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10246,7 +9316,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10257,7 +9326,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10268,7 +9336,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10279,7 +9346,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10290,7 +9356,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10301,7 +9366,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10312,7 +9376,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10323,7 +9386,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10334,7 +9396,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10345,7 +9406,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10356,7 +9416,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10367,7 +9426,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10378,7 +9436,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10389,7 +9446,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10400,7 +9456,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10411,7 +9466,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10422,7 +9476,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10433,7 +9486,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10444,7 +9496,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10455,7 +9506,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10466,7 +9516,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10477,7 +9526,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10488,7 +9536,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10499,7 +9546,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10510,7 +9556,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10521,7 +9566,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10532,7 +9576,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10543,7 +9586,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10554,7 +9596,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10565,7 +9606,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10576,7 +9616,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10587,7 +9626,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10598,7 +9636,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10609,7 +9646,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10620,7 +9656,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10631,7 +9666,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10642,7 +9676,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10653,7 +9686,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10664,7 +9696,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10675,7 +9706,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10686,7 +9716,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10697,7 +9726,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10708,7 +9736,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10719,7 +9746,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10730,7 +9756,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
 
 
@@ -10743,7 +9768,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10754,7 +9778,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10765,7 +9788,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10776,7 +9798,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10787,7 +9808,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10798,7 +9818,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10809,7 +9828,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10820,7 +9838,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10831,7 +9848,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10842,7 +9858,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10853,7 +9868,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10864,7 +9878,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10875,7 +9888,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10886,7 +9898,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10897,7 +9908,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10908,7 +9918,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10919,7 +9928,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10930,7 +9938,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10941,7 +9948,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10952,7 +9958,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10963,7 +9968,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10974,7 +9978,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10985,7 +9988,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -10996,7 +9998,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11007,7 +10008,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11018,7 +10018,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11029,7 +10028,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11040,7 +10038,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11051,7 +10048,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11062,7 +10058,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11073,7 +10068,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11084,7 +10078,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11095,7 +10088,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11106,7 +10098,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11117,7 +10108,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11128,7 +10118,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11139,7 +10128,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11150,7 +10138,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11161,7 +10148,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11172,7 +10158,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11183,7 +10168,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11194,7 +10178,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11205,7 +10188,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11216,7 +10198,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11227,7 +10208,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11238,7 +10218,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11249,7 +10228,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11260,7 +10238,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11271,7 +10248,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11282,7 +10258,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11293,7 +10268,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11304,17 +10278,16 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
-                'name' => 'Neala pemenang',
+                'name' => 'Neala',
+                'meaning' => 'pemenang',
                 'gender_id' => 2,
                 'religion_id' => 2,
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11325,7 +10298,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11336,7 +10308,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11347,7 +10318,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11358,7 +10328,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11369,7 +10338,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11380,7 +10348,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11391,7 +10358,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11402,7 +10368,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11413,7 +10378,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11424,7 +10388,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11435,7 +10398,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11446,7 +10408,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11457,7 +10418,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11468,7 +10428,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
 
 
@@ -11481,7 +10440,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11492,7 +10450,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11503,7 +10460,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11514,7 +10470,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11525,7 +10480,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11536,7 +10490,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11547,7 +10500,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11558,7 +10510,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11569,7 +10520,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11580,7 +10530,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11591,7 +10540,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11602,7 +10550,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11613,7 +10560,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11624,7 +10570,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11635,7 +10580,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11646,7 +10590,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11657,7 +10600,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11668,7 +10610,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11679,7 +10620,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11690,7 +10630,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11701,7 +10640,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11712,7 +10650,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11723,7 +10660,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11734,7 +10670,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11745,7 +10680,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11756,7 +10690,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11767,7 +10700,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11778,7 +10710,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11789,7 +10720,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11800,7 +10730,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11811,7 +10740,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11822,7 +10750,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11833,7 +10760,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11844,7 +10770,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11855,7 +10780,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11866,7 +10790,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11877,7 +10800,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11888,7 +10810,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11899,7 +10820,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11910,7 +10830,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11921,7 +10840,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11932,7 +10850,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11943,7 +10860,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11954,7 +10870,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11965,7 +10880,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11976,7 +10890,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11987,7 +10900,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -11998,7 +10910,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12009,7 +10920,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12020,7 +10930,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12031,7 +10940,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12042,7 +10950,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12053,7 +10960,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12064,7 +10970,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12075,7 +10980,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12086,7 +10990,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12097,7 +11000,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12108,7 +11010,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12119,7 +11020,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12130,7 +11030,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12141,7 +11040,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12152,7 +11050,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12163,7 +11060,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12174,7 +11070,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12185,7 +11080,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12196,7 +11090,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12207,7 +11100,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
 
 
@@ -12220,7 +11112,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12231,7 +11122,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12242,7 +11132,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12253,7 +11142,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12264,7 +11152,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12275,7 +11162,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12286,7 +11172,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12297,7 +11182,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12308,7 +11192,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12319,7 +11202,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12330,7 +11212,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12341,7 +11222,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12352,7 +11232,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12363,7 +11242,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12374,7 +11252,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12385,7 +11262,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12396,7 +11272,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12407,7 +11282,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12418,7 +11292,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12429,7 +11302,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12440,7 +11312,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12451,7 +11322,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12462,7 +11332,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12473,7 +11342,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12484,7 +11352,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12495,7 +11362,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12506,7 +11372,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12517,7 +11382,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12528,7 +11392,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12539,7 +11402,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12550,7 +11412,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12561,7 +11422,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12572,7 +11432,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12583,7 +11442,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12594,17 +11452,16 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
-                'name' => 'Piruza batu pirus',
+                'name' => 'Piruza',
+                'meaning' => 'batu pirus',
                 'gender_id' => 2,
                 'religion_id' => 2,
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12615,27 +11472,26 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
-                'name' => 'Piyasa cinta, haus',
+                'name' => 'Piyasa',
+                'meaning' => 'cinta, haus',
                 'gender_id' => 2,
                 'religion_id' => 2,
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
-                'name' => 'Piyuksha gemas, imut',
+                'name' => 'Piyuksha',
+                'meaning' => 'gemas, imut',
                 'gender_id' => 2,
                 'religion_id' => 2,
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12646,7 +11502,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12657,7 +11512,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12668,7 +11522,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12679,7 +11532,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12690,7 +11542,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12701,7 +11552,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12712,7 +11562,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12723,7 +11572,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12734,7 +11582,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12745,7 +11592,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12756,7 +11602,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12767,7 +11612,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12778,7 +11622,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12789,7 +11632,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12800,7 +11642,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12811,7 +11652,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12822,7 +11662,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12833,7 +11672,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12844,7 +11682,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12855,7 +11692,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12866,7 +11702,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12877,17 +11712,16 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
-                'name' => 'Praveena bermkana terampil',
+                'name' => 'Praveena',
+                'meaning' => 'terampil',
                 'gender_id' => 2,
                 'religion_id' => 2,
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12898,7 +11732,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12909,7 +11742,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12920,7 +11752,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12931,7 +11762,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12942,7 +11772,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
 
 
@@ -12955,7 +11784,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12966,7 +11794,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12977,7 +11804,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12988,7 +11814,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -12999,7 +11824,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13010,7 +11834,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13021,7 +11844,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13032,7 +11854,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13043,17 +11864,16 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
-                'name' => 'Qadisah bermaksa suci',
+                'name' => 'Qadisah',
+                'meaning' => 'suci',
                 'gender_id' => 2,
                 'religion_id' => 2,
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13064,7 +11884,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13075,7 +11894,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13086,7 +11904,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13097,7 +11914,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13108,7 +11924,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13119,7 +11934,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13130,7 +11944,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13141,7 +11954,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13152,7 +11964,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13163,7 +11974,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13174,7 +11984,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13185,7 +11994,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13196,7 +12004,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13207,7 +12014,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13218,7 +12024,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13229,7 +12034,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13240,7 +12044,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13251,7 +12054,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13262,7 +12064,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13273,17 +12074,16 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
-                'name' => 'Qaraah bemakna awan',
+                'name' => 'Qaraah',
+                'meaning' => 'awan',
                 'gender_id' => 2,
                 'religion_id' => 2,
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13294,7 +12094,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13305,7 +12104,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13316,7 +12114,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13327,7 +12124,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13338,7 +12134,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13349,7 +12144,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13360,7 +12154,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13371,7 +12164,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13382,7 +12174,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13393,7 +12184,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13404,7 +12194,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13415,7 +12204,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13426,7 +12214,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13437,7 +12224,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13448,7 +12234,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13459,7 +12244,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13470,7 +12254,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13481,7 +12264,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13492,7 +12274,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13503,7 +12284,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13514,7 +12294,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13525,7 +12304,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13536,7 +12314,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13547,7 +12324,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13558,7 +12334,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13569,7 +12344,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13580,7 +12354,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13591,7 +12364,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13602,7 +12374,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13613,7 +12384,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13624,7 +12394,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13635,7 +12404,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13646,7 +12414,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13657,7 +12424,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13668,7 +12434,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13679,7 +12444,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
 
 
@@ -13692,7 +12456,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13703,7 +12466,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13714,7 +12476,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13725,7 +12486,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13736,7 +12496,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13747,7 +12506,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13758,7 +12516,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13769,7 +12526,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13780,7 +12536,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13791,7 +12546,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13802,7 +12556,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13813,7 +12566,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13824,7 +12576,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13835,7 +12586,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13846,7 +12596,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13857,7 +12606,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13868,7 +12616,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13879,7 +12626,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13890,7 +12636,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13901,7 +12646,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13912,7 +12656,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13923,7 +12666,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13934,7 +12676,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13945,7 +12686,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13956,7 +12696,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13967,7 +12706,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13978,7 +12716,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -13989,7 +12726,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14000,7 +12736,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14011,7 +12746,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14022,7 +12756,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14033,7 +12766,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14044,7 +12776,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14055,7 +12786,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14066,7 +12796,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14077,7 +12806,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14088,7 +12816,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14099,7 +12826,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14110,7 +12836,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14121,7 +12846,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14132,7 +12856,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14143,7 +12866,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14154,7 +12876,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14165,7 +12886,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14176,7 +12896,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14187,7 +12906,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14198,7 +12916,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14209,7 +12926,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14220,7 +12936,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14231,7 +12946,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14242,7 +12956,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14253,7 +12966,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14264,7 +12976,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14275,7 +12986,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14286,7 +12996,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14297,7 +13006,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14308,7 +13016,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14319,7 +13026,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14330,7 +13036,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14341,7 +13046,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14352,7 +13056,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14363,7 +13066,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14374,7 +13076,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14385,7 +13086,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14396,7 +13096,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14407,7 +13106,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14418,7 +13116,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
 
 
@@ -14431,7 +13128,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14442,7 +13138,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14453,7 +13148,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14464,7 +13158,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14475,7 +13168,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14486,7 +13178,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14497,7 +13188,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14508,7 +13198,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14519,7 +13208,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14530,7 +13218,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14541,7 +13228,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14552,7 +13238,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14563,7 +13248,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14574,7 +13258,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14585,7 +13268,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14596,7 +13278,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14607,7 +13288,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14618,7 +13298,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14629,7 +13308,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14640,7 +13318,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14651,7 +13328,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14662,7 +13338,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14673,7 +13348,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14684,7 +13358,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14695,7 +13368,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14706,7 +13378,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14717,7 +13388,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14728,7 +13398,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14739,7 +13408,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14750,7 +13418,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14761,7 +13428,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14772,7 +13438,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14783,7 +13448,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14794,7 +13458,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14805,7 +13468,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14816,7 +13478,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14827,7 +13488,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14838,7 +13498,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14849,7 +13508,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14860,7 +13518,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14871,7 +13528,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14882,7 +13538,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14893,7 +13548,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14904,7 +13558,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14915,7 +13568,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14926,7 +13578,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14937,7 +13588,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14948,7 +13598,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14959,7 +13608,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14970,7 +13618,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14981,7 +13628,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -14992,7 +13638,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15003,7 +13648,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15014,7 +13658,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15025,7 +13668,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15036,7 +13678,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15047,7 +13688,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15058,7 +13698,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15069,7 +13708,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15080,7 +13718,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15091,7 +13728,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15102,7 +13738,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15113,7 +13748,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15124,7 +13758,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15135,7 +13768,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15146,7 +13778,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15157,7 +13788,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
 
 
@@ -15170,7 +13800,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15181,7 +13810,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15192,7 +13820,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15203,7 +13830,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15214,7 +13840,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15225,7 +13850,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15236,7 +13860,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15247,17 +13870,16 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
-                'name' => 'Tahera nermakna suci',
+                'name' => 'Tahera',
+                'meaning' => 'suci',
                 'gender_id' => 2,
                 'religion_id' => 2,
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15268,7 +13890,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15279,7 +13900,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15290,7 +13910,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15301,7 +13920,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15312,7 +13930,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15323,7 +13940,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15334,7 +13950,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15345,7 +13960,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15356,7 +13970,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15367,7 +13980,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15378,7 +13990,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15389,7 +14000,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15400,7 +14010,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15411,7 +14020,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15422,7 +14030,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15433,7 +14040,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15444,7 +14050,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15455,7 +14060,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15466,7 +14070,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15477,7 +14080,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15488,7 +14090,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15499,7 +14100,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15510,7 +14110,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15521,7 +14120,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15532,7 +14130,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15543,7 +14140,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15554,7 +14150,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15565,7 +14160,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15576,7 +14170,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15587,7 +14180,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15598,7 +14190,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15609,7 +14200,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15620,7 +14210,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15631,7 +14220,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15642,7 +14230,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15653,7 +14240,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15664,7 +14250,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15675,7 +14260,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15686,7 +14270,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15697,7 +14280,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15708,7 +14290,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15719,7 +14300,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15730,7 +14310,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15741,7 +14320,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15752,7 +14330,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15763,7 +14340,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15774,7 +14350,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15785,7 +14360,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15796,7 +14370,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15807,7 +14380,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15818,7 +14390,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15829,7 +14400,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15840,7 +14410,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15851,7 +14420,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15862,7 +14430,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15873,7 +14440,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15884,7 +14450,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15895,7 +14460,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
 
 
@@ -15908,7 +14472,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15919,7 +14482,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15930,7 +14492,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15941,7 +14502,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15952,7 +14512,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15963,7 +14522,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15974,7 +14532,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15985,7 +14542,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -15996,7 +14552,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16007,7 +14562,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16018,7 +14572,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16029,7 +14582,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16040,7 +14592,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16051,7 +14602,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16062,7 +14612,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16073,7 +14622,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16084,7 +14632,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16095,7 +14642,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16106,7 +14652,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16117,7 +14662,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16128,7 +14672,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16139,7 +14682,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16150,7 +14692,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16161,7 +14702,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16172,7 +14712,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16183,7 +14722,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16194,7 +14732,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16205,7 +14742,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16216,7 +14752,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16227,7 +14762,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16238,7 +14772,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16249,7 +14782,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16260,7 +14792,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16271,7 +14802,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16282,7 +14812,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16293,7 +14822,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16304,7 +14832,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16315,7 +14842,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16326,7 +14852,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16337,7 +14862,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16348,7 +14872,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16359,7 +14882,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16370,7 +14892,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16381,7 +14902,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16392,7 +14912,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16403,7 +14922,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16414,7 +14932,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16425,7 +14942,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16436,7 +14952,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16447,7 +14962,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16458,7 +14972,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16469,7 +14982,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16480,7 +14992,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16491,7 +15002,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16502,7 +15012,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16513,7 +15022,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16524,7 +15032,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16535,7 +15042,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16546,7 +15052,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16557,7 +15062,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16568,7 +15072,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16579,7 +15082,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16590,7 +15092,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16601,7 +15102,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16612,7 +15112,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16623,7 +15122,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16634,7 +15132,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
 
 
@@ -16647,7 +15144,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16658,7 +15154,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16669,7 +15164,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16680,7 +15174,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16691,7 +15184,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16702,7 +15194,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16713,7 +15204,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16724,7 +15214,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16735,7 +15224,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16746,7 +15234,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16757,7 +15244,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16768,7 +15254,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16779,7 +15264,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16790,7 +15274,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16801,7 +15284,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16812,7 +15294,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16823,7 +15304,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16834,7 +15314,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16845,7 +15324,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16856,7 +15334,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16867,7 +15344,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16878,7 +15354,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16889,7 +15364,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16900,7 +15374,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16911,7 +15384,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16922,7 +15394,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16933,7 +15404,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16944,7 +15414,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16955,7 +15424,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16966,7 +15434,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16977,7 +15444,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16988,7 +15454,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -16999,7 +15464,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17010,7 +15474,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17021,7 +15484,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17032,7 +15494,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17043,7 +15504,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17054,7 +15514,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17065,7 +15524,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17076,7 +15534,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17087,7 +15544,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17098,7 +15554,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17109,7 +15564,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17120,7 +15574,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17131,7 +15584,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17142,7 +15594,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17153,7 +15604,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17164,7 +15614,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17175,7 +15624,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17186,7 +15634,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17197,7 +15644,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17208,7 +15654,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17219,7 +15664,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17230,7 +15674,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17241,7 +15684,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17252,17 +15694,16 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
-                'name' => 'Vista bemakna pertemuan',
+                'name' => 'Vista',
+                'meaning' => 'pertemuan',
                 'gender_id' => 2,
                 'religion_id' => 2,
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17273,7 +15714,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17284,7 +15724,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17295,7 +15734,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17306,7 +15744,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17317,7 +15754,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17328,7 +15764,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17339,7 +15774,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17350,7 +15784,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17361,7 +15794,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17372,7 +15804,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
 
 
@@ -17385,7 +15816,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17396,7 +15826,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17407,7 +15836,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17418,7 +15846,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17429,7 +15856,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17440,7 +15866,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17451,7 +15876,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17462,7 +15886,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17473,7 +15896,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17484,7 +15906,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17495,7 +15916,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17506,7 +15926,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17517,7 +15936,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17528,7 +15946,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17539,7 +15956,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17550,7 +15966,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17561,7 +15976,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17572,17 +15986,16 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
-                'name' => 'Wahya beramakna lahiriah',
+                'name' => 'Wahya',
+                'meaning' => 'lahiriah',
                 'gender_id' => 2,
                 'religion_id' => 2,
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17593,7 +16006,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17604,7 +16016,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17615,7 +16026,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17626,7 +16036,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17637,7 +16046,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17648,7 +16056,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17659,7 +16066,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17670,7 +16076,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17681,7 +16086,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17692,7 +16096,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17703,7 +16106,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17714,7 +16116,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17725,7 +16126,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17736,7 +16136,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17747,7 +16146,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17758,7 +16156,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17769,7 +16166,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17780,7 +16176,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17791,17 +16186,16 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
-                'name' => 'Waradanan hadiah yang berharga',
+                'name' => 'Waradanan',
+                'meaning' => 'hadiah yang berharga',
                 'gender_id' => 2,
                 'religion_id' => 2,
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17812,7 +16206,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17823,7 +16216,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17834,7 +16226,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17845,7 +16236,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17856,7 +16246,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17867,7 +16256,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17878,7 +16266,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17889,7 +16276,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17900,7 +16286,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17911,7 +16296,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17922,7 +16306,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17933,7 +16316,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17944,7 +16326,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17955,7 +16336,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17966,7 +16346,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17977,7 +16356,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17988,7 +16366,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -17999,7 +16376,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18010,7 +16386,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18021,7 +16396,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18032,7 +16406,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18043,7 +16416,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18054,17 +16426,16 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
-                'name' => 'Widyaningtyas bermaka wanita berilmu',
+                'name' => 'Widyaningtyas', 
+                'meaning' => 'wanita berilmu',
                 'gender_id' => 2,
                 'religion_id' => 2,
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18075,7 +16446,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18086,7 +16456,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18097,7 +16466,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18108,7 +16476,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
 
 
@@ -18121,7 +16488,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18132,7 +16498,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18143,7 +16508,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18154,7 +16518,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18165,7 +16528,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18176,7 +16538,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18187,7 +16548,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18198,7 +16558,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18209,7 +16568,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18220,7 +16578,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18231,7 +16588,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18242,7 +16598,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18253,7 +16608,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18264,7 +16618,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18275,7 +16628,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18286,7 +16638,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18297,7 +16648,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18308,7 +16658,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18319,7 +16668,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18330,7 +16678,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18341,7 +16688,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18352,7 +16698,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18363,7 +16708,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18374,7 +16718,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18385,7 +16728,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18396,7 +16738,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18407,7 +16748,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18418,7 +16758,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18429,7 +16768,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18440,7 +16778,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18451,7 +16788,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18462,7 +16798,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18473,7 +16808,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18484,7 +16818,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18495,7 +16828,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18506,7 +16838,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18517,7 +16848,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18528,7 +16858,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18539,7 +16868,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18550,7 +16878,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18561,7 +16888,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18572,7 +16898,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18583,7 +16908,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18594,7 +16918,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18605,7 +16928,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18616,7 +16938,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18627,17 +16948,16 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
-                'name' => 'Xeema langit',
+                'name' => 'Xeema',
+                'meaning' => 'langit',
                 'gender_id' => 2,
                 'religion_id' => 2,
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18648,7 +16968,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18659,7 +16978,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18670,7 +16988,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18681,7 +16998,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18692,7 +17008,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18703,7 +17018,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18714,7 +17028,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18725,7 +17038,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18736,7 +17048,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18747,7 +17058,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18758,7 +17068,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18769,7 +17078,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18780,7 +17088,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18791,7 +17098,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18802,7 +17108,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18813,7 +17118,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18824,7 +17128,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18835,7 +17138,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18846,7 +17148,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
 
 
@@ -18859,7 +17160,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18870,7 +17170,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18881,7 +17180,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18892,7 +17190,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18903,7 +17200,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18914,7 +17210,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18925,7 +17220,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18936,7 +17230,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18947,7 +17240,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18958,7 +17250,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18969,7 +17260,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18980,7 +17270,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -18991,7 +17280,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19002,7 +17290,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19013,7 +17300,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19024,7 +17310,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19035,7 +17320,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19046,7 +17330,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19057,7 +17340,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19068,7 +17350,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19079,7 +17360,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19090,7 +17370,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19101,7 +17380,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19112,7 +17390,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19123,7 +17400,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19134,7 +17410,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19145,7 +17420,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19156,7 +17430,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19167,7 +17440,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19178,7 +17450,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19189,7 +17460,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19200,7 +17470,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19211,7 +17480,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19222,7 +17490,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19233,7 +17500,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19244,7 +17510,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19255,7 +17520,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19266,7 +17530,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19277,7 +17540,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19288,7 +17550,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19299,7 +17560,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19310,7 +17570,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19321,7 +17580,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19332,7 +17590,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19343,7 +17600,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19354,7 +17610,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19365,7 +17620,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19376,7 +17630,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19387,7 +17640,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19398,7 +17650,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19409,7 +17660,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19420,7 +17670,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19431,7 +17680,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19442,7 +17690,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19453,7 +17700,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19464,7 +17710,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19475,7 +17720,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19486,7 +17730,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19497,7 +17740,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19508,7 +17750,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19519,7 +17760,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19530,7 +17770,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19541,7 +17780,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19552,7 +17790,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19563,7 +17800,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19574,7 +17810,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19585,7 +17820,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
 
 
@@ -19598,7 +17832,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19609,7 +17842,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19620,7 +17852,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19631,7 +17862,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19642,7 +17872,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19653,7 +17882,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19664,7 +17892,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19675,7 +17902,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19686,7 +17912,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19697,7 +17922,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19708,7 +17932,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19719,7 +17942,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19730,7 +17952,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19741,7 +17962,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19752,7 +17972,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19763,7 +17982,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19774,7 +17992,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19785,7 +18002,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19796,7 +18012,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19807,7 +18022,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19818,7 +18032,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19829,7 +18042,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19840,7 +18052,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19851,7 +18062,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19862,7 +18072,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19873,7 +18082,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19884,7 +18092,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19895,7 +18102,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19906,7 +18112,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19917,7 +18122,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19928,7 +18132,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19939,7 +18142,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19950,7 +18152,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19961,7 +18162,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19972,7 +18172,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19983,7 +18182,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -19994,7 +18192,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -20005,7 +18202,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -20016,7 +18212,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -20027,7 +18222,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -20038,7 +18232,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -20049,7 +18242,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -20060,7 +18252,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -20071,7 +18262,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -20082,7 +18272,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -20093,7 +18282,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -20104,7 +18292,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -20115,7 +18302,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -20126,7 +18312,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -20137,7 +18322,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -20148,7 +18332,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -20159,7 +18342,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -20170,7 +18352,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -20181,7 +18362,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -20192,7 +18372,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -20203,7 +18382,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -20214,7 +18392,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -20225,7 +18402,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -20236,7 +18412,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -20247,7 +18422,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -20258,7 +18432,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -20269,7 +18442,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -20280,7 +18452,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -20291,7 +18462,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -20302,7 +18472,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -20313,7 +18482,6 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -20324,12 +18492,13 @@ class BabynameSeeder extends Seeder
                 'origin_id' => 2,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
 
 
         ];
 
-        Babyname::insert($data);
+        foreach ($dataTables as $data) {
+            Babyname::create($data);
+        }
     }
 }

@@ -62,37 +62,55 @@
                                                         Body
                                                     </label>
 
-                                                    <div class="mt-2 bg-gray-100" wire:ignore>
-                                                    
-                                                    <div 
-                                                        class="h-64 bg-gray-50" 
-                                                        x-data 
-                                                        x-ref="quillEditor" 
-                                                        x-init="
-                                                            quill = new Quill($refs.quillEditor, {
-                                                                theme: 'snow',
-                                                                modules: {
-                                                                    toolbar: [
-                                                                        [{ 'header': [1, 2, 3, 4, 5, 6, false] }],
-                                                                        ['bold', 'italic', 'underline'],
-                                                                        ['blockquote', 'code-block'],
-                                                                        ['image', 'code-block'],
-                                                                        [{ 'list': 'ordered'}, { 'list': 'bullet' }],
-                                                                        [{ 'color': [] }, { 'background': [] }],          
-                                                                        [{ 'align': [] }],
-                                                                    ]
-                                                                },
-                                                            });
-                                                            quill.root.innerHTML = $body;
-                                                            quill.on('text-change', function () {
-                                                                $dispatch('quill-input', quill.root.innerHTML);
-                                                            });
-                                                        "
-                                                        x-on:quill-input.debounce.2000ms="@this.set('body', $event.detail)"
-                                                    >
-                                                        {!! $body !!}
-                                                    </div>
+                                                    {{-- Quill Editor for Edit --}}
+                                                <div
+                                                    wire:ignore
+                                                    x-data="{
+                                quill: null,
+                                body: @entangle('body').live,
+                                init() {
+                                    this.quill = new Quill('#edit_editor', {
+                                        theme: 'snow',
+                                        modules: {
+                                            toolbar: [
+                                                [{ 'header': [1, 2, 3, 4, 5, 6, false] }],
+                                                ['bold', 'italic', 'underline', 'strike'],
+                                                [{ 'list': 'ordered'}, { 'list': 'bullet' }],
+                                                [{ 'align': [] }],
+                                                ['link', 'image'],
+                                                ['clean']
+                                            ]
+                                        }
+                                    });
+
+                                    // Convert initial HTML body to Delta and set it
+                                    if (this.body) {
+                                        let delta = this.quill.clipboard.convert(this.body);
+                                        this.quill.setContents(delta);
+                                    } else {
+                                        this.quill.setContents([]);
+                                    }
+
+                                    this.quill.on('text-change', () => {
+                                        this.body = this.quill.root.innerHTML;
+                                    });
+
+                                    // Listen for Livewire events to reinitialize Quill body
+                                    Livewire.on('quill-init-edit', (event) => {
+                                        if (event.body) {
+                                            let delta = this.quill.clipboard.convert(event.body);
+                                            this.quill.setContents(delta);
+                                        } else {
+                                            this.quill.setContents([]);
+                                        }
+                                    });
+                                }
+                            }">
+                                                    <div id="edit_editor" class="h-48 bg-white border border-gray-300 rounded"></div>
                                                 </div>
+                                                <!--  -->
+
+                                                @error('body') <span class="text-red-500 text-xs italic">{{ $message }}</span> @enderror
 
                                                 </div>
                                                 

@@ -16,7 +16,7 @@ class BabynameCowokEstetikSeeder extends Seeder
     public function run(): void
     {
         //
-        $data = [
+        $dataTables = [
             [
                 'uuid' => Str::uuid(),
                 'name' => 'Adam',
@@ -24,7 +24,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -33,7 +32,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -42,7 +40,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -51,7 +48,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -60,7 +56,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -69,7 +64,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -78,7 +72,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -87,7 +80,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -96,7 +88,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -105,7 +96,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -114,7 +104,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -123,7 +112,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -132,7 +120,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -141,7 +128,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -150,7 +136,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -159,7 +144,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -168,7 +152,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -177,7 +160,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -186,7 +168,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -195,7 +176,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -204,7 +184,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -213,7 +192,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -222,7 +200,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -231,7 +208,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -240,7 +216,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -249,7 +224,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -258,7 +232,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -267,7 +240,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -276,7 +248,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -285,7 +256,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -294,7 +264,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -303,7 +272,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -312,7 +280,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -321,7 +288,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -330,7 +296,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -339,7 +304,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -348,7 +312,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -357,7 +320,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -366,7 +328,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -375,7 +336,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -384,7 +344,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -393,7 +352,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -402,7 +360,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -411,7 +368,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -420,7 +376,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -429,7 +384,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -438,7 +392,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -447,7 +400,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -456,7 +408,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -465,7 +416,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -474,7 +424,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -483,7 +432,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -492,7 +440,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -501,7 +448,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -510,7 +456,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -519,7 +464,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -528,7 +472,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -537,7 +480,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -546,7 +488,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -555,7 +496,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -564,7 +504,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -573,7 +512,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -582,7 +520,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -591,7 +528,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -600,7 +536,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -609,7 +544,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -618,7 +552,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -627,7 +560,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -636,7 +568,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -645,7 +576,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -654,7 +584,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -663,7 +592,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -672,7 +600,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -681,7 +608,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -690,7 +616,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -699,7 +624,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -708,7 +632,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -717,7 +640,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -726,7 +648,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -735,7 +656,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -744,7 +664,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -753,7 +672,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -762,7 +680,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -771,7 +688,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -780,7 +696,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -789,7 +704,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -798,7 +712,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -807,7 +720,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -816,7 +728,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -825,7 +736,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -834,7 +744,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -843,7 +752,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -852,7 +760,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -861,7 +768,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -870,7 +776,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -879,7 +784,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -888,7 +792,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -897,7 +800,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -906,7 +808,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -915,7 +816,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -924,7 +824,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -933,7 +832,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -942,7 +840,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -951,7 +848,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -960,7 +856,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -969,7 +864,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -978,7 +872,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -987,7 +880,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -996,7 +888,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1005,7 +896,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1014,7 +904,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1023,7 +912,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1032,7 +920,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1041,7 +928,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1050,7 +936,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1059,7 +944,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1068,7 +952,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1077,7 +960,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1086,7 +968,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1095,7 +976,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1104,7 +984,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1113,7 +992,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1122,7 +1000,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1131,7 +1008,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1140,7 +1016,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1149,7 +1024,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1158,7 +1032,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1167,7 +1040,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1176,7 +1048,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1185,7 +1056,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1194,7 +1064,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1203,7 +1072,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1212,7 +1080,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1221,7 +1088,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1230,7 +1096,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1239,7 +1104,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1248,7 +1112,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1257,7 +1120,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1266,7 +1128,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1275,7 +1136,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1284,7 +1144,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1293,7 +1152,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1302,7 +1160,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1311,7 +1168,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1320,7 +1176,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1329,7 +1184,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1338,7 +1192,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1347,7 +1200,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1356,7 +1208,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1365,7 +1216,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1374,7 +1224,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1383,7 +1232,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1392,7 +1240,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1401,7 +1248,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1410,7 +1256,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1419,7 +1264,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1428,7 +1272,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1437,7 +1280,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1446,7 +1288,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1455,7 +1296,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1464,7 +1304,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1473,7 +1312,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1482,7 +1320,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1491,7 +1328,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1500,7 +1336,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1509,7 +1344,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1518,7 +1352,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1527,7 +1360,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1536,7 +1368,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1545,7 +1376,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1554,7 +1384,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1563,7 +1392,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1572,7 +1400,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1581,7 +1408,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1590,7 +1416,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1599,7 +1424,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1608,7 +1432,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1617,7 +1440,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1626,7 +1448,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1635,7 +1456,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1644,7 +1464,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1653,7 +1472,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1662,7 +1480,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1671,7 +1488,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1680,7 +1496,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1689,7 +1504,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1698,7 +1512,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1707,7 +1520,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1716,7 +1528,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1725,7 +1536,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1734,7 +1544,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1743,7 +1552,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1752,7 +1560,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1761,7 +1568,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1770,7 +1576,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1779,7 +1584,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1788,7 +1592,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1797,7 +1600,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1806,7 +1608,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1815,7 +1616,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1824,7 +1624,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1833,7 +1632,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1842,7 +1640,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1851,7 +1648,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1860,7 +1656,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1869,7 +1664,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1878,7 +1672,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1887,7 +1680,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1896,7 +1688,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1905,7 +1696,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1914,7 +1704,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1923,7 +1712,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1932,7 +1720,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1941,7 +1728,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1950,7 +1736,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1959,7 +1744,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1968,7 +1752,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1977,7 +1760,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1986,7 +1768,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -1995,7 +1776,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2004,7 +1784,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2013,7 +1792,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2022,7 +1800,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2031,7 +1808,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2040,7 +1816,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2049,7 +1824,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2058,7 +1832,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2067,7 +1840,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2076,7 +1848,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2085,7 +1856,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2094,7 +1864,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2103,7 +1872,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2112,7 +1880,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2121,7 +1888,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2130,7 +1896,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2139,7 +1904,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2148,7 +1912,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2157,7 +1920,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2166,7 +1928,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2175,7 +1936,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2184,7 +1944,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2193,7 +1952,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2202,7 +1960,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2211,7 +1968,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2220,7 +1976,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2229,7 +1984,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2238,7 +1992,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2247,7 +2000,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2256,7 +2008,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2265,7 +2016,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2274,7 +2024,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2283,7 +2032,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2292,7 +2040,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2301,7 +2048,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2310,7 +2056,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2319,7 +2064,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2328,7 +2072,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2337,7 +2080,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2346,7 +2088,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2355,7 +2096,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2364,7 +2104,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2373,7 +2112,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2382,7 +2120,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2391,7 +2128,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2400,7 +2136,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2409,7 +2144,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2418,7 +2152,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2427,7 +2160,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2436,7 +2168,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2445,7 +2176,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2454,7 +2184,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2463,7 +2192,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2472,7 +2200,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2481,7 +2208,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2490,7 +2216,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2499,7 +2224,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2508,7 +2232,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2517,7 +2240,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2526,7 +2248,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2535,7 +2256,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2544,7 +2264,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2553,7 +2272,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2562,7 +2280,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2571,7 +2288,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2580,7 +2296,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2589,7 +2304,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2598,7 +2312,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2607,7 +2320,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2616,7 +2328,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2625,7 +2336,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2634,7 +2344,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2643,7 +2352,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2652,7 +2360,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2661,7 +2368,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2670,7 +2376,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2679,7 +2384,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2688,7 +2392,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2697,7 +2400,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2706,7 +2408,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2715,7 +2416,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2724,7 +2424,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2733,7 +2432,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2742,7 +2440,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2751,7 +2448,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2760,7 +2456,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2769,7 +2464,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2778,7 +2472,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2787,7 +2480,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2796,7 +2488,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2805,7 +2496,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2814,7 +2504,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2823,7 +2512,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2832,7 +2520,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2841,7 +2528,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2850,7 +2536,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2859,7 +2544,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2868,7 +2552,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2877,7 +2560,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2886,7 +2568,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2895,7 +2576,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2904,7 +2584,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2913,7 +2592,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2922,7 +2600,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2931,7 +2608,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2940,7 +2616,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2949,7 +2624,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2958,7 +2632,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2967,7 +2640,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2976,7 +2648,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2985,7 +2656,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -2994,7 +2664,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3003,7 +2672,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3012,7 +2680,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3021,7 +2688,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3030,7 +2696,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3039,7 +2704,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3048,7 +2712,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3057,7 +2720,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3066,7 +2728,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3075,7 +2736,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3084,7 +2744,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3093,7 +2752,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3102,7 +2760,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3111,7 +2768,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3120,7 +2776,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3129,7 +2784,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3138,7 +2792,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3147,7 +2800,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3156,7 +2808,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3165,7 +2816,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3174,7 +2824,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3183,7 +2832,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3192,7 +2840,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3201,7 +2848,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3210,7 +2856,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3219,7 +2864,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3228,7 +2872,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3237,7 +2880,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3246,7 +2888,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3255,7 +2896,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3264,7 +2904,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3273,7 +2912,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3282,7 +2920,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3291,7 +2928,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3300,7 +2936,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3309,7 +2944,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3318,7 +2952,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3327,7 +2960,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3336,7 +2968,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3345,7 +2976,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3354,7 +2984,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3363,7 +2992,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3372,7 +3000,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3381,7 +3008,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3390,7 +3016,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3399,7 +3024,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3408,7 +3032,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3417,7 +3040,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3426,7 +3048,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3435,7 +3056,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3444,7 +3064,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3453,7 +3072,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3462,7 +3080,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3471,7 +3088,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3480,7 +3096,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3489,7 +3104,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3498,7 +3112,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3507,7 +3120,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3516,7 +3128,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3525,7 +3136,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3534,7 +3144,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3543,7 +3152,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3552,7 +3160,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3561,7 +3168,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3570,7 +3176,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3579,7 +3184,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3588,7 +3192,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3597,7 +3200,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3606,7 +3208,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3615,7 +3216,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3624,7 +3224,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3633,7 +3232,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3642,7 +3240,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3651,7 +3248,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3660,7 +3256,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3669,7 +3264,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3678,7 +3272,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3687,7 +3280,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3696,7 +3288,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3705,7 +3296,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3714,7 +3304,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3723,7 +3312,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3732,7 +3320,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3741,7 +3328,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3750,7 +3336,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3759,7 +3344,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3768,7 +3352,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3777,7 +3360,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3786,7 +3368,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3795,7 +3376,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3804,7 +3384,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3813,7 +3392,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3822,7 +3400,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3831,7 +3408,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3840,7 +3416,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3849,7 +3424,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3858,7 +3432,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3867,7 +3440,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3876,7 +3448,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3885,7 +3456,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3894,7 +3464,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3903,7 +3472,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3912,7 +3480,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3921,7 +3488,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3930,7 +3496,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3939,7 +3504,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3948,7 +3512,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3957,7 +3520,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3966,7 +3528,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3975,7 +3536,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3984,7 +3544,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -3993,7 +3552,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4002,7 +3560,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4011,7 +3568,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4020,7 +3576,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4029,7 +3584,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4038,7 +3592,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4047,7 +3600,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4056,7 +3608,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4065,7 +3616,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4074,7 +3624,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4083,7 +3632,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4092,7 +3640,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4101,7 +3648,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4110,7 +3656,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4119,7 +3664,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4128,7 +3672,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4137,7 +3680,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4146,7 +3688,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4155,7 +3696,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4164,7 +3704,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4173,7 +3712,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4182,7 +3720,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4191,7 +3728,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4200,7 +3736,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4209,7 +3744,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4218,7 +3752,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4227,7 +3760,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4236,7 +3768,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4245,7 +3776,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4254,7 +3784,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4263,7 +3792,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4272,7 +3800,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4281,7 +3808,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4290,7 +3816,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4299,7 +3824,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4308,7 +3832,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4317,7 +3840,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4326,7 +3848,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4335,7 +3856,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4344,7 +3864,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4353,7 +3872,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4362,7 +3880,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4371,7 +3888,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4380,7 +3896,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4389,7 +3904,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4398,7 +3912,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4407,7 +3920,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4416,7 +3928,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4425,7 +3936,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4434,7 +3944,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4443,7 +3952,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4452,7 +3960,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4461,7 +3968,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4470,7 +3976,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4479,7 +3984,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4488,7 +3992,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4497,7 +4000,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4506,7 +4008,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4515,7 +4016,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4524,7 +4024,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4533,7 +4032,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4542,7 +4040,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4551,7 +4048,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4560,7 +4056,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4569,7 +4064,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4578,7 +4072,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4587,7 +4080,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4596,7 +4088,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4605,7 +4096,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4614,7 +4104,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4623,7 +4112,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4632,7 +4120,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4641,7 +4128,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4650,7 +4136,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4659,7 +4144,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4668,7 +4152,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4677,7 +4160,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4686,7 +4168,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4695,7 +4176,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4704,7 +4184,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4713,7 +4192,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4722,7 +4200,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4731,7 +4208,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4740,7 +4216,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4749,7 +4224,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4758,7 +4232,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4767,7 +4240,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4776,7 +4248,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4785,7 +4256,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4794,7 +4264,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4803,7 +4272,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4812,7 +4280,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4821,7 +4288,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4830,7 +4296,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4839,7 +4304,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4848,7 +4312,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4857,7 +4320,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4866,7 +4328,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4875,7 +4336,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4884,7 +4344,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4893,7 +4352,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4902,7 +4360,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4911,7 +4368,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4920,7 +4376,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4929,7 +4384,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4938,7 +4392,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4947,7 +4400,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4956,7 +4408,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4965,7 +4416,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4974,7 +4424,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4983,7 +4432,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -4992,7 +4440,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5001,7 +4448,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5010,7 +4456,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5019,7 +4464,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5028,7 +4472,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5037,7 +4480,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5046,7 +4488,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5055,7 +4496,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5064,7 +4504,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5073,7 +4512,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5082,7 +4520,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5091,7 +4528,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5100,7 +4536,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5109,7 +4544,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5118,7 +4552,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5127,7 +4560,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5136,7 +4568,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5145,7 +4576,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5154,7 +4584,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5163,7 +4592,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5172,7 +4600,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5181,7 +4608,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5190,7 +4616,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5199,7 +4624,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5208,7 +4632,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5217,7 +4640,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5226,7 +4648,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5235,7 +4656,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5244,7 +4664,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5253,7 +4672,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5262,7 +4680,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5271,7 +4688,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5280,7 +4696,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5289,7 +4704,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5298,7 +4712,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5307,7 +4720,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5316,7 +4728,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5325,7 +4736,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5334,7 +4744,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5343,7 +4752,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5352,7 +4760,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5361,7 +4768,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5370,7 +4776,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5379,7 +4784,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5388,7 +4792,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5397,7 +4800,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5406,7 +4808,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5415,7 +4816,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5424,7 +4824,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5433,7 +4832,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5442,7 +4840,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5451,7 +4848,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5460,7 +4856,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5469,7 +4864,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5478,7 +4872,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5487,7 +4880,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5496,7 +4888,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5505,7 +4896,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5514,7 +4904,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5523,7 +4912,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5532,7 +4920,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5541,7 +4928,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5550,7 +4936,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5559,7 +4944,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5568,7 +4952,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5577,7 +4960,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5586,7 +4968,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5595,7 +4976,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5604,7 +4984,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5613,7 +4992,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5622,7 +5000,6 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
             [
                 'uuid' => Str::uuid(),
@@ -5631,10 +5008,11 @@ class BabynameCowokEstetikSeeder extends Seeder
                 'gender_id' => 1,
                 'locale' => 'id',
                 'status' => 'active',
-                'created_at' => Carbon::now(),
             ],
         ];
 
-        Babyname::insert($data);
+        foreach ($dataTables as $data) {
+            Babyname::create($data);
+        }
     }
 }

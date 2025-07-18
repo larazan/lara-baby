@@ -10,21 +10,13 @@ use Spatie\Sluggable\SlugOptions; // Import SlugOptions
 
 class Category extends Model
 {
-    use HasFactory;
-    use HasTranslations;
-    use HasSlug;
+    use HasFactory, HasTranslations, HasSlug; // Add HasSlug
 
     public $translatable = ['name'];
 
-    const TABLE = 'categories';
-
-    protected $table = self::TABLE;
-
     protected $fillable = [
         'name',
-        // 'slug',
-        'parent_id',
-        'status',
+        // 'slug', // REMOVE 'slug' from fillable as it's auto-generated
     ];
 
     /**
@@ -38,6 +30,11 @@ class Category extends Model
             ->doNotGenerateSlugsOnUpdate(); // Optional: only generate on creation
     }
 
+    public function articles()
+    {
+        return $this->hasMany(Article::class);
+    }
+
     /**
      * Get the route key for the model.
      * This tells Laravel to use the 'slug' column for route model binding.
@@ -48,15 +45,4 @@ class Category extends Model
     {
         return 'slug';
     }
-
-    public function parent() {
-        return $this->belongsTo(Category::class, 'parent_id');
-    }
-
-    public function activities()
-    {
-        return $this->hasMany(Activity::class);
-    }
-
-
 }

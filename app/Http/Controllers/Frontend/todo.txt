@@ -13,7 +13,7 @@ put locale X
 optimazing
 name & logo
 language
-generator
+generator name
 
 
 

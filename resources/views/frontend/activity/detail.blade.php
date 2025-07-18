@@ -9,10 +9,18 @@
         <div class="absolute z-10 bottom-0 h-56 w-full bg-gradient-to-b from-transparent to-[#0a1016]"></div>
         <div class="absolute z-20 bottom-0 h-full w-full rounded-md px-2 pt-0 ">
             <div class="absolute top-2 left-2">
-                <a href="{{ URL::previous() }}" class="flex  px-2 py-2 rounded-full border bg-white border-gray-200 text-gray-700 hover:text-white hover:bg-gray-700 items-center justify-between text-xs md:text-sm">
+                <a href="{{ url('activities') }}" class="flex  px-2 py-2 rounded-full border bg-white border-gray-200 text-gray-700 hover:text-white hover:bg-gray-700 items-center justify-between text-xs md:text-sm">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="4" stroke="currentColor" class="size-4">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
                     </svg>
+                </a>
+            </div>
+            <div class="absolute top-2 right-2">
+                <a href="{{ url('activities') }}" class="flex  px-2 py-2 rounded-full border bg-white border-gray-200 text-gray-700 hover:text-white hover:bg-gray-700 items-center justify-between text-xs md:text-sm">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" class="size-4">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0 1 11.186 0Z" />
+</svg>
+
                 </a>
             </div>
             <div class="absolute bottom-3 left-2">
@@ -65,7 +73,7 @@
                     </div>
 
                     <div class="news mt-0 md:mt-0 prose md:prose-md lg:prose-lg figtree-reguler text-[#334155] max-w-none hover:prose-a:text-blue-primary">
-                        <p><strong>Tangerang, 12 Mei 2025</strong> – Sekolah Tinggi Meteorologi Klimatologi dan Geofisika (STMKG) menerima kunjungan kerja spesifik Komisi V DPR RI pada Jumat (9/5). Kunjungan ini menjadi momentum penting untuk meninjau langsung kesiapan STMKG dalam mencetak sumber daya manusia (SDM) unggul dan berdaya saing global di bidang meteorologi, klimatologi, dan geofisika (MKG).</p>
+                        {{ $activity->body }}
                     </div>
                 </div>
                 <div class="flex flex-col gap-4 mt-5">
@@ -87,15 +95,13 @@
                         $i = 1
                         @endphp
                         @foreach($steps as $s)
-                        <article class="flex flex-col gap-1 px-0 py-4">
-                            <div class="flex items-center space-x-2 text-black text-xl font-medium">
-                                <div class="h-4 w-4 px-1 py-1 rounded-full border bg-orange-400"></div>
-                                <span class="figtree-medium">Step {{ $i++ }}</span>
-                            </div>
-                            <div></div>
-                            <div class="flex flex-col gap-1 pl-6">
-                                <div class="text-black prose md:prose-md lg:prose-lg font-semibold figtree-medium">{{ $s->title }}</div>
-                                <div class=" text-[#334155] max-w-none hover:prose-a:text-blue-primary figtree-reguler">{{ $s->description }}</div>
+                        <article class="flex flex-col gap-1 px-0 py-4">                            
+                            <div class="flex flex-col gap-1">
+                                <div class="flex gap-2 items-center2">
+                                    <div class="flex justify-center items-center h-6 w-6 px-3 py-3 rounded-full border bg-gray-700 text-sm text-white figtree-reguler">{{ $i++ }}</div>
+                                    <div class="text-black prose md:prose-md lg:prose-lg font-semibold leading-tight md:leading-4 figtree-medium">{{ $s->title }}</div>
+                                </div>
+                                <div class=" text-[#334155] pl-9 max-w-none hover:prose-a:text-blue-primary figtree-reguler">{{ $s->description }}</div>
                             </div>
                         </article>
                         @endforeach

@@ -16,7 +16,7 @@
                 this.isLoading = true;
 
                 try {
-                    const url = new URL(@js(route('search')));
+                    const url = new URL(@js(route('search-name')));
                     url.searchParams.set('query', this.query);
                     const response = await fetch(url);
                     this.results = await response.json();

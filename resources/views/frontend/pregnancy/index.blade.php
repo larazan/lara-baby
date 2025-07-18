@@ -65,7 +65,7 @@
                                                 <div class="relative flex flex-col rounded-md bg-[#9ae3ca] border-2 border-gray-800 px-4 py-2 shadow-menu transition hover:scale-105">
                                                     <a href="{{ url('pregnancy/tracker/first-trimester/week-'.$f) }}" class="absolute top-0 left-0 w-full h-full z-[5] rounded-2xl" aria-label="Baca selengkapnya"></a>
                                                     <div class="flex justify-between items-center">
-                                                        <span class="text-[#1a4c78] text-2xl font-bold figtree-reguler">{{ $f }}</span>
+                                                        <span class="text-[#1a4c78] text-2xl font-bold figtree-bold">{{ $f }}</span>
                                                         <span class="text-black">
                                                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="size-6">
                                                                 <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
@@ -94,7 +94,7 @@
                                                 <div class="relative flex flex-col rounded-md bg-[#9ae3ca] border-2 border-gray-800 px-4 py-2 shadow-menu transition hover:scale-105">
                                                     <a href="{{ url('pregnancy/tracker/second-trimester/week-'.$f) }}" class="absolute top-0 left-0 w-full h-full z-[5] rounded-2xl" aria-label="Baca selengkapnya"></a>
                                                     <div class="flex justify-between items-center">
-                                                        <span class="text-[#1a4c78] text-2xl font-bold figtree-reguler">{{ $f }}</span>
+                                                        <span class="text-[#1a4c78] text-2xl font-bold figtree-bold">{{ $f }}</span>
                                                         <span class="text-black">
                                                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="size-6">
                                                                 <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
@@ -123,7 +123,7 @@
                                                 <div class="relative flex flex-col rounded-md bg-[#9ae3ca] border-2 border-gray-800 px-4 py-2 shadow-menu transition hover:scale-105">
                                                     <a href="{{ url('pregnancy/tracker/third-trimester/week-'.$f) }}" class="absolute top-0 left-0 w-full h-full z-[5] rounded-2xl" aria-label="Baca selengkapnya"></a>
                                                     <div class="flex justify-between items-center">
-                                                        <span class="text-[#1a4c78] text-2xl font-bold figtree-reguler">{{ $f }}</span>
+                                                        <span class="text-[#1a4c78] text-2xl font-bold figtree-bold">{{ $f }}</span>
                                                         <span class="text-black">
                                                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="size-6">
                                                                 <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />

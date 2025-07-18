@@ -1,0 +1,45 @@
+<?php
+
+namespace App\Http\Livewire;
+
+use App\Models\Category;
+use Livewire\Component;
+
+class CategoryEdit extends Component
+{
+    public $category;
+    public $name = [];
+    public $locales;
+
+    protected $rules = [
+        // Dynamic rules for translatable fields
+    ];
+
+    public function mount(Category $category)
+    {
+        $this->category = $category;
+        $this->locales = config('app.locales');
+
+        foreach ($this->locales as $locale) {
+            $this->name[$locale] = $category->getTranslation('name', $locale, false);
+            $this->rules["name.{$locale}"] = 'required|string|max:255';
+        }
+    }
+
+    public function updateCategory()
+    {
+        $this->validate();
+
+        $this->category->update([
+            'name' => $this->name,
+        ]);
+
+        session()->flash('success', 'Category updated successfully.');
+        return redirect()->route('categories.index');
+    }
+
+    public function render()
+    {
+        return view('livewire.category-edit');
+    }
+}
