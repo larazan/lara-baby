@@ -60,6 +60,13 @@
                                         role="listbox"
                                         tabindex="-1"
                                         class="py-1 overflow-auto text-base leading-6 rounded max-h-60 focus:outline-none sm:text-sm sm:leading-5">
+                                        <li
+                                            role="option"
+                                            class="relative w-full text-white font-semibold select-none hover:text-white hover:bg-indigo-600">
+                                            <a href="{{ url('activities/activities') }}" class="w-full ">
+                                                <span class="block truncate py-1.5 pl-3 text-xs capitalize figtree-reguler">Activities</span>
+                                            </a>
+                                        </li>
                                         @foreach($activityOption as $a)
                                         <li
                                             role="option"
@@ -107,6 +114,13 @@
                                         role="listbox"
                                         tabindex="-1"
                                         class="py-1 overflow-auto text-base leading-6 rounded max-h-60 focus:outline-none sm:text-sm sm:leading-5">
+                                        <li
+                                            role="option"
+                                            class="relative w-full text-white font-semibold select-none hover:text-white hover:bg-indigo-600">
+                                            <a href="{{ url('activities/age') }}" class="w-full ">
+                                                <span class="block truncate py-1.5 pl-3 text-xs capitalize figtree-reguler">Age</span>
+                                            </a>
+                                        </li>
                                         @foreach($ages as $a)
                                         <li
                                             role="option"
@@ -154,6 +168,13 @@
                                         role="listbox"
                                         tabindex="-1"
                                         class="py-1 overflow-auto text-base leading-6 rounded max-h-60 focus:outline-none sm:text-sm sm:leading-5">
+                                        <li
+                                            role="option"
+                                            class="relative w-full text-white font-semibold select-none hover:text-white hover:bg-indigo-600">
+                                            <a href="{{ url('activities/crafts') }}" class="w-full ">
+                                                <span class="block truncate py-1.5 pl-3 text-xs capitalize figtree-reguler">Crafts</span>
+                                            </a>
+                                        </li>
                                         @foreach($crafts as $a)
                                         <li
                                             role="option"
@@ -187,7 +208,7 @@
                                         @click="open = !open"
                                         :aria-expanded="open"
                                         aria-haspopup="listbox"
-                                        class="relative z-0 w-full py-2 pl-3 pr-10 text-left transition duration-150 ease-in-out border border-gray-800 cursor-default focus:outline-none focus:shadow-outline-blue sm:text-sm sm:leading-5 shadow-menu bg-indigo-400">
+                                        class="relative z-0 w-full py-2 pl-3 pr-10 text-left transition duration-150 ease-in-out border border-gray-800 cursor-default focus:outline-none focus:shadow-outline-blue sm:text-sm sm:leading-5 shadow-menu bg-purple-400">
                                         <span class="truncate text-sm figtree-reguler font-semibold uppercase text-white">Select Learning</span>
                                         <span class="absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none">
                                             <svg class="w-5 h-5 text-white" :class="open ? 'rotate-90': ''" viewBox="0 0 20 20" fill="none" stroke="currentColor">
@@ -203,11 +224,18 @@
                                     x-transition:leave-start="opacity-100"
                                     x-transition:leave-end="opacity-0"
                                     x-cloak
-                                    class="absolute z-10 w-full mt-0 border border-gray-700 shadow-lg bg-indigo-400">
+                                    class="absolute z-10 w-full mt-0 border border-gray-700 shadow-lg bg-purple-400">
                                     <ul
                                         role="listbox"
                                         tabindex="-1"
                                         class="py-1 overflow-auto text-base leading-6 rounded max-h-60 focus:outline-none sm:text-sm sm:leading-5">
+                                        <li
+                                            role="option"
+                                            class="relative w-full text-white font-semibold select-none hover:text-white hover:bg-indigo-600">
+                                            <a href="{{ url('activities/learning') }}" class="w-full ">
+                                                <span class="block truncate py-1.5 pl-3 text-xs capitalize figtree-reguler">Learning</span>
+                                            </a>
+                                        </li>
                                         @foreach($learnings as $a)
                                         <li
                                             role="option"
@@ -255,6 +283,13 @@
                                         role="listbox"
                                         tabindex="-1"
                                         class="py-1 overflow-auto text-base leading-6 rounded max-h-60 focus:outline-none sm:text-sm sm:leading-5">
+                                        <li
+                                            role="option"
+                                            class="relative w-full text-white font-semibold select-none hover:text-white hover:bg-indigo-600">
+                                            <a href="{{ url('activities/painting') }}" class="w-full ">
+                                                <span class="block truncate py-1.5 pl-3 text-xs capitalize figtree-reguler">Painting</span>
+                                            </a>
+                                        </li>
                                         @foreach($painting as $a)
                                         <li
                                             role="option"
@@ -302,6 +337,13 @@
                                         role="listbox"
                                         tabindex="-1"
                                         class="py-1 overflow-auto text-base leading-6 rounded max-h-60 focus:outline-none sm:text-sm sm:leading-5">
+                                        <li
+                                            role="option"
+                                            class="relative w-full text-white font-semibold select-none hover:text-white hover:bg-indigo-600">
+                                            <a href="{{ url('activities/sensory') }}" class="w-full ">
+                                                <span class="block truncate py-1.5 pl-3 text-xs capitalize figtree-reguler">Sensory</span>
+                                            </a>
+                                        </li>
                                         @foreach($sensory as $a)
                                         <li
                                             role="option"

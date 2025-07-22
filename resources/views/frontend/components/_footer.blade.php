@@ -1,3 +1,17 @@
+@php
+
+$f = \App\Models\Setting::select(['key', 'value'])->where('key', '=', 'facebook')->first();
+$t = \App\Models\Setting::select(['key', 'value'])->where('key', '=', 'twitter')->first();
+$i = \App\Models\Setting::select(['key', 'value'])->where('key', '=', 'instagram')->first();
+$p = \App\Models\Setting::select(['key', 'value'])->where('key', '=', 'pinterest')->first();
+
+$facebook = $f->value;
+$twitter = $t->value;
+$instagram = $i->value;
+$pinterest = $p->value;
+
+@endphp
+
 <footer class="relative w-full bg-[#120a55] ">
     <h2 id="footer-heading" class="sr-only">Footer</h2>
     <div class="mx-auto max-w-6xl px-6 lg:px-10 xl:px-0 pb-10 pt-10 md:pt-16">
@@ -42,7 +56,6 @@
                     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 xl:gap-0">
                         <div class="xl:pr-4">
                             <ul role="list" class="mt-5 space-y-3">
-                                <li><a href="https://cuaca.bmkg.go.id" class="flex gap-2 items-center text-sm leading-[22px] md:text-base md:leading-[25px] font-medium text-white hover:text-orange-400 figtree-reguler">Starting a Family<span></span></a></li>
                                 <li><a href="{{ url('pregnancy') }}" class="flex gap-2 items-center text-sm leading-[22px] md:text-base md:leading-[25px] font-medium text-white hover:text-orange-400 figtree-reguler">Pregnancy<span></span></a></li>
                                 <li><a href="{{ url('baby-name') }}" class="flex gap-2 items-center text-sm leading-[22px] md:text-base md:leading-[25px] font-medium text-white hover:text-orange-400 figtree-reguler">Baby Names<span></span></a></li>
                                 <li><a href="https://iklim.bmkg.go.id" class="flex gap-2 items-center text-sm leading-[22px] md:text-base md:leading-[25px] font-medium text-white hover:text-orange-400 figtree-reguler">Parenting<span></span></a></li>

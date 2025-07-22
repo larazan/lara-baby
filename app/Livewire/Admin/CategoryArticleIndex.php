@@ -4,6 +4,8 @@ namespace App\Livewire\Admin;
 
 use App\Models\CategoryArticle;
 use Illuminate\Support\Str;
+use Illuminate\Support\Facades\App; // To get available locales
+use Illuminate\Support\Facades\Config; // Import Config facade
 use Livewire\WithPagination;
 use Livewire\Component;
 
@@ -12,9 +14,12 @@ class CategoryArticleIndex extends Component
     use WithPagination;
 
     public $showCategoryModal = false;
-    public $name;
+    public $name = [];
+    public $description = [];
     public $categoryId;
     public $parentId;
+    public $locales = []; // T o store available locales
+    public $currentLocale; // To manage the currently active locale for input fields
 
     public $search = '';
     public $sort = 'asc';
@@ -29,15 +34,42 @@ class CategoryArticleIndex extends Component
         'inactive'
     ];
 
-    protected function rules() 
+    protected $rules = [
+        'name.*' => 'required|string|min:3', // Validate each translation
+    ];
+
+    // This method runs on every request (initial and subsequent)
+    public function boot()
     {
-        return [
-            'name' => 'required|max:255',
-        ];
+        // Ensure locales are always loaded
+        $this->locales = array_keys(Config::get('app.locales', [])); // Use Config::get with a default empty array
+        
+        // Set currentLocale if it's not already set (e.g., on initial load)
+        // or if it's somehow become null.
+        if (empty($this->currentLocale) || !in_array($this->currentLocale, $this->locales)) {
+            $this->currentLocale = App::getLocale();
+        }
+
+        // Initialize name array with empty strings for each locale if it's not already populated
+        // This handles cases where you open the modal for "create"
+        if (empty($this->name)) {
+             foreach ($this->locales as $locale) {
+                $this->name[$locale] = '';
+            }
+        }
+
+        // Initialize name array with empty strings for each locale if it's not already populated
+        // This handles cases where you open the modal for "create"
+        if (empty($this->description)) {
+            foreach ($this->locales as $locale) {
+               $this->description[$locale] = '';
+           }
+       }
     }
 
     public function showCreateModal()
     {
+        $this->resetInputFields();
         $this->showCategoryModal = true;
     }
 
@@ -68,9 +100,14 @@ class CategoryArticleIndex extends Component
     {
         $this->validate();
         
+        // Remove any empty translation inputs to avoid saving empty strings
+        $cleanedName = array_filter($this->name, function($value) {
+            return !empty($value);
+        });
+
         CategoryArticle::create([
-          'name' => $this->name,
-          'slug' => Str::slug($this->name),
+          'name' => $cleanedName,
+          'description' => $this->description,
           'parent_id' => $this->parentId,
         //   'status' => $this->catStatus,
         ]);
@@ -85,12 +122,22 @@ class CategoryArticleIndex extends Component
 
     public function showEditModal($categoryId)
     {
-        $this->reset(['name']);
+        // $this->reset(['name']);
         $this->categoryId = $categoryId;
         $category = CategoryArticle::find($categoryId);
-        $this->name = $category->name;
+        // $this->name = $category->name;
+        $this->description = $category->description;
         $this->parentId = $category->parent_id;
-        $this->catStatus = $category->status;
+        // $this->catStatus = $category->status;
+
+        // Get existing translations
+        $existingTranslations = $category->getTranslations('name');
+
+        // Initialize $this->name with empty strings for all locales first
+        foreach ($this->locales as $locale) {
+            $this->name[$locale] = $existingTranslations[$locale] ?? ''; // Use null coalescing
+        }
+
         $this->showCategoryModal = true;
     }
     
@@ -99,9 +146,15 @@ class CategoryArticleIndex extends Component
         $this->validate();
 
         $category = CategoryArticle::findOrFail($this->categoryId);
+
+        // Remove any empty translation inputs to avoid saving empty strings
+        $cleanedName = array_filter($this->name, function($value) {
+            return !empty($value);
+        });
+
         $category->update([
-            'name' => $this->name,
-            'slug'     => Str::slug($this->name),
+            'name' => $cleanedName,
+            'description' => $this->description,
             'parent_id' => $this->parentId,
             // 'status' => $this->catStatus,
         ]);
@@ -136,6 +189,15 @@ class CategoryArticleIndex extends Component
     public function resetFilters()
     {
         $this->reset();
+    }
+
+    private function resetInputFields()
+    {
+        $this->reset('name', 'categoryId');
+        // Re-initialize name array with empty strings for each locale
+        foreach ($this->locales as $locale) {
+            $this->name[$locale] = '';
+        }
     }
 
     public function render()

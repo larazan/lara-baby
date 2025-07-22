@@ -2,18 +2,14 @@
 
 @section('content')
 
-<!-- {{ $article->id }}
-@dump($countBefore)
-@dump($countAfter) -->
-
 @include('frontend.components._toc2')
 <div x-data="scrollProgress()" x-init="init()" x-cloak class="fixed inset-x-0 top-0 z-50">
-    <div class="h-1 bg-blue-500" :style="`width: ${percent}%`"></div>
+    <div class="h-1 bg-indigo-500" :style="`width: ${percent}%`"></div>
 </div>
 
-<div class="flex flex-col gap-4 w-full py-6">
+<div class="flex flex-col gap-4 w-full py-2 md:py-6">
     <div class="flex mx-auto w-full justify-center">
-    <h2 class="text-lg font-semibold figtree-bold">Pregnancy Week by Week</h2>
+        <h2 class="text-lg font-semibold figtree-bold">Pregnancy Week by Week</h2>
     </div>
     <ul class="flex gap-2 md:gap-2 px-2 mx-auto w-full max-w-3xl md:max-w-3xl h-fit overflow-x-auto scroll-smooth custom-scrollbar">
         @if(count($countBefore) > 0)
@@ -64,29 +60,32 @@
         @endphp
             <div style="background-color: {{ $pregData[$arr[1]]['color'] }};" class="w-full h-full absolute"></div>
             <div class="p-6  relative">
-                <div style="background: rgba(253, 252, 250, 0.5);" class="bg-purple-500 mx-auto w-full rounded-lg px-6 py-6 lg:px-10 xl:px-0">
+                <div style="background: rgba(253, 252, 250, 0.5);" class="bg-purple-500 mx-auto w-full rounded-lg px-6 py-2 md:py-6 lg:px-10 xl:px-0">
                     <div class="flex flex-col items-center justify-center gap-5">
                         
                         <div class="flex flex-col items-center text-center max-w-[700px]">
-                            <h1 class="figtree-bold text-lg leading-[33px] md:text-[32px] md:leading-[48px] xl:text-[40px] xl:leading-[54px] font-bold text-white figtree-bold">{{ $arr[1] }} Weeks Pregnant</h1>
-                            <p class="figtree-medium text-white text-sm">{{ 40 - $arr[1] }} Weeks to Go!</p>
+                            <h1 class="figtree-bold text-lg leading-[33px] md:text-[32px] md:leading-[48px] xl:text-[40px] xl:leading-[54px] font-bold text-gray-700 figtree-bold">{{ $arr[1] }} Weeks Pregnant</h1>
+                            <p class="figtree-medium text-gray-700 text-sm">{{ 40 - $arr[1] }} Weeks to Go!</p>
                         </div>
                         <div class="flex justify-center gap-5">
                             <div class="flex flex-col text-center">
-                                <h3 class="figtree-bold text-white text-lg">{{ $pregData[$arr[1]]['height'] }}</h3>
-                                <p class="figtree-reguler text-white text-sm">inches</p>
+                                @if($pregData[$arr[1]]['height'])
+                                <h3 class="figtree-bold text-gray-700 text-lg">{{ $pregData[$arr[1]]['height'] }}</h3>
+                                <p class="figtree-reguler text-gray-700 text-sm">inches</p>
+                                @endif
                             </div>
                             <div>
-                                
                                 <img src="{{ asset('frontend/pregnant/week_'.$arr[1].'.svg') }}"  class="h-12 w-12 ">
                             </div>
                             <div class="flex flex-col text-center">
-                                <h3 class="figtree-bold text-white text-lg">{{ $pregData[$arr[1]]['weight'] }}</h3>
-                                <p class="figtree-reguler text-white text-sm">ounces</p>
+                                @if($pregData[$arr[1]]['weight'])
+                                <h3 class="figtree-bold text-gray-700 text-lg">{{ $pregData[$arr[1]]['weight'] }}</h3>
+                                <p class="figtree-reguler text-gray-700 text-sm">ounces</p>
+                                @endif
                             </div>
                         </div>
                         <div>
-                            <p class=" md: md:leading-[25px] text-white text-center max-w-[905px] figtree-reguler">
+                            <p class=" md: md:leading-[25px] text-gray-700 text-center max-w-[905px] figtree-reguler">
                             Baby is as big as an <span class="capitalize">{{ $pregData[$arr[1]]['fruit'] }}</span>
                             </p>
                         </div>
@@ -96,18 +95,14 @@
             </div>
         </div>
         <div class="relative mx-auto max-w-6xl w-full px-6 lg:px-10 xl:px-0 pb-10 md:pb-20">
-        <div class="mt-3 md:mt-6">
+            <div class="mt-3 md:mt-6">
                 <div>
-
-            
 
                     <div class="news mt-0 md:mt-0 prose md:prose-md lg:prose-lg figtree-reguler text-[#334155] max-w-none hover:prose-a:text-blue-primary">
                         {!! $contents['html'] !!}
                     </div>
 
-                    
                 </div>
-
             </div>
         </div>
 

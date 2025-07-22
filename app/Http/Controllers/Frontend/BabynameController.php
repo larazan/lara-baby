@@ -327,13 +327,111 @@ class BabynameController extends Controller
     
     }
 
-    public function generate()
+    public function generate(Request $request)
     {
-        // Fetch all names from the babynames table
-        $names = Babyname::pluck('name')->toArray();
+        $letters = range('A', 'Z');
+        $genders = [ 1 => 'boy', 2 => 'girl', 3 => 'unisex'];
+        $origins =  Origin::select(['id', 'name'])->orderBy('name', 'asc')->get();
+        $religions = Religion::select(['id', 'name'])->orderBy('name', 'asc')->get();
+        $countries = Country::select(['id', 'name'])->orderBy('name', 'asc')->get();
+        
+        //
+        $query = DB::table('babynames')->select([
+            'id',
+            'slug', 
+            'name', 
+            'meaning',
+            'gender_id', 
+            'country_id',
+            'religion_id',
+            'origin_id', 
+            'locale', 
+            'status'
+            ])->where('status', 'active');
+
+        // Apply filters based on request parameters
+        if ($request->search) {
+            $keyword = $request->search;
+            $title = Str::ucfirst($keyword) . " Baby names";
+        } else {
+            $keyword = null;
+            $title = "Baby names";
+        }
+
+        // religion
+        if ($request->religion) {
+            $religion = $request->religion;
+        } else {
+            $religion = null;
+        }
+        
+        // gender
+        if ($request->gender) {
+            $gender = $request->gender;
+        } else {
+            $gender = null;
+        }
+
+        // country
+        if ($request->country) {
+            $country = $request->country;
+        } else {
+            $country = null;
+        }
+
+        // origin
+        if ($request->origin) {
+            $origin = $request->origin;
+        } else {
+            $origin = null;
+        }
+
+        $query->when($request->search, function ($q) use ($keyword) {
+            return $q->where('name', 'like', "%{$keyword}%");
+        });
+
+        // religion
+        $query->when($request->religion, function ($q) use ($religion) {
+            return $q->where('religion_id', $religion);
+        });
+
+        // gender
+        $query->when($request->gender, function ($q) use ($gender) {
+            return $q->where('gender_id', $gender);
+        });
+
+        // country
+        $query->when($request->country, function ($q) use ($country) {
+            return $q->where('country_id', $country);
+        });
+
+        // origin
+        $query->when($request->origin, function ($q) use ($origin) {
+            return $q->where('origin_id', $origin);
+        });
+
+        $babynames = $query->orderBy('name')->get();
+
+        // If it's an AJAX request, return JSON or a partial view
+        if ($request->ajax()) {
+            // Option 1: Return JSON (more flexible for Alpine.js to render)
+            return response()->json([
+                'babynames' => $babynames,
+                'letters' => $letters,
+                'genders' => $genders,
+                'origins' => $origins,
+                'religions' => $religions,
+                'countries' => $countries,
+            ]);
+
+            // Option 2: Return a partial Blade view (simpler for Alpine.js x-html)
+            // return view('products._list', compact('products'))->render();
+        }
+
+        // For initial page load, return the full view
 
         // Pass the names to the Blade view
-        return $this->loadTheme('babyname.generate', compact('names'));
+        return $this->loadTheme('babyname.generator', compact('names'));
     }
 }
 

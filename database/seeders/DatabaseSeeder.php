@@ -22,7 +22,7 @@ class DatabaseSeeder extends Seeder
             // ArticleSeeder::class,
             // FaqSeeder::class,
             // SegmentSeeder::class,
-            // CategoryArticleSeeder::class,
+            // NewCategoryArticleSeeder::class,
             // LanguageSeeder::class,
             // NewsletterSeeder::class,
             // ContactSeeder::class,
@@ -44,6 +44,11 @@ class DatabaseSeeder extends Seeder
             // BabynameCowokIslamSeeder::class,
             // BabynameCowokEstetikSeeder::class,
 
+            // BabynameCewekModern::class,
+            // BabynameCewekUni::class,
+            // BabynameCowokUni::class,
+            // NamelistCewekUni::class,
+            // NamelistCowok::class,
 
         ]);
         // $this->call(\Database\Seeders\Tables\BabynamesSeeder::class);

@@ -1,139 +1,130 @@
-This Blade file (`resources/views/products/filter.blade.php`) will contain the HTML structure, Tailwind CSS for styling, and the Alpine.js logic to handle the input, select, AJAX requests, and dynamic display of products.
+@extends('frontend.layout')
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product Filter with AJAX</title>
-    <!-- Tailwind CSS CDN -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Alpine.js CDN -->
-    <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
-    <!-- Google Font: Inter -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <style>
-        /* Apply Inter font to the body */
-        body {
-            font-family: 'Inter', sans-serif;
-        }
-        /* Custom styles for focus states */
-        input:focus, select:focus, button:focus {
-            outline: none;
-            box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.5); /* Blue-500 with transparency */
-        }
-    </style>
-</head>
-<body class="bg-gray-100 flex items-center justify-center min-h-screen p-4">
+@section('content')
 
-    <!-- Main container for the product filter, powered by Alpine.js -->
-    <div x-data="productFilter()" x-init="fetchProducts()" class="bg-white p-8 md:p-10 rounded-xl shadow-2xl max-w-2xl w-full text-center border-b-4 border-blue-600">
-        <h1 class="text-3xl md:text-4xl font-bold text-gray-800 mb-6">Dynamic Product Filter</h1>
-        <p class="text-gray-600 mb-8 text-sm md:text-base">
-            Search products by name or filter by category using AJAX.
-        </p>
+<main>
+<div x-data="fullNameGenerator()" x-init="fetchOrigins()">
+    <h1 class="text-3xl font-bold mb-6">Full Name Generator</h1>
 
-        <!-- Filter Controls -->
-        <div class="flex flex-col md:flex-row gap-4 mb-8">
-            <!-- Search Input -->
-            <div class="flex-grow">
-                <label for="search" class="sr-only">Search Products</label>
-                <input type="text" id="search" x-model.debounce.300ms="searchTerm" @input="fetchProducts()"
-                       class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition duration-150 ease-in-out"
-                       placeholder="Search product by name...">
-            </div>
-
-            <!-- Category Select -->
+    <div class="bg-white p-6 rounded-lg shadow-md mb-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-4">
             <div>
-                <label for="category" class="sr-only">Filter by Category</label>
-                <select id="category" x-model="selectedCategory" @change="fetchProducts()"
-                        class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition duration-150 ease-in-out">
-                    <option value="all">All Categories</option>
-                    <!-- Loop through categories passed from Laravel -->
-                    @foreach($categories as $category)
-                        <option value="{{ $category }}">{{ $category }}</option>
-                    @endforeach
+                <label for="num_names" class="block text-gray-700 text-sm font-bold mb-2">Number of Names:</label>
+                <select x-model="filters.num_names" id="num_names" class="shadow border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+                    <option value="2">2 Names</option>
+                    <option value="3">3 Names</option>
                 </select>
             </div>
+            <div>
+                <label for="gender" class="block text-gray-700 text-sm font-bold mb-2">Gender:</label>
+                <select x-model="filters.gender" id="gender" class="shadow border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+                    <option value="">Any</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="unisex">Unisex</option>
+                </select>
+            </div>
+            <div>
+                <label for="limit" class="block text-gray-700 text-sm font-bold mb-2">Number of Suggestions:</label>
+                <input type="number" x-model.debounce.500ms="filters.limit" id="limit" min="1" max="50" placeholder="e.g., 10" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+            </div>
         </div>
 
-        <!-- Loading Indicator -->
-        <div x-show="isLoading" class="text-blue-500 text-lg font-semibold mb-6">
-            Loading products...
+        <div class="mb-4">
+            <label class="block text-gray-700 text-sm font-bold mb-2">Origins:</label>
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 h-48 overflow-y-auto border p-2 rounded">
+                <template x-for="origin in availableOrigins" :key="origin">
+                    <label class="inline-flex items-center">
+                        <input type="checkbox" x-model="filters.origins" :value="origin" class="form-checkbox h-4 w-4 text-indigo-600">
+                        <span class="ml-2 text-gray-700" x-text="origin"></span>
+                    </label>
+                </template>
+            </div>
         </div>
 
-        <!-- Error Message Display -->
-        <template x-if="errorMessage">
-            <p x-text="errorMessage" class="text-red-600 bg-red-100 p-3 rounded-lg mb-6 border border-red-300"></p>
-        </template>
-
-        <!-- Product List Display -->
-        <div x-show="!isLoading && products.length > 0" class="grid grid-cols-1 md:grid-cols-2 gap-6 text-left">
-            <template x-for="product in products" :key="product.id">
-                <div class="bg-blue-50 p-5 rounded-lg shadow-sm border border-blue-200">
-                    <h3 class="text-xl font-semibold text-gray-800" x-text="product.name"></h3>
-                    <p class="text-gray-600 text-sm mb-2" x-text="product.category"></p>
-                    <p class="text-blue-700 text-lg font-bold" x-text="`$${product.price.toFixed(2)}`"></p>
-                </div>
-            </template>
-        </div>
-
-        <!-- No Products Found Message -->
-        <div x-show="!isLoading && products.length === 0 && !errorMessage" class="text-gray-500 text-lg mt-8">
-            No products found matching your criteria.
-        </div>
+        <button @click="generateNames()" :disabled="loading" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+            <span x-show="!loading">Generate Names</span>
+            <span x-show="loading">Generating...</span>
+        </button>
     </div>
 
-    <script>
-        /**
-         * Alpine.js data and methods for the Product Filter.
-         * Handles fetching and displaying products via AJAX.
-         */
-        function productFilter() {
-            return {
-                searchTerm: '',        // Stores the value of the search input
-                selectedCategory: 'all', // Stores the selected category from the dropdown
-                products: [],          // Stores the list of products fetched from the server
-                isLoading: false,      // Flag to show/hide loading indicator
-                errorMessage: '',      // Stores any error messages
+    <div x-show="suggestions.length > 0 || error" class="bg-white p-6 rounded-lg shadow-md">
+        <h2 class="text-2xl font-bold mb-4">Generated Names:</h2>
+        <div x-if="error" class="text-red-500 mb-4" x-text="error"></div>
+        <ul class="list-disc pl-5">
+            <template x-for="(nameArray, index) in suggestions" :key="index">
+                <li class="mb-2 text-lg" x-text="nameArray.join(' ')"></li>
+            </template>
+        </ul>
+        <div x-if="suggestions.length === 0 && !error" class="text-gray-500">
+            No suggestions found with current criteria. Try broadening your filters or adding more names to your database.
+        </div>
+    </div>
+</div>
+</main>
 
-                /**
-                 * Fetches products from the Laravel API based on current filters.
-                 */
-                async fetchProducts() {
-                    this.isLoading = true; // Set loading state to true
-                    this.errorMessage = ''; // Clear any previous errors
 
-                    try {
-                        // Construct query parameters
-                        const params = new URLSearchParams({
-                            search: this.searchTerm,
-                            category: this.selectedCategory
-                        }).toString();
+@endsection
 
-                        // Make the AJAX request to the Laravel API endpoint
-                        const response = await fetch(`/api/products?${params}`);
+@push('js')
+<script>
+    function fullNameGenerator() {
+        return {
+            filters: {
+                num_names: 2,
+                origins: [],
+                gender: '',
+                limit: 10, // Default number of suggestions
+            },
+            availableOrigins: @json($origins), // Populated by Laravel directly
+            suggestions: [],
+            loading: false,
+            error: null,
 
-                        if (!response.ok) {
-                            // If response is not OK (e.g., 404, 500), throw an error
-                            throw new Error(`HTTP error! status: ${response.status}`);
-                        }
+            // No need for fetchOrigins() now, as it's passed from Blade
 
-                        const data = await response.json(); // Parse the JSON response
-                        this.products = data; // Update the products array with the fetched data
+            async generateNames() {
+                this.loading = true;
+                this.error = null;
+                this.suggestions = [];
 
-                    } catch (error) {
-                        console.error('Error fetching products:', error);
-                        this.errorMessage = 'Failed to load products. Please try again later.';
-                        this.products = []; // Clear products on error
-                    } finally {
-                        this.isLoading = false; // Reset loading state
+                try {
+                    const response = await fetch('{{ route("full_name_generator.generate") }}', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                            'Accept': 'application/json',
+                            'X-CSRF-TOKEN': '{{ csrf_token() }}'
+                        },
+                        body: JSON.stringify(this.filters)
+                    });
+
+                    const data = await response.json();
+
+                    if (!response.ok) {
+                        this.error = data.message || 'An error occurred during generation.';
+                        return;
                     }
+
+                    if (data.error) { // If the backend explicitly returned an error
+                        this.error = data.error;
+                    } else if (data.message) { // For specific messages from backend
+                        this.error = data.message; // e.g., "Not enough names..."
+                    } else {
+                        this.suggestions = data.suggestions;
+                        if (this.suggestions.length === 0 && !data.message) {
+                             this.error = "No combinations found. Try broadening your criteria or ensuring enough unique names in your database.";
+                        }
+                    }
+
+                } catch (e) {
+                    console.error('Fetch error:', e);
+                    this.error = 'Network error or unable to connect to server.';
+                } finally {
+                    this.loading = false;
                 }
             }
         }
-    </script>
-</body>
-</html>
-```
+    }
+</script>
+@endpush

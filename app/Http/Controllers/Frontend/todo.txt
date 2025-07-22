@@ -14,7 +14,7 @@ optimazing
 name & logo
 language
 generator name
-
+comment system activity and article
 
 
 

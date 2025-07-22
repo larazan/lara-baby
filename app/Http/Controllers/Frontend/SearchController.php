@@ -25,19 +25,19 @@ class SearchController extends Controller
             ->take(10)
             ->get();
 
-        $queryBabyname = Babyname::search($request->input('query'))->get();
-        $babynames = Babyname::search($request->input('query'))
-            ->take(10)
-            ->get();
+        // $queryBabyname = Babyname::search($request->input('query'))->get();
+        // $babynames = Babyname::search($request->input('query'))
+        //     ->take(10)
+        //     ->get();
                
         return response()->json([
             'keyword' => $request->input('query'),
             'queryActivity' => $queryActivity->count(),
             'queryArticle' => $queryArticle->count(),
-            'queryBabyname' => $queryBabyname->count(),
+            // 'queryBabyname' => $queryBabyname->count(),
             'activities' => $activities,
             'articles' => $articles,
-            'babynames' => $babynames,
+            // 'babynames' => $babynames,
         ]);
     }
 

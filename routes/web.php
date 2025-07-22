@@ -11,6 +11,7 @@ use App\Http\Controllers\Frontend\PregnancyController;
 use App\Http\Controllers\Frontend\SearchController;
 use App\Http\Controllers\Frontend\SearchNameController;
 use App\Http\Controllers\Frontend\NewsletterController;
+use App\Http\Controllers\Frontend\NameGeneratorController;
 use App\Http\Controllers\Frontend\BabynameController;
 use App\Http\Controllers\Frontend\ActivityController;
 use App\Http\Controllers\Frontend\GenerateArticleController;
@@ -90,6 +91,9 @@ Route::get('/pregnancy/tracker/{trimester}/{slug}', [PregnancyController::class,
 
 // babyname
 Route::get('/baby-name/{slug}', [BabynameController::class, 'show']);
+
+Route::get('/full-name-generator', [NameGeneratorController::class, 'index'])->name('full_name_generator.show');
+Route::post('/generate-full-name', [NameGeneratorController::class, 'generate'])->name('full_name_generator.generate');
 
 // Route::get('/baby-name/origin/{origin}', [BabynameController::class, 'origin']);
 // Route::get('/baby-name/religion/{religion}', [BabynameController::class, 'religion']);

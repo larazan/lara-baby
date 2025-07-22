@@ -100,7 +100,11 @@ class ActivityController extends Controller
         // $query2 = $query->whereIn('category_id', $arr)->get();
 
         $query->when($cat_id > 0, function ($q) use ($cat_id) {
-            return $q->where('category_id', $cat_id);
+            $parentCategory = Category::findOrFail($cat_id);
+            $categoryIds = $parentCategory->descendantsAndSelfIds();
+
+            return $q->whereIn('category_id', $categoryIds);
+            // return $q->where('category_id', $cat_id);
         });
 
         // $query->when($arr, function ($q) use ($arr) {

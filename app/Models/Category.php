@@ -2,8 +2,10 @@
 
 namespace App\Models;
 
+use Illuminate\Support\Collection; // Don't forget to import this
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 use Spatie\Translatable\HasTranslations;
 use Spatie\Sluggable\HasSlug; // Import HasSlug
 use Spatie\Sluggable\SlugOptions; // Import SlugOptions
@@ -53,10 +55,40 @@ class Category extends Model
         return $this->belongsTo(Category::class, 'parent_id');
     }
 
+     /**
+     * Get the child categories.
+     */
+    public function children(): HasMany
+    {
+        return $this->hasMany(Category::class, 'parent_id');
+    }
+
     public function activities()
     {
         return $this->hasMany(Activity::class);
     }
 
+    /**
+     * Recursively get all descendant categories (children, grandchildren, etc.).
+     */
+    public function descendants(): HasMany
+    {
+        return $this->children()->with('descendants');
+    }
 
+    /**
+     * Get all IDs of this category and its descendants.
+     * @return Collection
+     */
+    public function descendantsAndSelfIds(): Collection
+    {
+        $ids = new Collection([$this->id]); // Start with the current category's ID
+
+        // Recursively add children's IDs
+        $this->children()->get()->each(function ($child) use (&$ids) {
+            $ids = $ids->merge($child->descendantsAndSelfIds());
+        });
+
+        return $ids;
+    }
 }
