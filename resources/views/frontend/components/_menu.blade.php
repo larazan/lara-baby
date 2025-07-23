@@ -186,8 +186,8 @@ $categories = \App\Models\Category::select(['name', 'slug', 'parent_id'])->where
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="/profil/balai-upt" class="figtree-reguler flex gap-3 hover:text-blue-primary hover:underline" aria-label="Selengkapnya">
-                                            <p>Trending Names</p>
+                                        <a href="{{ url('/full-name-generator') }}" class="figtree-reguler flex gap-3 hover:text-blue-primary hover:underline" aria-label="Selengkapnya">
+                                            <p>Name Generator</p>
                                         </a>
                                     </li>
                                 </ul>

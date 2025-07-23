@@ -31,7 +31,7 @@ class NameGeneratorController extends Controller
     {
         $request->validate([
             'num_names' => 'required|integer|min:2|max:3',
-            'origins' => 'nullable|array',
+            'origins' => 'nullable',
             'origins.*' => 'string',
             'gender' => 'nullable|in:male,female,unisex',
             'limit' => 'nullable|integer|min:1|max:50', // To control the number of suggestions
@@ -46,24 +46,28 @@ class NameGeneratorController extends Controller
         $query = Babyname::query();
 
         if (!empty($selectedOrigins)) {
-            $query->whereIn('origin', $selectedOrigins);
+            $query->where('origin_id', $selectedOrigins);
         }
 
         if ($gender) {
             $query->where(function ($q) use ($gender) {
-                $q->where('gender', $gender)->orWhere('gender', 'unisex');
+                $q->where('gender_id', $gender);
             });
         }
 
         // Fetch a large enough pool of names to make combinations from
         // We'll randomly select from these in the combination logic
-        $eligibleNames = $query->inRandomOrder()->get();
+        // $eligibleNames = $query->inRandomOrder()->get();
+        $eligibleNames = $query->select('name', 'meaning', 'slug')
+                               ->inRandomOrder()
+                               ->get();
 
         if ($eligibleNames->count() < $numNames) {
             return response()->json(['suggestions' => [], 'message' => 'Not enough unique names found with these filters to create combinations.'], 200);
         }
 
         $suggestions = [];
+        $generatedCombinationStrings = []; // To keep track of unique combined name strings
         $attemptCount = 0;
         $maxAttempts = 500; // Prevent infinite loop in case of very strict filters
 
@@ -73,17 +77,27 @@ class NameGeneratorController extends Controller
 
             $randomNames = $eligibleNames->random($numNames); // Select N random names from the eligible pool
 
-            // Sort names for consistent order (e.g., alphabetical, or by length)
-            // This prevents "Ava Rose" and "Rose Ava" from both being generated if you only want one.
-            // For natural flow, you might want to consider name length or common usage.
-            // For simplicity, let's just sort alphabetically.
-            $currentCombination = $randomNames->pluck('name')->sort()->values()->toArray();
+            // Extract the full name string for uniqueness check (e.g., "Alice Rose")
+            $fullNameString = $randomNames->pluck('name')->sort()->implode(' ');
 
-            // Ensure uniqueness of the full name string
-            $fullNameString = implode(' ', $currentCombination);
+            // Check if this combination (by its full name string) has already been generated
+            if (!in_array($fullNameString, $generatedCombinationStrings)) {
+                // Map each selected name object to include only the desired attributes
+                $formattedNames = $randomNames->map(function ($name) {
+                    return [
+                        'name' => $name->name,
+                        'meaning' => $name->meaning,
+                        'slug' => $name->slug,
+                    ];
+                })->values()->toArray(); // Ensure it's a simple array of objects
 
-            if (!in_array($fullNameString, array_map(fn($arr) => implode(' ', $arr), $suggestions))) {
-                $suggestions[] = $currentCombination;
+                // Sort the formatted names by their 'name' property for consistent output
+                usort($formattedNames, function($a, $b) {
+                    return strcmp($a['name'], $b['name']);
+                });
+
+                $suggestions[] = $formattedNames;
+                $generatedCombinationStrings[] = $fullNameString; // Add to our unique tracker
             }
         }
 

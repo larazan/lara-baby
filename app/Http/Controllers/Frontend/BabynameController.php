@@ -329,109 +329,78 @@ class BabynameController extends Controller
 
     public function generate(Request $request)
     {
-        $letters = range('A', 'Z');
-        $genders = [ 1 => 'boy', 2 => 'girl', 3 => 'unisex'];
-        $origins =  Origin::select(['id', 'name'])->orderBy('name', 'asc')->get();
-        $religions = Religion::select(['id', 'name'])->orderBy('name', 'asc')->get();
-        $countries = Country::select(['id', 'name'])->orderBy('name', 'asc')->get();
-        
-        //
-        $query = DB::table('babynames')->select([
-            'id',
-            'slug', 
-            'name', 
-            'meaning',
-            'gender_id', 
-            'country_id',
-            'religion_id',
-            'origin_id', 
-            'locale', 
-            'status'
-            ])->where('status', 'active');
+        $request->validate([
+            'num_names' => 'required|integer|min:2|max:3',
+            'origins' => 'nullable|array', // Ensure origins is an array
+            'origins.*' => 'string',
+            'gender' => 'nullable|in:male,female,unisex',
+            'limit' => 'nullable|integer|min:1|max:50',
+        ]);
 
-        // Apply filters based on request parameters
-        if ($request->search) {
-            $keyword = $request->search;
-            $title = Str::ucfirst($keyword) . " Baby names";
-        } else {
-            $keyword = null;
-            $title = "Baby names";
+        $numNames = (int) $request->num_names;
+        $selectedOrigins = $request->origins ?? [];
+        $gender = $request->gender;
+        $limit = (int) ($request->limit ?? 10);
+
+        // 1. Fetch eligible single names based on filters
+        $query = Babyname::query();
+
+        if (!empty($selectedOrigins)) {
+            // Use whereIn for multiple origins
+            $query->whereIn('origin_id', $selectedOrigins);
         }
 
-        // religion
-        if ($request->religion) {
-            $religion = $request->religion;
-        } else {
-            $religion = null;
-        }
-        
-        // gender
-        if ($request->gender) {
-            $gender = $request->gender;
-        } else {
-            $gender = null;
+        if ($gender) {
+            // Assuming 'gender_id' column stores 'male', 'female', or 'unisex' strings
+            $query->where('gender_id', $gender);
         }
 
-        // country
-        if ($request->country) {
-            $country = $request->country;
-        } else {
-            $country = null;
+        // Select 'name', 'meaning', and 'slug' directly from the database
+        $eligibleNames = $query->select('name', 'meaning', 'slug')
+                               ->inRandomOrder()
+                               ->get();
+
+        if ($eligibleNames->count() < $numNames) {
+            return response()->json(['suggestions' => [], 'message' => 'Not enough unique names found with these filters to create combinations.'], 200);
         }
 
-        // origin
-        if ($request->origin) {
-            $origin = $request->origin;
-        } else {
-            $origin = null;
+        $suggestions = [];
+        $generatedCombinationStrings = []; // To keep track of unique combined name strings
+        $attemptCount = 0;
+        $maxAttempts = 500;
+
+        // 2. Generate combinations
+        while (count($suggestions) < $limit && $attemptCount < $maxAttempts) {
+            $attemptCount++;
+
+            // Select N random name objects from the eligible pool
+            $randomNames = $eligibleNames->random($numNames);
+
+            // Extract the full name string for uniqueness check (e.g., "Alice Rose")
+            $fullNameString = $randomNames->pluck('name')->sort()->implode(' ');
+
+            // Check if this combination (by its full name string) has already been generated
+            if (!in_array($fullNameString, $generatedCombinationStrings)) {
+                // Map each selected name object to include only the desired attributes
+                $formattedNames = $randomNames->map(function ($name) {
+                    return [
+                        'name' => $name->name,
+                        'meaning' => $name->meaning,
+                        'slug' => $name->slug,
+                    ];
+                })->values()->toArray(); // Ensure it's a simple array of objects
+
+                // Sort the formatted names by their 'name' property for consistent output
+                usort($formattedNames, function($a, $b) {
+                    return strcmp($a['name'], $b['name']);
+                });
+
+                $suggestions[] = $formattedNames;
+                $generatedCombinationStrings[] = $fullNameString; // Add to our unique tracker
+            }
         }
 
-        $query->when($request->search, function ($q) use ($keyword) {
-            return $q->where('name', 'like', "%{$keyword}%");
-        });
-
-        // religion
-        $query->when($request->religion, function ($q) use ($religion) {
-            return $q->where('religion_id', $religion);
-        });
-
-        // gender
-        $query->when($request->gender, function ($q) use ($gender) {
-            return $q->where('gender_id', $gender);
-        });
-
-        // country
-        $query->when($request->country, function ($q) use ($country) {
-            return $q->where('country_id', $country);
-        });
-
-        // origin
-        $query->when($request->origin, function ($q) use ($origin) {
-            return $q->where('origin_id', $origin);
-        });
-
-        $babynames = $query->orderBy('name')->get();
-
-        // If it's an AJAX request, return JSON or a partial view
-        if ($request->ajax()) {
-            // Option 1: Return JSON (more flexible for Alpine.js to render)
-            return response()->json([
-                'babynames' => $babynames,
-                'letters' => $letters,
-                'genders' => $genders,
-                'origins' => $origins,
-                'religions' => $religions,
-                'countries' => $countries,
-            ]);
-
-            // Option 2: Return a partial Blade view (simpler for Alpine.js x-html)
-            // return view('products._list', compact('products'))->render();
-        }
-
-        // For initial page load, return the full view
-
-        // Pass the names to the Blade view
-        return $this->loadTheme('babyname.generator', compact('names'));
+        return response()->json(['suggestions' => $suggestions]);
     }
 }
 
