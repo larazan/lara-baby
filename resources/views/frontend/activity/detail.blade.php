@@ -110,6 +110,7 @@
             </div>
         </div>
     </div>
+    <x-comment :commentable-type="'activities'" :commentable-id="$activity->id" />
     @include('components.related-activity')
 </main>
 

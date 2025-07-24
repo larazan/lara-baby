@@ -15,11 +15,12 @@ class PregnancyController extends Controller
     //
     public function index(Request $request, $slug = '')
     {
+        $locale = app()->currentLocale();
         $first = range(1, 12);
         $second = range(13, 25);
         $third = range(26, 40);
         $array = [2, 4, 5, 6];
-        $query = Article::select(['title', 'category_id', 'slug', 'title', 'body', 'author_id', 'original', 'status', 'created_at'])->whereIn('category_id', $array)->inRandomOrder()->active();
+        $query = Article::select(['title', 'category_id', 'slug', 'title', 'body', 'author_id', 'original', 'status', 'locale', 'created_at'])->where('locale', $locale)->whereIn('category_id', $array)->inRandomOrder()->active();
         
         if ($slug) {
             $category = CategoryArticle::where('slug', $slug)->first();
@@ -42,12 +43,13 @@ class PregnancyController extends Controller
 
     public function tracker($trimester)
     {
+        $locale = app()->currentLocale();
         // tracker/second-trimester
         $first = range(1, 12);
         $second = range(13, 25);
         $third = range(26, 40);
         $array = [2, 4, 5, 6];
-        $query = Article::select(['title', 'category_id', 'slug', 'title', 'body', 'author_id', 'original', 'status', 'created_at'])->whereIn('category_id', $array)->active();
+        $query = Article::select(['title', 'category_id', 'slug', 'title', 'body', 'author_id', 'original', 'status', 'locale', 'created_at'])->where('locale', $locale)->whereIn('category_id', $array)->active();
         
         if ($trimester) {
             $category = CategoryArticle::where('slug', $trimester)->first();

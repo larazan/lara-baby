@@ -38,15 +38,16 @@ class ArticleFactory extends Factory
         static $number = 1;
         static $week = 1;
         return [
-            'category_id' => 3,
+            'category_id' => 4,
             'author_id' => User::factory(),
-            'title' => 'Week '.$number++.' of Pregnancy',
+            'title' => 'Minggu ke '.$number++.' Kehamilan',
             'body' => $this->faker->paragraphs(3, true),
-            'slug' => 'week-'.$week++,
+            'slug' => 'minggu-'.$week++,
             'rand_id' => Str::random(10),
             'published_at' => $this->faker->dateTimeBetween('-1 year', 'now'),
             'published' => true,
             'status' => 'active',
+            'locale' => 'id',
             // 'article_tags' => 'news, test, first',
             'meta_title' => $this->faker->words(5, true),
             'meta_keyword' => $this->faker->words(5, true),

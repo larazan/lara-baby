@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\Frontend\ArticleController;
 use App\Http\Controllers\Frontend\ContactController;
+use App\Http\Controllers\Frontend\CommentController;
 use App\Http\Controllers\Frontend\FaqController;
 use App\Http\Controllers\Frontend\HomeController;
 use App\Http\Controllers\Frontend\PageController;
@@ -60,6 +61,9 @@ Route::group(
     Route::get('/articles/{category?}', [ArticleController::class, 'index'])->name('articles');
     // activity
     Route::get('/activities/{slug?}', [ActivityController::class, 'index'])->name('activities');
+    // 
+    Route::get('/pregnancy', [PregnancyController::class, 'index']);
+    Route::get('/pregnancy/tracker/{trimester}', [PregnancyController::class, 'tracker']);
 
     // test
     Route::get('/welcome', function() {
@@ -80,13 +84,10 @@ Route::middleware(['auth:sanctum', 'verified'])->group(function () {
 });
 
 // activity
-
 Route::get('/activity/{slug}', [ActivityController::class, 'show']);
 // Route::post('/activities', [ActivityController::class, 'index'])->name('activity.submit');
 
 // pregnancy
-Route::get('/pregnancy', [PregnancyController::class, 'index']);
-Route::get('/pregnancy/tracker/{trimester}', [PregnancyController::class, 'tracker']);
 Route::get('/pregnancy/tracker/{trimester}/{slug}', [PregnancyController::class, 'show']);
 
 // babyname
@@ -102,6 +103,22 @@ Route::post('/generate-full-name', [NameGeneratorController::class, 'generate'])
 // Generate
 Route::get('generate-article', [GenerateArticleController::class, 'index']);
 
+// comment
+// Define a map for your commentable types to their models
+$commentableTypes = [
+    'articles' => \App\Models\Article::class,
+    'activities' => \App\Models\Activity::class,
+    // Add other commentable models here
+];
+
+// Route to fetch comments
+Route::get('/api/{commentableType}/{commentableId}/comments', [CommentController::class, 'index']);
+
+// Route to store a new comment
+Route::post('/api/{commentableType}/{commentableId}/comments', [CommentController::class, 'store']);
+    // ->middleware('auth'); // Apply auth middleware if comments require login
+
+// search
 Route::get('search', SearchController::class)->name('search');
 Route::get('search-name', SearchNameController::class)->name('search-name');
 Route::post('/babyname/search', [SearchController::class, 'index'])->name('babyname.search');

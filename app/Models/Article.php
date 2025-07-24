@@ -21,7 +21,7 @@ class Article extends Model
     use HasFactory;
     use HasAuthor;
     use HasSlug;
-    use HasLikes;
+    // use HasLikes;
     use HasTimestamps;
     use HasTags;
     use SoftDeletes;
@@ -91,10 +91,10 @@ class Article extends Model
 		return self::STATUSES;
 	}
 
-    // public function id(): int
-    // {
-    //     return $this->id;
-    // }
+    public function id(): int
+    {
+        return $this->id;
+    }
 
     // public function title(): string
     // {
@@ -218,7 +218,7 @@ class Article extends Model
     public function toSearchableArray(): array
     {
         return [
-            'id' => $this->id,
+            // 'id' => $this->id,
             'title' => $this->title,
             'body' => $this->body,
             // 'slug' => $this->slug,

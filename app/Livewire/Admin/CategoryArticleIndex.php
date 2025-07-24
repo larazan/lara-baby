@@ -126,16 +126,17 @@ class CategoryArticleIndex extends Component
         $this->categoryId = $categoryId;
         $category = CategoryArticle::find($categoryId);
         // $this->name = $category->name;
-        $this->description = $category->description;
+        // $this->description = $category->description;
         $this->parentId = $category->parent_id;
         // $this->catStatus = $category->status;
 
         // Get existing translations
-        $existingTranslations = $category->getTranslations('name');
+        $existingTranslations = $category->getTranslations('name', 'description');
 
         // Initialize $this->name with empty strings for all locales first
         foreach ($this->locales as $locale) {
             $this->name[$locale] = $existingTranslations[$locale] ?? ''; // Use null coalescing
+            $this->description[$locale] = $existingTranslations[$locale] ?? ''; // Use null coalescing
         }
 
         $this->showCategoryModal = true;

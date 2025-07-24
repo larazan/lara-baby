@@ -31,7 +31,7 @@ class DatabaseSeeder extends Seeder
             // OriginSeeder::class,
 
             // ActivitySeeder::class,
-            // PregnancySeeder::class,
+            PregnancySeeder::class,
             // EmmasdiarySeeder::class,
             // HamariSeeder::class,
 

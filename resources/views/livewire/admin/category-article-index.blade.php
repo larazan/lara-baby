@@ -258,8 +258,10 @@
 
                                         @foreach($locales as $locale)
                                         <div class="col-span-6 sm:col-span-3 {{ $currentLocale === $locale ? '' : 'hidden' }}">
-                                            <label for="description.{{ $locale }}" class="block text-sm font-medium text-gray-700">Description</label>
-                                            <textarea id="description.{{ $locale }}" wire:model.blur="description.{{ $locale }}" autocomplete="given-name" class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 h-24" >{{ $description }}</textarea>
+                                            <label for="description.{{ $locale }}" class="block text-sm font-medium text-gray-700">
+                                                Description ({{ config('app.locales')[$locale] }})
+                                            </label>
+                                            <textarea id="description.{{ $locale }}" wire:model.blur="description.{{ $locale }}" autocomplete="given-name" class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 h-24" ></textarea>
                                         </div>
                                         @endforeach
 

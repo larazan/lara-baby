@@ -119,7 +119,7 @@ class Edit extends Component
                 $article->category_id = $this->categoryId;
                 $article->author_id = isset($this->author) ? $this->author : Auth::user()->id;
                 $article->title = $this->title;
-                if (in_array($this->categoryId, $this->array)) {
+                if (!in_array($this->categoryId, $this->array)) {
                     $article->slug = Str::slug($this->title);
                 }
                 $article->rand_id = Str::random(10);
@@ -314,7 +314,7 @@ class Edit extends Component
     public function render()
     {
         return view('livewire.admin.article.edit')->with([
-            'categories' => CategoryArticle::OrderBy('name', $this->sort)->get(),
+            'categories' => CategoryArticle::OrderBy('id', 'asc')->get(),
             'authors' => User::OrderBy('id', $this->sort)->get(),
             'languages' => Language::OrderBy('id', $this->sort)->get(),
         ]);
