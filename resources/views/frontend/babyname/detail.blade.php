@@ -124,7 +124,7 @@
                         <article class="pt-4 text-[14px] font-main leading-6 dark:text-slate-300 figtree-reguler">
                             The name <span class="capitalize"><strong>{{ $babyname->name }}</strong></span>
                             is primarily a <span>@if($babyname->gender_id == 1) Male @endif @if($babyname->gender_id == 2) Female @endif</span> name
-                            @if($babyname->origin_id)<span>of {{ $babyname->origin($babyname->origin_id) }} origin</span>@endif
+                            @if($babyname->origin_id)<span>of {{ $babyname->origin->name }} origin</span>@endif
                             and have <span>{{ $babyname->count() }}</span> letters
                             that means <span class="underline">{{ $babyname->meaning }}</span>.
                         </article>
@@ -176,11 +176,11 @@
                                 </div>
                                 <div class="flex justify-between items-center border-b border-gray-800 py-3 px-3">
                                     <div class="text-sm figtree-medium">Religion</div>
-                                    <div class="text-sm figtree-medium">@if($babyname->religion_id){{ $babyname->religion($babyname->religion_id) }}@endif</div>
+                                    <div class="text-sm figtree-medium">@if($babyname->religion_id){{ $babyname->religion->name }}@endif</div>
                                 </div>
                                 <div class="flex justify-between items-center  border-gray-800 py-3 px-3">
                                     <div class="text-sm figtree-medium">Origin</div>
-                                    <div class="text-sm figtree-medium">@if($babyname->origin_id){{ $babyname->origin($babyname->origin_id) }}@endif</div>
+                                    <div class="text-sm figtree-medium">@if($babyname->origin_id){{ $babyname->origin->name }}@endif</div>
                                 </div>
                             </div>
                         </div>
@@ -383,7 +383,7 @@
                     <div class="mx-auto max-w-6xl md:px-6 py-6 lg:px-10 xl:px-0 ">
                         
 
-                        @if($relatedNames->count() > 0)
+                        @if($namelists->count() > 0)
                         <div class="w-full mt-4 border border-slate-200 rounded-t-lg overflow-x-auto">
                             <table class="w-full divide-y divide-slate-200">
                                 <thead class="bg-indigo-200 text-slate-800 figtree-reguler">

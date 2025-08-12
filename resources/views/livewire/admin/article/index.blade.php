@@ -160,7 +160,7 @@
                                 @endif
                             </td>
                             <td class="vi wy w_ vo lm">
-                                <div class="gp text-slate-800">{{ $article->category($article->category_id) }}</div>
+                                <div class="gp text-slate-800">{{ $article->category->name }}</div>
                             </td>
                             <td class="vi wy w_ vo lm">
                                 <div class="gp ">{{ $article->user->first_name }} {{ $article->user->last_name }}</div>

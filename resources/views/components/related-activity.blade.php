@@ -1,3 +1,5 @@
+@props(['activities' => 'activities'])
+
 <div class="bg-[#F8FAFC] py-10 md:py-20">
     <div class="mx-auto max-w-6xl px-6 lg:px-10 xl:px-0">
         <div class="flex justify-between">
@@ -31,19 +33,19 @@
                   width="345" height="216">
                 @else
                 <img
-                  src="{{ asset('frontend/img/ci-cd-cover.png') }}"
-                  data-src="{{ asset('frontend/img/ci-cd-cover.png') }}"
-                  data-srcset="{{ asset('frontend/img/ci-cd-cover.png 860w') }},
-                          {{ asset('frontend/img/ci-cd-cover.png 640w') }},
-                          {{ asset('frontend/img/ci-cd-cover.png 420w') }}"
-                  class="max-w-full md:max-w-none h-64 md:h-52 object-fit md:-mx-4 md:-mt-4 mb-0 rounded-xl" alt="" loading="lazy">
+                  src="{{ asset('frontend/img/Image-not-found.png') }}"
+                  data-src="{{ asset('frontend/img/Image-not-found.png') }}"
+                  data-srcset="{{ asset('frontend/img/Image-not-found.png 860w') }},
+                          {{ asset('frontend/img/Image-not-found.png 640w') }},
+                          {{ asset('frontend/img/Image-not-found.png 420w') }}"
+                  class="w-full h-full object-fit md:-mx-4 md:-mt-4 mb-0 rounded-xl" alt="" loading="lazy">
                 @endif
                         </div>
                     </div>
                     <div class="flex flex-col justify-between w-full h-full">
                         <div>
-                            <span class="flex px-2 py-1 bg-orange-500 text-white text-xs rounded-full w-fit font-medium figtree-reguler">{{ $act->category($act->category_id) }}</span>
-                            <h2 class="mt-2 text-base leading-[25px] md:text-lg md:leading-[27px] xl:text-2xl font-semibold text-gray-800 figtree-medium group-hover:text-orange-500">{{ $act->title }}</h2>
+                            <span class="flex px-2 py-1 bg-orange-500 text-white text-xs rounded-full w-fit font-medium figtree-reguler">{{ $act->category->name }}</span>
+                            <h2 class="mt-2 text-base leading-tight md:text-lg md:leading-[27px] xl:text-2xl font-semibold text-gray-800 figtree-medium group-hover:text-orange-500">{{ $act->title }}</h2>
                         </div>
                         <div class="flex items-center mt-4 space-x-2 text-[#00989d] !hover:text-[#06329d]">
                             <a href="{{ url('activity/'. $act->slug) }}" class="text-xs lg:text-base font-bold leading-6 figtree-reguler flex gap-2 items-center uppercase">Read more</a>

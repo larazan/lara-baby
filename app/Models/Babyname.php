@@ -174,22 +174,19 @@ class Babyname extends Model
         return strlen($this->name);
     }
     
-    public function religion($religionId)
+    public function religion()
     {
-        $rel = Religion::where('id', $religionId)->first();
-		return $rel->name;
+		return $this->belongsTo(Religion::class, 'religion_id');
     }
 
-    public function country($countryId)
+    public function country()
 	{
-		$country = Country::where('id', $countryId)->first();
-		return $country->name;
+		return $this->belongsTo(Country::class, 'country_id');
 	}
 
-    public function origin($originId)
+    public function origin()
     {
-        $origin = Origin::where('id', $originId)->first();
-		return $origin->name;
+		return $this->belongsTo(Origin::class, 'origin_id');
     }
     
     public function countries()

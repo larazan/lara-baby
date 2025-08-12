@@ -161,7 +161,7 @@
                 <ul class="divide-y dark:divide-white/10 w-full">
                     @foreach($articles as $article)
                     <li class="item flex items-start gap-x-3 py-4 relative w-full" >
-                        <a href="{{ url('pregnancy/tracker/'.$article->categorySlug($article->category_id).'/'.$article->slug) }}" class="item-img shrink-0 overflow-hidden rounded aspect-square w-[100px] relative" aria-label="{{ $article->title }}" >
+                        <a href="{{ url('pregnancy/tracker/'.$article->category->slug.'/'.$article->slug) }}" class="item-img shrink-0 overflow-hidden rounded aspect-square w-[100px] relative" aria-label="{{ $article->title }}" >
                             <div class="flex bg-white border-2 p-2 border-sky-500 rounded-md w-full h-full object-cover">
                                 @php
                                 $arr = explode("-", $article->slug)
@@ -175,11 +175,11 @@
                             </div>
                         </a>
                         <div class="item-detail flex flex-col items-start gap-1">
-                            <a href="{{ url('pregnancy/tracker/'.$article->categorySlug($article->category_id)) }}" class="flex px-3 py-1 bg-sky-600 text-white text-xs rounded-full w-fit font-medium">
-                                <span class="figtree-reguler">{{ $article->category($article->category_id) }}</span> 
+                            <a href="{{ url('pregnancy/tracker/'.$article->category->slug) }}" class="flex px-3 py-1 bg-sky-600 text-white text-xs rounded-full w-fit font-medium">
+                                <span class="figtree-reguler">{{ $article->category->name }}</span> 
                             </a>
                             <h1 class="item-title font-bold text-[15px]  md:text-md line-clamp-3 text-gray-800">
-                                <a href="{{ url('pregnancy/tracker/'.$article->categorySlug($article->category_id).'/'.$article->slug) }}" >{{ $article->title }}</a>
+                                <a href="{{ url('pregnancy/tracker/'.$article->category->slug.'/'.$article->slug) }}" >{{ $article->title }}</a>
                             </h1>
                             <p class="item-description hidden figtree-reguler">{{ $article->title }}</p>
                             <time datetime="2025-05-30 16:29:00" class="item-date text-xs text-zinc-500 figtree-reguler">30 Mei 2025 16:29</time>

@@ -55,15 +55,13 @@ class Namelist extends Model
         return $this->native_name;
     }
 
-    public function country($countryId)
-	{
-		$country = Country::where('id', $countryId)->first();
-		return $country->name;
-	}
-
-    public function religion($religionId)
+    public function religion()
     {
-        $rel = Religion::where('id', $religionId)->first();
-		return $rel->name;
+		return $this->belongsTo(Religion::class, 'religion_id');
     }
+
+    public function country()
+	{
+		return $this->belongsTo(Country::class, 'country_id');
+	}
 }

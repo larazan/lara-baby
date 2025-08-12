@@ -13,7 +13,7 @@
     <div class="relative">
       <div class="w-full h-full absolute bg-[rgb(237,246,251)]/75"></div>
       <div class="pb-12 md:pb-[72px] pt-2 md:py-20 relative">
-        <div class="mx-auto max-w-6xl px-6 lg:px-10 xl:px-0">
+        <div class="mx-auto max-w-6xl px-3 md:px-6 lg:px-10 xl:px-0">
           <div class="flex flex-col items-center justify-center gap-4">
 
             <div class="flex items-center gap-2.5 text-center max-w-[700px]"><!---->
@@ -34,7 +34,7 @@
           </div>
         </div>
       </div>
-      <div class="relative mx-auto max-w-6xl w-full px-6 lg:px-10 xl:px-0 pb-10 md:pb-20">
+      <div class="relative mx-auto max-w-6xl w-full px-3 md:px-6 lg:px-10 xl:px-0 pb-10 md:pb-20">
         <div class="flex justify-between">
           <h2 class="text-md md:text-[24px] md:leading-[33px] lg:text-[32px] lg:leading-[48px] figtree-medium font-bold text-gray-900">
             Found {{ $countArticles }} Articles
@@ -44,9 +44,9 @@
           </h2>
         </div>
         @if($articles->count() > 0)
-        <div class="mt-6 md:mt-12 mx-auto grid max-w-7xl grid-cols-1 gap-6 lg:gap-8 md:grid-cols-2 lg:grid-cols-3"><!--[-->
+        <div class="mt-6 md:mt-12 mx-auto grid max-w-7xl grid-cols-2 gap-3 md:gap-6 lg:gap-8 md:grid-cols-3 lg:grid-cols-3"><!--[-->
           @foreach($articles as $a)
-          <article class="relative flex flex-col items-start justify-between w-full h-full group bg-white p-4 rounded-2xl border border-[#CBD5E1] hover:shadow-[0px_8px_32px_0px_rgba(100,_116,_139,_0.12)] drop-shadow md:focus-within:ring ring-violet-300 md:hover:shadow-violet-300 md:focus-within:shadow-violet-300 transition-all sm:shadow-violet-300">
+          <article class="relative flex flex-col items-start justify-between w-full h-full group bg-white p-3 md:p-4 rounded-2xl border border-[#CBD5E1] hover:shadow-[0px_8px_32px_0px_rgba(100,_116,_139,_0.12)] drop-shadow md:focus-within:ring ring-violet-300 md:hover:shadow-violet-300 md:focus-within:shadow-violet-300 transition-all sm:shadow-violet-300">
             <a href="{{ url('/article/' . $a->slug) }}" class="absolute top-0 left-0 w-full h-full z-[5] rounded-2xl" aria-label="Baca selengkapnya"></a>
             <div class="w-full mb-4">
               <div class="relative aspect-[16/9] w-full h-[166px] xl:h-[216px] rounded-xl bg-gray-100 overflow-hidden">
@@ -63,19 +63,19 @@
                   width="345" height="216">
                 @else
                 <img
-                  src="{{ asset('frontend/img/ci-cd-cover.png') }}"
-                  data-src="{{ asset('frontend/img/ci-cd-cover.png') }}"
-                  data-srcset="{{ asset('frontend/img/ci-cd-cover.png 860w') }},
-                          {{ asset('frontend/img/ci-cd-cover.png 640w') }},
-                          {{ asset('frontend/img/ci-cd-cover.png 420w') }}"
-                  class="max-w-full md:max-w-none h-64 md:h-52 object-fit md:-mx-4 md:-mt-4 mb-0 rounded-xl" alt="" loading="lazy">
+                  src="{{ asset('frontend/img/Image-not-found.png') }}"
+                  data-src="{{ asset('frontend/img/Image-not-found.png') }}"
+                  data-srcset="{{ asset('frontend/img/Image-not-found.png 860w') }},
+                          {{ asset('frontend/img/Image-not-found.png 640w') }},
+                          {{ asset('frontend/img/Image-not-found.png 420w') }}"
+                  class="w-full h-full object-fit md:-mx-4 md:-mt-4 mb-0 rounded-xl" alt="" loading="lazy">
                 @endif
               </div>
             </div>
             <div class="flex flex-col justify-between w-full h-full">
               <div>
                 <time class="text-xs leading-[22px] text-gray-600 font-bold flex items-center figtree-reguler">{{ $a->created_at->diffForHumans() }}</time>
-                <h2 class="mt-2 text-sm leading-[25px] md:text-base md:leading-[27px] xl:text-2xl font-bold figtree-medium text-gray-800 group-hover:text-orange-500">
+                <h2 class="mt-2 text-sm leading-tight md:text-base md:leading-[27px] xl:text-2xl font-bold figtree-medium text-gray-800 group-hover:text-orange-500">
                   {{ $a->title }}
                 </h2>
               </div>

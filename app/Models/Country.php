@@ -15,7 +15,11 @@ class Country extends Model
 
     public function babynames()
     {
-        return $this->belongsToMany(Babyname::class, 'country_id');
+        return $this->hasMany(Babyname::class, 'country_id');
     }
 
+    public function namelists()
+    {
+        return $this->hasMany(Namelist::class, 'country_id');
+    }
 }

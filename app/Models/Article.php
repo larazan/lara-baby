@@ -252,10 +252,9 @@ class Article extends Model
         return $this->belongsTo(User::class, 'author_id');
     }
 
-    public function category($categoryId)
+    public function category()
 	{
-		$category = CategoryArticle::where('id', $categoryId)->first();
-		return $category->name;
+		return $this->belongsTo(CategoryArticle::class, 'category_id');
 	}
 
     public function categorySlug($categoryId)

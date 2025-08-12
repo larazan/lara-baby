@@ -217,12 +217,12 @@
                             </td>
                             <td class="vi wy w_ vo lm">
                                 @if($babyname->country_id)
-                                <div class="gp ">{{ $babyname->country($babyname->country_id) }}</div>
+                                <div class="gp ">{{ $babyname->country->name }}</div>
                                 @endif
                             </td>
                             <td class="vi wy w_ vo lm">
                                 @if($babyname->religion_id)
-                                <div class="gp text-sm">{{ $babyname->religion($babyname->religion_id) }}</div>
+                                <div class="gp text-sm">{{ $babyname->religion->name }}</div>
                                 @endif
                             </td>
                             <td class="vi wy w_ vo lm">

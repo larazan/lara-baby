@@ -166,11 +166,11 @@
                             </div>
                         </a>
                         <div class="item-detail flex flex-col items-start gap-1">
-                            <a href="{{ url('pregnancy/tracker/'.$article->categorySlug($article->category_id)) }}" class="flex px-3 py-1 bg-sky-600 text-white text-xs rounded-full w-fit font-medium">
-                                <span class="figtree-reguler">{{ $article->category($article->category_id) }}</span> 
+                            <a href="{{ url('pregnancy/tracker/'.$article->category->slug) }}" class="flex px-3 py-1 bg-sky-600 text-white text-xs rounded-full w-fit font-medium">
+                                <span class="figtree-reguler">{{ $article->category->name }}</span> 
                             </a>
                             <h1 class="item-title font-bold text-[15px]  md:text-md line-clamp-3 text-gray-800">
-                                <a href="{{ url('pregnancy/tracker/'.$article->categorySlug($article->category_id).'/'.$article->slug) }}" >{{ $article->title }}</a>
+                                <a href="{{ url('pregnancy/tracker/'.$article->category->slug.'/'.$article->slug) }}" >{{ $article->title }}</a>
                             </h1>
                             <p class="item-description hidden figtree-reguler">{{ $article->title }}</p>
                             <time datetime="2025-05-30 16:29:00" class="item-date text-xs text-zinc-500 figtree-reguler">30 Mei 2025 16:29</time>

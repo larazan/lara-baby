@@ -14,4 +14,14 @@ class Religion extends Model
 		'created_at',
 		'updated_at',
 	];
+
+	public function babynames()
+    {
+        return $this->hasMany(Babyname::class, 'religion_id');
+    }
+
+	public function namelists()
+    {
+        return $this->hasMany(Namelist::class, 'religion_id');
+    }
 }

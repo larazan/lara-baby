@@ -58,7 +58,7 @@
                     <div class="flex justify-between items-center w-full mx-auto mt-0 pt-3 pb-8">
                         <div class="shadow-sm rounded-2xl">
                             <a href="" class="w-full justify-center no-underline figtree-medium inline-flex items-center px-4 py-1 border border-transparent text-sm font-medium rounded-2xl shadow-sm text-white transition duration-150 bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cool-indigo-500">
-                                {{ $article->category($article->category_id) }}
+                                {{ $article->category->name }}
                             </a>
                         </div>
                         <div class="flex justify-end items-end">
@@ -76,7 +76,8 @@
             </div>
         </div>
     </div>
-    @include('components.related-article')
+   
+    <x-related-article :articles="$articles" />
 </main>
 
 

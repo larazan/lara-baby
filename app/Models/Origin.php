@@ -11,4 +11,9 @@ class Origin extends Model
         'name',
         'status',
     ];
+
+    public function babynames()
+    {
+        return $this->hasMany(Babyname::class, 'origin_id');
+    }
 }

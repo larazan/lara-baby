@@ -26,7 +26,7 @@
         @endif
         @foreach($allRecords as $r)
         <li class="py-4">
-            <a href="{{ url('pregnancy/tracker/'.$r->categorySlug($r->category_id).'/'.$r->slug) }}" class="flex flex-col rounded-full w-14 h-14 md:w-14 md:h-14 px-1 py-1 md:px-2 md:py-2  @if($r->id == $article->id){{ 'text-white bg-purple-700 transition scale-125 mx-2' }}@else{{ 'text-gray-800 bg-gray-200' }}@endif border-2 border-gray-800 shadow-menu justify-center items-center">
+            <a href="{{ url('pregnancy/tracker/'.$r->category->slug.'/'.$r->slug) }}" class="flex flex-col rounded-full w-14 h-14 md:w-14 md:h-14 px-1 py-1 md:px-2 md:py-2  @if($r->id == $article->id){{ 'text-white bg-purple-700 transition scale-125 mx-2' }}@else{{ 'text-gray-800 bg-gray-200' }}@endif border-2 border-gray-800 shadow-menu justify-center items-center">
                 <span class="pt-1 text-[11px] md:text-[11px] figtree-reguler">week</span>
                 <div class="text-lg font-semibold figtree-reguler">
                     @php
