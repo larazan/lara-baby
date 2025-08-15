@@ -8,6 +8,7 @@ use Illuminate\Support\Str;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Laravel\Scout\Searchable;
+use Illuminate\Support\Facades\Storage;
 
 class Activity extends Model
 {
@@ -21,6 +22,7 @@ class Activity extends Model
         'author_id',
         'title',
         'body',
+        'materials',
         'locale',
         'slug',
         'rand_id',
@@ -28,6 +30,38 @@ class Activity extends Model
         'meta_description',
         'original',
     ];
+
+    // Cast the 'ingredients' attribute to an array when retrieved
+    // and automatically converted to JSON when stored.
+    protected $casts = [
+        'materials' => 'array',
+    ];
+
+    /**
+     * Get the instructions for the receipt.
+     */
+    public function instructions()
+    {
+        // Define a one-to-many relationship with the Instruction model
+        // Order by step_number to maintain logical sequence
+        return $this->hasMany(Instruction::class)->orderBy('step_number');
+    }
+
+    /**
+     * The "booted" method of the model.
+     * Use this to register model event listeners.
+     */
+    protected static function booted()
+    {
+        // When a Activity is being deleted, delete all associated instruction images.
+        static::deleting(function (Activity $activity) {
+            foreach ($activity->instructions as $instruction) {
+                if ($instruction->image_path && Storage::disk('public')->exists($instruction->image_path)) {
+                    Storage::disk('public')->delete($instruction->image_path);
+                }
+            }
+        });
+    }
 
     protected $dates = ['deleted_at'];
 
@@ -96,7 +130,21 @@ class Activity extends Model
 
     public function materials()
     {
-        return $this->hasMany(Material::class);
+        return $this->hasMany(Material::class, 'activity_id');
+    }
+
+    public function materialLists($activityId)
+    {
+        $materials = Material::select(
+            [
+                'id',
+                'activity_id',
+                'name',
+                'qty',
+            ]
+            )->where('activity_id', $activityId)->get();
+        
+            return $materials;
     }
 
     public function toSearchableArray(): array

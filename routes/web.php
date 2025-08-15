@@ -27,6 +27,7 @@ use App\Livewire\Admin\BabynameIndex;
 use App\Livewire\Admin\CategoryArticleIndex;
 use App\Livewire\Admin\CategoryIndex;
 use App\Livewire\Admin\ContactIndex;
+use App\Livewire\Admin\Activity\CreateEditActivity;
 use App\Livewire\Admin\Dashboard;
 use App\Livewire\Admin\FaqIndex;
 use App\Livewire\Admin\ImportName;
@@ -164,10 +165,14 @@ Route::middleware(['auth:sanctum', 'verified'])->prefix('admin')->name('admin')-
     });
 
     Route::prefix('activity')->name('activities.')->group(function () {
-        Route::get('create', \App\Livewire\Admin\Activity\Create::class)->name('create');
+        Route::get('build', \App\Livewire\Admin\Activity\Create::class)->name('build');
         Route::get('all', \App\Livewire\Admin\Activity\Index::class)->name('all');
-        Route::get('{activityId}/update', \App\Livewire\Admin\Activity\Edit::class)->name('edit');
+        Route::get('{activityId}/update', \App\Livewire\Admin\Activity\Edit::class)->name('update');
     });
+    // Route for creating a new activity
+    Route::get('/activities/create', CreateEditActivity::class)->name('activities.create');
+    // Route for editing an existing activity, with a wildcard for the activity ID
+    Route::get('/activities/{activityId}/edit', CreateEditActivity::class)->name('activities.edit');
 
     Route::get('adv-segments', AdvSegmentIndex::class)->name('adv-segments.index');
     Route::get('advertisings', AdvertisingIndex::class)->name('advertisings.index');

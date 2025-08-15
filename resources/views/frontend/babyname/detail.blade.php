@@ -2,7 +2,6 @@
 
 @section('content')
 
-
 <main class="overflow-hidden pt-0">
     <div class="relative">
         <div class="relative">
@@ -333,6 +332,8 @@
                                                                 <div class="flex justify-between items-center border-b border-gray-800 py-3 px-3">
                                                                     <div class="text-sm figtree-medium">Religion</div>
                                                                     <div class="text-sm figtree-medium">
+                                                                        <span x-text="popedBaby.religionName"></span>
+                                                                        {{--
                                                                         <span x-show="popedBaby.religion_id == 1">Christianity</span>
                                                                         <span x-show="popedBaby.religion_id == 2">Muslim</span>
                                                                         <span x-show="popedBaby.religion_id == 3">Hinduism</span>
@@ -342,11 +343,14 @@
                                                                         <span x-show="popedBaby.religion_id == 7">Shintoism</span>
                                                                         <span x-show="popedBaby.religion_id == 8">Sikhism</span>
                                                                         <span x-show="popedBaby.religion_id == 9">Zoroastrianism</span>
+                                                                        --}}
                                                                     </div>
                                                                 </div>
                                                                 <div class="flex justify-between items-center  border-gray-800 py-3 px-3">
                                                                     <div class="text-sm figtree-medium">Origin</div>
                                                                     <div class="text-sm figtree-medium">
+                                                                        <span x-text="popedBaby.originName"></span>
+                                                                        {{-- 
                                                                         <span x-show="popedBaby.origin_id == 1">African</span>
                                                                         <span x-show="popedBaby.origin_id == 2">Arabic</span>
                                                                         <span x-show="popedBaby.origin_id == 3">American</span>
@@ -358,6 +362,7 @@
                                                                         <span x-show="popedBaby.origin_id == 9">Roman</span>
                                                                         <span x-show="popedBaby.origin_id == 10">Russian</span>
                                                                         <span x-show="popedBaby.origin_id == 11">Hindi</span>
+                                                                        --}}
                                                                     </div>
                                                                 </div>
                                                             </div>

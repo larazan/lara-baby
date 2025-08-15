@@ -13,6 +13,6 @@ class Material extends Model
 
     public function activity()
     {
-        return $this->belongsTo(Activity::class);
+        return $this->belongsTo(Activity::class, 'activity_id');
     }
 }

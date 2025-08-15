@@ -33,18 +33,37 @@ class BabynameController extends Controller
             return Country::select(['id', 'name'])->orderBy('name', 'asc')->get();
         });
 
-        $query = DB::table('babynames')->select([
-            'id',
-            'slug', 
-            'name', 
-            'meaning',
-            'gender_id', 
-            'country_id',
-            'religion_id',
-            'origin_id', 
-            'locale', 
-            'status'
-            ])->where('locale', $locale)->where('status', 'active');
+        // $query = Babyname::with(['religion','origin'])->select([
+        //     'id',
+        //     'slug', 
+        //     'name', 
+        //     'meaning',
+        //     'gender_id', 
+        //     'country_id',
+        //     'religion_id',
+        //     'origin_id', 
+        //     'locale', 
+        //     'status',
+        //     ])->where('locale', $locale)->where('status', 'active');
+
+        $query = Babyname::select([
+            'babynames.id',
+            'babynames.slug',
+            'babynames.name',
+            'babynames.meaning',
+            'babynames.gender_id',
+            'babynames.country_id',
+            'babynames.religion_id',
+            'babynames.origin_id',
+            'babynames.locale',
+            'babynames.status',
+            'religions.name as religionName',
+            'origins.name as originName',
+        ])
+        ->leftJoin('religions', 'babynames.religion_id', '=', 'religions.id')
+        ->leftJoin('origins', 'babynames.origin_id', '=', 'origins.id')
+        ->where('babynames.locale', $locale)
+        ->where('babynames.status', 'active');
 
         if ($request->search) {
             $keyword = $request->search;
@@ -83,27 +102,27 @@ class BabynameController extends Controller
         }
 
         $query->when($request->search, function ($q) use ($keyword) {
-            return $q->where('name', 'like', "%{$keyword}%");
+            return $q->where('babynames.name', 'like', "%{$keyword}%");
         });
 
         // religion
         $query->when($request->religion, function ($q) use ($religion) {
-            return $q->where('religion_id', $religion);
+            return $q->where('babynames.religion_id', $religion);
         });
 
         // gender
         $query->when($request->gender, function ($q) use ($gender) {
-            return $q->where('gender_id', $gender);
+            return $q->where('babynames.gender_id', $gender);
         });
 
         // country
         $query->when($request->country, function ($q) use ($country) {
-            return $q->where('country_id', $country);
+            return $q->where('babynames.country_id', $country);
         });
 
         // origin
         $query->when($request->origin, function ($q) use ($origin) {
-            return $q->where('origin_id', $origin);
+            return $q->where('babynames.origin_id', $origin);
         });
 
         $countNames = count($query->get());
@@ -146,17 +165,37 @@ class BabynameController extends Controller
         $searchTerm = $babyname->name;
         $threshold = 1; // Define your Levenshtein distance threshold (e.g., allow up to 3 edits)
 
+        // $names = Babyname::select([
+        //     'name', 
+        //     'meaning', 
+        //     'slug', 
+        //     'origin_id', 
+        //     'gender_id', 
+        //     'country_id', 
+        //     'religion_id', 
+        //     'status',
+        //     'locale',
+        // ])->where('slug', '!=', $slug)->active()->get();
+
         $names = Babyname::select([
-            'name', 
-            'meaning', 
-            'slug', 
-            'origin_id', 
-            'gender_id', 
-            'country_id', 
-            'religion_id', 
-            'status',
-            'locale',
-        ])->where('slug', '!=', $slug)->active()->get();
+            'babynames.id',
+            'babynames.slug',
+            'babynames.name',
+            'babynames.meaning',
+            'babynames.gender_id',
+            'babynames.country_id',
+            'babynames.religion_id',
+            'babynames.origin_id',
+            'babynames.locale',
+            'babynames.status',
+            'religions.name as religionName',
+            'origins.name as originName',
+        ])
+        ->leftJoin('religions', 'babynames.religion_id', '=', 'religions.id')
+        ->leftJoin('origins', 'babynames.origin_id', '=', 'origins.id')
+        ->where('slug', '!=', $slug)
+        ->where('babynames.status', 'active')
+        ->get();
 
         // 2. Filter the collection using PHP's levenshtein function
         $relatedNames = $names->filter(function ($baby) use ($searchTerm, $threshold) {
@@ -210,20 +249,39 @@ class BabynameController extends Controller
 
         $alpha = Str::lower($letter);
         
-        $query = DB::table('babynames')->select([
-            'slug', 
-            'name', 
-            'meaning', 
-            'gender_id', 
-            'country_id',
-            'religion_id',
-            'origin_id', 
-            'locale', 
-            'status'
-            ])->where('locale', $locale)->where('status', 'active');
+        // $query = DB::table('babynames')->select([
+        //     'slug', 
+        //     'name', 
+        //     'meaning', 
+        //     'gender_id', 
+        //     'country_id',
+        //     'religion_id',
+        //     'origin_id', 
+        //     'locale', 
+        //     'status'
+        //     ])->where('locale', $locale)->where('status', 'active');
+
+        $query = Babyname::select([
+            'babynames.id',
+            'babynames.slug',
+            'babynames.name',
+            'babynames.meaning',
+            'babynames.gender_id',
+            'babynames.country_id',
+            'babynames.religion_id',
+            'babynames.origin_id',
+            'babynames.locale',
+            'babynames.status',
+            'religions.name as religionName',
+            'origins.name as originName',
+        ])
+        ->leftJoin('religions', 'babynames.religion_id', '=', 'religions.id')
+        ->leftJoin('origins', 'babynames.origin_id', '=', 'origins.id')
+        ->where('babynames.locale', $locale)
+        ->where('babynames.status', 'active');
         
         $query->when($alpha, function ($q) use ($alpha) {
-            return $q->where('name', 'like', "{$alpha}%");
+            return $q->where('babynames.name', 'like', "{$alpha}%");
         });
 
         $countNames = count($query->get());

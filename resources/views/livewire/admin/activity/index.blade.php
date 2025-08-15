@@ -106,10 +106,10 @@
                                 <div class="gh gt">Category</div>
                             </th>
                             <th class="vi wy w_ vo lm">
-                                <div class="gh gt">Author</div>
+                                <div class="gh gt">Materials</div>
                             </th>
                             <th class="vi wy w_ vo lm">
-                                <div class="gh gt">Publish Date</div>
+                                <div class="gh gt">Instruction Steps</div>
                             </th>
                             <th class="vi wy w_ vo lm">
                                 <div class="gh gt">Status</div>
@@ -157,10 +157,18 @@
                                 <div class="gp text-slate-800">{{ $activity->category->name }}</div>
                             </td>
                             <td class="vi wy w_ vo lm">
-                                <div class="gp ">{{ $activity->user->first_name }} {{ $activity->user->last_name }}</div>
+                                @if($activity->materialLists($activity->id) && count($activity->materialLists($activity->id)) > 0)
+                                    <ul class="list-disc list-inside text-gray-700">
+                                        @foreach($activity->materialLists($activity->id) as $material)
+                                            <li>{{ $material->name }}</li>
+                                        @endforeach
+                                    </ul>
+                                @else
+                                    <span class="text-gray-400">N/A</span>
+                                @endif
                             </td>
                             <td class="vi wy w_ vo lm">
-                                <div class="gp capitalize">{{ $activity->published_at }}</div>
+                                <div class="gp capitalize">{{ $activity->steps->count() }} steps</div>
                             </td>
                             <td class="vi wy w_ vo lm">
                                 @if ($activity->status == 'inactive')
@@ -178,6 +186,13 @@
 
                             <td class="vi wy w_ vo lm of">
                                 <div class="fm">
+                                    <a href="{{ route('activities.edit', $activity->id) }}" class="gq xv rounded-full" >
+                                        <span class=" d">Edit</span>
+                                        <svg class="os sf du" viewBox="0 0 32 32">
+                                            <path d="M19.7 8.3c-.4-.4-1-.4-1.4 0l-10 10c-.2.2-.3.4-.3.7v4c0 .6.4 1 1 1h4c.3 0 .5-.1.7-.3l10-10c.4-.4.4-1 0-1.4l-4-4zM12.6 22H10v-2.6l6-6 2.6 2.6-6 6zm7.4-7.4L17.4 12l1.6-1.6 2.6 2.6-1.6 1.6z"></path>
+                                        </svg>
+</a>
+
                                     <button wire:click="gotoEdit({{ $activity->id }})" class="gq xv rounded-full" >
                                         <span class=" d">Edit</span>
                                         <svg class="os sf du" viewBox="0 0 32 32">

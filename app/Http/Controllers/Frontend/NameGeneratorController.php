@@ -22,7 +22,7 @@ class NameGeneratorController extends Controller
         $origins =  Origin::select(['id', 'name'])->orderBy('name', 'asc')->get();
         $religions = Religion::select(['id', 'name'])->orderBy('name', 'asc')->get();
         $countries = Country::select(['id', 'name'])->orderBy('name', 'asc')->get();
-        $title = "name generator";        
+        $title = "Name generator";        
 
         return $this->loadTheme('babyname.generator', compact('title', 'letters', 'genders', 'origins', 'religions', 'countries',));
     }

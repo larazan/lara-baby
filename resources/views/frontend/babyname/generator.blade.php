@@ -2,12 +2,12 @@
 
 @section('content')
 
-<main class="container mx-auto px-4 py-8">
+<main class=" bg-pink-200 mx-auto px-4 py-8">
 <div x-data="fullNameGenerator()">
-    <h1 class="text-3xl font-bold mb-6">Full Name Generator</h1>
+    <h1 class="text-2xl text-center md:text-3xl font-bold mb-6">Full Name Generator</h1>
 
     <div class="bg-white p-6 rounded-lg shadow-md mb-8">
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-4">
+        <div class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-4 mb-4">
             <div>
                 <label for="num_names" class="block text-gray-700 text-sm font-bold mb-2">Number of Names:</label>
                 <select x-model="filters.num_names" id="num_names" class="shadow border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
@@ -24,23 +24,26 @@
                     @endforeach
                 </select>
             </div>
+            
+        </div>
+
+        <div class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-4 mb-4">
+            <div>
+                <label for="origin" class="block text-gray-700 text-sm font-bold mb-2">Origins:</label>
+                <select x-model="filters.origins" id="origin" class="shadow border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+                    <option value="">Any</option>
+                    @foreach($origins as $o)
+                    <option value="{{ $o->id }}">{{ $o->name }}</option>
+                    @endforeach
+                </select>
+            </div>
             <div>
                 <label for="limit" class="block text-gray-700 text-sm font-bold mb-2">Number of Suggestions:</label>
                 <input type="number" x-model.debounce.500ms="filters.limit" id="limit" min="1" max="50" placeholder="e.g., 10" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
             </div>
         </div>
 
-        <div class="mb-4">
-            <label for="origin" class="block text-gray-700 text-sm font-bold mb-2">Origins:</label>
-            <select x-model="filters.origins" id="origin" class="shadow border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
-                <option value="">Any</option>
-                @foreach($origins as $o)
-                <option value="{{ $o->id }}">{{ $o->name }}</option>
-                @endforeach
-            </select>
-        </div>
-
-        <button @click="generateNames()" :disabled="loading" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+        <button @click="generateNames()" :disabled="loading" class="w-full bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
             <span x-show="!loading">Generate Names</span>
             <span x-show="loading">Generating...</span>
         </button>
