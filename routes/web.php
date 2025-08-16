@@ -7,6 +7,7 @@ use App\Http\Controllers\Frontend\ContactController;
 use App\Http\Controllers\Frontend\CommentController;
 use App\Http\Controllers\Frontend\FaqController;
 use App\Http\Controllers\Frontend\HomeController;
+use App\Http\Controllers\Frontend\ImageDownloadController;
 use App\Http\Controllers\Frontend\PageController;
 use App\Http\Controllers\Frontend\PregnancyController;
 use App\Http\Controllers\Frontend\SearchController;
@@ -135,6 +136,10 @@ Route::get('articles/tag/{tag}', [ArticleController::class, 'showByTag']);
 // Route::get('/categories/detail', [CategoryController::class, 'detail']);
 // Route::get('/categories/series', [CategoryController::class, 'series']);
 
+// download
+Route::get('/download/{slug}/babyname', [ImageDownloadController::class, 'generateAndDownload'])->name('babyname.download.original');
+
+//
 Route::get('unsubscribe', [NewsletterController::class, 'unsubscribe']);
 
 Route::get('/contact', [ContactController::class, 'index'])->name('contact');

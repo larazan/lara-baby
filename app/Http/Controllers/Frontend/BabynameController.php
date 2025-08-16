@@ -193,7 +193,7 @@ class BabynameController extends Controller
         ])
         ->leftJoin('religions', 'babynames.religion_id', '=', 'religions.id')
         ->leftJoin('origins', 'babynames.origin_id', '=', 'origins.id')
-        ->where('slug', '!=', $slug)
+        ->where('babynames.slug', '!=', $slug)
         ->where('babynames.status', 'active')
         ->get();
 

@@ -2,8 +2,6 @@
 
 @section('content')
 
-@dump($babynames)
-
 <main class="overflow-hidden pt-0">
     <div class="relative">
         <div class="relative">

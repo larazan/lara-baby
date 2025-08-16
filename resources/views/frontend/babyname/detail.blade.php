@@ -183,7 +183,19 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="flex justify-between items-center w-full mx-auto mt-0 pb-8">
+                            <div class="flex">
+                                {!! $shareComponent !!}
+                            </div>
+                            <div class="">
+                                <a href="{{ url('/download/'. $babyname->slug .'/babyname') }}" class="w-full flex justify-center items-center p-2 border rounded-full shadow-md text-white transition duration-150 bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cool-indigo-500">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3" />
+</svg>
 
+                                </a>
+                            </div>
+                        </div>
 
 
                     </div>
@@ -424,6 +436,7 @@
 @endsection
 
 @push('style')
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 <style>
     .shadow-stack-sm {
         --tw-shadow: 3px 3px 0 -1px #fff, 3px 3px 0 #191a1b !important;
@@ -435,5 +448,58 @@
         box-shadow: 0 0 transparent, 0 0 transparent, var(--tw-shadow) !important;
         box-shadow: var(--tw-ring-offset-shadow, 0 0 transparent), var(--tw-ring-shadow, 0 0 transparent), var(--tw-shadow) !important;
     }
+
+    div#social-links {
+        /* background-color: #ccc; */
+        display: flex;
+        /* margin: 0 auto; */
+        min-width: 230px;
+    }
+
+    div#social-links ul li {
+        display: inline-block;
+        margin: 1.5px;
+    }
+
+    div#social-links ul li a {
+        border-radius: 10%;
+        padding: 6px 7px;
+        /* border: 1px solid #ccc; */
+        margin: 1px;
+        font-size: 20px;
+        color: #fff;
+        background-color: #dbeafe;
+    }
+
+    /* facebook */
+    div#social-links ul li:nth-child(1) a {
+        background-color: #2d65b0;
+    }
+
+    /* twitter */
+    div#social-links ul li:nth-child(2) a {
+        background-color: #35bced;
+    }
+
+    /* linkedin */
+    div#social-links ul li:nth-child(3) a {
+        background-color: #0675a5;
+    }
+
+    /* telegram */
+    div#social-links ul li:nth-child(4) a {
+        background-color: #3dba92;
+    }
+
+    /* whatsapp */
+    div#social-links ul li:nth-child(5) a {
+        background-color: #128c7d;
+    }
+
+    /* reddit */
+    div#social-links ul li:nth-child(6) a {
+        background-color: #ff4a0d;
+    }
 </style>
+
 @endpush

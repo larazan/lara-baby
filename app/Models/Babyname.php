@@ -188,6 +188,12 @@ class Babyname extends Model
     {
 		return $this->belongsTo(Origin::class, 'origin_id');
     }
+
+    public function originName($originId)
+    {
+        $origin = Origin::find($originId)->first(); 
+        return $origin->name;
+    }
     
     public function countries()
     {
