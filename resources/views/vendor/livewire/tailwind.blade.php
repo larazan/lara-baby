@@ -19,6 +19,7 @@ $scrollIntoViewJsSnippet = ($scrollTo !== false)
             <a
             class="mx-1 px-2 py-1 bg-blue-900 border-2 border-blue-900 text-white font-bold text-center hover:bg-blue-400 hover:border-blue-400 rounded-lg  cursor-pointer"
             wire:click="gotoPage(1)"
+            wire:navigate
             >
             <<
             </a>
@@ -27,6 +28,7 @@ $scrollIntoViewJsSnippet = ($scrollTo !== false)
             <a
                 class="mx-1 px-2 py-1 bg-blue-900 border-2 border-blue-900 text-white font-bold text-center hover:bg-blue-400 hover:border-blue-400 rounded-lg  cursor-pointer"
                 wire:click="previousPage"
+                wire:navigate
             >
             <
             </a>
@@ -51,7 +53,7 @@ $scrollIntoViewJsSnippet = ($scrollTo !== false)
                     @if ($page == $paginator->currentPage())
                         <span class="mx-1 px-2 py-1 border-2 border-blue-400 bg-blue-400 text-white font-bold text-center hover:bg-blue-800 hover:border-blue-800 rounded-lg  cursor-pointer">{{ $page }}</span>
                     @elseif ($page === $paginator->currentPage() + 1 || $page === $paginator->currentPage() + 2 || $page === $paginator->currentPage() - 1 || $page === $paginator->currentPage() - 2)
-                        <a class="mx-1 px-2 py-1 border-2 border-blue-900 text-blue-900 font-bold text-center hover:text-blue-400 rounded-lg  cursor-pointer" wire:click="gotoPage({{$page}})">{{ $page }}</a>
+                        <a class="mx-1 px-2 py-1 border-2 border-blue-900 text-blue-900 font-bold text-center hover:text-blue-400 rounded-lg  cursor-pointer" wire:click="gotoPage({{$page}})" wire:navigate>{{ $page }}</a>
                     @endif
 
                     <!--  Use three dots when current page is away from end.  -->
@@ -71,13 +73,15 @@ $scrollIntoViewJsSnippet = ($scrollTo !== false)
             @if($paginator->lastPage() - $paginator->currentPage() >= 2)
                 <a class="mx-1 px-2 py-1 bg-blue-900 border-2 border-blue-900 text-white font-bold text-center hover:bg-blue-400 hover:border-blue-400 rounded-lg  cursor-pointer"
                 wire:click="nextPage"
-                rel="next">
+                rel="next"
+                wire:navigate>
                 >
                 </a>
             @endif
             <a
                 class="mx-1 px-2 py-1 bg-blue-900 border-2 border-blue-900 text-white font-bold text-center hover:bg-blue-400 hover:border-blue-400 rounded-lg  cursor-pointer"
                 wire:click="gotoPage({{ $paginator->lastPage() }})"
+                wire:navigate
             >
             >>
             </a>

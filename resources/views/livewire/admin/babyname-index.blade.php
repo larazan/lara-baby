@@ -159,6 +159,9 @@
                                 <div class="gh gt">Religion</div>
                             </th>
                             <th class="vi wy w_ vo lm">
+                                <div class="gh gt">Favorite</div>
+                            </th>
+                            <th class="vi wy w_ vo lm">
                                 <div class="gh gt">Status</div>
                             </th>
                            
@@ -176,7 +179,7 @@
                         @if ($babynames->count() > 0)
                         
                         @foreach ($babynames as $babyname)
-                        <tr>
+                        <tr wire:key="{{ $babyname->id }}">
                             <td class="vi wy w_ vo lm of">
                                 <div class="flex items-center">
                                     <label class="inline-flex">
@@ -224,6 +227,9 @@
                                 @if($babyname->religion_id)
                                 <div class="gp text-sm">{{ $babyname->religion->name }}</div>
                                 @endif
+                            </td>
+                            <td class="vi wy w_ vo lm">
+                                <livewire:toggle-switch :model="$babyname" field="is_favorite" :key="$babyname->id" />
                             </td>
                             <td class="vi wy w_ vo lm">
                                 @if ($babyname->status === 'inactive')

@@ -27,6 +27,7 @@ class Activity extends Model
         'slug',
         'rand_id',
         'status',
+        'is_favorite',
         'meta_description',
         'original',
     ];

@@ -42,6 +42,7 @@ class Article extends Model
         'published',
         'shared_at',
         'status',
+        'is_highlight',
         'original_url',
         'article_tags',
         'meta_title',

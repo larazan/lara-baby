@@ -112,6 +112,9 @@
                                 <div class="gh gt">Instruction Steps</div>
                             </th>
                             <th class="vi wy w_ vo lm">
+                                <div class="gh gt">Favorite</div>
+                            </th>
+                            <th class="vi wy w_ vo lm">
                                 <div class="gh gt">Status</div>
                             </th>
                             <th class="vi wy w_ vo lm">
@@ -169,6 +172,9 @@
                             </td>
                             <td class="vi wy w_ vo lm">
                                 <div class="gp capitalize">{{ $activity->steps->count() }} steps</div>
+                            </td>
+                            <td class="vi wy w_ vo lm">
+                                <livewire:toggle-switch :model="$activity" field="is_favorite" :key="$activity->id" />
                             </td>
                             <td class="vi wy w_ vo lm">
                                 @if ($activity->status == 'inactive')

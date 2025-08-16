@@ -115,6 +115,9 @@
                                 <div class="gh gt">Publish Date</div>
                             </th>
                             <th class="vi wy w_ vo lm">
+                                <div class="gh gt">Highlight</div>
+                            </th>
+                            <th class="vi wy w_ vo lm">
                                 <div class="gh gt">Status</div>
                             </th>
                             <th class="vi wy w_ vo lm">
@@ -167,6 +170,9 @@
                             </td>
                             <td class="vi wy w_ vo lm">
                                 <div class="gp capitalize">{{ $article->published_at }}</div>
+                            </td>
+                            <td class="vi wy w_ vo lm">
+                                <livewire:toggle-switch :model="$article" field="is_highlight" :key="$article->id" />
                             </td>
                             <td class="vi wy w_ vo lm">
                                 @if ($article->status == 'inactive')

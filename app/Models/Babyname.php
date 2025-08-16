@@ -60,6 +60,7 @@ class Babyname extends Model
         'origin_id',
         'locale',
         'status',
+        'is_favorite',
 	];
 
     protected $hidden = [
