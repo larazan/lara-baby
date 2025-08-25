@@ -44,7 +44,7 @@
                     </div>
                     <div class="flex flex-col justify-between w-full h-full">
                         <div>
-                            <span class="flex px-2 py-1 bg-orange-500 text-white text-xs rounded-full w-fit font-medium figtree-reguler">{{ $act->category->name }}</span>
+                            <span class="flex px-2 py-1 bg-indigo-500 text-white text-xs rounded-full w-fit font-medium figtree-reguler">{{ $act->category->name }}</span>
                             <h2 class="mt-2 text-base leading-tight md:text-lg md:leading-[27px] xl:text-2xl font-semibold text-gray-800 figtree-medium group-hover:text-orange-500">{{ $act->title }}</h2>
                         </div>
                         <div class="flex items-center mt-4 space-x-2 text-[#00989d] !hover:text-[#06329d]">

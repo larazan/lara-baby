@@ -183,7 +183,7 @@
                                 <div class="gp text-slate-800">{{ $namelist->full_name }}</div>
                             </td>
                             <td class="vi wy w_ vo lm">
-                                <div class="gp ">{{ $namelist->meaning }}</div>
+                                <div class="gp ">{!! nl2br(App\Helpers\General::smart_wordwrap($namelist->meaning, 40)) !!}</div>
                             </td>
                             <td class="vi wy w_ vo lm">
                                 <div class="gp ">{{ $namelist->native_name }}</div>
@@ -215,7 +215,9 @@
                             </td>
 
                             <td class="vi wy w_ vo lm">
+                                @if($namelist->created_at)
                                 <div>{{ $namelist->created_at->format('d-m-Y') }}</div>
+                                @endif
                             </td>
 
                             <td class="vi wy w_ vo lm of">

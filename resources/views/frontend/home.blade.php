@@ -11,6 +11,8 @@
 @include('frontend.components._ads_modal')
 --}}
 
+@include('frontend.components._marquee')
+
 <div class="container max-w-screen-lg mx-auto flex flex-wrap justify-between px-4 py-10">
 
     <main class="main relative w-full lg:max-w-[640px]">

@@ -18,18 +18,23 @@ class ToggleSwitch extends Component
         $this->isActive = (bool) $this->model->getAttribute($this->field);
     }
 
-    public function toggle()
-    {
-        $this->isActive = !$this->isActive;
-        $this->model->setAttribute($this->field, $this->isActive)->save();
-
-        session()->flash('status', 'Status updated successfully!');
-    }
-
-    // public function updating($field, $value)
+    // public function toggle()
     // {
-    //     $this->model->setAttribute($this->field, $value)->save();
+    //     $this->isActive = !$this->isActive;
+    //     $this->model->setAttribute($this->field, $this->isActive)->save();
+
+    //     session()->flash('status', 'Status updated successfully!');
     // }
+
+    public function updating($field, $value)
+    {
+        $this->model->setAttribute($this->field, $value)->save();
+        $this->dispatch(
+            'banner-message', 
+            style: 'success',
+            message: 'status updated successfully!',
+        );
+    }
 
     public function render()
     {

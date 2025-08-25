@@ -162,6 +162,9 @@
                                 <div class="gh gt">Favorite</div>
                             </th>
                             <th class="vi wy w_ vo lm">
+                                <div class="gh gt">Surname</div>
+                            </th>
+                            <th class="vi wy w_ vo lm">
                                 <div class="gh gt">Status</div>
                             </th>
                            
@@ -230,6 +233,9 @@
                             </td>
                             <td class="vi wy w_ vo lm">
                                 <livewire:toggle-switch :model="$babyname" field="is_favorite" :key="$babyname->id" />
+                            </td>
+                            <td class="vi wy w_ vo lm">
+                                <livewire:toggle-switch :model="$babyname" field="is_surnameable" :key="$babyname->id" />
                             </td>
                             <td class="vi wy w_ vo lm">
                                 @if ($babyname->status === 'inactive')

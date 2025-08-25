@@ -2,24 +2,24 @@
 
 <div
     x-data="commentSystem('{{ $commentableType }}', {{ $commentableId }}, {{ Auth::check() ? 'true' : 'false' }})"
-    class="mt-8 bg-gray-50 p-6 rounded-lg shadow-sm"
+    class="mt-4 bg-gray-50 px-4 md:px-6 py-2 rounded-lg shadow-sm"
 >
-    <h3 class="text-2xl font-semibold mb-6 text-gray-800">Comments</h3>
+    <h3 class="text-lg md:text-2xl font-semibold mb-2 text-gray-800 figtree-bold">Comments</h3>
 
     {{-- Loading Indicator --}}
-    <div x-show="loadingComments" class="text-center py-8 text-gray-600">
+    <div x-show="loadingComments" class="text-center py-3 text-gray-600">
         <svg class="animate-spin h-8 w-8 text-indigo-500 mx-auto" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
             <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
             <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
         </svg>
-        <p class="mt-2">Loading comments...</p>
+        <p class="mt-2 figtree-reguler">Loading comments...</p>
     </div>
 
     {{-- Error Message for Loading --}}
     <p x-show="errorMessage && !loadingComments" x-text="errorMessage" class="text-red-600 text-center py-4"></p>
 
     {{-- Comments List --}}
-    <ul x-show="!loadingComments && comments.length > 0" class="space-y-6">
+    <ul x-show="!loadingComments && comments.length > 0" class="space-y-4">
         <template x-for="comment in comments" :key="comment.id">
             <li class="bg-white p-5 rounded-lg shadow-md border border-gray-200">
                 <div class="flex items-center justify-between mb-2">
@@ -27,12 +27,12 @@
                         <div class="w-10 h-10 rounded-full bg-indigo-200 flex items-center justify-center text-indigo-800 font-bold text-lg">
                             <span x-text="(comment.user ? comment.user.name : comment.guest_name).charAt(0).toUpperCase()"></span>
                         </div>
-                        <p class="font-semibold text-gray-900" x-text="comment.user ? comment.user.name : comment.guest_name"></p>
+                        <p class="font-semibold text-gray-700" x-text="comment.user ? comment.user.name : comment.guest_name"></p>
                     </div>
                     <time class="text-sm text-gray-500" x-text="new Date(comment.created_at).toLocaleString()"></time>
                 </div>
-                <p class="text-gray-700 leading-relaxed" x-text="comment.content"></p>
-                <p x-show="comment.guest_email" class="mt-2 text-xs text-gray-500">
+                <p class="text-gray-500 figtree-reguler text-[14px]" x-text="comment.content"></p>
+                <p x-show="comment.guest_email" class="hidden mt-2 text-xs text-gray-500">
                     Email: <span x-text="comment.guest_email"></span>
                 </p>
             </li>
@@ -40,39 +40,39 @@
     </ul>
 
     {{-- No Comments Message --}}
-    <p x-show="!loadingComments && !errorMessage && comments.length === 0" class="text-center text-gray-500 py-8">
+    <p x-show="!loadingComments && !errorMessage && comments.length === 0" class="text-center text-gray-500 py-8 figtree-reguler">
         No comments yet. Be the first to comment!
     </p>
 
     {{-- New Comment Form --}}
-    <form @submit.prevent="submitComment" class="mt-10 p-6 bg-white rounded-lg shadow-md border border-gray-200">
+    <form @submit.prevent="submitComment" class="mt-3 px-3 md:px-6 py-3 md:py-4 bg-white rounded-lg shadow-md border border-gray-200">
         @csrf
 
-        <h4 class="text-xl font-semibold mb-5 text-gray-800">Leave a Comment</h4>
+        <h4 class="md:text-xl font-semibold mb-5 text-gray-800 figtree-bold">Leave a Comment</h4>
 
         {{-- Guest Fields (conditionally shown) --}}
         <template x-if="!isLoggedIn">
             <div class="mb-4 space-y-4">
                 <div>
-                    <label for="guest_name" class="block text-sm font-medium text-gray-700 mb-1">Your Name</label>
+                    <label for="guest_name" class="hidden block2 text-sm font-medium text-gray-700 mb-1">Your Name</label>
                     <input
                         type="text"
                         id="guest_name"
                         x-model="guestName"
-                        placeholder="John Doe"
+                        placeholder="Your Name"
                         required
-                        class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+                        class="mt-1 block w-full rounded-md border-gray-200 shadow-sm text-sm figtree-reguler placeholder:text-gray-400 text-gray-700 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
                     >
                 </div>
                 <div>
-                    <label for="guest_email" class="block text-sm font-medium text-gray-700 mb-1">Your Email</label>
+                    <label for="guest_email" class="hidden block2 text-sm font-medium text-gray-700 mb-1">Your Email</label>
                     <input
                         type="email"
                         id="guest_email"
                         x-model="guestEmail"
-                        placeholder="john.doe@example.com"
+                        placeholder="Your Email"
                         required
-                        class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+                        class="mt-1 block w-full rounded-md border-gray-200 text-sm figtree-reguler placeholder:text-gray-400 text-gray-700 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
                     >
                 </div>
             </div>
@@ -80,14 +80,14 @@
 
         {{-- Comment Content --}}
         <div class="mb-6">
-            <label for="comment_content" class="block text-sm font-medium text-gray-700 mb-1">Your Comment</label>
+            <label for="comment_content" class="hidden block2 text-sm font-medium text-gray-700 mb-1">Your Comment</label>
             <textarea
                 id="comment_content"
                 x-model="newCommentContent"
-                placeholder="Share your thoughts..."
+                placeholder="Write a comment..."
                 required
                 rows="5"
-                class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 resize-y"
+                class="mt-1 block w-full rounded-md border-gray-200 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 resize-y text-sm text-gray-700 figtree-reguler focus:outline-none dark:text-white dark:placeholder-gray-400 dark:bg-gray-800 placeholder:text-gray-400"
             ></textarea>
         </div>
 
@@ -95,7 +95,7 @@
         <button
             type="submit"
             :disabled="submitting"
-            class="w-full inline-flex justify-center py-3 px-6 border border-transparent rounded-md shadow-sm text-lg font-medium text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 disabled:opacity-50 disabled:cursor-not-allowed transition duration-150 ease-in-out"
+            class="w-full inline-flex justify-center py-2 px-6 border border-transparent rounded-md shadow-sm md:text-lg figtree-medium font-medium text-white bg-indigo-700 hover:bg-indigo-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 disabled:opacity-50 disabled:cursor-not-allowed transition duration-150 ease-in-out"
         >
             <span x-show="!submitting">Post Comment</span>
             <span x-show="submitting">

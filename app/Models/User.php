@@ -143,4 +143,16 @@ class User extends Authenticatable
     {
         return static::where('email', $emailAddress)->firstOrFail();
     }
+
+    public function bookmarks()
+    {
+        return $this->hasMany(Bookmark::class);
+    }
+
+    public function hasBookmarked($bookmarkable)
+    {
+        return $this->bookmarks()->where('bookmarkable_id', $bookmarkable->id)
+                                ->where('bookmarkable_type', get_class($bookmarkable))
+                                ->exists();
+    }
 }

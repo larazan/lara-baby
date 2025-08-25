@@ -55,7 +55,18 @@ class HomeController extends Controller
             'created_at'
             ])->whereIn('category_id', $array)->active()->orderBy('created_at', 'DESC')->take(5)->get();
 
+        // marquee
+        $marquee = Article::select([ 
+            'category_id', 
+            'slug', 
+            'title', 
+            'body', 
+            'author_id', 
+            'original', 
+            'status', 
+            'created_at'
+            ])->whereNotIn('category_id', $array)->where('is_highlight', true)->active()->orderBy('created_at', 'DESC')->take(5)->get();
 
-        return $this->loadTheme('home', compact('title', 'articles', 'activities', 'pregnancy'));
+        return $this->loadTheme('home', compact('title', 'articles', 'activities', 'pregnancy', 'marquee'));
     }
 }

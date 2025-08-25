@@ -53,7 +53,7 @@ $pinterest = $p->value;
                     </div>
                 </div>
                 <div class="mt-6 md:mt-10 xl:col-span-3 xl:mt-0">
-                    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 xl:gap-0">
+                    <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-8 xl:gap-0">
                         <div class="xl:pr-4">
                             <ul role="list" class="mt-5 space-y-3">
                                 <li><a href="{{ url('pregnancy') }}" class="flex gap-2 items-center text-sm leading-[22px] md:text-base md:leading-[25px] font-medium text-white hover:text-orange-400 figtree-reguler">Pregnancy<span></span></a></li>

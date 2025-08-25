@@ -1,19 +1,15 @@
 <div class="flex items-center h-10 bg-gray-100 w-full pl-4 lg:px-4 lg:w-auto dark:text-white dark:bg-black">
     <span class="navbar-breaking-title bg-purple-500 dark:bg-dark-1 font-bold text-[8px] text-white p-2 rounded leading-none relative z-10">
-        HEADLINE HARI INI
+        HEADLINE
     </span>
-    <div class="relative flex-1 w-0 overflow-x-auto overflow-y-hidden flex gap-x-4 px-4 whitespace-nowrap text-sm font-semibold">
+    <div class="relative flex-1 w-0 overflow-x-auto overflow-y-hidden flex gap-x-4 px-4 whitespace-nowrap text-sm font-semibold2">
     <!--  required classes: marquee inline-flex max-w-full  -->
-    <ul class="marquee py-3 inline-flex space-x-4 whitespace-nowrap max-w-full" x-data="Marquee({speed: 0.5, spaceX: 4})">
+    <ul class="marquee py-3 inline-flex space-x-4 whitespace-nowrap max-w-full figtree-reguler" x-data="Marquee({speed: 0.5, spaceX: 4})">
+        @foreach($marquee as $m)
         <li>
-            <a href="" target="none">Update Kasus Diplomat Kemlu Tewas</a>
+            <a href="{{ url('article/' . $m->slug) }}" target="none">{{ $m->title }}</a>
         </li>
-        <li>
-            <a href="" target="none">Saudagar Minyak Riza Chalid Tersangka Korupsi</a>
-        </li>
-        <li>
-            <a href="" target="none">Trump Pangkas Tarif Impor RI</a>
-        </li>
+        @endforeach
     </ul>
     </div>
 </div>

@@ -2,9 +2,6 @@
 
 @section('content')
 
-@include('frontend.components._marquee')
-
-
 <main class="flex bg-white min-h-screen pt-0 md:pt-[0px] max-w-[85rem] px-4 md:py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
     <div class="container mx-auto px-5 my-8">
     
